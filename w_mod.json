@@ -302,7 +302,8 @@
 					"rpk",
 					"pp19_bizon",
 					"pp19_bizon_9x19",
-					"tapco"
+					"tapco",
+					"saiga12"
 				]
 			}
 		},
@@ -419,7 +420,8 @@
 					"ak_101",
 					"pp19_bizon",
 					"pp19_bizon_9x19",
-					"tapco"
+					"tapco",
+					"saiga12"
 				]
 			}
 		},
@@ -462,7 +464,8 @@
 					"ak_101",
 					"pp19_bizon",
 					"pp19_bizon_9x19",
-					"tapco"
+					"tapco",
+					"saiga12"
 				]
 			}
 		},
@@ -502,7 +505,8 @@
 					"ak_101",
 					"pp19_bizon",
 					"pp19_bizon_9x19",
-					"ak_74u_1"
+					"ak_74u_1",
+					"saiga12"
 				]
 			}
 		},
@@ -542,7 +546,8 @@
 					"akm",
 					"pp19_bizon",
 					"pp19_bizon_9x19",
-					"ak_74u_1"
+					"ak_74u_1",
+					"saiga12"
 				]
 			}
 		},
@@ -1303,7 +1308,8 @@
 					"rpk",
 					"pp19_bizon",
 					"pp19_bizon_9x19",
-					"tapco"
+					"tapco",
+					"saiga12"
 				]
 			}
 		},
@@ -1347,7 +1353,8 @@
 					"ak_101",
 					"pp19_bizon",
 					"pp19_bizon_9x19",
-					"tapco"
+					"tapco",
+					"saiga12"
 				]
 			}
 		},
@@ -1391,7 +1398,8 @@
 					"ak_101",
 					"pp19_bizon",
 					"pp19_bizon_9x19",
-					"tapco"
+					"tapco",
+					"saiga12"
 				]
 			}
 		},
@@ -1429,7 +1437,8 @@
 					"ak_308",
 					"akm",
 					"ak_101",
-					"ak_74u_1"
+					"ak_74u_1",
+					"saiga12"
 				]
 			}
 		},
@@ -1467,7 +1476,8 @@
 					"ak_308",
 					"akm",
 					"ak_101",
-					"ak_74u_1"
+					"ak_74u_1",
+					"saiga12"
 				]
 			}
 		},
@@ -1505,7 +1515,8 @@
 					"ak_308",
 					"akm",
 					"ak_101",
-					"ak_74u_1"
+					"ak_74u_1",
+					"saiga12"
 				]
 			}
 		},
@@ -1549,7 +1560,8 @@
 					"ak_101",
 					"pp19_bizon",
 					"pp19_bizon_9x19",
-					"tapco"
+					"tapco",
+					"saiga12"
 				]
 			}
 		},
@@ -1849,7 +1861,8 @@
 					"m4a1",
 					"g36",
 					"ak_101",
-					"famas"
+					"famas",
+					"aug"
 				]
 			}
 		},
@@ -2692,7 +2705,9 @@
 					"ak_101",
 					"scar_l",
 					"g36",
-					"famas"
+					"famas",
+					"aug",
+					"aug_9x19"
 				]
 			}
 		},
@@ -2730,7 +2745,9 @@
 					"g36",
 					"ak_101",
 					"scar_l",
-					"famas"
+					"famas",
+					"aug",
+					"aug_9x19"
 				]
 			}
 		},
@@ -3450,7 +3467,8 @@
 					"adar",
 					"g36",
 					"ak_101",
-					"famas"
+					"famas",
+					"aug"
 				]
 			}
 		},
@@ -3486,7 +3504,8 @@
 					"adar",
 					"g36",
 					"ak_101",
-					"famas"
+					"famas",
+					"aug"
 				]
 			}
 		},
@@ -3563,7 +3582,9 @@
 					"aps",
 					"makarov",
 					"mp5",
-					"vector_9x19"
+					"vector_9x19",
+					"aug_9x19",
+					"mp9_9x19"
 				]
 			}
 		},
@@ -3599,7 +3620,9 @@
 					"aps",
 					"makarov",
 					"mp5",
-					"vector_9x19"
+					"vector_9x19",
+					"aug_9x19",
+					"mp9_9x19"
 				]
 			}
 		},
@@ -3645,7 +3668,10 @@
 					"mp5",
 					"ak_308",
 					"vector_9x19",
-					"ak_101"
+					"ak_101",
+					"mp9_9x19",
+					"aug",
+					"aug_9x19"
 				]
 			}
 		},
@@ -4275,9 +4301,7 @@
 				"type" : "foregrip",
 				"value" : 4,
 				"weapon_all" : true,
-				"weapon_id" : [
-					"m4a1"
-				]
+				"weapon_id" : 0
 			}
 		},
 		"mod_foregrip_7_desert" : {
@@ -4307,9 +4331,7 @@
 				"type" : "foregrip",
 				"value" : 4,
 				"weapon_all" : true,
-				"weapon_id" : [
-					"m4a1"
-				]
+				"weapon_id" : 0
 			}
 		},
 		"mod_foregrip_7_green" : {
@@ -4339,9 +4361,7 @@
 				"type" : "foregrip",
 				"value" : 4,
 				"weapon_all" : true,
-				"weapon_id" : [
-					"m4a1"
-				]
+				"weapon_id" : 0
 			}
 		},
 		"mod_g36_barrel_1" : {
@@ -5820,6 +5840,108 @@
 				]
 			}
 		},
+		"mod_mp9_magazine_20" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "NP9 20发弹匣。标准容量弹匣，在机动性和火力之间提供了良好平衡。",
+				"name" : "NP9 20 round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_mp9_magazine_20_game",
+				"sprite_inv" : "s_mod_mp9_magazine_20",
+				"stack_max" : 1,
+				"value" : 250,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"magazine_size" : 20,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"mp9_9x19",
+					"mp9_45"
+				]
+			}
+		},
+		"mod_mp9_magazine_30" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "NP9 30发弹匣。加长弹匣，提供了额外的火力，代价是略微增加了重量和体积。",
+				"name" : "NP9 30 round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_mp9_magazine_30_game",
+				"sprite_inv" : "s_mod_mp9_magazine_30",
+				"stack_max" : 1,
+				"value" : 5000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -3,
+				"magazine_size" : 30,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 1,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"mp9_9x19",
+					"mp9_45"
+				]
+			}
+		},
+		"mod_mp9_magazine_40" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "NP9 40发弹匣。高容量弹匣，用于持续交火，但显著影响武器的人体工程学。",
+				"name" : "NP9 30 round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_mp9_magazine_40_game",
+				"sprite_inv" : "s_mod_mp9_magazine_40",
+				"stack_max" : 1,
+				"value" : 12000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -7,
+				"magazine_size" : 40,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"mp9_9x19",
+					"mp9_45"
+				]
+			}
+		},
 		"mod_p90_handguard" : {
 			"basic" : {
 				"category" : "w_mod",
@@ -6318,7 +6440,8 @@
 					"ak_15",
 					"ak_308",
 					"akm",
-					"ak_74u_1"
+					"ak_74u_1",
+					"saiga12"
 				]
 			}
 		},
@@ -6435,7 +6558,8 @@
 					"ak_15",
 					"ak_308",
 					"akm",
-					"ak_74u_1"
+					"ak_74u_1",
+					"saiga12"
 				]
 			}
 		},
@@ -6770,9 +6894,7 @@
 				"type" : "scope",
 				"value" : 3,
 				"weapon_all" : true,
-				"weapon_id" : [
-					"m4a1"
-				]
+				"weapon_id" : true
 			}
 		},
 		"mod_scope_eotech_1" : {
@@ -6806,9 +6928,7 @@
 				"type": "scope",
 				"value": 3,
 				"weapon_all": true,
-				"weapon_id": [
-					"m4a1"
-				]
+				"weapon_id": true
 			}
 		},
 		"mod_scope_holosun" : {
@@ -6876,9 +6996,7 @@
 				"type": "scope",
 				"value": 1,
 				"weapon_all": true,
-				"weapon_id": [
-					"m4a1"
-				]
+				"weapon_id": true
 			}
 		},
 		"mod_scope_leupold" : {
@@ -6912,9 +7030,7 @@
 				"type" : "scope",
 				"value" : 4,
 				"weapon_all" : true,
-				"weapon_id" : [
-					"m4a1"
-				]
+				"weapon_id" : true
 			}
 		},
 		"mod_scope_mrs" : {
@@ -7065,9 +7181,7 @@
 				"type" : "scope",
 				"value" : 3,
 				"weapon_all" : true,
-				"weapon_id" : [
-					"m4a1"
-				]
+				"weapon_id" : true
 			}
 		},
 		"mod_scope_vuduu" : {
@@ -7101,9 +7215,7 @@
 				"type" : "scope",
 				"value" : 4,
 				"weapon_all" : true,
-				"weapon_id" : [
-					"m4a1"
-				]
+				"weapon_id" : true
 			}
 		},
 		"mod_silencer_12x70_1" : {
@@ -7138,7 +7250,8 @@
 					"mp153",
 					"spas_12_1",
 					"protecta_1",
-					"aa12"
+					"aa12",
+					"saiga12"
 				]
 			}
 		},
@@ -7173,7 +7286,8 @@
 				"weapon_id" : [
 					"ump_1",
 					"m45a1",
-					"vector"
+					"vector",
+					"mp9_45"
 				]
 			}
 		},
@@ -7497,7 +7611,8 @@
 					"mp5",
 					"vector_9x19",
 					"glock_17_1",
-					"pp19_bizon_9x19"
+					"pp19_bizon_9x19",
+					"mp9_9x19"
 				]
 			}
 		},
@@ -8634,6 +8749,604 @@
 				"weapon_id" : [
 					"vector",
 					"vector_9x19"
+				]
+			}
+		},
+
+
+
+
+	"mod_aug_magazine_30" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "OUG 步枪的标准30发弹匣。其半透明的聚合物结构使猎人能快速查看剩余弹药，这在‘区域’中瞬息万变的交火中至关重要。",
+				"name" : "OUG 30 round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_aug_magazine_30_game",
+				"sprite_inv" : "s_mod_aug_magazine_30",
+				"stack_max" : 1,
+				"value" : 550,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"magazine_size" : 30,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"aug",
+					"aug_9x19"
+				]
+			}
+		},
+		"mod_aug_magazine_30_desert" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "OUG 步枪的沙漠色涂装30发标准弹匣。功能上与标准版相同，但沙漠色涂装有助于在‘工业区’或‘临时营地’的开阔地带提供更好的伪装。",
+				"name" : "OUG 30 round desert magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_aug_magazine_30d_game",
+				"sprite_inv" : "s_mod_aug_magazine_30d",
+				"stack_max" : 1,
+				"value" : 550,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"magazine_size" : 30,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"aug",
+					"aug_9x19"
+				]
+			}
+		},
+		"mod_aug_magazine_60" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "OUG 60发弹匣。一种高容量弹匣（尽管图像显示为40发），用于持续火力压制。显著增加了武器重量并降低了人体工程学，但能提供强大的火力支援。",
+				"name" : "OUG 60 round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_aug_magazine_40_game",
+				"sprite_inv" : "s_mod_aug_magazine_40",
+				"stack_max" : 1,
+				"value" : 550,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -12,
+				"magazine_size" : 60,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 50,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"aug",
+					"aug_9x19"
+				]
+			}
+		},
+		"mod_aug_foregrip" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "OUG 步枪的可折叠前握把。这是该武器的标准配置之一，提供了稳定握持点以控制全自动射击时的后坐力。",
+				"name" : "OUG foregrip",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_aug_foregrip_game",
+				"sprite_inv" : "s_mod_aug_foregrip",
+				"stack_max" : 1,
+				"value" : 1200,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 4,
+				"position" : [
+					"att_1"
+				],
+				"recoil" : -2,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "foregrip",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"aug",
+					"aug_9x19"
+				]
+			}
+		},
+		"mod_aug_stock_green" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "OUG 的标准绿色聚合物枪托。这是该无托步枪的标志性部件，整合了握把和枪托功能，为在‘森林’环境中作战提供了良好的伪装。",
+				"name" : "OUG green stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_aug_stock_green_game",
+				"sprite_inv" : "s_mod_aug_stock_green",
+				"stack_max" : 1,
+				"value" : 5000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 10,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -15,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"aug",
+					"aug_9x19"
+				]
+			}
+		},
+		"mod_aug_stock_desert" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "OUG 的沙漠色涂装聚合物枪托。在功能上与绿色版本相同，但专为在‘工业区’或‘临时营地’等干旱、开阔的环境中提供伪装而设计。",
+				"name" : "OUG desert stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_aug_stock_desert_game",
+				"sprite_inv" : "s_mod_aug_stock_desert",
+				"stack_max" : 1,
+				"value" : 5000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 10,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -15,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"aug",
+					"aug_9x19"
+				]
+			}
+		},
+		"mod_aug_stock_black" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "OUG 的黑色聚合物枪托。为城市或夜间行动提供了战术外观。是猩红集团特工在‘城市’废墟中执行行动时的常见选择。",
+				"name" : "OUG black stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_aug_stock_black_game",
+				"sprite_inv" : "s_mod_aug_stock_black",
+				"stack_max" : 1,
+				"value" : 5000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 10,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -15,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"aug",
+					"aug_9x19"
+				]
+			}
+		},
+		"mod_aug_def_handguard" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "OUG 的标准原厂护木，整合了可折叠的前握把。这是一个基础而功能齐全的部件，但缺乏现代护木的模块化特性。",
+				"name" : "OUG default handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_aug_def_handguard_game",
+				"sprite_inv" : "s_mod_aug_def_handguard",
+				"stack_max" : 1,
+				"value" : 1000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"handguard" : {
+					"att_1" : {
+						"x" : 1,
+						"y" : 4
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"aug",
+					"aug_9x19"
+				]
+			}
+		},
+		"mod_aug_handguard" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "OUG 的战术护木。这种售后改装件用皮卡汀尼导轨替换了原厂的前握把，允许安装各种握把、灯具和激光，显著提高了武器的通用性。",
+				"name" : "OUG handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_aug_handguard_game",
+				"sprite_inv" : "s_mod_aug_handguard",
+				"stack_max" : 1,
+				"value" : 8500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 1,
+				"handguard" : {
+					"att_1" : {
+						"x" : 1,
+						"y" : 4
+					},
+					"att_3" : {
+						"x" : 3,
+						"y" : 1
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"aug",
+					"aug_9x19"
+				]
+			}
+		},
+		"mod_aug_scope" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "OUG 步枪原厂集成的1.5倍光学瞄准镜。它是一个坚固可靠的瞄准系统，专为快速捕获中距离目标而设计，是该武器标志性轮廓的一部分。",
+				"name" : "OUG scope",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_aug_scope_game",
+				"sprite_inv" : "s_mod_aug_scope",
+				"stack_max" : 1,
+				"value" : 6000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 2,
+				"damage" : 0,
+				"ergo" : 0,
+				"position" : [
+					"scope"
+				],
+				"recoil" : -3,
+				"reload_speed" : 0,
+				"scope_image" : "s_scope_aug",
+				"scope_extend_view" : 2.6,
+				"scope_glance_mouse_dis_mult" : 1,
+				"scope_optic" : true,
+				"scope_mult_eff_range" : 1.1,
+				"type" : "scope",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"aug",
+					"aug_9x19"
+				]
+			}
+		},
+		"mod_saiga_12_handguard_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "Paiga-12 霰弹枪的标准聚合物护木。一个基础但功能齐全的部件，为武器的自动装填机构提供了保护。",
+				"name" : "Paiga-12 polymer handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_saiga_12_handguard1_game",
+				"sprite_inv" : "s_mod_saiga_12_handguard1",
+				"stack_max" : 1,
+				"value" : 1500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 4,
+				"handguard" : {},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -3,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"saiga12"
+				]
+			}
+		},
+		"mod_saiga_12_handguard_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "Paiga-12 战术短护木。这种改装提供了用于安装握把或灯具的导轨，增强了霰弹枪在近距离战斗中的可控性和功能性。",
+				"name" : "Paiga-12 short handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_saiga_12_handguard2_game",
+				"sprite_inv" : "s_mod_saiga_12_handguard2",
+				"stack_max" : 1,
+				"value" : 5500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 5,
+				"handguard" : {
+					"att_1" : {
+						"x" : 5,
+						"y" : 5
+					},
+					"att_3" : {
+						"x" : 6,
+						"y" : 1
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -5,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"saiga12"
+				]
+			}
+		},
+		"mod_saiga_12_handguard_3" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "Paiga-12 战术护木。一个全尺寸的导轨系统，允许安装各种配件，将 Paiga-12 变成一个完全可定制的战术平台。受到‘商场’头目 Kibba 的青睐。",
+				"name" : "Paiga-12 tactical handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_saiga_12_handguard3_game",
+				"sprite_inv" : "s_mod_saiga_12_handguard3",
+				"stack_max" : 1,
+				"value" : 45000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 18,
+				"handguard" : {
+					"att_1" : {
+						"x" : 5,
+						"y" : 5
+					},
+					"att_2" : {
+						"x" : 12,
+						"y" : 5
+					},
+					"att_3" : {
+						"x" : 12,
+						"y" : 2
+					},
+					"att_4" : {
+						"x" : 12,
+						"y" : 0
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -12,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"saiga12"
+				]
+			}
+		},
+		"mod_saiga_12_handguard_4" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "Paiga-12 加长护木。提供了额外的前端重量以控制后坐力，并为配件提供了更长的导轨空间。是那些希望最大化其半自动霰弹枪稳定性的猎人的选择。",
+				"name" : "Paiga-12 long handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_saiga_12_handguard4_game",
+				"sprite_inv" : "s_mod_saiga_12_handguard4",
+				"stack_max" : 1,
+				"value" : 25000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 8,
+				"handguard" : {
+					"att_1" : {
+						"x" : 5,
+						"y" : 5
+					},
+					"att_2" : {
+						"x" : 12,
+						"y" : 5
+					},
+					"att_3" : {
+						"x" : 12,
+						"y" : 2
+					},
+					"att_4" : {
+						"x" : 12,
+						"y" : 0
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -8,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"saiga12"
+				]
+			}
+		},
+		"mod_saiga_12_magazine10" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "Paiga-12 10发加长弹匣。与5发标准弹匣相比，提供了双倍的火力，是突入‘商场’等高风险区域时的重要升级。",
+				"name" : "Paiga-12 10 round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_saiga_12_magazine10_game",
+				"sprite_inv" : "s_mod_saiga_12_magazine10",
+				"stack_max" : 1,
+				"value" : 8000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -5,
+				"magazine_size" : 10,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 10,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"saiga12"
+				]
+			}
+		},
+		"mod_saiga_12_magazine20" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "Paiga-12 20发弹鼓。这种大容量弹鼓将霰弹枪变成了一把毁灭性的房间清理工具，能够释放出一堵铅墙。极大地影响人体工程学且装填缓慢，但火力无人能及。",
+				"name" : "Paiga-12 20 round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_saiga_12_magazine20_game",
+				"sprite_inv" : "s_mod_saiga_12_magazine20",
+				"stack_max" : 1,
+				"value" : 35000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -25,
+				"magazine_size" : 20,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 50,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"saiga12"
 				]
 			}
 		}

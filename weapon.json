@@ -2205,6 +2205,150 @@
 				"type" : "shotgun"
 			}
 		},
+		"mp9_9x19" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "NP9 9x19mm。一种紧凑的冲锋枪，以其高射速和可控的后坐力而闻名。是‘区域’中近距离战斗和隐秘行动的绝佳选择。",
+				"name" : "NP9 9x19mm",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_mp9_base_game",
+				"sprite_inv" : "s_mod_mp9_base",
+				"stack_max" : 1,
+				"value" : 15000,
+				"weight" : 1.5
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x19",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x19",
+				"damage" : 12,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 75,
+				"fire_mode" : "automatic",
+				"magazine" : 20,
+				"moddable" : true,
+				"mods" : {
+					"att_3" : {
+						"needed" : false,
+						"x" : 29,
+						"y" : 14
+					},
+					"att_4" : {
+						"needed" : false,
+						"x" : 29,
+						"y" : 12
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 34,
+						"y" : 13
+					},
+					"magazine" : {
+						"default_id" : "mod_mp9_magazine_20",
+						"needed" : true,
+						"x" : 21,
+						"y" : 21
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 22,
+						"y" : 11
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 60,
+				"rate_of_fire" : 3,
+				"recoil" : 36,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 45,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_uzi",
+				"sound_cocking" : "snd_cocking_smg",
+				"sound_mag_in" : "snd_smg_mag_in",
+				"sound_mag_out" : "snd_smg_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "smg",
+				"type_effective_range_recoil" : "smg",
+				"type" : "smg"
+			}
+		},
+		"mp9_45" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "NP9 .45acp。这是 NP9 冲锋枪的大口径版本，使用.45 ACP弹药以增强停止力。被那些在近战中寻求更强打击力的潜行者所青睐。",
+				"name" : "NP9 .45acp",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_mp9_base_game",
+				"sprite_inv" : "s_mod_mp9_base",
+				"stack_max" : 1,
+				"value" : 15000,
+				"weight" : 1.5
+			},
+			"weapon" : {
+				"ammo" : "ammo_45",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a45",
+				"damage" : 13,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 75,
+				"fire_mode" : "automatic",
+				"magazine" : 20,
+				"moddable" : true,
+				"mods" : {
+					"att_3" : {
+						"needed" : false,
+						"x" : 29,
+						"y" : 14
+					},
+					"att_4" : {
+						"needed" : false,
+						"x" : 29,
+						"y" : 12
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 34,
+						"y" : 13
+					},
+					"magazine" : {
+						"default_id" : "mod_mp9_magazine_20",
+						"needed" : true,
+						"x" : 21,
+						"y" : 21
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 22,
+						"y" : 11
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 60,
+				"rate_of_fire" : 3,
+				"recoil" : 42,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 45,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_uzi",
+				"sound_cocking" : "snd_cocking_smg",
+				"sound_mag_in" : "snd_smg_mag_in",
+				"sound_mag_out" : "snd_smg_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "smg",
+				"type_effective_range_recoil" : "smg",
+				"type" : "smg"
+			}
+		},
 		"no_item" : {
 			"basic" : {
 				"category" : "none",
@@ -4199,6 +4343,238 @@
 				"type_effective_range" : "rifle",
 				"type_effective_range_recoil" : "rifle",
 				"type" : "rifle"
+			}
+		},
+		"aug" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "OUG。一种奥地利无托突击步枪，以其未来主义的设计和内置的光学瞄具而闻名。在‘区域’中是一种罕见但可靠的武器，受到猩红集团特工的青睐。",
+				"name" : "OUG",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_aug_base_game",
+				"sprite_inv" : "s_mod_aug_base",
+				"stack_max" : 1,
+				"value" : 52000,
+				"weight" : 2.6
+			},
+			"weapon" : {
+				"ammo" : "ammo_556x45",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a556x45",
+				"damage" : 18,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 57,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 44,
+						"y" : 14
+					},
+					"handguard" : {
+						"default_id" : "mod_aug_def_handguard",
+						"needed" : false,
+						"x" : 30,
+						"y" : 13
+					},
+					"magazine" : {
+						"default_id" : "mod_aug_magazine_30",
+						"needed" : true,
+						"x" : 13,
+						"y" : 17
+					},
+					"scope" : {
+						"default_id" : "mod_aug_scope",
+						"needed" : false,
+						"x" : 23,
+						"y" : 12
+					},
+					"stock" : {
+						"default_id" : "mod_aug_stock_green",
+						"needed" : true,
+						"x" : 11,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 85,
+				"rate_of_fire" : 6,
+				"recoil" : 85,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 45,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_aug",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"aug_9x19" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" :"OUG 9x19mm。这是 OUG 步枪的冲锋枪改型，使用常见的9x19mm弹药。它结合了无托设计的人体工程学和手枪口径弹药的可控性。",
+				"name" : "OUG 9x19mm",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_aug_base_game",
+				"sprite_inv" : "s_mod_aug_base",
+				"stack_max" : 1,
+				"value" : 43000,
+				"weight" : 2.6
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x19",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x19",
+				"damage" : 15,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 57,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 44,
+						"y" : 14
+					},
+					"handguard" : {
+						"default_id" : "mod_aug_def_handguard",
+						"needed" : false,
+						"x" : 30,
+						"y" : 13
+					},
+					"magazine" : {
+						"default_id" : "mod_aug_magazine_30",
+						"needed" : true,
+						"x" : 13,
+						"y" : 17
+					},
+					"scope" : {
+						"default_id" : "mod_aug_scope",
+						"needed" : false,
+						"x" : 23,
+						"y" : 12
+					},
+					"stock" : {
+						"default_id" : "mod_aug_stock_green",
+						"needed" : true,
+						"x" : 11,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 85,
+				"rate_of_fire" : 6,
+				"recoil" : 72,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 45,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_aug",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "smg",
+				"type_effective_range_recoil" : "smg",
+				"type" : "smg"
+			}
+		},
+		"saiga12" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "Paiga-12。基于ECM（AKM）设计的半自动12号径霰弹枪。它使用可拆卸弹匣，提供了强大的近距离火力，是清理‘商场’或‘地下’狭窄走廊的绝佳工具。",
+				"name" : "Paiga-12",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_saiga_12_base_game",
+				"sprite_inv" : "s_mod_saiga_12_base",
+				"stack_max" : 1,
+				"value" : 30000,
+				"weight" : 4.1
+			},
+			"weapon" : {
+				"ammo" : "ammo_12x70",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a12x70",
+				"damage" : 50,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 15,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 5,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+					"grip" : {
+						"default_id" : "mod_ak74_grip_s_3",
+						"needed" : true,
+						"x" : 20,
+						"y" : 18
+					},
+					"handguard" : {
+						"default_id" : "mod_saiga_12_handguard_1",
+						"needed" : true,
+						"x" : 30,
+						"y" : 12
+					},
+					"magazine" : {
+						"default_id" : "mod_saiga_12_magazine5",
+						"needed" : true,
+						"x" : 24,
+						"y" : 18
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 22,
+						"y" : 11
+					},
+					"stock" : {
+						"default_id" : "mod_ak74_stock_s_3",
+						"needed" : true,
+						"x" : 16,
+						"y" : 14
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 49,
+						"y" : 13
+					}
+				}
+			},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 25,
+				"rate_of_fire" : 10,
+				"recoil" : 180,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 20,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_shotgun",
+				"sound_cocking" : "snd_cocking_shotgun",
+				"sound_mag_in" : "snd_shotgun_fine",
+				"sound_mag_out" : "snd_shotgun_inizio",
+				"sound_reload__UNUSED" : "snd_shotgun_reload_6shell",
+				"type_effective_range" : "shotgun",
+				"type_effective_range_recoil" : "shotgun",
+				"type" : "shotgun"
 			}
 		}
 	},

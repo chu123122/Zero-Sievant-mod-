@@ -26,6 +26,32 @@
 				"weight" : 0.045
 			}
 		},
+		"ammo_12x70_buckshot_ap" : {
+			"ammo" : {
+				"acc" : -120,
+				"caliber" : "a12x70",
+				"damage" : 80,
+				"dur" : 0.3,
+				"eff_range" : "{use_weapon}",
+				"number" : 10,
+				"pen" : 45,
+				"recoil" : 30,
+				"shell" : 0
+			},
+			"basic" : {
+				"category" : "ammo",
+				"description" : "12号径穿甲鹿弹。一种实验性弹药，旨在近距离内击穿轻型护甲，同时保持鹿弹的毁灭性范围效果。非常罕见且危险。",
+				"name" : "12x70mm AP BUCKSHOT",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "ammo",
+				"sprite_ingame" : "s_item_ammo_12x70_buckshot_ap",
+				"sprite_inv" : "s_item_ammo_12x70_buckshot_ap",
+				"stack_max" : 40,
+				"value" : 500,
+				"weight" : 0.045
+			}
+		},
 		"ammo_12x70_slug" : {
 			"ammo" : {
 				"acc" : 40,
