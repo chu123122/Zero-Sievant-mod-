@@ -1,0 +1,1259 @@
+{
+	"data" : {
+		"armor_arman" : {
+			"armor" : {
+				"anomaly" : 55,
+				"class" : 4,
+				"dur_damage" : 35,
+				"firearm__UNUSED" : 0.41,
+				"pierce" : 0.53,
+				"radiation" : 140,
+				"s_dead" : "s_arman_dead",
+				"s_idle" : "s_arman_idle",
+				"s_run" : "s_arman_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "III级硬质防弹护甲，配有钛陶瓷复合插板。设计用于抵挡步枪弹（7.62x39mm, 5.56x45mm M855）。集成了异常防护和辐射防护的企业原型。",
+				"name" : "Arman suit [Class III]",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_arman",
+				"sprite_inv" : "s_item_armor_arman",
+				"stack_max" : 1,
+				"value" : 81000,
+				"weight" : 5.8
+			}
+		},
+		"armor_bandit_1" : {
+			"armor" : {
+				"anomaly" : 0,
+				"class" : 1,
+				"dur_damage" : 2,
+				"firearm__UNUSED" : 0.13,
+				"pierce" : 0.10,
+				"radiation" : 0,
+				"s_dead" : "s_bandit_novice_dead",
+				"s_idle" : "s_bandit_novice_idle",
+				"s_run" : "s_bandit_novice_run"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "I级临时护甲，由废金属和碎皮拼凑而成。提供相当于基础防刺背心的最低限度弹道防护。仅对刀具和低速破片有效。",
+				"name" : "Bandit B01 armor [Class I]",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_bandit_1",
+				"sprite_inv" : "s_item_armor_bandit_1",
+				"stack_max" : 1,
+				"value" : 5000,
+				"weight" : 2
+			}
+		},
+		"armor_bandit_2" : {
+			"armor" : {
+				"anomaly" : 0,
+				"class" : 2,
+				"dur_damage" : 7,
+				"firearm__UNUSED" : 0.22,
+				"pierce" : 0.15,
+				"radiation" : 0,
+				"s_dead" : "s_bandit_regular_dead",
+				"s_idle" : "s_bandit_regular_idle",
+				"s_run" : "s_bandit_regular_run"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "IIA级软质防弹衣，用钢板进行了升级。可防护低速手枪弹（.380 ACP, 9mm）。为废土使用而改造的标准警用级防护。",
+				"name" : "Bandit B02 armor [Class IIA]",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_bandit_2",
+				"sprite_inv" : "s_item_armor_bandit_2",
+				"stack_max" : 1,
+				"value" : 10000,
+				"weight" : 3.1
+			}
+		},
+		"armor_bandit_3" : {
+			"armor" : {
+				"anomaly" : 0,
+				"class" : 3,
+				"dur_damage" : 19,
+				"firearm__UNUSED" : 0.22,
+				"pierce" : 0.20,
+				"radiation" : 0,
+				"s_dead" : "s_bandit_expert_dead",
+				"s_idle" : "s_bandit_expert_idle",
+				"s_run" : "s_bandit_expert_run"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "IIIA级硬质防弹衣，配有增强陶瓷插板。可防护高速手枪弹（.357 马格南, .44 马格南）。为土匪头目而改造的军用剩余物资。",
+				"name" : "Bandit B03 armor [Class IIIA]",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_bandit_3",
+				"sprite_inv" : "s_item_armor_bandit_3",
+				"stack_max" : 1,
+				"value" : 22000,
+				"weight" : 3.8
+			}
+		},
+		"armor_bandit_4" : {
+			"armor" : {
+				"anomaly" : 10,
+				"class" : 3,
+				"dur_damage" : 26,
+				"firearm__UNUSED" : 0.22,
+				"pierce" : 0.28,
+				"radiation" : 15,
+				"s_dead" : "s_bandit_master_dead",
+				"s_idle" : "s_bandit_master_idle",
+				"s_run" : "s_bandit_master_run"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "土匪工程学的巅峰之作，这件护甲将重型插板与一套简陋的异常防护系统结合了起来。由最令人闻风丧胆的土匪头子穿着。",
+				"name" : "Bandit B04 armor",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_bandit_4",
+				"sprite_inv" : "s_item_armor_bandit_4",
+				"stack_max" : 1,
+				"value" : 35000,
+				"weight" : 4.2
+			}
+		},
+		"armor_boss_city" : {
+			"armor" : {
+				"anomaly" : 30,
+				"class" : 6,
+				"dur_damage" : 32,
+				"firearm__UNUSED" : 0.43,
+				"pierce" : 0.62,
+				"radiation" : 120,
+				"s_dead" : "s_boss_city_dead",
+				"s_idle" : "s_boss_city_idle",
+				"s_run" : "s_boss_city_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "V级实验型动力装甲，带有反应式装甲板。设计用于抵御高速穿甲弹（.338 拉普阿马格南, .50 BMG）。瓦伦丁的定制套装，集成了生命维持和异常防护功能。",
+				"name" : "Valentin armor [Class V]",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_boss_city",
+				"sprite_inv" : "s_item_armor_boss_city",
+				"stack_max" : 1,
+				"value" : 130000,
+				"weight" : 7.8
+			}
+		},
+		"armor_bulletproof" : {
+			"armor" : {
+				"anomaly" : 0,
+				"class" : 2,
+				"dur_damage" : 7,
+				"firearm__UNUSED" : 0.18,
+				"pierce" : 0.14,
+				"radiation" : 0,
+				"s_dead" : "s_pg1_dead",
+				"s_idle" : "s_pg1_idle",
+				"s_run" : "s_pg1_run"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "6B23防弹衣。标准的苏制防护装备，为‘森林’侦察行动和城市巡逻而改造。",
+				"name" : "6B23 Body Armor",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_bulletproof",
+				"sprite_inv" : "s_item_armor_bulletproof",
+				"stack_max" : 1,
+				"value" : 10000,
+				"weight" : 2
+			}
+		},
+		"armor_end_game" : {
+			"armor" : {
+				"anomaly" : 75,
+				"class" : 6,
+				"dur_damage" : 15,
+				"firearm__UNUSED" : 0.41,
+				"pierce" : 0.62,
+				"radiation" : 200,
+				"s_dead" : "s_pg_end_game_dead",
+				"s_idle" : "s_pg_end_game_idle",
+				"s_run" : "s_pg_end_game_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "由结晶化的异常构造物制成的实验性服装。它轻得不可思议，能提供无与伦比的辐射和异常防护，但极其容易受到常规武器的伤害。",
+				"name" : "Mutated crystal armor",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_end_game",
+				"sprite_inv" : "s_item_armor_end_game",
+				"stack_max" : 1,
+				"value" : 180000,
+				"weight" : 3.5
+			}
+		},
+		"armor_faction1_standard_0" : {
+			"armor" : {
+				"anomaly" : 5,
+				"class" : 2,
+				"dur_damage" : 10,
+				"firearm__UNUSED" : 0.22,
+				"pierce" : 0.13,
+				"radiation" : 0,
+				"s_dead" : "s_ga_standard_0_dead",
+				"s_idle" : "s_ga_standard_0_idle",
+				"s_run" : "s_ga_standard_0_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "配发给绿军部队的6B23-1防弹衣。用于在扎科夫敌对领土上执行华沙条约行动的标准防护。",
+				"name" : "Green Army 6B23-1",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_ga_standard_0",
+				"sprite_inv" : "s_item_armor_ga_standard_0",
+				"stack_max" : 1,
+				"value" : 11000,
+				"weight" : 3.5
+			}
+		},
+		"armor_faction1_0" : {
+			"armor" : {
+				"anomaly" : 7,
+				"class" : 3,
+				"dur_damage" : 15,
+				"firearm__UNUSED" : 0.22,
+				"pierce" : 0.18,
+				"radiation" : 0,
+				"s_dead" : "s_ga_standard_1_dead",
+				"s_idle" : "s_ga_standard_1_idle",
+				"s_run" : "s_ga_standard_1_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "绿军的标准配发护甲。为小型武器火力和破片提供体面的防护。在与猩红集团冲突的前线上很常见。",
+				"name" : "Military AFZ-1",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_ga_standard_1",
+				"sprite_inv" : "s_item_armor_ga_standard_1",
+				"stack_max" : 1,
+				"value" : 25000,
+				"weight" : 4.3
+			}
+		},
+		"armor_faction1_1" : {
+			"armor" : {
+				"anomaly" : 10,
+				"class" : 4,
+				"dur_damage" : 20,
+				"firearm__UNUSED" : 0.3,
+				"pierce" : 0.32,
+				"radiation" : 20,
+				"s_dead" : "s_ga_standard_2_dead",
+				"s_idle" : "s_ga_standard_2_idle",
+				"s_run" : "s_ga_standard_2_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "绿军护甲的升级版，改进了弹道防护并对异常能量有一定抗性。配发给老兵和士官。",
+				"name" : "Military AFZ-2",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_ga_standard_2",
+				"sprite_inv" : "s_item_armor_ga_standard_2",
+				"stack_max" : 1,
+				"value" : 43000,
+				"weight" : 5.7
+			}
+		},
+		"armor_faction1_2" : {
+			"armor" : {
+				"anomaly" : 18,
+				"class" : 5,
+				"dur_damage" : 30,
+				"firearm__UNUSED" : 0.43,
+				"pierce" : 0.52,
+				"radiation" : 50,
+				"s_dead" : "s_ga_standard_3_dead",
+				"s_idle" : "s_ga_standard_3_idle",
+				"s_run" : "s_ga_standard_3_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "IV级战斗护甲，配有多重命中陶瓷创伤插板。设计用于抵御穿甲步枪弹（.30-06 AP, 7.62x54mmR）。绿军突击部队使用的重型突击配置。",
+				"name" : "Military AFZ-3 [Class IV]",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_ga_standard_3",
+				"sprite_inv" : "s_item_armor_ga_standard_3",
+				"stack_max" : 1,
+				"value" : 65000,
+				"weight" : 6.8
+			}
+		},
+		"armor_faction1_cyclops" : {
+			"armor" : {
+				"anomaly" : 25,
+				"class" : 6,
+				"dur_damage" : 35,
+				"firearm__UNUSED" : 0.43,
+				"pierce" : 0.60,
+				"radiation" : 100,
+				"s_dead" : "s_ga_cyclops_dead",
+				"s_idle" : "s_ga_cyclops_idle",
+				"s_run" : "s_ga_cyclops_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "由绿军‘独眼巨人’单位穿着的特制服装。配备了先进的传感器和闭路呼吸设备，使其穿戴者能在剧毒和高辐射环境中行动。",
+				"name" : "Military Cyclops suit",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_ga_cyclops",
+				"sprite_inv" : "s_item_armor_ga_cyclops",
+				"stack_max" : 1,
+				"value" : 85000,
+				"weight" : 8.5
+			}
+		},
+		"armor_faction2_standard_0" : {
+			"armor" : {
+				"anomaly" : 6,
+				"class" : 2,
+				"dur_damage" : 10,
+				"firearm__UNUSED" : 0.18,
+				"pierce" : 0.13,
+				"radiation" : 0,
+				"s_dead" : "s_cc_standard_0_dead",
+				"s_idle" : "s_cc_standard_0_idle",
+				"s_run" : "s_cc_standard_0_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "猩红集团战术护甲。为高风险企业行动开发的先进北约标准防护。",
+				"name" : "Crimson Corp Tactical Vest",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_cc_standard_0",
+				"sprite_inv" : "s_item_armor_cc_standard_0",
+				"stack_max" : 1,
+				"value" : 11500,
+				"weight" : 3.4
+			}
+		},
+		"armor_faction2_0" : {
+			"armor" : {
+				"anomaly" : 7,
+				"class" : 3,
+				"dur_damage" : 15,
+				"firearm__UNUSED" : 0.18,
+				"pierce" : 0.27,
+				"radiation" : 0,
+				"s_dead" : "s_cc_standard_1_dead",
+				"s_idle" : "s_cc_standard_1_idle",
+				"s_run" : "s_cc_standard_1_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "配发给猩红集团雇佣兵的标准护甲。提供良好的防护和机动性，反映了该阵营对快速、激进战术的重视。",
+				"name" : "Crimson CPR-1",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_cc_standard_1",
+				"sprite_inv" : "s_item_armor_cc_standard_1",
+				"stack_max" : 1,
+				"value" : 26000,
+				"weight" : 3.4
+			}
+		},
+		"armor_faction2_1" : {
+			"armor" : {
+				"anomaly" : 15,
+				"class" : 4,
+				"dur_damage" : 20,
+				"firearm__UNUSED" : 0.25,
+				"pierce" : 0.32,
+				"radiation" : 30,
+				"s_dead" : "s_cc_standard_2_dead",
+				"s_idle" : "s_cc_standard_2_idle",
+				"s_run" : "s_cc_standard_2_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "猩红集团标准护甲的升级版，改进了装甲板并内置了一套环境防护服。配发给资深雇佣兵和小队长。",
+				"name" : "Crimson CPR-2",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_cc_standard_2",
+				"sprite_inv" : "s_item_armor_cc_standard_2",
+				"stack_max" : 1,
+				"value" : 40000,
+				"weight" : 4.5
+			}
+		},
+		"armor_faction2_2" : {
+			"armor" : {
+				"anomaly" : 23,
+				"class" : 5,
+				"dur_damage" : 30,
+				"firearm__UNUSED" : 0.42,
+				"pierce" : 0.48,
+				"radiation" : 70,
+				"s_dead" : "s_cc_standard_3_dead",
+				"s_idle" : "s_cc_standard_3_idle",
+				"s_run" : "s_cc_standard_3_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "猩红集团精英执法者使用的重型突击服。提供卓越的全方位伤害防护，但非常昂贵且需要专业维护。",
+				"name" : "Crimson CPR-3",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_cc_standard_3",
+				"sprite_inv" : "s_item_armor_cc_standard_3",
+				"stack_max" : 1,
+				"value" : 65000,
+				"weight" : 6
+			}
+		},
+		"armor_faction2_cyclops" : {
+			"armor" : {
+				"anomaly" : 25,
+				"class" : 6,
+				"dur_damage" : 35,
+				"firearm__UNUSED" : 0.43,
+				"pierce" : 0.60,
+				"radiation" : 100,
+				"s_dead" : "s_cc_cyclops_dead",
+				"s_idle" : "s_cc_cyclops_idle",
+				"s_run" : "s_cc_cyclops_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "由猩红集团‘独眼巨人’单位穿着的特制服装。与绿军的版本相似，它在有害环境中提供出色的防护，但更侧重于先进的电子设备和作战效率。",
+				"name" : "Crimson Cyclops suit",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_cc_cyclops",
+				"sprite_inv" : "s_item_armor_cc_cyclops",
+				"stack_max" : 1,
+				"value" : 85000,
+				"weight" : 8.5
+			}
+		},
+		"armor_hunter" : {
+			"armor" : {
+				"anomaly" : 42,
+				"class" : 4,
+				"dur_damage" : 18,
+				"firearm__UNUSED" : 0.28,
+				"pierce" : 0.25,
+				"radiation" : 100,
+				"s_dead" : "s_pg_hunter_dead",
+				"s_idle" : "s_pg_hunter_idle",
+				"s_run" : "s_pg_hunter_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "深受经验丰富的猎人青睐的坚固护甲。它在防护、机动性和环境抗性之间取得了良好平衡，是深入‘区域’最危险地区进行远征的理想选择。",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"name" : "Hunter armor",
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_hunter",
+				"sprite_inv" : "s_item_armor_hunter",
+				"stack_max" : 1,
+				"value" : 50000,
+				"weight" : 4.2
+			}
+		},
+		"armor_killa" : {
+			"armor" : {
+				"anomaly" : 0,
+				"class" : 6,
+				"dur_damage" : 40,
+				"firearm__UNUSED" : 0.41,
+				"pierce" : 0.25,
+				"radiation" : 30,
+				"s_dead" : "s_killa_dead",
+				"s_idle" : "s_killa_idle",
+				"s_run" : "s_killa_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "Kibba的定制护甲。由臭名昭著的‘商场’拾荒者之王穿着的重度改装护甲。这是他技术和冷酷无情的证明。",
+				"name" : "Kibba armour",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_killa",
+				"sprite_inv" : "s_item_armor_killa",
+				"stack_max" : 1,
+				"value" : 125000,
+				"weight" : 7.3
+			}
+		},
+		"armor_killa_2" : {
+			"armor" : {
+				"anomaly" : 0,
+				"class" : 6,
+				"dur_damage" : 10,
+				"firearm__UNUSED" : 0.41,
+				"pierce" : 0.25,
+				"radiation" : 30,
+				"s_dead" : "s_killa_2_dead",
+				"s_idle" : "s_killa_2_idle",
+				"s_run" : "s_killa_2_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "Kibba套装的更重装甲版本。它更慢更笨重，但提供了令人难以置信的防护。只有‘区域’的真正王者才会穿戴如此招摇的东西。",
+				"name" : "Kibba armour",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_killa_2",
+				"sprite_inv" : "s_item_armor_killa_2",
+				"stack_max" : 1,
+				"value" : 140000,
+				"weight" : 4.2
+			}
+		},
+		"armor_lazar" : {
+			"armor" : {
+				"anomaly" : 10,
+				"class" : 4,
+				"dur_damage" : 23,
+				"firearm__UNUSED" : 0.25,
+				"pierce" : 0.34,
+				"radiation" : 10,
+				"s_dead" : "s_bandit_boss_dead",
+				"s_idle" : "s_bandit_boss_idle",
+				"s_run" : "s_bandit_boss_run"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "Lazar的个人护甲。一件改进过的土匪套装，防护更好，外观独特。由‘森林’的土匪头目穿着。",
+				"name" : "Lazar armor",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_lazar",
+				"sprite_inv" : "s_item_armor_lazar",
+				"stack_max" : 1,
+				"value" : 38900,
+				"weight" : 4.5
+			}
+		},
+		"armor_loner_0" : {
+			"armor" : {
+				"anomaly" : 0,
+				"class" : 2,
+				"dur_damage" : 10,
+				"firearm__UNUSED" : 0.25,
+				"pierce" : 0.11,
+				"radiation" : 0,
+				"s_dead" : "s_hunter_standard_0_dead",
+				"s_idle" : "s_hunter_standard_0_idle",
+				"s_run" : "s_hunter_standard_0_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "一套标准的猎人服装。在防护和机动性之间提供了良好平衡，是在‘区域’中谋生的人的热门选择。",
+				"name" : "Standard XTU-0",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_hunter_standard_0",
+				"sprite_inv" : "s_item_armor_hunter_standard_0",
+				"stack_max" : 1,
+				"value" : 15000,
+				"weight" : 3.5
+			}
+		},
+		"armor_loner_1" : {
+			"armor" : {
+				"anomaly" : 13,
+				"class" : 3,
+				"dur_damage" : 15,
+				"firearm__UNUSED" : 0.25,
+				"pierce" : 0.3,
+				"radiation" : 30,
+				"s_dead" : "s_hunter_standard_1_dead",
+				"s_idle" : "s_hunter_standard_1_idle",
+				"s_run" : "s_hunter_standard_1_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "一套升级版猎人服装，具有更强的异常防护。专为深入高辐射和奇异能量场区域的远征而设计。",
+				"name" : "Standard XTU-1",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_hunter_standard_1",
+				"sprite_inv" : "s_item_armor_hunter_standard_1",
+				"stack_max" : 1,
+				"value" : 25000,
+				"weight" : 4
+			}
+		},
+		"armor_loner_2" : {
+			"armor" : {
+				"anomaly" : 13,
+				"class" : 4,
+				"dur_damage" : 20,
+				"firearm__UNUSED" : 0.25,
+				"pierce" : 0.3,
+				"radiation" : 30,
+				"s_dead" : "s_hunter_standard_2_dead",
+				"s_idle" : "s_hunter_standard_2_idle",
+				"s_run" : "s_hunter_standard_2_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "一套重型猎人服装，对常规和异常威胁都有出色的防护。深受那些专门猎杀‘区域’最危险突变体的老练猎人所青睐。",
+				"name" : "Standard XTU-2",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_hunter_standard_2",
+				"sprite_inv" : "s_item_armor_hunter_standard_2",
+				"stack_max" : 1,
+				"value" : 45000,
+				"weight" : 4
+			}
+		},
+		"armor_loner_3" : {
+			"armor" : {
+				"anomaly" : 32,
+				"class" : 5,
+				"dur_damage" : 30,
+				"firearm__UNUSED" : 0.35,
+				"pierce" : 0.52,
+				"radiation" : 80,
+				"s_dead" : "s_hunter_standard_3_dead",
+				"s_idle" : "s_hunter_standard_3_idle",
+				"s_run" : "s_hunter_standard_3_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "独行者能获得的最好服装。它提供顶级的全方位威胁防护，是穿戴者技术与经验的象征。",
+				"name" : "Standard XTU-3",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_hunter_standard_3",
+				"sprite_inv" : "s_item_armor_hunter_standard_3",
+				"stack_max" : 1,
+				"value" : 75000,
+				"weight" : 5.7
+			}
+		},
+		"armor_loner_cyclops" : {
+			"armor" : {
+				"anomaly" : 25,
+				"class" : 6,
+				"dur_damage" : 35,
+				"firearm__UNUSED" : 0.43,
+				"pierce" : 0.60,
+				"radiation" : 100,
+				"s_dead" : "s_hunter_cyclops_dead",
+				"s_idle" : "s_hunter_cyclops_idle",
+				"s_run" : "s_hunter_cyclops_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "一套特制的猎人服装，用先进的传感设备进行了改装。专为在‘区域’最危险地带进行追踪和侦察而设计。",
+				"name" : "Standard Cyclops suit",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_hunter_cyclops",
+				"sprite_inv" : "s_item_armor_hunter_cyclops",
+				"stack_max" : 1,
+				"value" : 93000,
+				"weight" : 8.5
+			}
+		},
+		"armor_m_1" : {
+			"armor" : {
+				"anomaly" : 20,
+				"class" : 3,
+				"dur_damage" : 8,
+				"firearm__UNUSED" : 0.18,
+				"pierce" : 0.25,
+				"radiation" : 30,
+				"s_dead" : "s_pg_m1_dead",
+				"s_idle" : "s_pg_m1_idle",
+				"s_run" : "s_pg_m1_run"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "一套基础的雇佣兵护甲。它很便宜且容易搞到，但只能提供最低限度的防护。绝望的自由职业者和炮灰的普遍选择。",
+				"name" : "00PZCX armor",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_mercenary_1",
+				"sprite_inv" : "s_item_armor_mercenary_1",
+				"stack_max" : 1,
+				"value" : 24000,
+				"weight" : 4.3
+			}
+		},
+		"armor_m_2" : {
+			"armor" : {
+				"anomaly" : 0,
+				"class" : 4,
+				"dur_damage" : 20,
+				"firearm__UNUSED" : 0.32,
+				"pierce" : 0.4,
+				"radiation" : 40,
+				"s_dead" : "s_pg_m1_dead",
+				"s_idle" : "s_pg_m1_idle",
+				"s_run" : "s_pg_m1_run"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "一套中端雇佣兵护甲。它在防护和成本之间提供了体面的平衡，是经验丰富的承包商的热门选择。",
+				"name" : "20PZCX armor",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_mercenary_2",
+				"sprite_inv" : "s_item_armor_mercenary_2",
+				"stack_max" : 1,
+				"value" : 56000,
+				"weight" : 5.8
+			}
+		},
+		"armor_m_3" : {
+			"armor" : {
+				"anomaly" : 38,
+				"class" : 5,
+				"dur_damage" : 30,
+				"firearm__UNUSED" : 0.41,
+				"pierce" : 0.53,
+				"radiation" : 80,
+				"s_dead" : "s_pg_m3_dead",
+				"s_idle" : "s_pg_m3_idle",
+				"s_run" : "s_pg_m3_run"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "一套高端雇佣兵护甲。价格昂贵，但能对各种威胁提供出色的防护。由精英雇佣兵和私人军事承包商穿着。",
+				"name" : "99PZCX armor",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_mercenary_3",
+				"sprite_inv" : "s_item_armor_mercenary_3",
+				"stack_max" : 1,
+				"value" : 73000,
+				"weight" : 6.7
+			}
+		},
+		"armor_natale" : {
+			"armor" : {
+				"anomaly" : 50,
+				"class" : 5,
+				"dur_damage" : 5,
+				"firearm__UNUSED" : 0.3,
+				"pierce" : 0.55,
+				"radiation" : 250,
+				"s_dead" : "s_pg_natale_dead",
+				"s_idle" : "s_pg_natale_idle",
+				"s_run" : "s_pg_natale_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "一套节日服装，却能提供惊人的异常防护。这是一个罕见且抢手的物品，尤其是在节日期间。",
+				"name" : "santa claus costume",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_natale",
+				"sprite_inv" : "s_item_armor_natale",
+				"stack_max" : 1,
+				"value" : 10000,
+				"weight" : 0.5
+			}
+		},
+		"armor_novice" : {
+			"armor" : {
+				"anomaly" : 0,
+				"class" : 2,
+				"dur_damage" : 5,
+				"firearm__UNUSED" : 0.15,
+				"pierce" : 0.1,
+				"radiation" : 0,
+				"s_dead" : "s_pg1_dead",
+				"s_idle" : "s_pg1_idle",
+				"s_run" : "s_pg1_run"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "为新手猎人准备的基础护甲。总比没有好，但在猛烈火力面前站不住脚。在刚来‘区域’的人身上很常见。",
+				"name" : "Standard armor CP-00",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_novice",
+				"sprite_inv" : "s_item_armor_novice",
+				"stack_max" : 1,
+				"value" : 11000,
+				"weight" : 3.2
+			}
+		},
+		"armor_orel" : {
+			"armor" : {
+				"anomaly" : 17,
+				"class" : 4,
+				"dur_damage" : 25,
+				"firearm__UNUSED" : 0.25,
+				"pierce" : 0.37,
+				"radiation" : 20,
+				"s_dead" : "s_bandit_boss_outpost_dead",
+				"s_idle" : "s_bandit_boss_outpost_idle",
+				"s_run" : "s_bandit_boss_outpost_run"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "Orel的定制护甲。由‘工业区’土匪头目穿着的重度改装套装。这是他狡猾和足智多谋的证明。",
+				"name" : "Orel armor",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_orel",
+				"sprite_inv" : "s_item_armor_orel",
+				"stack_max" : 1,
+				"value" : 38900,
+				"weight" : 4.5
+			}
+		},
+		"armor_police" : {
+			"armor" : {
+				"anomaly" : 0,
+				"class" : 3,
+				"dur_damage" : 5,
+				"firearm__UNUSED" : 0.25,
+				"pierce" : 0.2,
+				"radiation" : 0,
+				"s_dead" : "s_pg_police_dead",
+				"s_idle" : "s_pg_police_idle",
+				"s_run" : "s_pg_police_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "标准配发的警用防弹衣。能为小型武器火力提供体面的防护，但并非为承受‘区域’的严酷环境而设计。",
+				"name" : "Police armor",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_police",
+				"sprite_inv" : "s_item_armor_police",
+				"stack_max" : 1,
+				"value" : 31000,
+				"weight" : 3.7
+			}
+		},
+		"armor_pumpkin" : {
+			"armor" : {
+				"anomaly" : 75,
+				"class" : 5,
+				"dur_damage" : 40,
+				"firearm__UNUSED" : 0.25,
+				"pierce" : 0.5,
+				"radiation" : 100,
+				"s_dead" : "s_pumpkin_dead",
+				"s_idle" : "s_pumpkin_idle",
+				"s_run" : "s_pumpkin_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "一套奇怪的、南瓜状的护甲，似乎源自异常。它异常坚固，能为‘区域’的危害提供出色的防护。",
+				"name" : "Pumpkin armor",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_pumpkin",
+				"sprite_inv" : "s_item_armor_pumpkin",
+				"stack_max" : 1,
+				"value" : 100000,
+				"weight" : 10
+			}
+		},
+		"armor_scientist_1" : {
+			"armor" : {
+				"anomaly" : 40,
+				"class" : 1,
+				"dur_damage" : 5,
+				"firearm__UNUSED" : 0.15,
+				"pierce" : 0.12,
+				"radiation" : 100,
+				"s_dead" : "s_pg_scientist_1_dead",
+				"s_idle" : "s_pg_scientist_1_idle",
+				"s_run" : "s_pg_scientist_1_run"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "科学家使用的基础环境服。提供良好的辐射和异常防护，但不是为战斗而设计的。",
+				"name" : "Scientist F00K-0",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_scientist_1",
+				"sprite_inv" : "s_item_armor_scientist_1",
+				"stack_max" : 1,
+				"value" : 10000,
+				"weight" : 2.4
+			}
+		},
+		"armor_scientist_2" : {
+			"armor" : {
+				"anomaly" : 65,
+				"class" : 2,
+				"dur_damage" : 8,
+				"firearm__UNUSED" : 0.22,
+				"pierce" : 0.18,
+				"radiation" : 175,
+				"s_dead" : "s_pg_scientist_2_dead",
+				"s_idle" : "s_pg_scientist_2_idle",
+				"s_run" : "s_pg_scientist_2_run"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "升级版的科学家服装，改进了防护罩和更强大的生命维持系统。用于在‘区域’中更危险的区域进行研究。",
+				"name" : "Scientist F00K-1",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_scientist_2",
+				"sprite_inv" : "s_item_armor_scientist_2",
+				"stack_max" : 1,
+				"value" : 15000,
+				"weight" : 3
+			}
+		},
+		"armor_scientist_3" : {
+			"armor" : {
+				"anomaly" : 90,
+				"class" : 3,
+				"dur_damage" : 12,
+				"firearm__UNUSED" : 0.32,
+				"pierce" : 0.27,
+				"radiation" : 250,
+				"s_dead" : "s_pg_scientist_3_dead",
+				"s_idle" : "s_pg_scientist_3_idle",
+				"s_run" : "s_pg_scientist_3_run"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "顶级的科学家服装，专为深入‘区域’最危险、辐射最强的地带进行长期远征而设计。这是“事件”前技术的奇迹。",
+				"name" : "Scientist F00K-2",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_scientist_3",
+				"sprite_inv" : "s_item_armor_scientist_3",
+				"stack_max" : 1,
+				"value" : 25000,
+				"weight" : 3.7
+			}
+		},
+		"armor_seva" : {
+			"armor" : {
+				"anomaly" : 95,
+				"class" : 5,
+				"dur_damage" : 28,
+				"firearm__UNUSED" : 0.41,
+				"pierce" : 0.45,
+				"radiation" : 250,
+				"s_dead" : "s_seva_dead",
+				"s_idle" : "s_seva_idle",
+				"s_run" : "s_seva_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "一套重型环境服，能为‘区域’的所有危害提供出色的防护。它笨重且昂贵，但这是钱能买到的最好防护。",
+				"name" : "SEVA Suit",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_seva",
+				"sprite_inv" : "s_item_armor_seva",
+				"stack_max" : 1,
+				"value" : 130000,
+				"weight" : 5.3
+			}
+		},
+		"armor_un_1" : {
+			"armor" : {
+				"anomaly" : 15,
+				"class" : 3,
+				"dur_damage" : 13,
+				"firearm__UNUSED" : 0.41,
+				"pierce" : 0.28,
+				"radiation" : 50,
+				"s_dead" : "s_un_1_dead",
+				"s_idle" : "s_un_1_idle",
+				"s_run" : "s_un_1_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "NU维和部队的标准配发护甲。它在防护和机动性之间提供了良好平衡，但并非为‘区域’的极端条件而设计。",
+				"name" : "NU01 Armor ",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_un_1",
+				"sprite_inv" : "s_item_armor_un_1",
+				"stack_max" : 1,
+				"value" : 20000,
+				"weight" : 3.2
+			}
+		},
+		"armor_un_2" : {
+			"armor" : {
+				"anomaly" : 25,
+				"class" : 4,
+				"dur_damage" : 23,
+				"firearm__UNUSED" : 0.41,
+				"pierce" : 0.35,
+				"radiation" : 80,
+				"s_dead" : "s_un_2_dead",
+				"s_idle" : "s_un_2_idle",
+				"s_run" : "s_un_2_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "升级版的NU护甲，改进了防护并对异常能量有一定抗性。配发给在‘区域’中行动的资深维和人员。",
+				"name" : "NU02 Armor ",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_un_2",
+				"sprite_inv" : "s_item_armor_un_2",
+				"stack_max" : 1,
+				"value" : 40000,
+				"weight" : 4.0
+			}
+		},
+		"armor_un_3" : {
+			"armor" : {
+				"anomaly" : 35,
+				"class" : 5,
+				"dur_damage" : 23,
+				"firearm__UNUSED" : 0.41,
+				"pierce" : 0.44,
+				"radiation" : 130,
+				"s_dead" : "s_un_3_dead",
+				"s_idle" : "s_un_3_idle",
+				"s_run" : "s_un_3_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "NU特种部队使用的重型突击服。它提供出色的防护，但在‘区域’中很少见到。",
+				"name" : "NU03 Armor ",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_un_3",
+				"sprite_inv" : "s_item_armor_un_3",
+				"stack_max" : 1,
+				"value" : 65000,
+				"weight" : 4.5
+			}
+		},
+		"armor_watcher_0" : {
+			"armor" : {
+				"anomaly" : 15,
+				"class" : 3,
+				"dur_damage" : 10,
+				"firearm__UNUSED" : 0.41,
+				"pierce" : 0.21,
+				"radiation" : 60,
+				"s_dead" : "s_watcher_1_dead",
+				"s_idle" : "s_watcher_1_idle",
+				"s_run" : "s_watcher_1_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "‘守望者’阵营的标准配发服装。它在防护和环境抗性之间提供了良好平衡，是他们广泛行动的多功能选择。",
+				"name" : "Armor WA-0",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_watcher_0",
+				"sprite_inv" : "s_item_armor_watcher_0",
+				"stack_max" : 1,
+				"value" : 25000,
+				"weight" : 5.3
+			}
+		},
+		"armor_watcher_1" : {
+			"armor" : {
+				"anomaly" : 22,
+				"class" : 4,
+				"dur_damage" : 15,
+				"firearm__UNUSED" : 0.41,
+				"pierce" : 0.27,
+				"radiation" : 90,
+				"s_dead" : "s_watcher_1_dead",
+				"s_idle" : "s_watcher_1_idle",
+				"s_run" : "s_watcher_1_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "升级版的守望者服装，改进了防护并增强了传感设备。由该阵营的资深成员穿着。",
+				"name" : "Armor WA-1",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_watcher_1",
+				"sprite_inv" : "s_item_armor_watcher_1",
+				"stack_max" : 1,
+				"value" : 43000,
+				"weight" : 5.3
+			}
+		},
+		"armor_watcher_2" : {
+			"armor" : {
+				"anomaly" : 35,
+				"class" : 5,
+				"dur_damage" : 20,
+				"firearm__UNUSED" : 0.41,
+				"pierce" : 0.38,
+				"radiation" : 130,
+				"s_dead" : "s_watcher_2_dead",
+				"s_idle" : "s_watcher_2_idle",
+				"s_run" : "s_watcher_2_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "重型守望者服装，专为在‘区域’最危险地带作战而设计。这象征着该阵营揭开‘区域’秘密的决心。",
+				"name" : "Armor WA-2",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_watcher_2",
+				"sprite_inv" : "s_item_armor_watcher_2",
+				"stack_max" : 1,
+				"value" : 68000,
+				"weight" : 5.3
+			}
+		},
+		"armor_watcher_3" : {
+			"armor" : {
+				"anomaly" : 40,
+				"class" : 6,
+				"dur_damage" : 30,
+				"firearm__UNUSED" : 0.41,
+				"pierce" : 0.45,
+				"radiation" : 180,
+				"s_dead" : "s_watcher_3_dead",
+				"s_idle" : "s_watcher_3_idle",
+				"s_run" : "s_watcher_3_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "‘守望者’阵营能获得的最好护甲。它提供无与伦比的防护，并配备了一套先进的传感器和生命维持系统。",
+				"name" : "Armor WA-3",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_watcher_3",
+				"sprite_inv" : "s_item_armor_watcher_3",
+				"stack_max" : 1,
+				"value" : 92000,
+				"weight" : 5.3
+			}
+		},
+		"armor_watcher_cyclops" : {
+			"armor" : {
+				"anomaly" : 25,
+				"class" : 6,
+				"dur_damage" : 35,
+				"firearm__UNUSED" : 0.43,
+				"pierce" : 0.60,
+				"radiation" : 100,
+				"s_dead" : "s_watcher_cyclops_dead",
+				"s_idle" : "s_watcher_cyclops_idle",
+				"s_run" : "s_watcher_cyclops_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "特制的守望者服装，专为侦察和隐秘行动而设计。配备了先进的伪装和消音技术。",
+				"name" : "WA Cyclops suit",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_watcher_cyclops",
+				"sprite_inv" : "s_item_armor_watcher_cyclops",
+				"stack_max" : 1,
+				"value" : 95000,
+				"weight" : 8.5
+			}
+		},
+		"armor_watcher_devil" : {
+			"armor" : {
+				"anomaly" : 30,
+				"class" : 6,
+				"dur_damage" : 30,
+				"firearm__UNUSED" : 0.43,
+				"pierce" : 0.62,
+				"radiation" : 150,
+				"s_dead" : "s_watcher_devil_dead",
+				"s_idle" : "s_watcher_devil_idle",
+				"s_run" : "s_watcher_devil_move"
+			},
+			"basic" : {
+				"category" : "armor",
+				"description" : "‘守望者’阵营精英所穿的恐怖护甲。据说它是由一种强大突变体的外皮制成，能赋予穿戴者惊人的力量和韧性。",
+				"name" : "WA Devil suit",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "armor",
+				"sprite_ingame" : "s_item_armor_watcher_devil",
+				"sprite_inv" : "s_item_armor_watcher_devil",
+				"stack_max" : 1,
+				"value" : 120000,
+				"weight" : 9.5
+			}
+		}
+	},
+	"metadata" : {
+		"author" : "Luca",
+		"description" : "Base gamedata for ZERO Sievert",
+		"project" : "ZERO Sievert"
+	},
+	"usage" : "item",
+	"version" : 0
+}

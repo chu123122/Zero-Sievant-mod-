@@ -1,0 +1,2396 @@
+{
+	"data" : {
+		"acqua_ossigenata" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "从‘城市’中废弃药店回收的 CVS 牌过氧化氢。在‘区域’中，感染就意味着死亡，因此这是伤口清洁的必备品。猩红集团的医护人员为野战行动囤积了这些物资。",
+				"name" : "CVS Hydrogen Peroxide",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "med",
+				"sprite_ingame" : "s_item_acqua_ossigenata",
+				"sprite_inv" : "s_item_acqua_ossigenata",
+				"stack_max" : 1,
+				"value" : 700,
+				"weight" : 0.4
+			}
+		},
+		"alchool" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "来自‘事件’前库存的 Smirnoff 伏特加。被绿军医护用作野战消毒剂，也被猎人们用来忘记他们在工业区深处目睹的恐怖。",
+				"name" : "Smirnoff Vodka",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_alchool",
+				"sprite_inv" : "s_item_alchool",
+				"stack_max" : 1,
+				"value" : 350,
+				"weight" : 0.7
+			}
+		},
+		"battery" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "在整个‘城市’区的废弃电子商店中找到的 Duracell AAA 电池。为手电筒和无线电设备等必要的生存档案供电。在夜间行动中，它们与黄金等值。",
+				"name" : "Duracell AAA Battery",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_battery",
+				"sprite_inv" : "s_item_battery",
+				"stack_max" : 4,
+				"value" : 220,
+				"weight" : 0.05
+			}
+		},
+		"blink_artiglio" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "从一只Blink变种人身上撕下的锋利爪子。这些生物在‘地下’隧道的黑暗角落里捕猎。经验丰富的猎人会将其雕刻成箭头，而科学家们则研究它们以了解‘区域’的突变。",
+				"name" : "Blink Mutant Claw",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_blink_artiglio",
+				"sprite_inv" : "s_item_blink_artiglio",
+				"stack_max" : 1,
+				"value" : 1300,
+				"weight" : 0.1
+			}
+		},
+		"boar_fang" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "来自‘区域’变异野猪的巨大獠牙。这些野兽在‘森林’地区游荡，因辐射暴露而长得异常巨大。独行者们会用它制作临时武器以应对绝境。",
+				"name" : "Mutant Boar Tusk",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_devourer_tooth",
+				"sprite_inv" : "s_item_devourer_tooth",
+				"stack_max" : 1,
+				"value" : 750,
+				"weight" : 0.3
+			}
+		},
+		"boar_pelt" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "来自‘区域’野猪的厚实鬃毛皮。辐射使毛皮变得异常粗糙且不易腐烂。‘森林’的商人们看重这些毛皮，用以制作抵御恶劣环境的防护装备。",
+				"name" : "Zone Boar Pelt",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_boar_pelt",
+				"sprite_inv" : "s_item_boar_pelt",
+				"stack_max" : 1,
+				"value" : 700,
+				"weight" : 0.35
+			}
+		},
+		"bolt_cutter" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "从‘工业区’车间回收的重型 Klein 断线钳。是进入遍布‘区域’的绿军武器储藏点和猩红集团补给投放点的必备工具。",
+				"name" : "Klein Bolt Cutters",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_bolt_cutter",
+				"sprite_inv" : "s_item_bolt_cutter",
+				"stack_max" : 1,
+				"value" : 150,
+				"weight" : 0.2
+			}
+		},
+		"bracelet_gold" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "在‘城市’高档区的废弃珠宝店中找到的 Tiffany & Co. 优雅金手镯。这是‘事件’前奢侈品的象征，现在被猎人们用来交换必要的生存档案。",
+				"name" : "Tiffany & Co. Gold Bracelet",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_bracelet_gold",
+				"sprite_inv" : "s_item_bracelet_gold",
+				"stack_max" : 1,
+				"value" : 7500,
+				"weight" : 0.3
+			}
+		},
+		"bracelet_silver" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "从‘城市’购物区回收的 Pandora 银手镯。虽然不如黄金贵重，但这些精致的饰品提醒着猎人们在‘区域’形成之前曾经存在的美好。",
+				"name" : "Pandora Silver Bracelet",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_bracelet_silver",
+				"sprite_inv" : "s_item_bracelet_silver",
+				"stack_max" : 1,
+				"value" : 3200,
+				"weight" : 0.1
+			}
+		},
+		"bulb" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个标准灯泡。一种常见的电子元件，可以拆解成零件或用于制作。",
+				"name" : "Bulb",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_bulb",
+				"sprite_inv" : "s_item_bulb",
+				"stack_max" : 1,
+				"value" : 180,
+				"weight" : 0.1
+			}
+		},
+		"camera_crimson_quest" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个闭路电视摄像头，很可能属于猩红集团。它似乎与某个重要任务有关。",
+				"name" : "CCTV camera",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_camera_crimson_quest",
+				"sprite_inv" : "s_item_camera_crimson_quest",
+				"stack_max" : 1,
+				"value" : 4000,
+				"weight" : 0.2
+			}
+		},
+		"car_battery" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "从‘城市’的废弃车辆中拾取的重型 Optima 汽车电池。含有宝贵的铅和酸性部件。‘区域’中的技工们会出高价购买这些电池来维持发电机运转。",
+				"name" : "Optima Car Battery",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_car_battery",
+				"sprite_inv" : "s_item_car_battery",
+				"stack_max" : 1,
+				"value" : 7500,
+				"weight" : 4
+			}
+		},
+		"carbone" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "来自‘森林’定居点废墟的 Kingsford 活性炭。是净化水源和制作临时防毒面具滤芯的必需品。独行者们囤积这些以在污染区生存。",
+				"name" : "Kingsford Activated Charcoal",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_carbone",
+				"sprite_inv" : "s_item_carbone",
+				"stack_max" : 10,
+				"value" : 40,
+				"weight" : 0.2
+			}
+		},
+		"coffee" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "来自‘商场’废弃咖啡馆的 Starbucks 咖啡豆。这是一种珍贵的奢侈品，能让猎人们回想起文明世界。在‘区域’的漫长冬夜里，商人们愿为它付出极高的价格。",
+				"name" : "Starbucks Coffee Beans",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_coffee",
+				"sprite_inv" : "s_item_coffee",
+				"stack_max" : 1,
+				"value" : 1500,
+				"weight" : 0.5
+			}
+		},
+		"copper_wire" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "从‘工业区’电气系统中回收的高级 Southwire 铜线。是修复通讯设备和简易电子产品的必需品。绿军的工程师们将其视为野战维修的珍品。",
+				"name" : "Southwire Copper Wire",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_copper_wire",
+				"sprite_inv" : "s_item_copper_wire",
+				"stack_max" : 1,
+				"value" : 280,
+				"weight" : 0.2
+			}
+		},
+		"cpu" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "从‘城市’办公楼废墟中的电脑里取出的 Intel Core i7 处理器。猩红集团的技术专家们高价收购这些来维护他们的监视网络。",
+				"name" : "Intel Core i7 CPU",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_cpu",
+				"sprite_inv" : "s_item_cpu",
+				"stack_max" : 1,
+				"value" : 8000,
+				"weight" : 0.1
+			}
+		},
+		"cristallo_blu" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "在‘沼泽’教堂附近的异常场中发现的，散发着电磁能量的异常蓝色水晶。这些水晶为先进的‘区域’技术供能。科学家们推测它们是最初‘事件’的碎片。",
+				"name" : "Anomaly Crystal Fragment",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_cristallo_blu",
+				"sprite_inv" : "s_item_cristallo_blu",
+				"stack_max" : 1,
+				"value" : 2000,
+				"weight" : 0.5
+			}
+		},
+		"cristallo_red" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一种散发着温和热量的红色水晶。它是‘区域’中又一个奇怪的造物，因其不寻常的特性而备受追捧。",
+				"name" : "fire crystal",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_cristallo_red",
+				"sprite_inv" : "s_item_cristallo_red",
+				"stack_max" : 1,
+				"value" : 2000,
+				"weight" : 0.5
+			}
+		},
+		"cristallo_verde" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一种散发着淡淡病态甜味的绿色水晶。它是‘区域’化学异常的产物，如果处理不当会具有剧毒。",
+				"name" : "Chemical crystal",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_cristallo_verde",
+				"sprite_inv" : "s_item_cristallo_verde",
+				"stack_max" : 1,
+				"value" : 2000,
+				"weight" : 0.5
+			}
+		},
+		"cristallo_viola" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一种罕见而美丽的紫色水晶。它似乎能吸收光线和声音，并对持有者产生一种奇怪的镇静效果。价值极高。",
+				"name" : "Violet crystal",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_cristallo_viola",
+				"sprite_inv" : "s_item_cristallo_viola",
+				"stack_max" : 1,
+				"value" : 5000,
+				"weight" : 0.5
+			}
+		},
+		"crucifix_gold" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "来自‘沼泽’教堂的东正教金色十字架，在‘事件’发生前受过祝福。许多猎人相信它能抵御‘区域’中的超自然恐怖。深受虔诚者和迷信者的珍视。",
+				"name" : "Blessed Golden Crucifix",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_crucifix_gold",
+				"sprite_inv" : "s_item_crucifix_gold",
+				"stack_max" : 1,
+				"value" : 3500,
+				"weight" : 2
+			}
+		},
+		"devourer_meat" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一大块来自‘吞噬者’的生肉。它又硬又柴，但却是很好的蛋白质来源。可以烹饪或卖给商人。",
+				"name" : "devourer meat",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_devourer_meat",
+				"sprite_inv" : "s_item_devourer_meat",
+				"stack_max" : 1,
+				"value" : 6000,
+				"weight" : 0.5
+			}
+		},
+		"devourer_tooth" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一颗来自‘吞噬者’的巨大而锋利的牙齿。这是一件稀有而珍贵的战利品，证明了猎人的技巧和英勇。",
+				"name" : "Big's tooth",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_boar_fang",
+				"sprite_inv" : "s_item_boar_fang",
+				"stack_max" : 1,
+				"value" : 12000,
+				"weight" : 0.3
+			}
+		},
+		"document_power_grid" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "与扎科夫电网相关的技术文件。它们看起来很重要，很可能对某人有价值。",
+				"name" : "Power Grid documents",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_documents_power_grid",
+				"sprite_inv" : "s_item_documents_power_grid",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.05
+			}
+		},
+		"document_quest_lab" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "来自秘密实验室的文件。上面满是技术术语和奇怪的图表。与一项任务有关，所以它们一定很重要。",
+				"name" : "Lab documents",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_documents_crystal",
+				"sprite_inv" : "s_item_documents_crystal",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.05
+			}
+		},
+		"drill" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一把电钻。一种多功能工具，可用于各种任务。可以拆解以获取有价值的电子元件。",
+				"name" : "Drill",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_drill",
+				"sprite_inv" : "s_item_drill",
+				"stack_max" : 1,
+				"value" : 2000,
+				"weight" : 2
+			}
+		},
+		"dumbell" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个沉重的哑铃。一个已不复存在的世界的提醒物。可以当作废金属卖掉。",
+				"name" : "Dumbell",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_dumbell",
+				"sprite_inv" : "s_item_dumbell",
+				"stack_max" : 1,
+				"value" : 1200,
+				"weight" : 2
+			}
+		},
+		"dutch_tape" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一卷管道胶带。用于维修和应急制作的万能工具。在‘区域’里，它和黄金一样重。",
+				"name" : "duct tape",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_dutch_tape",
+				"sprite_inv" : "s_item_dutch_tape",
+				"stack_max" : 1,
+				"value" : 80,
+				"weight" : 0.1
+			}
+		},
+		"dvd_drive" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个DVD驱动器。一个逝去时代的遗物，但仍可以拆解出有用的电子元件。",
+				"name" : "DVD drive",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_dvd_drive",
+				"sprite_inv" : "s_item_dvd_drive",
+				"stack_max" : 1,
+				"value" : 500,
+				"weight" : 0.3
+			}
+		},
+		"electric_motor" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个强力的电动机。它又重又大，但是高品质电子元件的宝贵来源。",
+				"name" : "Electric motor",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_electric_motor",
+				"sprite_inv" : "s_item_electric_motor",
+				"stack_max" : 1,
+				"value" : 18000,
+				"weight" : 3.5
+			}
+		},
+		"engine_oil" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一罐发动机油。维护车辆和机械所必需。是‘区域’中的宝贵商品。",
+				"name" : "Engine Oil",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_motor_oil",
+				"sprite_inv" : "s_item_motor_oil",
+				"stack_max" : 1,
+				"value" : 1400,
+				"weight" : 0.7
+			}
+		},
+		"fan" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个小型的便携风扇。虽然不大，但能从‘区域’的压抑酷热中带来一丝缓解。可以拆解以获取电子元件。",
+				"name" : "Fan",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_fan",
+				"sprite_inv" : "s_item_fan",
+				"stack_max" : 1,
+				"value" : 205,
+				"weight" : 0.1
+			}
+		},
+		"flesh_sample" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一份奇怪的变异血肉样本。它与一项任务有关，所以可能对某人很重要。最好别去想它是从哪儿来的。",
+				"name" : "Strange flesh sample",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_flesh_sample",
+				"sprite_inv" : "s_item_flesh_sample",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 1
+			}
+		},
+		"fork" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一把普通的金属叉子。文明生活的提醒物，也是一个有用的进食工具。可以当废料卖掉。",
+				"name" : "Fork",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_fork",
+				"sprite_inv" : "s_item_fork",
+				"stack_max" : 5,
+				"value" : 50,
+				"weight" : 0.05
+			}
+		},
+		"fragrance" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一瓶昂贵的香水。一种稀有而珍贵的奢侈品，可以卖个高价。",
+				"name" : "Fragrance",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_fragrance",
+				"sprite_inv" : "s_item_fragrance",
+				"stack_max" : 1,
+				"value" : 10000,
+				"weight" : 0.3
+			}
+		},
+		"gameboy" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个便携式游戏机。一个更简单时代的遗物，它是一个有价值的收藏品，可以卖个好价钱。",
+				"name" : "Portable console",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_gameboy",
+				"sprite_inv" : "s_item_gameboy",
+				"stack_max" : 1,
+				"value" : 25000,
+				"weight" : 0.6
+			}
+		},
+		"gamestation" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一台家用视频游戏机。一件珍贵的灾前娱乐技术产品。深受收藏家和商人的追捧。",
+				"name" : "Gamestation",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_playstation",
+				"sprite_inv" : "s_item_playstation",
+				"stack_max" : 1,
+				"value" : 40000,
+				"weight" : 2.5
+			}
+		},
+		"gas_tank" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个丙烷气罐。可用作烹饪或取暖的燃料，或作为制作爆炸物的元件。一种有价值的多功能资源。",
+				"name" : "Propane tank",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_gas_tank",
+				"sprite_inv" : "s_item_gas_tank",
+				"stack_max" : 1,
+				"value" : 5000,
+				"weight" : 4
+			}
+		},
+		"ghoul_tentacles" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一条来自食尸鬼的、黏滑扭动的触手。这是一件令人毛骨悚然的战利品，但也是用于科学研究的宝贵变异组织来源。",
+				"name" : "ghoul's tentacle",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_ghoul_tentacles",
+				"sprite_inv" : "s_item_ghoul_tentacles",
+				"stack_max" : 1,
+				"value" : 600,
+				"weight" : 0.15
+			}
+		},
+		"gm_counter" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个盖革-穆勒计数器。在‘区域’中探测辐射的必备工具。可以拆解以获取有价值的电子元件。",
+				"name" : "gm counter",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_gm_counter",
+				"sprite_inv" : "s_item_gm_counter",
+				"stack_max" : 1,
+				"value" : 2500,
+				"weight" : 0.25
+			}
+		},
+		"gps_marker" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个GPS标记器。用于在地图上标记位置。它与一项任务有关，所以可能很重要。",
+				"name" : "GPS Marker",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_gps_marker",
+				"sprite_inv" : "s_item_gps_marker",
+				"stack_max" : 1,
+				"value" : 1000,
+				"weight" : 0.2
+			}
+		},
+		"gunpowder_blu" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一种低级火药，可通过其蓝色色泽辨认。用于制作基础弹药。",
+				"name" : "Blue gunpowder",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "ammo",
+				"sprite_ingame" : "s_item_gunpowder_blu",
+				"sprite_inv" : "s_item_gunpowder_blu",
+				"stack_max" : 100,
+				"value" : 2.5,
+				"weight" : 0.02
+			}
+		},
+		"gunpowder_green" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一种中级火药，具有独特的绿色。用于制作标准弹药。",
+				"name" : "Green gunpowder",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "ammo",
+				"sprite_ingame" : "s_item_gunpowder_green",
+				"sprite_inv" : "s_item_gunpowder_green",
+				"stack_max" : 100,
+				"value" : 5,
+				"weight" : 0.02
+			}
+		},
+		"gunpowder_orange" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一种高级火药，具有鲜艳的橙色。用于制作大威力弹药和特种弹药。",
+				"name" : "Orange gunpowder",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "ammo",
+				"sprite_ingame" : "s_item_gunpowder_orange",
+				"sprite_inv" : "s_item_gunpowder_orange",
+				"stack_max" : 1,
+				"value" : 5,
+				"weight" : 0.02
+			}
+		},
+		"gunpowder_red" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一种军用级火药，呈深红色。是现有的最强大、最稳定的火药，用于制作最好的弹药。",
+				"name" : "Red gunpowder",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "ammo",
+				"sprite_ingame" : "s_item_gunpowder_red",
+				"sprite_inv" : "s_item_gunpowder_red",
+				"stack_max" : 100,
+				"value" : 10,
+				"weight" : 0.02
+			}
+		},
+		"hair_dryer" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个吹风机。一个更舒适时代的遗物。可以拆解以获取电子元件。",
+				"name" : "Hair dryer",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_hair_dryer",
+				"sprite_inv" : "s_item_hair_dryer",
+				"stack_max" : 1,
+				"value" : 800,
+				"weight" : 0.6
+			}
+		},
+		"hammer" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一把坚固的锤子。一种基础但必不可少的建筑和维修工具。情急之下也可用作临时武器。",
+				"name" : "Hammer",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_hammer",
+				"sprite_inv" : "s_item_hammer",
+				"stack_max" : 1,
+				"value" : 70,
+				"weight" : 0.35
+			}
+		},
+		"hard_disk" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个硬盘驱动器。它可能包含有价值的数据，也可能已被清空。可以拆解以获取电子元件。",
+				"name" : "Hard disk",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_hard_disk",
+				"sprite_inv" : "s_item_hard_disk",
+				"stack_max" : 1,
+				"value" : 850,
+				"weight" : 0.2
+			}
+		},
+		"hose" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一截橡胶软管。可用于虹吸液体或作为制作元件。",
+				"name" : "Hose",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_hose",
+				"sprite_inv" : "s_item_hose",
+				"stack_max" : 1,
+				"value" : 400,
+				"weight" : 0.1
+			}
+		},
+		"injector_vuoto" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个空的医用注射器。可以填充各种物质来制造注射剂。",
+				"name" : "BD Medical Syringe",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_injector_vuoto",
+				"sprite_inv" : "s_item_injector_vuoto",
+				"stack_max" : 4,
+				"value" : 250,
+				"weight" : 0.01
+			}
+		},
+		"key_laboratory_rovinata" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一把通往实验室入口的破损钥匙。它与一项任务有关，所以一定很重要，但它损坏得太严重了，无法使用。",
+				"name" : "Ruined Laboratory entrance key",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_key_laboratory_rovinata",
+				"sprite_inv" : "s_item_key_laboratory_rovinata",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.05
+			}
+		},
+		"knife" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一把普通的厨房刀。算不上什么武器，但总比没有好。可以当废料卖掉。",
+				"name" : "Knife",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_knife",
+				"sprite_inv" : "s_item_knife",
+				"stack_max" : 5,
+				"value" : 50,
+				"weight" : 0.05
+			}
+		},
+		"lighter" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个一次性打火机。可用于生火和提供少量光亮。一种常见且有用的物品。",
+				"name" : "Lighter",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_lighter_blue",
+				"sprite_inv" : "s_item_lighter_blue",
+				"stack_max" : 1,
+				"value" : 400,
+				"weight" : 0.05
+			}
+		},
+		"mail" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个装有秘密信息的密封信封。它不是给你的，但可能对某人有价值。",
+				"name" : "Secret mail",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_mail",
+				"sprite_inv" : "s_item_mail",
+				"stack_max" : 1,
+				"value" : 90,
+				"weight" : 0.1
+			}
+		},
+		"matches" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一盒火柴。适合生火，但不如打火机可靠。不过仍是一种宝贵的生存工具。",
+				"name" : "Matches",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_matches",
+				"sprite_inv" : "s_item_matches",
+				"stack_max" : 5,
+				"value" : 40,
+				"weight" : 0.01
+			}
+		},
+		"metal_pipe" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一根坚固的金属管。可用作临时武器或制作元件。",
+				"name" : "Metal pipe",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_metal_pipe",
+				"sprite_inv" : "s_item_metal_pipe",
+				"stack_max" : 4,
+				"value" : 60,
+				"weight" : 0.25
+			}
+		},
+		"metro" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个可伸缩的卷尺。一种用于建筑和制作的有用工具。",
+				"name" : "Tape measure",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_metro",
+				"sprite_inv" : "s_item_metro",
+				"stack_max" : 1,
+				"value" : 110,
+				"weight" : 0.05
+			}
+		},
+		"military_circuit" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一块复杂的军用级电路板。它是一件珍贵的高科技电子产品，深受技术人员和商人的追捧。",
+				"name" : "Military circuit",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_military_circuit",
+				"sprite_inv" : "s_item_military_circuit",
+				"stack_max" : 1,
+				"value" : 9000,
+				"weight" : 0.1
+			}
+		},
+		"multi_plug" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个带多个插座的电源插排。可用于同时为多个设备供电，并可拆解以获取电子元件。",
+				"name" : "Multi-plug",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_multi_plug",
+				"sprite_inv" : "s_item_multi_plug",
+				"stack_max" : 1,
+				"value" : 250,
+				"weight" : 0.2
+			}
+		},
+		"nail" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一根普通的铁钉。一种基础但必不可少的建筑和制作元件。",
+				"name" : "Nail",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_nail",
+				"sprite_inv" : "s_item_nail",
+				"stack_max" : 25,
+				"value" : 20,
+				"weight" : 0.04
+			}
+		},
+		"natale_luci_kit" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "使用此物品来建造灯具",
+				"name" : "Lights kit",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_natale_luci_kit",
+				"sprite_inv" : "s_item_natale_luci_kit",
+				"stack_max" : 1,
+				"value" : 10,
+				"weight" : 5
+			}
+		},
+		"necklace_gold" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一条沉重的金项链。一件珍贵的珠宝，可以卖个非常高的价钱。",
+				"name" : "Golden Necklace",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_necklace_gold",
+				"sprite_inv" : "s_item_necklace_gold",
+				"stack_max" : 1,
+				"value" : 15000,
+				"weight" : 1
+			}
+		},
+		"paint_white" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一罐白色油漆。可用于伪装武器和装备，或作为制作元件。",
+				"name" : "White paint",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_paint_white",
+				"sprite_inv" : "s_item_paint_white",
+				"stack_max" : 1,
+				"value" : 400,
+				"weight" : 0.5
+			}
+		},
+		"paper" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一叠白纸。在‘区域’中是稀有商品。可用于书写、绘画或作为制作元件。",
+				"name" : "papers",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_paper",
+				"sprite_inv" : "s_item_paper",
+				"stack_max" : 1,
+				"value" : 130,
+				"weight" : 0.05
+			}
+		},
+		"pepper" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一小袋黑胡椒。一种简单的香料，即使是最平淡的食物也能变得更可口。",
+				"name" : "Pepper",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_pepper",
+				"sprite_inv" : "s_item_pepper",
+				"stack_max" : 10,
+				"value" : 15,
+				"weight" : 0.01
+			}
+		},
+		"pillow" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个柔软的枕头。在‘区域’的严酷现实中，一个小小的安慰也能带来巨大的改变。",
+				"name" : "pillow",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_pillow",
+				"sprite_inv" : "s_item_pillow",
+				"stack_max" : 1,
+				"value" : 370,
+				"weight" : 0.2
+			}
+		},
+		"pliers" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一把钳子。一种用于夹持、弯曲和切割金属丝和其他小金属物体的多功能工具。",
+				"name" : "Pliers",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_pliers",
+				"sprite_inv" : "s_item_pliers",
+				"stack_max" : 1,
+				"value" : 100,
+				"weight" : 0.1
+			}
+		},
+		"pot_cooking" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个坚固的烹饪锅。准备食物和烧水的必备品。对任何幸存者来说都是宝贵的物品。",
+				"name" : "Cooking pot",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_pot_cooking",
+				"sprite_inv" : "s_item_pot_cooking",
+				"stack_max" : 1,
+				"value" : 200,
+				"weight" : 0.7
+			}
+		},
+		"power_bank" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个便携式电源。当你远离电源时，可用于为电子设备充电。对任何现代幸存者来说都是宝贵的物品。",
+				"name" : "Power bank",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_power_bank",
+				"sprite_inv" : "s_item_power_bank",
+				"stack_max" : 1,
+				"value" : 800,
+				"weight" : 0.25
+			}
+		},
+		"power_outlet" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个标准电源插座。可以拆解以获取电子元件。",
+				"name" : "Power outlet",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_power_outlet",
+				"sprite_inv" : "s_item_power_outlet",
+				"stack_max" : 1,
+				"value" : 160,
+				"weight" : 0.1
+			}
+		},
+		"prologue_letter" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一封给酒保的信。它与一项任务有关，所以可能很重要。",
+				"name" : "Letter for Barman",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_mail",
+				"sprite_inv" : "s_item_mail",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.1
+			}
+		},
+		"psy_helmet" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个奇怪的、拼凑而成的头盔，旨在保护佩戴者免受精神辐射。它与一项任务有关，而且看起来饱经风霜。",
+				"name" : "Psy Helmet",
+				"quest_item" : true,
+				"can_be_sold" : false,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_psy_helmet",
+				"sprite_inv" : "s_item_psy_helmet",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.5
+			}
+		},
+		"quest_crimson_equipment_bag" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个装有属于猩红集团装备的公文包。它与一项任务有关，所以可能很重要。",
+				"name" : "Briefcase",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_base_empty",
+				"sprite_inv" : "s_item_base_empty",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 8
+			}
+		},
+		"quest_concrete_bag" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个装满混凝土混合物的箱子。它与一项任务有关，所以很可能是某个建筑项目需要的。",
+				"name" : "Concrete box",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_concrete_bag",
+				"sprite_inv" : "s_item_concrete_bag",
+				"stack_max" : 4,
+				"value" : 0,
+				"weight" : 10
+			}
+		},
+		"quest_document_2" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个装有秘密文件的文件夹。它们与一项任务有关，所以一定很重要。",
+				"name" : "Secret documents",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_documents_B",
+				"sprite_inv" : "s_item_documents_B",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.1
+			}
+		},
+		"quest_dogtag_spy" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个名叫Vlasov的间谍的身份牌。它与一项任务有关，也是一次成功行动的证明。",
+				"name" : "Vlasov's Dogtag",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_dogtag_spy",
+				"sprite_inv" : "s_item_dogtag_spy",
+				"stack_max" : 4,
+				"value" : 0,
+				"weight" : 0.1
+			}
+		},
+		"quest_dynamite" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一根炸药。一种强力爆炸物，应极其小心地处理。它与一项任务有关，所以很可能是用来清除障碍的。",
+				"name" : "Dynamite",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_dynamite",
+				"sprite_inv" : "s_item_dynamite",
+				"stack_max" : 1,
+				"value" : 1000,
+				"weight" : 2
+			}
+		},
+		"quest_documents_fire_station" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "来自扎科夫消防站的文件。它们与一项任务有关，很可能包含有关城镇基础设施的重要信息。",
+				"name" : "Zakov fire station documents",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_documents_fire_station",
+				"sprite_inv" : "s_item_documents_fire_station",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.05
+			}
+		},
+		"quest_documents_police_station" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "来自扎科夫警察局的文件。它们与一项任务有关，很可能包含有关城镇安全的重要信息。",
+				"name" : "Zakov police station documents",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_documents_police_station",
+				"sprite_inv" : "s_item_documents_police_station",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.05
+			}
+		},
+		"quest_documents_revelations_1" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一套与神秘水晶有关的文件中的第一部分。它们与一项任务有关，是一个更大谜团的关键部分。",
+				"name" : "First part of the Crystal documents",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_documents_revelations_1",
+				"sprite_inv" : "s_item_documents_revelations_1",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.05
+			}
+		},
+		"quest_documents_revelations_2" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一套与神秘水晶有关的文件中的第二部分。它们与一项任务有关，是更大谜团的另一块拼图。",
+				"name" : "Second part of the Crystal documents",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_documents_revelations_2",
+				"sprite_inv" : "s_item_documents_revelations_2",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.05
+			}
+		},
+		"quest_documents_school" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "在学校找到的文件。它们与一项任务有关，很可能包含有关城镇历史或其居民的信息。",
+				"name" : "Documents found in the school",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_documents_school",
+				"sprite_inv" : "s_item_documents_school",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.05
+			}
+		},
+		"quest_eyes_spy" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "间谍Vlasov的眼睛。一个可怕但必要的、证明任务成功的证物。它与一项任务有关。",
+				"name" : "Vlasov's eyes",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_eyes_spy",
+				"sprite_inv" : "s_item_eyes_spy",
+				"stack_max" : 4,
+				"value" : 0,
+				"weight" : 0.1
+			}
+		},
+		"quest_find_usb_sawmill" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "在锯木厂找到的U盘。它与一项任务有关，很可能包含重要数据。",
+				"name" : "USB drive found in the sawmill",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_usb_quest",
+				"sprite_inv" : "s_item_usb_quest",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.1
+			}
+		},
+		"quest_motel_2_document" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "在汽车旅馆找到的文件",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"name" : "Secret documents",
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_documents_D",
+				"sprite_inv" : "s_item_documents_D",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.1
+			}
+		},
+		"quest_psy_helmet_circuit" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一块奇怪的发光电路板。它是精神头盔的关键部件，与一项任务有关。",
+				"name" : "Strange circuit",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_quest_psy_helmet_circuit",
+				"sprite_inv" : "s_item_quest_psy_helmet_circuit",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.1
+			}
+		},
+		"quest_retrieve_document_village" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "在村庄找到的秘密文件。它与一项任务有关，很可能包含有价值的信息。",
+				"name" : "Secret documents",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_documents",
+				"sprite_inv" : "s_item_documents",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.1
+			}
+		},
+		"quest_retrieve_equipment_1" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个装有宝贵装备的箱子。它与一项任务有关，有人在等着它。",
+				"name" : "Equipment chest",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_quest_chest_equipment",
+				"sprite_inv" : "s_item_quest_chest_equipment",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 8
+			}
+		},
+		"quest_retrieve_equipment_2" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个装有宝贵装备的箱子。它与一项任务有关，有人在等着它。",
+				"name" : "Equipment chest",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_quest_chest_equipment",
+				"sprite_inv" : "s_item_quest_chest_equipment",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 8
+			}
+		},
+		"quest_retrieve_equipment_3" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个装有宝贵装备的箱子。它与一项任务有关，有人在等着它。",
+				"name" : "Equipment chest",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_quest_chest_equipment",
+				"sprite_inv" : "s_item_quest_chest_equipment",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 8
+			}
+		},
+		"quest_retrieve_equipment_4" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个装有宝贵装备的箱子。它与一项任务有关，有人在等着它。",
+				"name" : "Equipment chest",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_quest_chest_equipment",
+				"sprite_inv" : "s_item_quest_chest_equipment",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 8
+			}
+		},
+		"quest_retrieve_equipment_5" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个装有宝贵装备的箱子。它与一项任务有关，有人在等着它。",
+				"name" : "Equipment chest",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_quest_chest_equipment",
+				"sprite_inv" : "s_item_quest_chest_equipment",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 8
+			}
+		},
+		"quest_retrieve_equipment_6" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个装有宝贵装备的箱子。它与一项任务有关，有人在等着它。",
+				"name" : "Equipment chest",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_quest_chest_equipment",
+				"sprite_inv" : "s_item_quest_chest_equipment",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 8
+			}
+		},
+		"quest_retrive_analyzer_anomaly_fire_big" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "在大型火焰异常附近找到的分析仪",
+				"name" : "scientiest's analyzer",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_analyzer",
+				"sprite_inv" : "s_item_analyzer",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.3
+			}
+		},
+		"quest_retrive_analyzer_anomaly_fire_medium" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "在中型火焰异常附近找到的分析仪",
+				"name" : "scientiest's analyzer",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_analyzer",
+				"sprite_inv" : "s_item_analyzer",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.3
+			}
+		},
+		"quest_retrive_analyzer_anomaly_gas_big" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "在大型化学异常附近找到的分析仪",
+				"name" : "scientiest's analyzer",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_analyzer",
+				"sprite_inv" : "s_item_analyzer",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.3
+			}
+		},
+		"quest_retrive_analyzer_anomaly_gas_medium" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "在中型化学异常附近找到的分析仪",
+				"name" : "scientiest's analyzer",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_analyzer",
+				"sprite_inv" : "s_item_analyzer",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.3
+			}
+		},
+		"quest_retrive_analyzer_forest" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "在‘森林’中找到的科学家分析仪",
+				"name" : "scientiest's analyzer",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_analyzer",
+				"sprite_inv" : "s_item_analyzer",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.3
+			}
+		},
+		"quest_retrive_analyzer_industrial_area" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "在‘工业区’找到的科学家分析仪",
+				"name" : "scientiest's analyzer",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_analyzer",
+				"sprite_inv" : "s_item_analyzer",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.3
+			}
+		},
+		"quest_retrive_analyzer_makeshift_camp" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "在‘临时营地’找到的科学家分析仪",
+				"name" : "scientiest's analyzer",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_analyzer",
+				"sprite_inv" : "s_item_analyzer",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.3
+			}
+		},
+		"quest_retrive_analyzer_mall" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "在‘商场’找到的科学家分析仪",
+				"name" : "scientiest's analyzer",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_analyzer",
+				"sprite_inv" : "s_item_analyzer",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.3
+			}
+		},
+		"quest_retrive_analyzer_swamp" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "在‘沼泽’找到的科学家分析仪",
+				"name" : "scientiest's analyzer",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_analyzer",
+				"sprite_inv" : "s_item_analyzer",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.3
+			}
+		},
+		"quest_retrive_backpack_forest" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "在‘森林’中找到的丢失背包。它与一项任务有关，很可能有人在找它。",
+				"name" : "Lost backpack found in the forest",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack4",
+				"sprite_inv" : "s_item_backpack4",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 3
+			}
+		},
+		"quest_retrive_backpack_industrial_area" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "在‘工业区’找到的丢失背包。它与一项任务有关，很可能有人在找它。",
+				"name" : "Lost backpack found in the industrial area",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack4",
+				"sprite_inv" : "s_item_backpack4",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 3
+			}
+		},
+		"quest_retrive_backpack_makeshift_camp" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "在‘临时营地’找到的丢失背包。它与一项任务有关，很可能有人在找它。",
+				"name" : "Lost backpack found in the makeshift camp",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack4",
+				"sprite_inv" : "s_item_backpack4",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 3
+			}
+		},
+		"quest_retrive_backpack_swamp" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "在‘沼泽’找到的丢失背包。它与一项任务有关，很可能有人在找它。",
+				"name" : "Lost backpack found in the swamp",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack4",
+				"sprite_inv" : "s_item_backpack4",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 3
+			}
+		},
+		"quest_retrive_document_forest" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "在‘森林’中找到的丢失文件。它与一项任务有关，很可能有人在找它。",
+				"name" : "Lost document found in the forest",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_mail",
+				"sprite_inv" : "s_item_mail",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.1
+			}
+		},
+		"quest_retrive_document_industrial_area" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "在‘工业区’找到的丢失文件。它与一项任务有关，很可能有人在找它。",
+				"name" : "Lost document found in the industrial area",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_mail",
+				"sprite_inv" : "s_item_mail",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.1
+			}
+		},
+		"quest_retrive_document_makeshift_camp" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "在‘临时营地’找到的丢失文件。它与一项任务有关，很可能有人在找它。",
+				"name" : "Lost document found in the makeshift camp",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_mail",
+				"sprite_inv" : "s_item_mail",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.1
+			}
+		},
+		"quest_retrive_document_swamp" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "在‘沼泽’找到的丢失文件。它与一项任务有关，很可能有人在找它。",
+				"name" : "Lost document found in the swamp",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_mail",
+				"sprite_inv" : "s_item_mail",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.1
+			}
+		},
+		"quest_retrieve_equipment_cc" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个装有属于猩红集团装备的箱子。它与一项任务有关，有人在等着它。",
+				"name" : "Equipment chest",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_quest_chest_equipment",
+				"sprite_inv" : "s_item_quest_chest_equipment",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 15
+			}
+		},
+		"quest_retrieve_equipment_ga" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个装有属于绿军装备的箱子。它与一项任务有关，有人在等着它。",
+				"name" : "Equipment chest",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_quest_chest_equipment",
+				"sprite_inv" : "s_item_quest_chest_equipment",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 15
+			}
+		},
+		"quest_transmitter" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个小型的无线电发射器。它与一项任务有关，很可能需要用它来发送信号或信息。",
+				"name" : "Transmitter",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_transmitter",
+				"sprite_inv" : "s_item_transmitter",
+				"stack_max" : 1,
+				"value" : 100,
+				"weight" : 0.1
+			}
+		},
+		"rabbit_pelt" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "柔软的兔皮。不是很值钱，但可用于制作或卖给商人。",
+				"name" : "Rabbit pelt",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_rabbit_pelt",
+				"sprite_inv" : "s_item_rabbit_pelt",
+				"stack_max" : 1,
+				"value" : 120,
+				"weight" : 0.1
+			}
+		},
+		"rags" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一捆脏兮兮的破布。可用于清洁、制作，或在紧急时用作临时绷带。一种常见但有用的物品。",
+				"name" : "Rags",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_rags",
+				"sprite_inv" : "s_item_rags",
+				"stack_max" : 10,
+				"value" : 80,
+				"weight" : 0.05
+			}
+		},
+		"ram" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一根随机存取存储器（内存条）。任何电脑的关键部件，也是一件珍贵的电子产品。",
+				"name" : "RAM",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_ram",
+				"sprite_inv" : "s_item_ram",
+				"stack_max" : 1,
+				"value" : 5000,
+				"weight" : 0.1
+			}
+		},
+		"raw_pelt" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一张未经处理的新鲜动物毛皮。在这种状态下不是很值钱，但可以鞣制后用于制作。",
+				"name" : "Pelt",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_wolf_pelt",
+				"sprite_inv" : "s_item_wolf_pelt",
+				"stack_max" : 1,
+				"value" : 300,
+				"weight" : 0.25
+			}
+		},
+		"relay" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个电磁开关（继电器）。一种广泛用于各种设备中的常见电子元件。",
+				"name" : "Relay",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_relay",
+				"sprite_inv" : "s_item_relay",
+				"stack_max" : 1,
+				"value" : 220,
+				"weight" : 0.1
+			}
+		},
+		"repair_radio_tower" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个包含修复无线电塔所需工具和材料的工具包。它与一项任务有关，是恢复通讯的关键部件。",
+				"name" : "repair kit for radio tower",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_repair_radio_tower",
+				"sprite_inv" : "s_item_repair_radio_tower",
+				"stack_max" : 1,
+				"value" : 1000,
+				"weight" : 2.5
+			}
+		},
+		"repair_power_grid" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个包含修复电网所需工具和材料的工具包。它与一项任务有关，是恢复该地区电力的关键一步。",
+				"name" : "Repair kit for the power grid",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_repair_radio_tower",
+				"sprite_inv" : "s_item_repair_radio_tower",
+				"stack_max" : 1,
+				"value" : 1000,
+				"weight" : 2.5
+			}
+		},
+		"ring_grigory" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一枚简单的银戒指，内侧刻有‘Grigoriy’的名字。它与一项任务有关，也是对一位逝去朋友的纪念。",
+				"name" : "Grigoriy's ring",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_ring_grigory",
+				"sprite_inv" : "s_item_ring_grigory",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.05
+			}
+		},
+		"rope" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一捆坚固的绳索。一种用于攀爬、固定装备和执行各种其他任务的多功能工具。",
+				"name" : "Rope",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_rope",
+				"sprite_inv" : "s_item_rope",
+				"stack_max" : 1,
+				"value" : 600,
+				"weight" : 0.3
+			}
+		},
+		"roubles" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "‘区域’的官方货币。可用于购买和出售商品及服务。",
+				"name" : "Roubles",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_roubles",
+				"sprite_inv" : "s_item_roubles",
+				"stack_max" : 999,
+				"value" : 1,
+				"weight" : 0.00
+			}
+		},
+		"salt" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一小袋盐。一种简单但必不可少的食物调味品。",
+				"name" : "Salt",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_salt",
+				"sprite_inv" : "s_item_salt",
+				"stack_max" : 10,
+				"value" : 15,
+				"weight" : 0.01
+			}
+		},
+		"scatola_nera" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个飞行记录仪，也称为‘黑匣子’。它与一项任务有关，很可能包含来自一架坠毁飞机的宝贵数据。",
+				"name" : "Flight recorder",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_scatola_nera",
+				"sprite_inv" : "s_item_scatola_nera",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 5
+			}
+		},
+		"scientific_analyzer" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一台精密的科学分析仪。用于研究异常材料和现象。对任何严肃的研究人员来说都是宝贵的工具。",
+				"name" : "Scientific analyzer",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_analyzer",
+				"sprite_inv" : "s_item_analyzer",
+				"stack_max" : 1,
+				"value" : 2500,
+				"weight" : 0.25
+			}
+		},
+		"scissors_surgery" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一把手术剪。用于医疗程序的精密器械。对任何医护来说都是宝贵的工具。",
+				"name" : "Surgical scissors",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_scissors_surgery",
+				"sprite_inv" : "s_item_scissors_surgery",
+				"stack_max" : 4,
+				"value" : 500,
+				"weight" : 0.01
+			}
+		},
+		"scrap_ammo" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一堆用过的弹壳、哑弹和其他弹药相关碎片。可以被分解并用于制作。",
+				"name" : "scrap ammo",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_scrap_ammo",
+				"sprite_inv" : "s_item_scrap_ammo",
+				"stack_max" : 100,
+				"value" : 10,
+				"weight" : 0.005
+			}
+		},
+		"scrap_food" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一堆被丢弃的食物残渣。虽然不怎么开胃，但可用作诱饵或分解为有机材料。",
+				"name" : "scrap food",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_scrap_food",
+				"sprite_inv" : "s_item_scrap_food",
+				"stack_max" : 20,
+				"value" : 10,
+				"weight" : 0.05
+			}
+		},
+		"scrap_material" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一堆杂项废料。可以被分解并用于制作各种物品。",
+				"name" : "scrap material",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_scrap_metal",
+				"sprite_inv" : "s_item_scrap_metal",
+				"stack_max" : 50,
+				"value" : 10,
+				"weight" : 0.05
+			}
+		},
+		"scrap_med" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一堆过期药物、用过的绷带和其他医疗废物。可以被分解并用于制作。",
+				"name" : "scrap medicine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_scrap_med",
+				"sprite_inv" : "s_item_scrap_med",
+				"stack_max" : 20,
+				"value" : 10,
+				"weight" : 0.05
+			}
+		},
+		"scrap_metal" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一堆生锈、扭曲的金属。可以被分解并用于制作。",
+				"name" : "scrap metal UNUSED",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_scrap_metal",
+				"sprite_inv" : "s_item_scrap_metal",
+				"stack_max" : 50,
+				"value" : 10,
+				"weight" : 0.05
+			}
+		},
+		"scrap_weapon" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一堆损坏生锈的武器零件。可以被分解并用于制作或修理武器。",
+				"name" : "scrap weapon",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_scrap_weapon",
+				"sprite_inv" : "s_item_scrap_weapon",
+				"stack_max" : 50,
+				"value" : 10,
+				"weight" : 0.05
+			}
+		},
+		"scrap_armor" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一堆损坏破裂的装甲板。可以被分解并用于制作或修理护甲。",
+				"name" : "scrap armor",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_scrap_armor",
+				"sprite_inv" : "s_item_scrap_armor",
+				"stack_max" : 40,
+				"value" : 15,
+				"weight" : 0.05
+			}
+		},
+		"screw_nut" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个普通的螺母。一种基础但必不可少的建筑和制作元件。",
+				"name" : "Screw nut",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_screw_nut",
+				"sprite_inv" : "s_item_screw_nut",
+				"stack_max" : 15,
+				"value" : 25,
+				"weight" : 0.02
+			}
+		},
+		"screwdriver" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一把普通的螺丝刀。一种用于维修和拆卸的基础但必不可少的工具。",
+				"name" : "screwdriver",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_screwdriver",
+				"sprite_inv" : "s_item_screwdriver",
+				"stack_max" : 1,
+				"value" : 100,
+				"weight" : 0.1
+			}
+		},
+		"shampoo" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一瓶洗发水。在‘区域’中是稀有的奢侈品，也是一个更文明时代的提醒物。",
+				"name" : "shampoo",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_shampoo",
+				"sprite_inv" : "s_item_shampoo",
+				"stack_max" : 1,
+				"value" : 1250,
+				"weight" : 0.4
+			}
+		},
+		"smartphone" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一部现代智能手机。没有网络，它作为通讯设备毫无用处，但它是一件珍贵的高科技电子产品。",
+				"name" : "Smartphone",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_smartphone",
+				"sprite_inv" : "s_item_smartphone",
+				"stack_max" : 1,
+				"value" : 7000,
+				"weight" : 0.15
+			}
+		},
+		"soap" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一块肥皂。一种简单但宝贵的物品，用于保持卫生和预防感染。",
+				"name" : "Soap",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "med",
+				"sprite_ingame" : "s_item_soap",
+				"sprite_inv" : "s_item_soap",
+				"stack_max" : 1,
+				"value" : 550,
+				"weight" : 0.2
+			}
+		},
+		"spark_plug" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个火花塞。内燃机的关键部件。",
+				"name" : "spark plug",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_spark_plug",
+				"sprite_inv" : "s_item_spark_plug",
+				"stack_max" : 1,
+				"value" : 500,
+				"weight" : 0.1
+			}
+		},
+		"spider_eye" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一只巨型蜘蛛的巨大复眼。这是一件令人毛骨悚然的战利品，但也是奇异生物材料的宝贵来源。",
+				"name" : "spider eye",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_spider_eye",
+				"sprite_inv" : "s_item_spider_eye",
+				"stack_max" : 1,
+				"value" : 2500,
+				"weight" : 0.1
+			}
+		},
+		"spider_web" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一束又厚又黏的蜘蛛网。它异常坚固，可用于制作。",
+				"name" : "Spider Web",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_spider_web",
+				"sprite_inv" : "s_item_spider_web",
+				"stack_max" : 1,
+				"value" : 1500,
+				"weight" : 0.1
+			}
+		},
+		"spoon" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一把普通的金属勺子。文明生活的提醒物，也是一个有用的进食工具。可以当废料卖掉。",
+				"name" : "Spoon",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_spoon",
+				"sprite_inv" : "s_item_spoon",
+				"stack_max" : 5,
+				"value" : 50,
+				"weight" : 0.05
+			}
+		},
+		"spray_bug" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一罐驱虫喷雾。一种宝贵的工具，可用于驱赶‘区域’中的变异昆虫。",
+				"name" : "Bug spray",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_spray_bug",
+				"sprite_inv" : "s_item_spray_bug",
+				"stack_max" : 1,
+				"value" : 400,
+				"weight" : 0.2
+			}
+		},
+		"ssd" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个固态硬盘。一种比传统硬盘更快、更可靠的现代数据存储设备。一件珍贵的高科技电子产品。",
+				"name" : "SSD drive",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_ssd",
+				"sprite_inv" : "s_item_ssd",
+				"stack_max" : 1,
+				"value" : 6500,
+				"weight" : 0.1
+			}
+		},
+		"tea_bag" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个简单的茶包。在‘区域’的混乱世界中能提供片刻宁静的小小安慰。",
+				"name" : "Tea bag",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_tea_bag",
+				"sprite_inv" : "s_item_tea_bag",
+				"stack_max" : 1,
+				"value" : 300,
+				"weight" : 0.1
+			}
+		},
+		"toilet_paper" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一卷卫生纸。在‘区域’中是出人意料的宝贵商品，也是一个更文明时代的象征。",
+				"name" : "Toilet paper",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_toilet_paper",
+				"sprite_inv" : "s_item_toilet_paper",
+				"stack_max" : 1,
+				"value" : 1000,
+				"weight" : 0.1
+			}
+		},
+		"toilet_paper_quest" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一卷高品质的三层卫生纸。它与一项任务有关，是‘区域’中真正奢侈的象征。",
+				"name" : "High quality toilet paper",
+				"quest_item" : true,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_tp_quest",
+				"sprite_inv" : "s_item_tp_quest",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.1
+			}
+		},
+		"usb" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个标准的USB闪存驱动器。它可能包含有价值的数据，也可能是空的。一种常见的现代技术产品。",
+				"name" : "Usb",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_usb",
+				"sprite_inv" : "s_item_usb",
+				"stack_max" : 1,
+				"value" : 1500,
+				"weight" : 0.1
+			}
+		},
+		"weather_kit" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "在选择地图时使用此物品查看天气",
+				"name" : "Weather station kit",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_kit_weather",
+				"sprite_inv" : "s_item_kit_weather",
+				"stack_max" : 1,
+				"value" : 10,
+				"weight" : 5
+			}
+		},
+		"wheel" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个汽车轮子。它又重又大，但是橡胶和金属的宝贵来源。",
+				"name" : "Wheel",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_wheel",
+				"sprite_inv" : "s_item_wheel",
+				"stack_max" : 1,
+				"value" : 3500,
+				"weight" : 2
+			}
+		},
+		"wires" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一捆电线。一种常见且有用的元件，用于制作和修理电子设备。",
+				"name" : "Wires",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_wires",
+				"sprite_inv" : "s_item_wires",
+				"stack_max" : 2,
+				"value" : 600,
+				"weight" : 0.05
+			}
+		},
+		"wolf_pelt" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一张厚实的灰色狼皮。猎人常见的战利品，可用于制作。",
+				"name" : "Wolf pelt",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_wolf_pelt",
+				"sprite_inv" : "s_item_wolf_pelt",
+				"stack_max" : 1,
+				"value" : 500,
+				"weight" : 0.2
+			}
+		},
+		"wrench" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一把沉重的扳手。一种用于机械维修的基础但必不可少的工具。",
+				"name" : "Wrench",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_wrench",
+				"sprite_inv" : "s_item_wrench",
+				"stack_max" : 1,
+				"value" : 80,
+				"weight" : 0.2
+			}
+		},
+		"wristwatch" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一块简单的腕表。在‘区域’中是可靠的计时方式。",
+				"name" : "Wristwatch",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_wristwatch",
+				"sprite_inv" : "s_item_wristwatch",
+				"stack_max" : 1,
+				"value" : 3500,
+				"weight" : 0.2
+			}
+		},
+		"wristwatch_gold" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一块镀金腕表。一件浮华而贵重的物品，肯定会引起注意。",
+				"name" : "Gold Wristwatch",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_wristwatch_gold",
+				"sprite_inv" : "s_item_wristwatch_gold",
+				"stack_max" : 1,
+				"value" : 6800,
+				"weight" : 1.5
+			}
+		},
+		"zippo" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个经典的 Zippo 打火机。一种可靠且时髦的点火方式。",
+				"name" : "Zippo lighter",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_zippo",
+				"sprite_inv" : "s_item_zippo",
+				"stack_max" : 1,
+				"value" : 350,
+				"weight" : 0.1
+			}
+		},
+		"zippo_gold" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一个镀金的 Zippo 打火机。一件稀有而珍贵的收藏品。",
+				"name" : "Golden zippo",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_item_zippo_gold",
+				"sprite_inv" : "s_item_zippo_gold",
+				"stack_max" : 1,
+				"value" : 4200,
+				"weight" : 0.3
+			}
+		},
+		"zombie_skin" : {
+			"basic" : {
+				"category" : "barter",
+				"description" : "一块坚韧、皮革般的僵尸皮肤。这是一件令人毛骨悚然的战利品，但可用于制作。",
+				"name" : "zombie skin",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_zombie_skin",
+				"sprite_inv" : "s_item_zombie_skin",
+				"stack_max" : 1,
+				"value" : 560,
+				"weight" : 0.1
+			}
+		}
+	},
+	"metadata" : {
+		"author" : "Luca",
+		"description" : "Base gamedata for ZERO Sievert",
+		"project" : "ZERO Sievert"
+	},
+	"usage" : "item",
+	"version" : 0
+}

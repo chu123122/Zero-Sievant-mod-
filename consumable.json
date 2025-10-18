@@ -1,0 +1,1138 @@
+{
+	"data" : {
+		"blue_cigarettes" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "苏制时代的 Prima 香烟，仍然可以在‘森林’的地堡和废弃的绿军前哨站的储藏中找到。是扎科夫‘事件’前美好时光的提醒物。在记得旧世界的老猎人中很受欢迎。",
+				"name" : "Prima Cigarettes",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_cigarettes_blue",
+				"sprite_inv" : "s_item_cigarettes_blue",
+				"stack_max" : 5,
+				"value" : 5000,
+				"weight" : 0.05
+			},
+			"consumable" : {
+				"animation" : "s_arms_smoke",
+				"energy" : 0,
+				"fatigue" : 0,
+				"radiation" : -0.2,
+				"sound" : "snd_accendino_1",
+				"thirst" : -4
+			}
+		},
+		"boar_meat" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "来自扎科夫受污染‘森林’中游荡的变异野生动物的新鲜野猪肉。辐射水平令人担忧，但在‘区域’中蛋白质稀缺。食用前请彻底煮熟。",
+				"name" : "boar meat",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_boar_meat",
+				"sprite_inv" : "s_item_boar_meat",
+				"stack_max" : 1,
+				"value" : 250,
+				"weight" : 0.6
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat_meat",
+				"energy" : 35,
+				"fatigue" : -15,
+				"radiation" : 0.3,
+				"sound" : "snd_eating_1",
+				"thirst" : -25
+			}
+		},
+		"bread" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "灾难前的 Wonder Bread 面包，奇迹般地保存在‘商场’的废弃商店里。这么多年后依然新鲜，尽管有些人质疑什么样的防腐剂能在扎科夫‘事件’中幸存下来。",
+				"name" : "Wonder Bread",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_bread",
+				"sprite_inv" : "s_item_bread",
+				"stack_max" : 1,
+				"value" : 100,
+				"weight" : 0.3
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 18,
+				"fatigue" : -8,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : -8
+			}
+		},
+		"bread_rotten" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "在放射性废土中发现的发霉 Wonder Bread 面包。辐射加速了腐烂，但绝望的猎人在口粮不足时仍会食用。请谨慎行事。",
+				"name" : "Rotten Bread",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_bread_rotten",
+				"sprite_inv" : "s_item_bread_rotten",
+				"stack_max" : 1,
+				"value" : 30,
+				"weight" : 0.3
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 8,
+				"fatigue" : 12,
+				"radiation" : 0.25,
+				"sound" : "snd_eating_1",
+				"thirst" : -15
+			}
+		},
+		"butter" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "Land O'Lakes 黄油，扎科夫‘事件’前的稀有发现。一种高能量食物来源，在‘区域’中几乎和弹药一样珍贵。经常在地堡以高价交易。",
+				"name" : "Land O'Lakes Butter",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_butter",
+				"sprite_inv" : "s_item_butter",
+				"stack_max" : 1,
+				"value" : 290,
+				"weight" : 0.2
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 45,
+				"fatigue" : -20,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : -35
+			}
+		},
+		"canned_beans" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "灾难前的 Heinz 焗豆。由猩红集团的补给车队在‘工业区’仓库中囤积发现。罐头的完好表明是战前的西方进口货。",
+				"name" : "Heinz Baked Beans",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_beans",
+				"sprite_inv" : "s_item_beans",
+				"stack_max" : 1,
+				"value" : 150,
+				"weight" : 0.2
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 25,
+				"fatigue" : -12,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 15
+			}
+		},
+		"cheese" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "Kraft Singles，一种战前加工奶酪产品。大量的防腐剂使其仍可食用，使其成为猎人们可靠但不怎么开胃的卡路里来源。",
+				"name" : "Kraft Singles Cheese",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_cheese",
+				"sprite_inv" : "s_item_cheese",
+				"stack_max" : 1,
+				"value" : 450,
+				"weight" : 0.4
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 14,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"cheese_rotten" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "这片 Kraft Single 已经变质了。辐射似乎与防腐剂发生了不良反应，产生了一种独特的恶臭产品。只有真正绝望的人才会考虑把它当食物。",
+				"name" : "Rotten Cheese",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_cheese_rotten",
+				"sprite_inv" : "s_item_cheese_rotten",
+				"stack_max" : 1,
+				"value" : 40,
+				"weight" : 0.4
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 6,
+				"fatigue" : 0,
+				"radiation" : 0.12,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"chips" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "从‘商场’废弃商店搜刮的 Lay's 薯片。Kibba 的地盘很危险，但战利品值得冒险。铝箔包装让它们出奇地保鲜。",
+				"name" : "Lay's Potato Chips",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_chips",
+				"sprite_inv" : "s_item_chips",
+				"stack_max" : 1,
+				"value" : 230,
+				"weight" : 0.1
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 11,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"coke" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "来自猩红集团补给储藏点的 Coca-Cola。在扎科夫‘事件’后幸存下来的西方世界的味道。在猎人中被大量交易，既作为提神饮料也作为货币。",
+				"name" : "Coca-Cola",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_coke",
+				"sprite_inv" : "s_item_coke",
+				"stack_max" : 1,
+				"value" : 3500,
+				"weight" : 0.5
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink_cola",
+				"energy" : 7,
+				"fatigue" : 8,
+				"radiation" : 0,
+				"sound" : "snd_drinking_1",
+				"thirst" : 13
+			}
+		},
+		"crackers" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "一盒 Ritz 饼干，来自旧世界的咸味零食。与‘区域’中常见的受辐射食物相比，是一种受欢迎的调剂。",
+				"name" : "Ritz Crackers",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_crackers",
+				"sprite_inv" : "s_item_crackers",
+				"stack_max" : 1,
+				"value" : 80,
+				"weight" : 0.25
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 7,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : -2
+			}
+		},
+		"crackers_rotten" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "这些 Ritz 饼干已经变质发霉了。‘区域’的严酷环境对它们并不友好。吃掉它们是一场赌博。",
+				"name" : "Crackers",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_crackers_rotten",
+				"sprite_inv" : "s_item_crackers_rotten",
+				"stack_max" : 1,
+				"value" : 80,
+				"weight" : 0.25
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 3,
+				"fatigue" : 0,
+				"radiation" : 0.09,
+				"sound" : "snd_eating_1",
+				"thirst" : -3
+			}
+		},
+		"cup_coffee" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "一杯 Starbucks 咖啡，很可能是用搜刮来的咖啡豆冲泡的。一种奢侈品，提供了急需的能量补充，并能从扎科夫严峻的现实中短暂喘息。",
+				"name" : "Starbucks Coffee",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_cup_coffee",
+				"sprite_inv" : "s_item_cup_coffee",
+				"stack_max" : 1,
+				"value" : 300,
+				"weight" : 0.3
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink",
+				"energy" : 0,
+				"fatigue" : 13,
+				"radiation" : -0.3,
+				"sound" : "snd_drinking_1",
+				"thirst" : 5
+			}
+		},
+		"cup_tea" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "一杯 Lipton 茶。一种简单的慰藉，帮助猎人们承受在‘区域’中行动的精神压力。温暖和咖啡因同样宝贵。",
+				"name" : "Lipton Tea",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_cup_tea",
+				"sprite_inv" : "s_item_cup_tea",
+				"stack_max" : 1,
+				"value" : 300,
+				"weight" : 0.3
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink",
+				"energy" : 0,
+				"fatigue" : 8,
+				"radiation" : -0.19,
+				"sound" : "snd_drinking_1",
+				"thirst" : 10
+			}
+		},
+		"egg" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "来自变异鸡或其他鸟类的蛋。看起来足够安全可以食用，但谁知道扎科夫的辐射可能会有什么长期影响。",
+				"name" : "Egg",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_egg",
+				"sprite_inv" : "s_item_egg",
+				"stack_max" : 1,
+				"value" : 200,
+				"weight" : 0.2
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 5,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 2
+			}
+		},
+		"egg_boiled" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "一个煮熟的鸡蛋。一种简单可靠的蛋白质来源。是‘区域’中许多猎人的主食。",
+				"name" : "Boiled egg",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_egg_boiled",
+				"sprite_inv" : "s_item_egg_boiled",
+				"stack_max" : 1,
+				"value" : 450,
+				"weight" : 0.2
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 11,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"egg_cooked" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "一个煮熟的鸡蛋，很可能是在篝火上煎的。一种小小的奢侈品，让‘区域’的生活变得稍微可以忍受一些。",
+				"name" : "Cooked egg",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_egg_cooked",
+				"sprite_inv" : "s_item_egg_cooked",
+				"stack_max" : 1,
+				"value" : 800,
+				"weight" : 0.2
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 18,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"egg_rotten" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "一个臭鸡蛋。气味令人窒息。吃这个是个糟糕的主意，但在‘区域’里，有时没有好的选择。",
+				"name" : "Rotten Egg",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_egg_rotten",
+				"sprite_inv" : "s_item_egg_rotten",
+				"stack_max" : 1,
+				"value" : 35,
+				"weight" : 0.2
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 3,
+				"fatigue" : 0,
+				"radiation" : 0.1,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"energy_drink" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "来自猩红集团应急补给的 Red Bull 能量饮料。对于计划深入辐射弥漫的‘临时营地’或变异生物横行的‘沼泽’进行长时间远征的猎人来说是必需品。",
+				"name" : "Red Bull Energy Drink",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_energy_drink",
+				"sprite_inv" : "s_item_energy_drink",
+				"stack_max" : 1,
+				"value" : 500,
+				"weight" : 0.5
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink",
+				"energy" : 16,
+				"fatigue" : 18,
+				"radiation" : 0,
+				"sound" : "snd_drinking_1",
+				"thirst" : 15
+			}
+		},
+		"fruit_juice" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "Tropicana 橙汁，沦陷前世界的遗物。高糖含量能快速提供能量爆发，使其成为猎人们的最爱。",
+				"name" : "Tropicana Orange Juice",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_fruit_juice",
+				"sprite_inv" : "s_item_fruit_juice",
+				"stack_max" : 1,
+				"value" : 240,
+				"weight" : 1
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink_juice",
+				"energy" : 6,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_drinking_1",
+				"thirst" : 18
+			}
+		},
+		"generic_chocolate" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "Alyonka 巧克力，一个经典的俄罗斯品牌。对绿军士兵来说是家乡的甜蜜回忆，对其他人来说是宝贵的交易品。",
+				"name" : "Alyonka Chocolate",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_generic_chocolate",
+				"sprite_inv" : "s_item_generic_chocolate",
+				"stack_max" : 1,
+				"value" : 700,
+				"weight" : 0.25
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat_chocolate",
+				"energy" : 10,
+				"fatigue" : 5,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"hamburger" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "一个奇迹般保存下来的 McDonald's Big Mac。这是猩红集团试图从扎科夫废墟中夺回的颓废西方世界的象征。",
+				"name" : "McDonald's Big Mac",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_hamburger",
+				"sprite_inv" : "s_item_hamburger",
+				"stack_max" : 1,
+				"value" : 1600,
+				"weight" : 0.5
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 41,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"meat_cooked" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "来自‘区域’变异生物的熟肉。它在明火上烤过，去除了大部分辐射，使其成为重要的蛋白质来源。",
+				"name" : "Cooked meat",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_meat_cooked",
+				"sprite_inv" : "s_item_meat_cooked",
+				"stack_max" : 1,
+				"value" : 400,
+				"weight" : 1
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 16,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"meatballs" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "IKEA 瑞典肉丸，在‘商场’废墟中一个奇怪但受欢迎的发现。一个重视便利和舒适的世界的味道，如今只剩下回忆。",
+				"name" : "IKEA Swedish Meatballs",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_meatballs",
+				"sprite_inv" : "s_item_meatballs",
+				"stack_max" : 1,
+				"value" : 650,
+				"weight" : 0.2
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 17,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"milk" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "Whole Foods 有机牛奶。它仍然可以饮用简直是个奇迹。地堡里的医生正在研究它，希望能理解其抗辐射性。",
+				"name" : "Whole Foods Organic Milk",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_milk",
+				"sprite_inv" : "s_item_milk",
+				"stack_max" : 1,
+				"value" : 800,
+				"weight" : 1
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink",
+				"energy" : 8,
+				"fatigue" : 10,
+				"radiation" : -0.3,
+				"sound" : "snd_drinking_1",
+				"thirst" : 18
+			}
+		},
+		"milk_rotten" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "它结块了，变酸了，闻起来像死亡。连食尸鬼都不碰这玩意儿。你留着它干嘛？",
+				"name" : "Rotten Milk",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_milk_rotten",
+				"sprite_inv" : "s_item_milk_rotten",
+				"stack_max" : 1,
+				"value" : 100,
+				"weight" : 1
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink",
+				"energy" : 5,
+				"fatigue" : 5,
+				"radiation" : 0.35,
+				"sound" : "snd_drinking_1",
+				"thirst" : 10
+			}
+		},
+		"mre" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "一份军用级即食口粮 (MRE)。因其保质期长、热量高而受到绿军和猩红集团部队的珍视。一顿饱餐能让猎人持续行动数小时。",
+				"name" : "MRE",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_mre",
+				"sprite_inv" : "s_item_mre",
+				"stack_max" : 1,
+				"value" : 1500,
+				"weight" : 1
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat_mre",
+				"energy" : 40,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 20
+			}
+		},
+		"pasta" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "一盒 Barilla 通心粉。一种易于准备并能提供大量碳水化合物的主食。在地堡的厨房里很常见。",
+				"name" : "Barilla Penne Pasta",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_pasta",
+				"sprite_inv" : "s_item_pasta",
+				"stack_max" : 1,
+				"value" : 600,
+				"weight" : 0.5
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 10,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : -20
+			}
+		},
+		"pasta_cooked" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "一盘热腾腾的熟通心粉。一顿简单却令人满足的餐点，能提供显著的能量补充。在漫长的一天拾荒后是一种受欢迎的慰藉。",
+				"name" : "Cooked pasta",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_pasta_cooked",
+				"sprite_inv" : "s_item_pasta_cooked",
+				"stack_max" : 1,
+				"value" : 800,
+				"weight" : 0.2
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 23,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"raw_meat" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "一块来自不明生物的生肉。它血淋淋的，散发着恶臭。不经烹饪就吃掉它是个非常糟糕的主意。",
+				"name" : "Raw meat",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_boar_meat",
+				"sprite_inv" : "s_item_boar_meat",
+				"stack_max" : 1,
+				"value" : 150,
+				"weight" : 0.25
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat_meat",
+				"energy" : 7,
+				"fatigue" : 0,
+				"radiation" : 0.2,
+				"sound" : "snd_eating_1",
+				"thirst" : -14
+			}
+		},
+		"red_cigarettes" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "Marlboro 红标，猩红集团特工偏爱的高档香烟。西方影响的象征，经常在他们的前哨站和补给储藏点中发现。",
+				"name" : "Marlboro Red Cigarette",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_cigarettes_red",
+				"sprite_inv" : "s_item_cigarettes_red",
+				"stack_max" : 5,
+				"value" : 600,
+				"weight" : 0.05
+			},
+			"consumable" : {
+				"animation" : "s_arms_smoke",
+				"energy" : 0,
+				"fatigue" : 0,
+				"radiation" : -0.15,
+				"sound" : "snd_accendino_1",
+				"thirst" : -3
+			}
+		},
+		"red_wine" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "一瓶 Cabernet Sauvignon 红酒。在‘区域’中是稀有的奢侈品，很可能是从某个富裕收藏家的地窖里掠夺来的。浓郁的味道与外界的荒凉形成了鲜明对比。",
+				"name" : "Cabernet Sauvignon",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_wine_red",
+				"sprite_inv" : "s_item_wine_red",
+				"stack_max" : 1,
+				"value" : 2000,
+				"weight" : 1
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink_juice",
+				"energy" : 13,
+				"fatigue" : 0,
+				"radiation" : -0.2,
+				"sound" : "snd_drinking_1",
+				"thirst" : -8
+			}
+		},
+		"russian_chocolate" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "Lindt 瑞士巧克力，一种高品质的甜食。在地堡能卖出高价的稀有发现。是地堡指挥人员的最爱。",
+				"name" : "Lindt Swiss Chocolate",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_russian_chocolate",
+				"sprite_inv" : "s_item_russian_chocolate",
+				"stack_max" : 1,
+				"value" : 2500,
+				"weight" : 0.25
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat_chocolate",
+				"energy" : 15,
+				"fatigue" : 8,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"salame" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "Hormel 意大利辣香肠，一种腌制香肠，在末日后出人意料地保存完好。一种咸味、油腻的零食，能提供不错的能量补充。",
+				"name" : "Hormel Pepperoni",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_salame",
+				"sprite_inv" : "s_item_salame",
+				"stack_max" : 1,
+				"value" : 180,
+				"weight" : 0.25
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 13,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"salame_rotten" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "这根意大利辣香肠已经变质了。它黏糊糊的，变了色，闻起来很糟糕。除非你真的走投无路，否则吃掉它是不值得冒的风险。",
+				"name" : "Rotten Salami",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_salame_rotten",
+				"sprite_inv" : "s_item_salame_rotten",
+				"stack_max" : 1,
+				"value" : 28,
+				"weight" : 0.25
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 5,
+				"fatigue" : 0,
+				"radiation" : 0.12,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"sandwich_butter" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "一个用面包和黄油做的简单三明治。一顿简陋的餐点，但总比没有好。新入行猎人的常见口粮。",
+				"name" : "Sandwich with Butter",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_sandwich_butter",
+				"sprite_inv" : "s_item_sandwich_butter",
+				"stack_max" : 1,
+				"value" : 400,
+				"weight" : 0.1
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 12,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"sandwich_meat" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "一个夹着熟肉的三明治。一顿丰盛的餐点，能提供大量能量和蛋白质。经验丰富的猎人的最爱。",
+				"name" : "Sandwich with meat",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_sandwich_meat",
+				"sprite_inv" : "s_item_sandwich_meat",
+				"stack_max" : 1,
+				"value" : 350,
+				"weight" : 0.4
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 22,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"sandwich_salame" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "一个夹着意大利辣香肠片的三明治。一顿简单却美味的餐点，便于携带和在路上食用。长途巡逻的实用选择。",
+				"name" : "Sandwich with salami",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_sandwich_salame",
+				"sprite_inv" : "s_item_sandwich_salame",
+				"stack_max" : 1,
+				"value" : 400,
+				"weight" : 0.2
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 13,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"sandwich_wurstel" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "面包夹热狗肠。一种经典的慰藉食品，在‘区域’中是难得的享受。一个世界分崩离析前更简单时代的提醒物。",
+				"name" : "Sandwich with wurstel",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_sandwich_wurstel",
+				"sprite_inv" : "s_item_sandwich_wurstel",
+				"stack_max" : 1,
+				"value" : 320,
+				"weight" : 0.3
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 13,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"stew_meat_beans" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "用肉和豆子炖成的丰盛炖菜。一顿温暖、管饱的餐点，非常适合‘区域’中的寒夜。是地堡食堂的主食。",
+				"name" : "Stew with meat and beans",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_stew_meat_beans",
+				"sprite_inv" : "s_item_stew_meat_beans",
+				"stack_max" : 1,
+				"value" : 1000,
+				"weight" : 0.5
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 32,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 15
+			}
+		},
+		"tushonka_fish" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "一罐 StarKist 金枪鱼罐头。一种易于储存和运输的可靠蛋白质来源。长途远征猎人的常见口粮。",
+				"name" : "StarKist Tuna Can",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_tushonka_fish",
+				"sprite_inv" : "s_item_tushonka_fish",
+				"stack_max" : 1,
+				"value" : 800,
+				"weight" : 0.5
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat_can",
+				"energy" : 16,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 7
+			}
+		},
+		"tushonka_meat" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "罐装炖肉，绿军口粮的主食。一种可靠但缺乏新意的卡路里和蛋白质来源。‘区域’中军旅生活的味道。",
+				"name" : "Tushonka",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_tushonka_meat",
+				"sprite_inv" : "s_item_tushonka_meat",
+				"stack_max" : 1,
+				"value" : 250,
+				"weight" : 0.5
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat_can",
+				"energy" : 18,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"vodka" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "一瓶 Grey Goose 伏特加。一种在‘区域’中难得一见的高档烈酒。常被用作高价值交易品或在地堡庆祝时饮用。",
+				"name" : "Grey Goose Vodka",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_vodka",
+				"sprite_inv" : "s_item_vodka",
+				"stack_max" : 1,
+				"value" : 600,
+				"weight" : 1
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink",
+				"energy" : 23,
+				"fatigue" : 0,
+				"radiation" : -1,
+				"sound" : "snd_drinking_1",
+				"thirst" : -17
+			}
+		},
+		"water_bottle" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "一瓶 Evian 水。干净、纯净的水在‘区域’中是宝贵的资源。一种简单却难以获得的必需品。",
+				"name" : "Evian Water",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_water_bottle",
+				"sprite_inv" : "s_item_water_bottle",
+				"stack_max" : 1,
+				"value" : 300,
+				"weight" : 0.5
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink",
+				"energy" : 0,
+				"fatigue" : -25,
+				"radiation" : -0.1,
+				"sound" : "snd_drinking_1",
+				"thirst" : 50
+			}
+		},
+		"water_bottle_rotten" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "一瓶停滞、受污染的水。它浑浊不堪，散发着恶臭。喝这个是在拿你的健康进行绝望的赌博。",
+				"name" : "Bottle of rotten water",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_water_bottle_rotten",
+				"sprite_inv" : "s_item_water_bottle_rotten",
+				"stack_max" : 1,
+				"value" : 40,
+				"weight" : 0.5
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink",
+				"energy" : 0,
+				"fatigue" : 20,
+				"radiation" : 0.6,
+				"sound" : "snd_drinking_1",
+				"thirst" : 20
+			}
+		},
+		"whisky" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "一瓶 Jack Daniel's 威士忌。一种经典的美国威士忌，是猩红集团士兵的最爱。对一些人来说是家乡的味道，对另一些人来说是宝贵的交易品。",
+				"name" : "Jack Daniel's Whiskey",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_whisky",
+				"sprite_inv" : "s_item_whisky",
+				"stack_max" : 1,
+				"value" : 1200,
+				"weight" : 0.5
+			},
+			"consumable" : {
+				"animation" : "s_arms_drink",
+				"energy" : 14,
+				"fatigue" : 0,
+				"radiation" : -2.3,
+				"sound" : "snd_drinking_1",
+				"thirst" : -22
+			}
+		},
+		"wolf_meat" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "来自变异狼的肉。它又硬又有嚼劲，但却是很好的蛋白质来源。对于那些有足够技巧猎杀‘区域’掠食者的猎人来说是常见的餐食。",
+				"name" : "Wolf meat",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_wolf_meat",
+				"sprite_inv" : "s_item_wolf_meat",
+				"stack_max" : 1,
+				"value" : 150,
+				"weight" : 0.35
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat_meat",
+				"energy" : 7,
+				"fatigue" : 0,
+				"radiation" : 0.2,
+				"sound" : "snd_eating_1",
+				"thirst" : -14
+			}
+		},
+		"wurstel" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "一包 Oscar Mayer 热狗肠。一种简单的加工肉制品，是扎科夫‘事件’前世界的味道。对一些人来说是一种怀旧的享受。",
+				"name" : "Oscar Mayer Hot Dogs",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_wurstel",
+				"sprite_inv" : "s_item_wurstel",
+				"stack_max" : 1,
+				"value" : 130,
+				"weight" : 0.3
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat",
+				"energy" : 13,
+				"fatigue" : 0,
+				"radiation" : 0,
+				"sound" : "snd_eating_1",
+				"thirst" : 0
+			}
+		},
+		"zombie_meat" : {
+			"basic" : {
+				"category" : "consumable",
+				"description" : "来自食尸鬼的肉。它苍白无色，散发着一种奇怪的甜味。吃这个纯粹是绝望之举。长期影响未知，但肯定不会好。",
+				"name" : "zombie meat",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "food",
+				"sprite_ingame" : "s_item_zombie_meat",
+				"sprite_inv" : "s_item_zombie_meat",
+				"stack_max" : 1,
+				"value" : 300,
+				"weight" : 0.4
+			},
+			"consumable" : {
+				"animation" : "s_arms_eat_meat",
+				"energy" : 0,
+				"fatigue" : 0,
+				"radiation" : 1,
+				"sound" : "snd_eating_1",
+				"thirst" : -20
+			}
+		}
+	},
+	"metadata" : {
+		"author" : "Luca",
+		"description" : "Base gamedata for ZERO Sievert",
+		"project" : "ZERO Sievert"
+	},
+	"usage" : "item",
+	"version" : 0
+}

@@ -1,0 +1,326 @@
+{
+	"data" : {
+		"backpack_un" : {
+			"backpack" : {
+				"ergonomic" : 0,
+				"movement_speed" : 0,
+				"sprite_game" : "s_item_backpack_un_game",
+				"weight" : 22
+			},
+			"basic" : {
+				"category" : "backpack",
+				"description" : "NU（新联合国）维和人员的标准配发背包。它耐用可靠，但并非为‘区域’中的极端条件而设计。",
+				"name" : "NU Backpack",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack_un",
+				"sprite_inv" : "s_item_backpack_un",
+				"stack_max" : 1,
+				"value" : 25000,
+				"weight" : 0
+			}
+		},
+		"backpack1" : {
+			"backpack" : {
+				"ergonomic" : 0,
+				"movement_speed" : 0,
+				"sprite_game" : "s_item_backpack1_game",
+				"weight" : 13
+			},
+			"basic" : {
+				"category" : "backpack",
+				"description" : "一个小而简单的背包。虽然不大，但总比把所有东西都塞在口袋里强。新入行的猎人通常会用这个作为第一个背包。",
+				"name" : "Backpack 1",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack1",
+				"sprite_inv" : "s_item_backpack1",
+				"stack_max" : 1,
+				"value" : 5000,
+				"weight" : 0
+			}
+		},
+		"backpack10" : {
+			"backpack" : {
+				"ergonomic" : 0,
+				"movement_speed" : 0,
+				"sprite_game" : "s_item_backpack10_game",
+				"weight" : 21
+			},
+			"basic" : {
+				"category" : "backpack",
+				"description" : "标准配发的军用背包。它坚固耐用且空间宽敞，有足够的空间容纳一名士兵在‘区域’中生存所需的所有装备。",
+				"name" : "Military standard backpack",
+				"scrap" : "none",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"sprite_ingame" : "s_item_backpack10",
+				"sprite_inv" : "s_item_backpack10",
+				"stack_max" : 1,
+				"value" : 20000,
+				"weight" : 0
+			}
+		},
+		"backpack11" : {
+			"backpack" : {
+				"ergonomic" : 0,
+				"movement_speed" : 0,
+				"sprite_game" : "s_item_backpack11_game",
+				"weight" : 40
+			},
+			"basic" : {
+				"category" : "backpack",
+				"description" : "一款大容量军用背包，专为远程巡逻和长时间行动而设计。它可以携带惊人数量的装备，但其重量和体积可能会成为累赘。",
+				"name" : "Military high capacity backpack",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack11",
+				"sprite_inv" : "s_item_backpack11",
+				"stack_max" : 1,
+				"value" : 55000,
+				"weight" : 0
+			}
+		},
+		"backpack2" : {
+			"backpack" : {
+				"ergonomic" : 8,
+				"movement_speed" : 12,
+				"sprite_game" : "s_item_backpack2_game",
+				"weight" : 12
+			},
+			"basic" : {
+				"category" : "backpack",
+				"description" : "一款坚固可靠的背包，深受经验丰富的猎人青睐。它在容量和机动性之间取得了很好的平衡。",
+				"name" : "RTU Backpack",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack2",
+				"sprite_inv" : "s_item_backpack2",
+				"stack_max" : 1,
+				"value" : 7500,
+				"weight" : 0
+			}
+		},
+		"backpack3" : {
+			"backpack" : {
+				"ergonomic" : 5,
+				"movement_speed" : 15,
+				"sprite_game" : "s_item_backpack3_game",
+				"weight" : 14
+			},
+			"basic" : {
+				"category" : "backpack",
+				"description" : "RTU背包的升级版，拥有更大的空间和更好的重量分布。对任何猎人来说都是一个坚实的选择。",
+				"name" : "RTU-000 Backpack",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack3",
+				"sprite_inv" : "s_item_backpack3",
+				"stack_max" : 1,
+				"value" : 13000,
+				"weight" : 0
+			}
+		},
+		"backpack4" : {
+			"backpack" : {
+				"ergonomic" : 0,
+				"movement_speed" : 0,
+				"sprite_game" : "s_item_backpack4_game",
+				"weight" : 20
+			},
+			"basic" : {
+				"category" : "backpack",
+				"description" : "一款带坚固框架的大容量背包。它有点笨重，但能装很多装备。拾荒者和商人们的最爱。",
+				"name" : "SZX-100 Backpack",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack4",
+				"sprite_inv" : "s_item_backpack4",
+				"stack_max" : 1,
+				"value" : 15000,
+				"weight" : 0
+			}
+		},
+		"backpack5" : {
+			"backpack" : {
+				"ergonomic" : 0,
+				"movement_speed" : 0,
+				"sprite_game" : "s_item_backpack5_game",
+				"weight" : 31
+			},
+			"basic" : {
+				"category" : "backpack",
+				"description" : "一款顶级的背包，具有巨大的容量和出色的人体工程学设计。这是金钱能买到的最好的背包，也是一个真正成功的猎人的象征。",
+				"name" : "HFY Backpack",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack5",
+				"sprite_inv" : "s_item_backpack5",
+				"stack_max" : 1,
+				"value" : 45000,
+				"weight" : 0
+			}
+		},
+		"backpack6" : {
+			"backpack" : {
+				"ergonomic" : 0,
+				"movement_speed" : 12,
+				"sprite_game" : "s_item_backpack6_game",
+				"weight" : 27
+			},
+			"basic" : {
+				"category" : "backpack",
+				"description" : "一款均衡的背包，在容量和机动性之间提供了很好的折衷。受到广大猎人们的欢迎。",
+				"name" : "TQ001 Backpack",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack6",
+				"sprite_inv" : "s_item_backpack6",
+				"stack_max" : 1,
+				"value" : 35000,
+				"weight" : 0
+			}
+		},
+		"backpack7" : {
+			"backpack" : {
+				"ergonomic" : 5,
+				"movement_speed" : 5,
+				"sprite_game" : "s_item_backpack7_game",
+				"weight" : 21
+			},
+			"basic" : {
+				"category" : "backpack",
+				"description" : "一款轻便且符合人体工程学的背包，专为那些看重速度和敏捷性胜过携带能力的快速机动猎人而设计。",
+				"name" : "EXE Backpack",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack7",
+				"sprite_inv" : "s_item_backpack7",
+				"stack_max" : 1,
+				"value" : 27500,
+				"weight" : 0
+			}
+		},
+		"backpack8" : {
+			"backpack" : {
+				"ergonomic" : 10,
+				"movement_speed" : 17,
+				"sprite_game" : "s_item_backpack8_game",
+				"weight" : 17
+			},
+			"basic" : {
+				"category" : "backpack",
+				"description" : "一款小巧轻便的背包，非常适合短途旅行和侦察任务。虽然不大，但聊胜于无。",
+				"name" : "ZXOP-500 Backpack",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack8",
+				"sprite_inv" : "s_item_backpack8",
+				"stack_max" : 1,
+				"value" : 13000,
+				"weight" : 0
+			}
+		},
+		"backpack9" : {
+			"backpack" : {
+				"ergonomic" : 0,
+				"movement_speed" : 0,
+				"sprite_game" : "s_item_backpack9_game",
+				"weight" : 11
+			},
+			"basic" : {
+				"category" : "backpack",
+				"description" : "一个简单的书包。它并不是为‘区域’的严酷环境而设计的，但总比没有好。在绝望的拾荒者和难民身上很常见。",
+				"name" : "School bag",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack9",
+				"sprite_inv" : "s_item_backpack9",
+				"stack_max" : 1,
+				"value" : 3500,
+				"weight" : 0
+			}
+		},
+		"backpack_end_game" : {
+			"backpack" : {
+				"ergonomic" : 0,
+				"movement_speed" : 0,
+				"sprite_game" : "s_item_backpack_end_game_game",
+				"weight" : 120
+			},
+			"basic" : {
+				"category" : "backpack",
+				"description" : "一个奇怪的水晶背包，似乎源自某个异常。它非常轻，并且可以承载惊人的重量，但它也非常易碎。",
+				"name" : "Crystal backpack",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack_end_game",
+				"sprite_inv" : "s_item_backpack_end_game",
+				"stack_max" : 1,
+				"value" : 85000,
+				"weight" : 0
+			}
+		},
+		"backpack_santa" : {
+			"backpack" : {
+				"ergonomic" : 50,
+				"movement_speed" : 100,
+				"sprite_game" : "s_item_backpack_santa_game",
+				"weight" : 120
+			},
+			"basic" : {
+				"category" : "backpack",
+				"description" : "一个充满节日气氛的背包，空间惊人地宽敞。这是一个罕见且抢手的物品，尤其是在节日期间。",
+				"name" : "Santa's Backpack",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack_santa",
+				"sprite_inv" : "s_item_backpack_santa",
+				"stack_max" : 1,
+				"value" : 10000,
+				"weight" : 0
+			}
+		},
+		"backpack_small" : {
+			"backpack" : {
+				"ergonomic" : 0,
+				"movement_speed" : 0,
+				"sprite_game" : "s_item_backpack1_game",
+				"weight" : 12
+			},
+			"basic" : {
+				"category" : "backpack",
+				"description" : "一个小而简单的背包。虽然不大，但总比把所有东西都塞在口袋里强。新入行的猎人通常会用这个作为第一个背包。",
+				"name" : "Backpack small",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_backpack1",
+				"sprite_inv" : "s_item_backpack1",
+				"stack_max" : 1,
+				"value" : 65,
+				"weight" : 0
+			}
+		}
+	},
+	"metadata" : {
+		"author" : "Luca",
+		"description" : "Base gamedata for ZERO Sievert",
+		"project" : "ZERO Sievert"
+	},
+	"usage" : "item",
+	"version" : 0
+}

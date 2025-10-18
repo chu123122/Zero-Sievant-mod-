@@ -1,0 +1,8648 @@
+{
+	"data" : {
+		"mod_aa12_magazine_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "AA-12 5发弹匣。在‘商场’近距离战斗中用于可控点射的可靠供弹系统。",
+				"name" : "AA-12 5rd Magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_aa12_magazine_1_game",
+				"sprite_inv" : "s_mod_aa12_magazine_1",
+				"stack_max" : 1,
+				"value" : 1200,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"magazine_size" : 5,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"aa12"
+				]
+			}
+		},
+		"mod_aa12_magazine_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "AA-12 10发弹匣。为持续清扫‘森林’区域而扩展的容量。",
+				"name" : "AA-12 10rd Magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_aa12_magazine_2_game",
+				"sprite_inv" : "s_mod_aa12_magazine_2",
+				"stack_max" : 1,
+				"value" : 3200,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -4,
+				"magazine_size" : 10,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"aa12"
+				]
+			}
+		},
+		"mod_aa12_magazine_3" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "AA-12 弹鼓。为‘工业区’的长时间行动提供高容量供弹。",
+				"name" : "AA-12 Drum Magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_aa12_magazine_3_game",
+				"sprite_inv" : "s_mod_aa12_magazine_3",
+				"stack_max" : 1,
+				"value" : 23000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -18,
+				"magazine_size" : 22,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"aa12"
+				]
+			}
+		},
+		"mod_adar_stock_wooden" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "ADAR 木制枪托。‘森林’猎人偏爱传统木制家具，因其天然的伪装特性。",
+				"name" : "ADAR Wooden Stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_adar_stock_wooden_game",
+				"sprite_inv" : "s_mod_adar_stock_wooden",
+				"stack_max" : 1,
+				"value" : 1500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 5,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -10,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"adar"
+				]
+			}
+		},
+		"mod_adar_stock_modern" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "ADAR 战术枪托。现代聚合物结构，为‘工业区’突袭提供增强的人体工程学。",
+				"name" : "ADAR Tactical Stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_adar_stock_modern_game",
+				"sprite_inv" : "s_mod_adar_stock_modern",
+				"stack_max" : 1,
+				"value" : 22000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 5,
+				"damage" : 1,
+				"ergo" : 38,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -47,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"adar"
+				]
+			}
+		},
+		"mod_adar_handguard_wooden" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "ADAR步枪的标准木制护木。一个简单、朴实的选择，能完成任务。受到传统主义者和欣赏经典外观的人的青睐。",
+				"name" : "ADAR Wooden Handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_adar_handguard_wooden_game",
+				"sprite_inv" : "s_mod_adar_handguard_wooden",
+				"stack_max" : 1,
+				"value" : 2300,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 2,
+				"handguard" : {},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -8,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"adar"
+				]
+			}
+		},
+		"mod_ak101_magazine_standard" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "Magpul PMAG 30发弹匣。猩红集团偏爱的高品质NATO装备，供弹可靠。",
+				"name" : "PMAG 30",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak101_magazine_standard_game",
+				"sprite_inv" : "s_mod_ak101_magazine_standard",
+				"stack_max" : 1,
+				"value" : 600,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"magazine_size" : 30,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ak_101"
+				]
+			}
+		},
+		"mod_ak101_magazine_tactical" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "Izhmash 40发加长弹匣。受到冒险进入危险‘商场’区域进行持久 firefight 的猎人的青睐。",
+				"name" : "Izhmash AK-40",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak101_magazine_tactical_game",
+				"sprite_inv" : "s_mod_ak101_magazine_tactical",
+				"stack_max" : 1,
+				"value" : 4500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 3,
+				"magazine_size" : 30,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : -25,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ak_101"
+				]
+			}
+		},
+		"mod_ak12_stock_standard" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "标准的AK聚合物枪托。轻便耐用，对于快速穿越‘工业区’狭窄走廊至关重要。",
+				"name" : "AK Polymer Stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak12_stock_standard_game",
+				"sprite_inv" : "s_mod_ak12_stock_standard",
+				"stack_max" : 1,
+				"value" : 5600,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 18,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -28,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 1,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ak_74",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"ak_74u_1",
+					"akm",
+					"as_val",
+					"protecta_1",
+					"ak_101",
+					"rpk",
+					"pp19_bizon",
+					"pp19_bizon_9x19",
+					"tapco"
+				]
+			}
+		},
+		"mod_ak74_barrel_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "AK-15的短枪管。此改装减小了武器的总长度和重量，使其在近距离更具机动性。然而，它也降低了枪口初速并增加了后坐力，使其在较远距离上的效能降低。",
+				"name" : "AK-15 Short Barrel",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak74_barrel_1_game",
+				"sprite_inv" : "s_mod_ak74_barrel_1",
+				"stack_max" : 1,
+				"value" : 1500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -5,
+				"position" : [
+					"barrel"
+				],
+				"recoil" : -4,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "barrel",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ak_74",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"ak_101",
+					"akm"
+				]
+			}
+		},
+		"mod_ak74_barrel_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "AK-15的长枪管。此改装增加了武器的枪口初速和有效射程，使其更适合开阔地带的交战。然而，它也增加了武器的重量和长度，使其在近距离更加笨重。",
+				"name" : "AK-15 Long Barrel",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak74_barrel_2_game",
+				"sprite_inv" : "s_mod_ak74_barrel_2",
+				"stack_max" : 1,
+				"value" : 7000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 2,
+				"damage" : 0,
+				"ergo" : -17,
+				"position" : [
+					"barrel"
+				],
+				"recoil" : -15,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "barrel",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ak_74",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"ak_101",
+					"akm"
+				]
+			}
+		},
+		"mod_ak74_grip_2_b" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "Magpul MOE 握把。对AK平台步枪常见的符合人体工程学的升级，与标准配发相比，提供了更舒适、更稳固的握持。常被重视实用性和可靠性的潜行者使用。",
+				"name" : "MOE Grip",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak74_grip_2_b_game",
+				"sprite_inv" : "s_mod_ak74_grip_2_b",
+				"stack_max" : 1,
+				"value" : 4200,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 4,
+				"position" : [
+					"grip"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "grip",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ak_74",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"as_val",
+					"akm",
+					"ak_74u_1",
+					"rpk",
+					"ak_101",
+					"pp19_bizon",
+					"pp19_bizon_9x19",
+					"tapco"
+				]
+			}
+		},
+		"mod_ak74_grip_2_y" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "沙漠色涂装的 Magpul MOE 握把。对AK平台步枪常见的符合人体工程学的升级，与标准配发相比，提供了更舒适、更稳固的握持。常被重视实用性和可靠性的潜行者使用。",
+				"name" : "MOE Grip (Desert)",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak74_grip_2_y_game",
+				"sprite_inv" : "s_mod_ak74_grip_2_y",
+				"stack_max" : 1,
+				"value" : 4200,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 4,
+				"position" : [
+					"grip"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "grip",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ak_74",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"akm",
+					"as_val",
+					"ak_74u_1",
+					"rpk",
+					"ak_101",
+					"pp19_bizon",
+					"pp19_bizon_9x19",
+					"tapco"
+				]
+			}
+		},
+		"mod_ak74_grip_s_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "AK平台步枪的标准配发握把。一种基础、朴实的部件，常见于从‘区域’中回收的武器上。虽然不如售后选项那样符合人体工程学，但它可靠且能完成任务。",
+				"name" : "AK standard pistol grip",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak74_grip_s_2_game",
+				"sprite_inv" : "s_mod_ak74_grip_s_2",
+				"stack_max" : 1,
+				"value" : 250,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 2,
+				"position" : [
+					"grip"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "grip",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ak_74",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"akm",
+					"ak_101",
+					"pp19_bizon",
+					"pp19_bizon_9x19",
+					"ak_74u_1"
+				]
+			}
+		},
+		"mod_ak74_grip_s_3" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "AK平台步枪的标准配发握把。一种基础、朴实的部件，常见于从‘区域’中回收的武器上。虽然不如售后选项那样符合人体工程学，但它可靠且能完成任务。",
+				"name" : "AK standard pistol grip",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak74_grip_s_3_game",
+				"sprite_inv" : "s_mod_ak74_grip_s_3",
+				"stack_max" : 1,
+				"value" : 250,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 2,
+				"position" : [
+					"grip"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "grip",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ak_74",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"ak_101",
+					"akm",
+					"pp19_bizon",
+					"pp19_bizon_9x19",
+					"ak_74u_1"
+				]
+			}
+		},
+		"mod_ak74_handguard_2_b" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于AK平台步枪的聚合物护木，在人体工程学和模块化之间提供了良好平衡。它具有多个用于战术设备的安装点，使其成为需要根据各种情况调整武器的潜行者的热门选择。",
+				"name" : "Kalashnikov Polymer Handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak74_handguard_2_b_game",
+				"sprite_inv" : "s_mod_ak74_handguard_2_b",
+				"stack_max" : 1,
+				"value" : 3500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 6,
+				"handguard" : {
+					"att_1" : {
+						"x" : 5,
+						"y" : 4
+					},
+					"att_3" : {
+						"x" : 5,
+						"y" : 2
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -8,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"akm",
+					"ak_101",
+					"ak_74",
+					"ak_15",
+					"ak_308",
+					"ak_12"
+				]
+			}
+		},
+		"mod_ak74_handguard_2_y" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "沙漠色涂装的AK平台聚合物护木，在人体工程学和模块化之间提供了良好平衡。它具有多个用于战术设备的安装点，使其成为需要根据各种情况调整武器的潜行者的热门选择。",
+				"name" : "AK desert handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak74_handguard_2_y_game",
+				"sprite_inv" : "s_mod_ak74_handguard_2_y",
+				"stack_max" : 1,
+				"value" : 3500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 6,
+				"handguard" : {
+					"att_1" : {
+						"x" : 5,
+						"y" : 4
+					},
+					"att_3" : {
+						"x" : 5,
+						"y" : 2
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -8,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"akm",
+					"ak_101",
+					"ak_74",
+					"ak_15",
+					"ak_308",
+					"ak_12"
+				]
+			}
+		},
+		"mod_ak74_handguard_3" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "由Zenitco制造的高端战术AK平台护木。它具有全长皮卡汀尼导轨，可安装各种配件，使其成为要求武器发挥最佳性能的经验丰富的潜行者和雇佣兵的最爱。",
+				"name" : "Zenitco Handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak74_handguard_3_game",
+				"sprite_inv" : "s_mod_ak74_handguard_3",
+				"stack_max" : 1,
+				"value" : 10500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 3,
+				"handguard" : {
+					"att_1" : {
+						"x" : 6,
+						"y" : 5
+					},
+					"att_2" : {
+						"x" : 14,
+						"y" : 5
+					},
+					"att_3" : {
+						"x" : 15,
+						"y" : 2
+					},
+					"att_4" : {
+						"x" : 14,
+						"y" : 0
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -10,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"akm",
+					"ak_101",
+					"ak_74",
+					"ak_15",
+					"ak_308",
+					"ak_12"
+				]
+			}
+		},
+		"mod_ak74_handguard_aggressor" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "由Strike Industries制造的轻量化现代AK平台护木。它具有纤薄的外形和多个M-LOK安装点，使其成为想要打造高性能、低阻力武器的潜行者的热门选择。",
+				"name" : "Strike Industries Handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak_handguard_aggressor_game",
+				"sprite_inv" : "s_mod_ak_handguard_aggressor",
+				"stack_max" : 1,
+				"value" : 12500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 5,
+				"handguard" : {
+					"att_1" : {
+						"x" : 6,
+						"y" : 5
+					},
+					"att_2" : {
+						"x" : 14,
+						"y" : 5
+					},
+					"att_3" : {
+						"x" : 15,
+						"y" : 2
+					},
+					"att_4" : {
+						"x" : 14,
+						"y" : 0
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -15,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"akm",
+					"ak_101",
+					"ak_74",
+					"ak_15",
+					"ak_308",
+					"ak_12"
+				]
+			}
+		},
+		"mod_ak74_handguard_hexagon" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "由SLR Rifleworks制造的高端轻量化AK平台护木。它具有独特的六边形设计和多个M-LOK安装点，使其成为想要打造高性能、外观独特武器的潜行者的热门选择。",
+				"name" : "SLR Handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak_handguard_hexagon_game",
+				"sprite_inv" : "s_mod_ak_handguard_hexagon",
+				"stack_max" : 1,
+				"value" : 15000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 10,
+				"handguard" : {
+					"att_1" : {
+						"x" : 6,
+						"y" : 5
+					},
+					"att_2" : {
+						"x" : 14,
+						"y" : 5
+					},
+					"att_3" : {
+						"x" : 15,
+						"y" : 2
+					},
+					"att_4" : {
+						"x" : 14,
+						"y" : 0
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -10,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"akm",
+					"ak_101",
+					"ak_74",
+					"ak_15",
+					"ak_308",
+					"ak_12"
+				]
+			}
+		},
+		"mod_ak74_handguard_moe_grey" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "灰色涂装的AK平台聚合物护木，在人体工程学和模块化之间提供了良好平衡。它具有多个用于战术设备的安装点，使其成为需要根据各种情况调整武器的潜行者的热门选择。",
+				"name" : "Kalashnikov Polymer Handguard (Grey)",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak_handguard_moe_grey_game",
+				"sprite_inv" : "s_mod_ak_handguard_moe_grey",
+				"stack_max" : 1,
+				"value" : 3500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 6,
+				"handguard" : {
+					"att_1" : {
+						"x" : 5,
+						"y" : 4
+					},
+					"att_3" : {
+						"x" : 5,
+						"y" : 2
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -8,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"akm",
+					"ak_101",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"ak_74"
+				]
+			}
+		},
+		"mod_ak74_handguard_s_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "AK平台步枪的标准配发护木。一种基础、朴实的部件，常见于从‘区域’中回收的武器上。虽然不如售后选项那样模块化，但它可靠且能完成任务。",
+				"name" : "Kalashnikov standard handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak74_handguard_s_1_game",
+				"sprite_inv" : "s_mod_ak74_handguard_s_1",
+				"stack_max" : 1,
+				"value" : 250,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 3,
+				"handguard" : {},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -4,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ak_74",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"akm",
+					"ak_101",
+					"ak_74u_1"
+				]
+			}
+		},
+		"mod_ak74_handguard_s_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "在‘区域’中大多数AK型步枪上都能找到的原厂标准卡拉什尼科夫护木。虽然结构基础，但这些聚合物护木提供了可靠的保护和足够的人体工程学。绿军军械库储备充足这些常见部件用于野战维护。",
+				"name" : "Kalashnikov standard handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak74_handguard_s_2_game",
+				"sprite_inv" : "s_mod_ak74_handguard_s_2",
+				"stack_max" : 1,
+				"value" : 250,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 3,
+				"handguard" : {},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -4,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ak_74",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"akm",
+					"ak_101",
+					"ak_74u_1"
+				]
+			}
+		},
+		"mod_ak74_handguard_s_3" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "常见于苏制时代突击步枪的标准配发卡拉什尼科夫护木。基础的聚合物结构提供了必要的隔热保护和适度的人体工程学改进。这些护木在整个‘区域’中都很丰富，使其在损坏时易于更换。",
+				"name" : "Kalashnikov standard handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak74_handguard_s_3_game",
+				"sprite_inv" : "s_mod_ak74_handguard_s_3",
+				"stack_max" : 1,
+				"value" : 250,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 3,
+				"handguard" : {},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -4,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"akm",
+					"ak_101",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"ak_74"
+				]
+			}
+		},
+		"mod_ak74_handguard_zhukov_desert" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "由Magpul制造并采用沙漠色涂装的坚固、加长型AK平台护木。它提供了出色的隔热保护和多个M-LOK安装点，使其成为需要在‘区域’中进行长时间行动、需要耐用且多功能武器的潜行者的热门选择。",
+				"name" : "Magpul Zhukov Handguard (Desert)",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak_handguard_zhukov_desert_game",
+				"sprite_inv" : "s_mod_ak_handguard_zhukov_desert",
+				"stack_max" : 1,
+				"value" : 10500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 3,
+				"handguard" : {
+					"att_1" : {
+						"x" : 6,
+						"y" : 5
+					},
+					"att_2" : {
+						"x" : 14,
+						"y" : 5
+					},
+					"att_3" : {
+						"x" : 15,
+						"y" : 2
+					},
+					"att_4" : {
+						"x" : 14,
+						"y" : 0
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -10,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"akm",
+					"ak_101",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"ak_74"
+				]
+			}
+		},
+		"mod_ak74_magazine_60" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于AK平台步枪的60发弹鼓。这种高容量弹匣受到那些预计会遭遇大量敌人或变异生物的潜行者的青睐。虽然其重量影响武器操控，但在‘区域’危险地带的持久战中，扩展的容量是无价的。",
+				"name" : "AK Drum Mag",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak74_magazine_60_game",
+				"sprite_inv" : "s_mod_ak74_magazine_60",
+				"stack_max" : 1,
+				"value" : 25000,
+				"weight" : 0.2
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -20,
+				"magazine_size" : 60,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 50,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ak_74",
+					"ak_12",
+					"ak_15",
+					"akm",
+					"rpk",
+					"mk47",
+					"ak_74u_1"
+				]
+			}
+		},
+		"mod_ak74_magazine_pmag" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于AK平台步枪的战术聚合物弹匣，具有改进的人体工程学和更快的装填速度。这种升级弹匣受到重视战斗中可靠性和速度的经验丰富的潜行者的青睐。",
+				"name" : "PMAG M3",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak74_magazine_pmag_game",
+				"sprite_inv" : "s_mod_ak74_magazine_pmag",
+				"stack_max" : 1,
+				"value" : 2500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"magazine_size" : 30,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : -20,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ak_74",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"akm",
+					"rpk",
+					"mk47",
+					"ak_74u_1"
+				]
+			}
+		},
+		"mod_ak74_magazine_s_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "AK平台步枪的标准配发弹匣。一种基础可靠的弹匣，在整个‘区域’中都很常见。虽然缺乏战术弹匣的高级特性，但供弹稳定且更换成本低。",
+				"name" : "Kalashnikov standard magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak74_magazine_s_2_game",
+				"sprite_inv" : "s_mod_ak74_magazine_s_2",
+				"stack_max" : 1,
+				"value" : 200,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"magazine_size" : 30,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ak_74",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"akm",
+					"mk47",
+					"ak_74u_1"
+				]
+			}
+		},
+		"mod_ak74_magazine_s_3" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "AK平台步枪的标准配发弹匣。一种基础可靠的弹匣，在整个‘区域’中都很常见。虽然缺乏战术弹匣的高级特性，但供弹稳定且更换成本低。",
+				"name" : "Kalashnikov standard magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak74_magazine_s_3_game",
+				"sprite_inv" : "s_mod_ak74_magazine_s_3",
+				"stack_max" : 1,
+				"value" : 200,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"magazine_size" : 30,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ak_74",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"akm",
+					"mk47",
+					"ak_74u_1",
+					"rpk"
+				]
+			}
+		},
+		"mod_ak74_magazine_y" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "沙漠色涂装的AK平台战术聚合物弹匣，具有改进的人体工程学和更快的装填速度。这种升级弹匣受到重视战斗中可靠性和速度的经验丰富的潜行者的青睐。",
+				"name" : "PMAG M3 (Desert)",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak74_magazine_y_game",
+				"sprite_inv" : "s_mod_ak74_magazine_y",
+				"stack_max" : 1,
+				"value" : 2500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"magazine_size" : 30,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : -20,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ak_74",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"akm",
+					"rpk",
+					"mk47",
+					"ak_74u_1"
+				]
+			}
+		},
+		"mod_ak74_sight_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "EC-74步枪的标准配发机械瞄具。一种简单可靠的瞄准系统，已被无数士兵和潜行者使用。虽然不如光学瞄具精确，但它们耐用且不需要电池或维护。",
+				"name" : "AK Iron Sights",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak74_sight_1_game",
+				"sprite_inv" : "s_mod_ak74_sight_1",
+				"stack_max" : 1,
+				"value" : 250,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"position" : [
+					"scope"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_image" : "s_vuoto",
+				"scope_extend_view" : 1.15,            
+				"scope_glance_mouse_dis_mult" : 1,
+				"scope_mult_eff_range" : 1.05,
+				"scope_optic" : false,
+				"type" : "scope",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ak_74",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"ak_74u_1",
+					"as_val",
+					"akm"
+				]
+			}
+		},
+		"mod_ak74_stock_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于AK平台步枪的轻量化聚合物枪托。它在重量和耐用性之间提供了良好平衡，使其成为‘区域’中各派系使用的武器上的常见部件。虽然不如某些售后选项先进，但它是一个可靠且实用的选择。",
+				"name" : "Kalashnikov Polymer Stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak74_stock_2_game",
+				"sprite_inv" : "s_mod_ak74_stock_2",
+				"stack_max" : 1,
+				"value" : 2500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 5,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -22,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 1,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ak_74",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"ak_74u_1",
+					"akm",
+					"as_val",
+					"protecta_1",
+					"ak_101",
+					"rpk",
+					"pp19_bizon",
+					"pp19_bizon_9x19",
+					"tapco"
+				]
+			}
+		},
+		"mod_ak74_stock_3" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于AK平台步枪的改进型聚合物枪托，比标准配发提供了更好的人体工程学和后坐力控制。这款枪托是那些想要在不显著增加重量的情况下提高武器性能的潜行者的热门升级。",
+				"name" : "Kalashnikov Enhanced Polymer Stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak74_stock_3_game",
+				"sprite_inv" : "s_mod_ak74_stock_3",
+				"stack_max" : 1,
+				"value" : 4000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 8,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -27,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ak_74",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"akm",
+					"as_val",
+					"ak_74u_1",
+					"protecta_1",
+					"rpk",
+					"ak_101",
+					"pp19_bizon",
+					"pp19_bizon_9x19",
+					"tapco"
+				]
+			}
+		},
+		"mod_ak74_stock_4" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于AK平台步枪的高端战术枪托，提供卓越的人体工程学和后坐力控制。这款枪托是要求武器发挥最佳性能的经验丰富的潜行者和雇佣兵的最爱。",
+				"name" : "Zenitco PT-1 Stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak74_stock_4_game",
+				"sprite_inv" : "s_mod_ak74_stock_4",
+				"stack_max" : 1,
+				"value" : 7000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 11,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -32,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ak_74",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"as_val",
+					"akm",
+					"ak_74u_1",
+					"protecta_1",
+					"rpk",
+					"ak_101",
+					"pp19_bizon",
+					"pp19_bizon_9x19",
+					"tapco"
+				]
+			}
+		},
+		"mod_ak74_stock_s_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "EC-74步枪的固定木制枪托。传统木结构提供了出色的后坐力控制，但增加了武器重量。受到欣赏经典外观和成熟性能的经验丰富的潜行者的青睐。",
+				"name" : "Kalashnikov standard wooden stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak74_stock_s_1_game",
+				"sprite_inv" : "s_mod_ak74_stock_s_1",
+				"stack_max" : 1,
+				"value" : 250,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 5,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -18,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ak_74",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"akm",
+					"ak_101",
+					"ak_74u_1"
+				]
+			}
+		},
+		"mod_ak74_stock_s_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "EC-74步枪的固定木制枪托。传统木结构提供了出色的后坐力控制，但增加了武器重量。受到欣赏经典外观和成熟性能的经验丰富的潜行者的青睐。",
+				"name" : "Kalashnikov standard wooden stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak74_stock_s_2_game",
+				"sprite_inv" : "s_mod_ak74_stock_s_2",
+				"stack_max" : 1,
+				"value" : 250,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 5,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -18,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ak_74",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"akm",
+					"ak_101",
+					"ak_74u_1"
+				]
+			}
+		},
+		"mod_ak74_stock_s_3" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "EC-74步枪的固定木制枪托。传统木结构提供了出色的后坐力控制，但增加了武器重量。受到欣赏经典外观和成熟性能的经验丰富的潜行者的青睐。",
+				"name" : "Kalashnikov standard wooden stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak74_stock_s_3_game",
+				"sprite_inv" : "s_mod_ak74_stock_s_3",
+				"stack_max" : 1,
+				"value" : 250,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 5,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -18,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ak_74",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"akm",
+					"ak_101",
+					"ak_74u_1"
+				]
+			}
+		},
+		"mod_ak74_stock_uas" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "由UAS制造的高级可调AK平台枪托。其模块化设计允许精确调整枪托长度，非常适合需要根据不同情况和装备配置调整武器的潜行者。",
+				"name" : "UAS Defense Stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak74_stock_uas_game",
+				"sprite_inv" : "s_mod_ak74_stock_uas",
+				"stack_max" : 1,
+				"value" : 11000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 12,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -38,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ak_74",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"as_val",
+					"akm",
+					"ak_74u_1",
+					"protecta_1",
+					"rpk",
+					"ak_101",
+					"pp19_bizon",
+					"pp19_bizon_9x19",
+					"tapco"
+				]
+			}
+		},
+		"mod_ak74u_handguard_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "专为AKS-74U设计的轻量化战术护木。其紧凑的尺寸保持了武器的机动性，同时提供了用于安装手电筒和前握把等必要配件的安装点。",
+				"name" : "Kalashnikov AKS-74U handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak74u_handguard_1_game",
+				"sprite_inv" : "s_mod_ak74u_handguard_1",
+				"stack_max" : 1,
+				"value" : 3200,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 3,
+				"handguard" : {
+					"att_1" : {
+						"x" : 4,
+						"y" : 5
+					},
+					"att_3" : {
+						"x" : 4,
+						"y" : 1
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -5,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 1,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ak_74u_1"
+				]
+			}
+		},
+		"mod_ak74u_handguard_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "专为AKS-74U设计的先进战术护木。其升级后的设计提供了更好的人体工程学和额外的导轨空间，用于安装光学器件和配件，使其成为需要从紧凑武器中获得最大通用性的潜行者的热门选择。",
+				"name" : "Zenitco B-11 Handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak74u_handguard_2_game",
+				"sprite_inv" : "s_mod_ak74u_handguard_2",
+				"stack_max" : 1,
+				"value" : 5500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 5,
+				"handguard" : {
+					"att_1" : {
+						"x" : 6,
+						"y" : 4
+					},
+					"att_3" : {
+						"x" : 8,
+						"y" : 2
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -9,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ak_74u_1"
+				]
+			}
+		},
+		"mod_ak_wooden_grip" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于AK平台步枪的传统木制前握把。其经典设计提供了稳固的握持，并有助于在快速射击时控制后坐力。受到偏爱木制家具的可靠性和自然手感而非现代聚合物替代品的潜行者的欢迎。",
+				"name" : "Kalashnikov wooden foregrip",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak_wooden_foregrip_game",
+				"sprite_inv" : "s_mod_ak_wooden_foregrip",
+				"stack_max" : 1,
+				"value" : 3500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 3,
+				"handguard" : {},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -11,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 1,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"akm",
+					"ak_101",
+					"ak_74u_1",
+					"ak_74",
+					"ak_15",
+					"ak_308",
+					"ak_12"
+				]
+			}
+		},
+		"mod_ak_wooden_grip_rail" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "带有集成导轨系统的传统AK平台木制前握把。这种混合设计结合了木材的经典手感和现代战术通用性，允许潜行者在保持武器传统美学的同时安装配件。",
+				"name" : "Kalashnikov wooden foregrip with rail",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ak_wooden_foregrip_rail_game",
+				"sprite_inv" : "s_mod_ak_wooden_foregrip_rail",
+				"stack_max" : 1,
+				"value" : 5500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 3,
+				"handguard" : {
+					"att_3" : {
+						"x" : 5,
+						"y" : 1
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -11,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"akm",
+					"ak_101",
+					"ak_74u_1",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"ak_74"
+				]
+			}
+		},
+		"mod_aps_stock" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于APS手枪的简易木制枪托。此附件将手枪转变为更稳定的平台，提高了较远距离的精度。虽然使武器不易隐藏，但对于需要从随身武器获得精度的潜行者来说是无价的。",
+				"name" : "Stechkin wooden stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_aps_stock_game",
+				"sprite_inv" : "s_mod_aps_stock",
+				"stack_max" : 1,
+				"value" : 400,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 11,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -27,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 1,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"aps"
+				]
+			}
+		},
+		"mod_ar15_barrel_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于N4o1平台步枪的短枪管。此改装提高了武器在近距离的机动性，但降低了在较远距离上的精度。受到专门从事城市战斗和建筑清理行动的猩红集团特工的欢迎。",
+				"name" : "Colt M4A1 short barrel",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ar15_barrel_1_game",
+				"sprite_inv" : "s_mod_ar15_barrel_1",
+				"stack_max" : 1,
+				"value" : 3500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -3,
+				"position" : [
+					"barrel"
+				],
+				"recoil" : -6,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "barrel",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"adar"
+				]
+			}
+		},
+		"mod_ar15_barrel_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于N4o1平台步枪的加长枪管。此改装显著提高了精度和有效射程，使其非常适合在‘区域’开阔地带与远距离目标交战的潜行者。是精确射手配置的必备。",
+				"name" : "Colt M4A1 long barrel",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ar15_barrel_2_game",
+				"sprite_inv" : "s_mod_ar15_barrel_2",
+				"stack_max" : 1,
+				"value" : 11000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 2,
+				"damage" : 0,
+				"ergo" : -15,
+				"position" : [
+					"barrel"
+				],
+				"recoil" : -18,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "barrel",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"adar"
+				]
+			}
+		},
+		"mod_ar15_brake_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于N4o1平台步枪的高性能枪口制退器。此装置重新导向推进剂气体以减少可感后坐力和枪口上跳，允许更快的后续射击。受到要求每次交战都精确无误的猩红集团精确射手的青睐。",
+				"name" : "Colt M4A1 muzzle brake",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ar15_brake_1_game",
+				"sprite_inv" : "s_mod_ar15_brake_1",
+				"stack_max" : 1,
+				"value" : 4000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"position" : [
+					"brake"
+				],
+				"recoil" : -5,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "brake",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"g36",
+					"ak_101",
+					"famas"
+				]
+			}
+		},
+		"mod_ar15_grip_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "N4o1平台步枪的标准配发握把。一种基础但可靠的部件，提供足够的控制和舒适度。常见于整个‘区域’中双方阵营使用的武器上。",
+				"name" : "Colt M4A1 standard pistol grip",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ar15_grip_1_game",
+				"sprite_inv" : "s_mod_ar15_grip_1",
+				"stack_max" : 1,
+				"value" : 500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 3,
+				"position" : [
+					"grip"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "grip",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"mk47",
+					"sr_25",
+					"r700_modern"
+				]
+			}
+		},
+		"mod_ar15_grip_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "沙漠色涂装的N4o1平台人体工程学握把。此升级改善了武器控制并减少了长时间行动中的手部疲劳。受到在‘区域’较干旱地区行动的潜行者的欢迎。",
+				"name" : "MOE Grip (Desert)",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ar15_grip_2_game",
+				"sprite_inv" : "s_mod_ar15_grip_2",
+				"stack_max" : 1,
+				"value" : 5500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 4,
+				"position" : [
+					"grip"
+				],
+				"recoil" : -1,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "grip",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"r700_modern",
+					"dvl",
+					"sr_25",
+					"mk47",
+					"mp5"
+				]
+			}
+		},
+		"mod_ar15_grip_3" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于N4o1平台步枪的高级人体工程学握把。其先进设计提供了卓越的控制和舒适度，使其成为要求武器发挥最佳性能的精英潜行者和雇佣兵的最爱。",
+				"name" : "MOE Grip",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ar15_grip_3_game",
+				"sprite_inv" : "s_mod_ar15_grip_3",
+				"stack_max" : 1,
+				"value" : 7500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 6,
+				"position" : [
+					"grip"
+				],
+				"recoil" : -2,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "grip",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"mp5",
+					"scar_h_1",
+					"sr_25",
+					"scar_l",
+					"r700_modern",
+					"dvl",
+					"mk47",
+					"as_val"
+				]
+			}
+		},
+		"mod_ar15_grip_green" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "橄榄绿涂装的N4o1平台人体工程学握把。此升级改善了武器控制并减少了长时间行动中的手部疲劳。因其军事传统和成熟可靠性而受到绿军特工的青睐。",
+				"name" : "MOE Grip (Green)",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ar15_grip_green_game",
+				"sprite_inv" : "s_mod_ar15_grip_green",
+				"stack_max" : 1,
+				"value" : 5500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 4,
+				"position" : [
+					"grip"
+				],
+				"recoil" : -1,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "grip",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"r700_modern",
+					"dvl",
+					"sr_25",
+					"mk47",
+					"mp5"
+				]
+			}
+		},
+		"mod_ar15_handguard_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "早期N4o1步枪上的标准原厂护木。虽然设计基础，但这些聚合物护木在禁区恶劣条件下证明了其可靠性。绿军技工欣赏其简单的结构便于野战维护，尽管老兵们经常升级到更先进的导轨系统。",
+				"name" : "Colt M4A1 standard handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ar15_handguard_1_game",
+				"sprite_inv" : "s_mod_ar15_handguard_1",
+				"stack_max" : 1,
+				"value" : 750,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 3,
+				"handguard" : {},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -3,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"adar",
+					"mk47"
+				]
+			}
+		},
+		"mod_ar15_handguard_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "采用LYUA-C导轨接口的高级模块化护木系统。为猩红集团的精英战术小组设计，此护木提供了广泛的配件安装点，同时保持结构完整性。先进的铝结构在持续射击时能有效散热。",
+				"name" : "Daniel Defense M4A1 RIS II Handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ar15_handguard_2_game",
+				"sprite_inv" : "s_mod_ar15_handguard_2",
+				"stack_max" : 1,
+				"value" : 8500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 3,
+				"handguard" : {
+					"att_1" : {
+						"x" : 6,
+						"y" : 4
+					},
+					"att_2" : {
+						"x" : 14,
+						"y" : 4
+					},
+					"att_3" : {
+						"x" : 14,
+						"y" : 1
+					},
+					"att_4" : {
+						"x" : 11,
+						"y" : 0
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -12,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"adar",
+					"mk47"
+				]
+			}
+		},
+		"mod_ar15_handguard_3" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "专为‘区域’沙尘弥漫的工业区行动设计的沙漠色涂装护木。特殊涂层能抵抗化学残留物的腐蚀，同时提供改进的握持纹理。受到在废弃炼油厂附近行动的潜行者的欢迎，因为传统黑色涂装在那里过于显眼。",
+				"name" : "Daniel Defense M4A1 RIS II Handguard (Desert)",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ar15_handguard_3_game",
+				"sprite_inv" : "s_mod_ar15_handguard_3",
+				"stack_max" : 1,
+				"value" : 6500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 6,
+				"handguard" : {
+					"att_1" : {
+						"x" : 5,
+						"y" : 4
+					},
+					"att_4" : {
+						"x" : 5,
+						"y" : 0
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -6,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"adar",
+					"mk47"
+				]
+			}
+		},
+		"mod_ar15_handguard_4" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "专属的‘孤月’版护木，最初为夜间突袭的特种部队设计。具有先进的人体工程学和优质结构，使其深受老练潜行者的追捧。独特的涂装有助于即使戴着厚重的防辐射手套也能保持握持。",
+				"name" : "Lancer LCH7 Handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ar15_handguard_4_game",
+				"sprite_inv" : "s_mod_ar15_handguard_4",
+				"stack_max" : 1,
+				"value" : 12500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 7,
+				"handguard" : {
+					"att_1" : {
+						"x" : 6,
+						"y" : 4
+					},
+					"att_2" : {
+						"x" : 14,
+						"y" : 4
+					},
+					"att_3" : {
+						"x" : 14,
+						"y" : 1
+					},
+					"att_4" : {
+						"x" : 11,
+						"y" : 0
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -10,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"adar",
+					"mk47",
+					"scar_l",
+					"sr_25",
+					"scar_h_1"
+				]
+			}
+		},
+		"mod_ar15_handguard_black" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "城市作战人员偏爱的标准黑色战术护木。哑光黑涂装减少了夜间行动的可见度，同时符合人体工程学的设计改善了武器操控。常见于在‘区域’定居点巡逻的双方阵营安全小组使用的步枪上。",
+				"name" : "Daniel Defense M4A1 RIS II Handguard (Black)",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ar15_handguard_black_game",
+				"sprite_inv" : "s_mod_ar15_handguard_black",
+				"stack_max" : 1,
+				"value" : 6500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 6,
+				"handguard" : {
+					"att_1" : {
+						"x" : 5,
+						"y" : 4
+					},
+					"att_4" : {
+						"x" : 5,
+						"y" : 0
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -6,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"adar",
+					"sr_25",
+					"mk47"
+				]
+			}
+		},
+		"mod_ar15_handguard_green" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "绿军标准橄榄绿涂装的军规护木。最初配发给绿军突击部队，这些护木现在因其耐用性和低调设计而受到独立潜行者的珍视。绿色涂装在‘区域’植被茂密的地区提供了有效的伪装。",
+				"name" : "Daniel Defense M4A1 RIS II Handguard (Green)",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ar15_handguard_green_game",
+				"sprite_inv" : "s_mod_ar15_handguard_green",
+				"stack_max" : 1,
+				"value" : 6500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 6,
+				"handguard" : {
+					"att_1" : {
+						"x" : 5,
+						"y" : 4
+					},
+					"att_4" : {
+						"x" : 5,
+						"y" : 0
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -6,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"adar",
+					"sr_25",
+					"mk47"
+				]
+			}
+		},
+		"mod_ar15_handguard_kac" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "代表战术步枪家具巅峰的顶级 CAK XRU 护木系统。专供猩红集团的精英快速反应部队使用，此护木提供了卓越的人体工程学和散热性能。先进的导轨系统可容纳多种配件，适用于多变的 mission 配置。",
+				"name" : "Knight's Armament Company URX Handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ar15_handguard_kac_game",
+				"sprite_inv" : "s_mod_ar15_handguard_kac",
+				"stack_max" : 1,
+				"value" : 10500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 8,
+				"handguard" : {
+					"att_1" : {
+						"x" : 6,
+						"y" : 4
+					},
+					"att_2" : {
+						"x" : 14,
+						"y" : 4
+					},
+					"att_3" : {
+						"x" : 14,
+						"y" : 1
+					},
+					"att_4" : {
+						"x" : 11,
+						"y" : 0
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -11,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"adar",
+					"mk47",
+					"scar_l",
+					"scar_h_1",
+					"sr_25"
+				]
+			}
+		},
+		"mod_ar15_handguard_qd_rail" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "采用快速拆卸安装系统的先进 KV 导轨护木。最初为需要快速重新配置武器的特种行动而开发，此护木允许在没有工具的情况下快速更换附件。坚固的结构能承受频繁改装的压力，同时保持归零。",
+				"name" : "VLTOR MUR-1A Handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ar15_handguard_qd_rail_game",
+				"sprite_inv" : "s_mod_ar15_handguard_qd_rail",
+				"stack_max" : 1,
+				"value" : 13500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 6,
+				"handguard" : {
+					"att_1" : {
+						"x" : 6,
+						"y" : 4
+					},
+					"att_2" : {
+						"x" : 14,
+						"y" : 4
+					},
+					"att_3" : {
+						"x" : 14,
+						"y" : 1
+					},
+					"att_4" : {
+						"x" : 11,
+						"y" : 0
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -12,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"adar",
+					"mk47",
+					"scar_l",
+					"sr_25",
+					"scar_h_1"
+				]
+			}
+		},
+		"mod_ar15_handguard_smr" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "为精确射手和专业步枪手设计的高级 TNR mt16 护木系统。自由浮动设计最大限度地减少了枪管谐振，而广泛的导轨系统可容纳两脚架、握把和其他配件。受到要求步枪发挥最大精度的经验丰富的潜行者的青睐。",
+				"name" : "Geissele SMR Mk16 Handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ar15_handguard_smr_game",
+				"sprite_inv" : "s_mod_ar15_handguard_smr",
+				"stack_max" : 1,
+				"value" : 13500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 8,
+				"handguard" : {
+					"att_1" : {
+						"x" : 6,
+						"y" : 4
+					},
+					"att_2" : {
+						"x" : 14,
+						"y" : 4
+					},
+					"att_3" : {
+						"x" : 14,
+						"y" : 1
+					},
+					"att_4" : {
+						"x" : 11,
+						"y" : 0
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -13,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"adar",
+					"mk47",
+					"scar_l",
+					"sr_25",
+					"scar_h_1"
+				]
+			}
+		},
+		"mod_ar15_iron_sight" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "标准的备用机械瞄具，在电子光学器件失灵时提供可靠的瞄准。在‘区域’中，电磁异常会使高级瞄准镜失效，这些机械瞄具已被证明是无价的。每个经验丰富的潜行者都保留一套作为紧急备用，知道简单的钢铁永远不会失效。",
+				"name" : "Colt M4A1 iron sight",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ar15_sight_iron_game",
+				"sprite_inv" : "s_mod_ar15_sight_iron",
+				"stack_max" : 1,
+				"value" : 250,
+				"weight" : 0.1
+			},
+			"weapon_mod": {
+				"acc": 0,
+				"damage": 0,
+				"ergo": 0,
+				"position": [
+					"scope"
+				],
+				"recoil": 0,
+				"reload_speed": 0,
+				"scope_image": "s_vuoto",
+				"scope_extend_view": 1.15,
+				"scope_glance_mouse_dis_mult": 1,
+				"scope_mult_eff_range": 1.05,
+				"scope_optic": false,
+				"type": "scope",
+				"value": 0,
+				"weapon_all": false,
+				"weapon_id": [
+					"m4a1"
+				]
+			}
+		},
+		"mod_ar15_magazine_30" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "大多数TR-15步枪配备的标准30发弹匣。按照军用规格制造，即使暴露在‘区域’污染物中也能可靠运作的弹簧机构。铝制结构能抵抗腐蚀，同时在压力下保持一致的供弹。",
+				"name" : "Colt M4A1 standard magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ar15_magazine_30_game",
+				"sprite_inv" : "s_mod_ar15_magazine_30",
+				"stack_max" : 1,
+				"value" : 350,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"magazine_size" : 30,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"adar",
+					"scar_l",
+					"g36"
+				]
+			}
+		},
+		"mod_ar15_magazine_30_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "沙漠色涂装的增强型 B mag GEN T3 弹匣。为恶劣环境作战而开发，这种聚合物弹匣具有改进的托弹板设计和自润滑内部结构。沙漠色最初用于干旱地区作战，但在‘区域’尘土飞扬的工业区也被证明有用。",
+				"name" : "Magpul PMAG GEN M3 (Desert)",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ar15_magazine_30_2_game",
+				"sprite_inv" : "s_mod_ar15_magazine_30_2",
+				"stack_max" : 1,
+				"value" : 3500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 1,
+				"magazine_size" : 30,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : -15,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"adar",
+					"scar_l",
+					"g36"
+				]
+			}
+		},
+		"mod_ar15_magazine_60" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "为持续作战行动设计的高容量60发弹匣。虽然扩展的容量提供了战术优势，但增加的尺寸使武器在狭小空间内不易操控。受到需要保卫定居点抵御大型变异生物群或敌对派系突袭的潜行者的欢迎。",
+				"name" : "Magpul PMAG D-60 Drum Magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ar15_magazine_60_game",
+				"sprite_inv" : "s_mod_ar15_magazine_60",
+				"stack_max" : 1,
+				"value" : 9500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -20,
+				"magazine_size" : 60,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 25,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"adar",
+					"g36"
+				]
+			}
+		},
+		"mod_ar15_magazine_pmag" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "采用先进聚合物结构的第三代 B mag 弹匣。GEN T3 设计融合了野战行动的经验教训，具有增强的可靠性和改进的人体工程学。纹理表面即使在湿滑或受污染的手套下也能提供稳固的握持。",
+				"name" : "Magpul PMAG GEN M3",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ar15_magazine_pmag_game",
+				"sprite_inv" : "s_mod_ar15_magazine_pmag",
+				"stack_max" : 1,
+				"value" : 3500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 2,
+				"magazine_size" : 30,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : -15,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"adar",
+					"scar_l",
+					"g36"
+				]
+			}
+		},
+		"mod_ar15_magazine_pmag_green" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "绿军标准配色的军规 B mag 弹匣。最初配发给绿军步枪班，这些弹匣现在因其成熟的可靠性而受到潜行者的高度重视。橄榄绿涂装有助于在‘区域’植被茂密的地区保持伪装。",
+				"name" : "Magpul PMAG GEN M3 (Green)",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ar15_magazine_pmag_green_game",
+				"sprite_inv" : "s_mod_ar15_magazine_pmag_green",
+				"stack_max" : 1,
+				"value" : 3500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 2,
+				"magazine_size" : 30,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : -15,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"adar",
+					"scar_l",
+					"g36"
+				]
+			}
+		},
+		"mod_ar15_silencer_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "为5.56x45步枪设计的专业级 CAK CBSS 消音器。此消音器显著减少枪口焰和声音特征，使其在‘区域’的隐秘行动中不可或缺。内部挡板设计用于抵抗‘区域’受污染大气的腐蚀效应。",
+				"name" : "Knight's Armament Company QDC Suppressor",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ar15_silencer_1_game",
+				"sprite_inv" : "s_mod_ar15_silencer_1",
+				"stack_max" : 1,
+				"value" : 8000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -10,
+				"position" : [
+					"brake"
+				],
+				"recoil" : -8,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"silencer_sound" : "snd_sil_556x45_1",
+				"type" : "silencer",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"adar",
+					"ak_101",
+					"scar_l",
+					"g36",
+					"famas"
+				]
+			}
+		},
+		"mod_ar15_silencer_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "专为恶劣环境作战优化的沙漠色涂装 CAK CBSS 消音器。特殊涂层能抵抗沙粒和化学腐蚀，同时保持消音效果。受到在‘区域’工业区执行秘密行动的猩红集团特工的欢迎。",
+				"name" : "Knight's Armament Company QDC Suppressor (Desert)",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ar15_silencer_2_game",
+				"sprite_inv" : "s_mod_ar15_silencer_2",
+				"stack_max" : 1,
+				"value" : 9500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -10,
+				"position" : [
+					"brake"
+				],
+				"recoil" : -8,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"silencer_sound" : "snd_sil_556x45_1",
+				"type" : "silencer",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"adar",
+					"g36",
+					"ak_101",
+					"scar_l",
+					"famas"
+				]
+			}
+		},
+		"mod_ar15_stock_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "大多数N4o1步枪上的标准伸缩枪托。伸缩设计允许根据不同的防弹衣配置和射击姿势进行调整。虽然基础，但这些枪托因其可靠性和与‘区域’中广泛使用的各种武器的兼容性而受到重视。",
+				"name" : "Colt M4A1 standard stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ar15_stock_1_game",
+				"sprite_inv" : "s_mod_ar15_stock_1",
+				"stack_max" : 1,
+				"value" : 650,
+				"weight" : 0.25
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 3,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -20,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"tapco",
+					"rpk",
+					"ak_74",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"akm",
+					"ak_101",
+					"as_val",
+					"scar_h_1",
+					"sr_25",
+					"scar_l",
+					"r700_modern",
+					"mk47",
+					"mp5"
+				]
+			}
+		},
+		"mod_ar15_stock_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "为TR-15设计的增强型枪托，旨在改善后坐力控制和射手舒适度。加固的结构和更好的人体工程学使这款枪托受到参与持久战的潜行者的欢迎。改进的贴腮板有助于在快速目标捕获期间保持精度。",
+				"name" : "Magpul MOE Stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ar15_stock_2_game",
+				"sprite_inv" : "s_mod_ar15_stock_2",
+				"stack_max" : 1,
+				"value" : 4000,
+				"weight" : 0.25
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 5,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -32,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"tapco",
+					"rpk",
+					"ak_74",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"ak_101",
+					"akm",
+					"as_val",
+					"scar_h_1",
+					"sr_25",
+					"scar_l",
+					"r700_modern",
+					"mk47",
+					"mp5"
+				]
+			}
+		},
+		"mod_ar15_stock_3" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "沙漠色涂装的紧凑型 KTR 枪托，专为注重机动性的行动而设计。轻量化结构和流线型外形使其非常适合那些优先考虑速度和敏捷性而非最大稳定性的潜行者。在‘区域’城市废墟的近距离交战中特别有效。",
+				"name" : "Magpul CTR Stock (Desert)",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ar15_stock_3_game",
+				"sprite_inv" : "s_mod_ar15_stock_3",
+				"stack_max" : 1,
+				"value" : 9000,
+				"weight" : 0.25
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 8,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -25,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"tapco",
+					"rpk",
+					"ak_74",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"as_val",
+					"akm",
+					"ak_101",
+					"scar_h_1",
+					"sr_25",
+					"scar_l",
+					"r700_modern",
+					"mk47",
+					"mp5"
+				]
+			}
+		},
+		"mod_ar15_stock_ctr_black" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "战术黑色涂装的 KTR 战术枪托。哑光黑涂层减少了夜间行动的可见度，同时符合人体工程学的设计提供了出色的控制。受到需要在阴影中保持隐蔽同时维持武器稳定性以进行精确射击的城市作战人员的青睐。",
+				"name" : "Magpul CTR Stock (Black)",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ar15_stock_ctr_black_game",
+				"sprite_inv" : "s_mod_ar15_stock_ctr_black",
+				"stack_max" : 1,
+				"value" : 9000,
+				"weight" : 0.25
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 8,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -25,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"tapco",
+					"rpk",
+					"ak_74",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"akm",
+					"ak_101",
+					"as_val",
+					"scar_l",
+					"scar_h_1",
+					"sr_25",
+					"r700_modern",
+					"mk47",
+					"mp5"
+				]
+			}
+		},
+		"mod_ar15_stock_green" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "绿军标准橄榄绿涂装的军规 KTR 枪托。最初配发给绿军特种作战单位，这款枪托结合了耐用性和增强的人体工程学。绿色涂装在‘区域’植被茂密的区域提供了有效的伪装，同时保持了专业级的性能。",
+				"name" : "Magpul CTR Stock (Green)",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ar15_stock_green_game",
+				"sprite_inv" : "s_mod_ar15_stock_green",
+				"stack_max" : 1,
+				"value" : 9000,
+				"weight" : 0.25
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 8,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -25,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"tapco",
+					"rpk",
+					"ak_74",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"akm",
+					"ak_101",
+					"as_val",
+					"scar_h_1",
+					"sr_25",
+					"scar_l",
+					"r700_modern",
+					"mk47",
+					"mp5"
+				]
+			}
+		},
+		"mod_ar15_stock_tactical_desert" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "专为沙漠环境下的最大性能而设计的顶级战术枪托。具有先进的后坐力缓冲和卓越的人体工程学，使其深受专业操作员的追捧。特殊的沙漠涂层能抵抗‘区域’工业区沙粒和化学暴露造成的磨损。",
+				"name" : "Magpul UBR GEN2 Stock (Desert)",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ar15_stock_tactical_desert_game",
+				"sprite_inv" : "s_mod_ar15_stock_tactical_desert",
+				"stack_max" : 1,
+				"value" : 10500,
+				"weight" : 0.25
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 9,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -28,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"tapco",
+					"rpk",
+					"ak_74",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"ak_101",
+					"akm",
+					"as_val",
+					"scar_h_1",
+					"sr_25",
+					"scar_l",
+					"r700_modern",
+					"mk47",
+					"mp5"
+				]
+			}
+		},
+		"mod_ar15_stock_tactical_grey" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "中性灰色涂装的高性能战术枪托。先进的材料和精密工程使这款枪托非常适合要求性能稳定的专业操作员。灰色涂装在城市和工业环境中提供了有效的伪装。",
+				"name" : "Magpul UBR GEN2 Stock (Grey)",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ar15_stock_tactical_grey_game",
+				"sprite_inv" : "s_mod_ar15_stock_tactical_grey",
+				"stack_max" : 1,
+				"value" : 10500,
+				"weight" : 0.25
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 9,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -28,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"tapco",
+					"rpk",
+					"ak_74",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"akm",
+					"as_val",
+					"ak_101",
+					"scar_h_1",
+					"sr_25",
+					"scar_l",
+					"r700_modern",
+					"mk47",
+					"mp5"
+				]
+			}
+		},
+		"mod_ar15_stock_wm" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "专为激进战斗行动设计的‘战争机器’枪托。增强的人体工程学优先考虑快速目标捕获和持续火力控制。受到经常与敌对派系和危险变异生物交战的老练潜行者的欢迎。",
+				"name" : "LMT SOPMOD Stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ar15_stock_wm_game",
+				"sprite_inv" : "s_mod_ar15_stock_wm",
+				"stack_max" : 1,
+				"value" : 7500,
+				"weight" : 0.25
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 11,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -21,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"tapco",
+					"rpk",
+					"ak_74",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"akm",
+					"ak_101",
+					"as_val",
+					"scar_h_1",
+					"sr_25",
+					"scar_l",
+					"r700_modern",
+					"mk47",
+					"mp5"
+				]
+			}
+		},
+		"mod_ash12_magazine_10" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于强大的Sha-12战斗步枪的标准10发弹匣。紧凑的尺寸使操控更容易，但在持久战中需要频繁装填。坚固的结构是处理巨大的12.7x55mm弹药压力所必需的。",
+				"name" : "Sha-12 10 round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ash12_magazine_10_game",
+				"sprite_inv" : "s_mod_ash12_magazine_10",
+				"stack_max" : 1,
+				"value" : 500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"magazine_size" : 10,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ash12"
+				]
+			}
+		},
+		"mod_ash12_magazine_20" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "为Sha-12提供增强火力的加长20发弹匣。虽然更重更笨拙，但在面对大量敌人时，额外的容量是无价的。弹匣的重量有助于在自动射击时稳定步枪。",
+				"name" : "Sha-12 20 round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ash12_magazine_20_game",
+				"sprite_inv" : "s_mod_ash12_magazine_20",
+				"stack_max" : 1,
+				"value" : 13000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -5,
+				"magazine_size" : 20,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ash12"
+				]
+			}
+		},
+		"mod_ash12_sight" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "专为Sha-12巨大弹药弹道设计的原厂机械瞄具。这些坚固的瞄具旨在承受12.7mm弹药的惩罚性后坐力，同时保持精度。在有电磁干扰的区域行动时是必不可少的备用瞄准具。",
+				"name" : "Sha-12 standard sight",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_scope_ash12_standard_game",
+				"sprite_inv" : "s_mod_scope_ash12_standard",
+				"stack_max" : 1,
+				"value" : 600,
+				"weight" : 0.1
+			},
+			"weapon_mod": {
+				"acc": 0,
+				"damage": 0,
+				"ergo": 0,
+				"position": [
+					"scope"
+				],
+				"recoil": 0,
+				"reload_speed": 0,
+				"scope_image": "s_vuoto",
+				"scope_extend_view": 1.15,
+				"scope_glance_mouse_dis_mult": 1,
+				"scope_mult_eff_range": 1.05,
+				"scope_optic": false,
+				"type": "scope",
+				"value": 0,
+				"weapon_all": false,
+				"weapon_id": [
+					"ash12"
+				]
+			}
+		},
+		"mod_ash12_brake_standard" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "Sha-12的标准枪口制退器，旨在处理12.7x55mm弹药的巨大枪口冲击波。没有这个制退器，步枪在快速射击时几乎无法控制。大型开口有效地重新导向推进剂气体以减少可感后坐力。",
+				"name" : "Sha-12 standard brake",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_brake_ash12_standard_game",
+				"sprite_inv" : "s_mod_brake_ash12_standard",
+				"stack_max" : 1,
+				"value" : 600,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"position" : [
+					"brake"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_image" : "s_vuoto",
+				"scope_optic" : false,
+				"type" : "brake",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ash12"
+				]
+			}
+		},
+		"mod_ash12_silencer_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "为Sha-12强大的12.7mm弹药设计的紧凑型消音器。虽然显著减少了声音特征和枪口焰，但消音器给步枪前部增加了相当大的重量。受到需要无声消灭目标的隐秘专家的欢迎。",
+				"name" : "Sha-12 short suppressor",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_brake_ash12_silencer_1_game",
+				"sprite_inv" : "s_mod_brake_ash12_silencer_1",
+				"stack_max" : 1,
+				"value" : 6000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -10,
+				"position" : [
+					"brake"
+				],
+				"recoil" : -2,
+				"reload_speed" : 0,
+				"scope_image" : "s_vuoto",
+				"scope_optic" : false,
+				"silencer_sound" : "snd_sil_127x55",
+				"type" : "silencer",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ash12"
+				]
+			}
+		},
+		"mod_ash12_silencer_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "为Sha-12提供最大程度声音抑制的全长消音器。这款高级消音器几乎消除了步枪雷鸣般的报告声，使其在秘密行动中不可或缺。相当大的长度和重量显著影响武器平衡，但提供了无与伦比的隐蔽能力。",
+				"name" : "Sha-12 long suppressor",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_brake_ash12_silencer_2_game",
+				"sprite_inv" : "s_mod_brake_ash12_silencer_2",
+				"stack_max" : 1,
+				"value" : 20000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -20,
+				"position" : [
+					"brake"
+				],
+				"recoil" : -12,
+				"reload_speed" : 0,
+				"scope_image" : "s_vuoto",
+				"scope_optic" : false,
+				"silencer_sound" : "snd_sil_127x55",
+				"type" : "silencer",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ash12"
+				]
+			}
+		},
+		"mod_brake_545x39_pws" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "专为近距离战斗设计的紧凑型 TVS CQB 枪口制退器。激进的开口配置有效减少了快速射击时的枪口上跳，使其非常适合‘区域’定居点内的城市战斗。紧凑的设计最大限度地减少了在狭小空间中的钩挂风险。",
+				"name" : "Muzzle brake 5.45x39 TVS CQB",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_brake_556x45_pws_game",
+				"sprite_inv" : "s_mod_brake_556x45_pws",
+				"stack_max" : 1,
+				"value" : 3500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -3,
+				"position" : [
+					"brake"
+				],
+				"recoil" : -6,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "brake",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ak_74",
+					"ak_12",
+					"rpk",
+					"ak_74u_1"
+				]
+			}
+		},
+		"mod_brake_545x39_rrd" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "为最大程度减少后坐力而设计的高效 PPD-3C 枪口制退器。先进的腔室设计有效分流推进剂气体，同时略微提高枪口初速。受到在‘森林’区域行动的绿军精确射手的欢迎。",
+				"name" : "Muzzle brake 5.45x39 PPD-3C",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_brake_545x39_rrd_game",
+				"sprite_inv" : "s_mod_brake_545x39_rrd",
+				"stack_max" : 1,
+				"value" : 5500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 1,
+				"ergo" : -2,
+				"position" : [
+					"brake"
+				],
+				"recoil" : -8,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "brake",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ak_74",
+					"ak_12",
+					"rpk",
+					"ak_74u_1"
+				]
+			}
+		},
+		"mod_brake_545x39_srvv" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "代表苏联工程巅峰的高级 ZPWW 枪口制退器。此制退器通过改进的弹道学提供了卓越的后坐力控制和轻微的伤害增强。深受那些精通武器并追求极致性能的老练潜行者的珍视。",
+				"name" : "Muzzle brake 5.45x39 ZPWW",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_brake_545x39_srvv_game",
+				"sprite_inv" : "s_mod_brake_545x39_srvv",
+				"stack_max" : 1,
+				"value" : 8000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 1,
+				"ergo" : -4,
+				"position" : [
+					"brake"
+				],
+				"recoil" : -10,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "brake",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ak_74",
+					"ak_12",
+					"rpk",
+					"ak_74u_1"
+				]
+			}
+		},
+		"mod_brake_556x45_pws" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "为NATO 5.56x45弹药优化的先进 TVS CQB 枪口制退器。精密工程设计的开口提供了出色的枪口控制，同时轻微的弹道增强改善了终端性能。受到猩红集团突击队进行城市作战的青睐。",
+				"name" : "Muzzle brake 5.56x45 TVS CQB",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_brake_556x45_pws_game",
+				"sprite_inv" : "s_mod_brake_556x45_pws",
+				"stack_max" : 1,
+				"value" : 3500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 1,
+				"ergo" : -3,
+				"position" : [
+					"brake"
+				],
+				"recoil" : -6,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "brake",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"adar",
+					"g36",
+					"ak_101",
+					"famas"
+				]
+			}
+		},
+		"mod_brake_556x45_vendetta" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "VG6 GAMMA 556 枪口制退器。猩红集团特工在‘森林’行动中偏爱的NATO标准装备。",
+				"name" : "VG6 GAMMA 556 Brake",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_brake_556x45_vendetta_game",
+				"sprite_inv" : "s_mod_brake_556x45_vendetta",
+				"stack_max" : 1,
+				"value" : 7500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 1,
+				"ergo" : -4,
+				"position" : [
+					"brake"
+				],
+				"recoil" : -9,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "brake",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"adar",
+					"g36",
+					"ak_101",
+					"famas"
+				]
+			}
+		},
+		"mod_brake_762x51_vendetta" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "DTK-2 枪口制退器，在‘商场’和‘营地’突袭的恶劣条件下证明有效。显著减少可感后坐力。",
+				"name" : "DTK-2 Muzzle Brake",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_brake_556x45_vendetta_game",
+				"sprite_inv" : "s_mod_brake_556x45_vendetta",
+				"stack_max" : 1,
+				"value" : 12500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 1,
+				"ergo" : -4,
+				"position" : [
+					"brake"
+				],
+				"recoil" : -11,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "brake",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m1a",
+					"scar_h_1",
+					"sr_25",
+					"scar_l",
+					"r700_1",
+					"r700_modern",
+					"akm",
+					"ak_15",
+					"ak_308",
+					"mk47"
+				]
+			}
+		},
+		"mod_brake_9x19_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "专为9mm手枪和冲锋枪弹药设计的 PPD-3C 枪口制退器。虽然手枪弹药产生的后坐力比步枪小，但此制退器仍在快速射击控制方面提供了显著改善，并略微增强了弹道性能。",
+				"name" : "Muzzle brake PPD-3C for 9x18, 9x19",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_brake_9x19_1_game",
+				"sprite_inv" : "s_mod_brake_9x19_1",
+				"stack_max" : 1,
+				"value" : 4000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 1,
+				"ergo" : -4,
+				"position" : [
+					"brake"
+				],
+				"recoil" : -6,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "brake",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"glock_17_1",
+					"aps",
+					"makarov",
+					"mp5",
+					"vector_9x19"
+				]
+			}
+		},
+		"mod_brake_9x19_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "为手枪口径优化的高性能 TVS CQB 枪口制退器。紧凑的设计不影响拔枪，同时为快速后续射击提供了增强的后坐力控制。受到依赖随身武器进行近距离防御的潜行者的欢迎。",
+				"name" : "Muzzle brake TVS CQB for 9x18, 9x19",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_brake_9x19_2_game",
+				"sprite_inv" : "s_mod_brake_9x19_2",
+				"stack_max" : 1,
+				"value" : 7500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 1,
+				"ergo" : -5,
+				"position" : [
+					"brake"
+				],
+				"recoil" : -8,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "brake",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"glock_17_1",
+					"aps",
+					"makarov",
+					"mp5",
+					"vector_9x19"
+				]
+			}
+		},
+		"mod_brake_annihilator" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "EC-74 枪口制退器。标准的苏制补偿器，在‘工业区’周边争议地带行动的猎人中很受欢迎。",
+				"name" : "AK-74 Standard Brake",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_brake_annihilator_game",
+				"sprite_inv" : "s_mod_brake_annihilator",
+				"stack_max" : 1,
+				"value" : 4500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 1,
+				"ergo" : -3,
+				"position" : [
+					"brake"
+				],
+				"recoil" : -6,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "brake",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m4a1",
+					"adar",
+					"g36",
+					"ak_101",
+					"famas",
+					"scar_h_1",
+					"sr_25",
+					"scar_l",
+					"m1a",
+					"r700_1",
+					"r700_modern",
+					"mp5",
+					"ak_308",
+					"vector_9x19",
+					"ak_101"
+				]
+			}
+		},
+		"mod_dvl_grip" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "专为EDL狙击步枪设计的精密工程握把。符合人体工程学的设计提供了稳定的握持角度和纹理，适用于精确的远距离射击。对于在长时间观察和目标交战期间保持扳机控制至关重要。",
+				"name" : "EDL pistol grip",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_dvl_grip_game",
+				"sprite_inv" : "s_mod_dvl_grip",
+				"stack_max" : 1,
+				"value" : 850,
+				"weight" : 0.15
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 2,
+				"position" : [
+					"grip"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "grip",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"dvl"
+				]
+			}
+		},
+		"mod_dvl_magazine_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "EDL精密步枪的标准5发弹匣。低调的设计保持了步枪的精度，同时为大多数狙击交战提供了足够的容量。铝制结构确保了竞赛级弹药的可靠供弹。",
+				"name" : "EDL 5 round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_dvl_magazine_1_game",
+				"sprite_inv" : "s_mod_dvl_magazine_1",
+				"stack_max" : 1,
+				"value" : 320,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"magazine_size" : 5,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"dvl"
+				]
+			}
+		},
+		"mod_dvl_magazine_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "为持续行动提供增加容量的加长10发弹匣。虽然比标准弹匣更重更笨拙，但在持久战或出现多个目标时，额外的子弹可能至关重要。",
+				"name" : "EDL 10 round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_dvl_magazine_2_game",
+				"sprite_inv" : "s_mod_dvl_magazine_2",
+				"stack_max" : 1,
+				"value" : 3800,
+				"weight" : 0.2
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -5,
+				"magazine_size" : 10,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"dvl"
+				]
+			}
+		},
+		"mod_famas_grip_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "大多数Fanaz无托步枪上的标准原厂握把。基础的聚合物结构为一般使用提供了足够的人体工程学，尽管许多操作员更喜欢升级到增强型握把以在‘区域’的长时间行动中获得更好的控制。",
+				"name" : "FAMAS standard pistol grip",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_famas_grip_1_game",
+				"sprite_inv" : "s_mod_famas_grip_1",
+				"stack_max" : 1,
+				"value" : 450,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 2,
+				"position" : [
+					"grip"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "grip",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"famas"
+				]
+			}
+		},
+		"mod_famas_grip_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "旨在改善武器控制和射手舒适度的增强型握把。纹理表面和人体工程学设计即使在戴着防辐射手套时也能提供卓越的握持。受到经常参与战斗行动的潜行者的欢迎。",
+				"name" : "FAMAS enhanced pistol grip",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_famas_grip_2_game",
+				"sprite_inv" : "s_mod_famas_grip_2",
+				"stack_max" : 1,
+				"value" : 4500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 5,
+				"position" : [
+					"grip"
+				],
+				"recoil" : -3,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "grip",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"famas"
+				]
+			}
+		},
+		"mod_famas_handguard_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于Fanaz无托平台的基础附件导轨系统。这种轻量化导轨提供了战术配件的安装点，同时保持了步枪的紧凑外形。对于需要在近距离战斗中安装手电筒或握把的操作员来说是必不可少的。",
+				"name" : "FAMAS attachment rail",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_famas_handguard_1_game",
+				"sprite_inv" : "s_mod_famas_handguard_1",
+				"stack_max" : 1,
+				"value" : 2800,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 1,
+				"handguard" : {
+					"att_1" : {
+						"x" : 5,
+						"y" : 0
+					},
+					"att_2" : {
+						"x" : 11,
+						"y" : 0
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -3,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"famas"
+				]
+			}
+		},
+		"mod_famas_handguard_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "为Fanaz平台提供广泛定制选项的先进多导轨系统。扩展的导轨空间可同时容纳多个配件，而增强的结构提供了改进的后坐力控制。受到需要最大通用性的战术专家的青睐。",
+				"name" : "FAMAS advanced rail",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_famas_handguard_2_game",
+				"sprite_inv" : "s_mod_famas_handguard_2",
+				"stack_max" : 1,
+				"value" : 8500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 3,
+				"handguard" : {
+					"att_1" : {
+						"x" : 5,
+						"y" : 0
+					},
+					"att_2" : {
+						"x" : 11,
+						"y" : 0
+					},
+					"att_3" : {
+						"x" : 18,
+						"y" : -2
+					},
+					"att_4" : {
+						"x" : 18,
+						"y" : -3
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -8,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"famas"
+				]
+			}
+		},
+		"mod_famas_mag_20" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于Fanaz无托步枪的紧凑型20发弹匣。减少的容量被更轻的重量和在狭小空间中改进的机动性所抵消。受到优先考虑隐蔽和机动性而非持续火力能力的侦察专家的欢迎。",
+				"name" : "Fanaz 20-round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_famas_mag_20_game",
+				"sprite_inv" : "s_mod_famas_mag_20",
+				"stack_max" : 1,
+				"value" : 250,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"magazine_size" : 20,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"famas"
+				]
+			}
+		},
+		"mod_famas_mag_30" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "为Fanaz平台提供平衡容量和操控性的标准30发弹匣。半透明结构便于快速评估弹药量，而坚固的聚合物设计能抵抗‘区域’恶劣环境条件的损坏。",
+				"name" : "Fanaz 30-round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_famas_mag_30_game",
+				"sprite_inv" : "s_mod_famas_mag_30",
+				"stack_max" : 1,
+				"value" : 1200,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"magazine_size" : 30,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 1,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"famas"
+				]
+			}
+		},
+		"mod_famas_mag_60" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于长时间战斗行动的高容量60发弹匣。弹鼓式弹匣显著增加了火力，但严重影响武器平衡和机动性。受到压制专家和保卫定居点抵御大型变异生物群的潜行者的青睐。",
+				"name" : "Fanaz 60-round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_famas_mag_60_game",
+				"sprite_inv" : "s_mod_famas_mag_60",
+				"stack_max" : 1,
+				"value" : 12000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -20,
+				"magazine_size" : 60,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 30,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"famas"
+				]
+			}
+		},
+		"mod_foregrip_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "标准垂直前握把，旨在改善武器控制并减少长时间行动中的疲劳。纹理握把表面即使在湿滑或被‘区域’颗粒污染时也能保持有效。受到经常参与近距离战斗的突击专家的欢迎。",
+				"name" : "foregrip",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_foregrip_1_game",
+				"sprite_inv" : "s_mod_foregrip_1",
+				"stack_max" : 1,
+				"value" : 5600,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 4,
+				"position" : [
+					"att_1"
+				],
+				"recoil" : -6,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "foregrip",
+				"value" : 4,
+				"weapon_all" : true,
+				"weapon_id" : 0
+			}
+		},
+		"mod_foregrip_1_desert" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "专为干旱环境作战优化的沙漠色涂装前握把。特殊涂层能抵抗沙尘堆积，同时提供改进的握持纹理。对于在‘区域’工业区行动的潜行者有效，因为传统黑色握把会过于显眼。",
+				"name" : "foregrip desert",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_foregrip_1_desert_game",
+				"sprite_inv" : "s_mod_foregrip_1_desert",
+				"stack_max" : 1,
+				"value" : 5600,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 4,
+				"position" : [
+					"att_1"
+				],
+				"recoil" : -6,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "foregrip",
+				"value" : 4,
+				"weapon_all" : true,
+				"weapon_id" : 0
+			}
+		},
+		"mod_foregrip_1_green" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "绿军标准橄榄绿涂装的军规前握把。最初配发给绿军步兵单位，这些握把因其耐用性和在‘区域’植被茂密区域的有效伪装而受到珍视。绿色涂装有助于融入植被。",
+				"name" : "foregrip green",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_foregrip_1_green_game",
+				"sprite_inv" : "s_mod_foregrip_1_green",
+				"stack_max" : 1,
+				"value" : 5600,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 4,
+				"position" : [
+					"att_1"
+				],
+				"recoil" : -6,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "foregrip",
+				"value" : 4,
+				"weapon_all" : true,
+				"weapon_id" : 0
+			}
+		},
+		"mod_foregrip_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "旨在改善操控性和射手舒适度的紧凑型人体工程学前握把。流线型设计减少了钩挂风险，同时提供了增强的武器控制。非常适合优先考虑机动性而非最大后坐力减缓的潜行者。",
+				"name" : "foregrip",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_foregrip_2_game",
+				"sprite_inv" : "s_mod_foregrip_2",
+				"stack_max" : 1,
+				"value" : 2200,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 6,
+				"position" : [
+					"att_1"
+				],
+				"recoil" : -2,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "foregrip",
+				"value" : 2,
+				"weapon_all" : true,
+				"weapon_id" : [
+					"m4a1"
+				]
+			}
+		},
+		"mod_foregrip_3" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "提供适度后坐力控制的基础倾斜前握把，价格实惠。虽然不如高级选项先进，但这款握把为预算有限的潜行者提供了可靠的性能。倾斜设计有助于自然的射击姿势对齐。",
+				"name" : "foregrip",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_foregrip_3_game",
+				"sprite_inv" : "s_mod_foregrip_3",
+				"stack_max" : 1,
+				"value" : 1300,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"position" : [
+					"att_1"
+				],
+				"recoil" : -4,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "foregrip",
+				"value" : 2,
+				"weapon_all" : true,
+				"weapon_id" : 0
+			}
+		},
+		"mod_foregrip_4" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "具有改进人体工程学和武器控制的增强型战术前握把。先进的设计平衡了后坐力减缓和操控特性，使其适用于‘区域’中遇到的各种战斗场景。受到经验丰富的操作员的欢迎。",
+				"name" : "foregrip",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_foregrip_4_game",
+				"sprite_inv" : "s_mod_foregrip_4",
+				"stack_max" : 1,
+				"value" : 3500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 5,
+				"position" : [
+					"att_1"
+				],
+				"recoil" : -5,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "foregrip",
+				"value" : 1,
+				"weapon_all" : true,
+				"weapon_id" : 0
+			}
+		},
+		"mod_foregrip_5" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "为最大化武器控制和射手舒适度而设计的高级战术前握把。这款高端握把代表人机工程学设计的巅峰，在快速射击时提供卓越的稳定性。深受要求最佳装备的精英操作员的追捧。",
+				"name" : "foregrip",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_foregrip_5_game",
+				"sprite_inv" : "s_mod_foregrip_5",
+				"stack_max" : 1,
+				"value" : 16000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 7,
+				"position" : [
+					"att_1"
+				],
+				"recoil" : -7,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "foregrip",
+				"value" : 4,
+				"weapon_all" : true,
+				"weapon_id" : [
+					"m4a1"
+				]
+			}
+		},
+		"mod_foregrip_6" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "专为持续作战行动设计的专业级前握把。坚固的结构和优化的握持角度在持久战中提供可靠的武器控制。受到深知优质装备在生存中重要性的老练潜行者的信赖。",
+				"name" : "foregrip",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_foregrip_6_game",
+				"sprite_inv" : "s_mod_foregrip_6",
+				"stack_max" : 1,
+				"value" : 4800,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 4,
+				"position" : [
+					"att_1"
+				],
+				"recoil" : -5,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "foregrip",
+				"value" : 3,
+				"weapon_all" : true,
+				"weapon_id" : [
+					"m4a1"
+				]
+			}
+		},
+		"mod_foregrip_7" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "为最大化操控舒适度而非纯粹减少后坐力而优化的先进人体工程学前握把。独特的设计减少了长时间行动中的射手疲劳，同时保持足够的控制。受到需要长时间携带武器的侦察专家的欢迎。",
+				"name" : "foregrip",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_foregrip_7_game",
+				"sprite_inv" : "s_mod_foregrip_7",
+				"stack_max" : 1,
+				"value" : 10000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 12,
+				"position" : [
+					"att_1"
+				],
+				"recoil" : 2,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "foregrip",
+				"value" : 4,
+				"weapon_all" : true,
+				"weapon_id" : [
+					"m4a1"
+				]
+			}
+		},
+		"mod_foregrip_7_desert" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "专为在恶劣环境中长时间行动提供舒适度的沙漠色涂装人体工程学前握把。特殊涂层能抵抗沙粒和化学腐蚀，而先进的人体工程学设计减少了疲劳。非常适合在‘区域’尘土飞扬的工业区进行远程侦察。",
+				"name" : "foregrip desert",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_foregrip_7_desert_game",
+				"sprite_inv" : "s_mod_foregrip_7_desert",
+				"stack_max" : 1,
+				"value" : 10000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 12,
+				"position" : [
+					"att_1"
+				],
+				"recoil" : 2,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "foregrip",
+				"value" : 4,
+				"weapon_all" : true,
+				"weapon_id" : [
+					"m4a1"
+				]
+			}
+		},
+		"mod_foregrip_7_green" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "绿军标准配色的军规人体工程学前握把。结合了先进的舒适特性和成熟的军用耐用性。橄榄绿涂装提供了有效的伪装，而符合人体工程学的设计减少了操作员在长时间巡逻中的疲劳。",
+				"name" : "foregrip green",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_foregrip_7_green_game",
+				"sprite_inv" : "s_mod_foregrip_7_green",
+				"stack_max" : 1,
+				"value" : 10000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 12,
+				"position" : [
+					"att_1"
+				],
+				"recoil" : 2,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "foregrip",
+				"value" : 4,
+				"weapon_all" : true,
+				"weapon_id" : [
+					"m4a1"
+				]
+			}
+		},
+		"mod_g36_barrel_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "为H&K G36突击步枪的近距离作战行动设计的紧凑型枪管。缩短的长度提高了在建筑内部和‘地下’隧道等狭小空间中的机动性。虽然降低了弹道性能，但改进的操控性对于城市战斗场景很有价值。",
+				"name" : "H&K G36 short barrel",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_g36_barrel_1_game",
+				"sprite_inv" : "s_mod_g36_barrel_1",
+				"stack_max" : 1,
+				"value" : 3800,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -3,
+				"position" : [
+					"barrel"
+				],
+				"recoil" : -4,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "barrel",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"g36"
+				]
+			}
+		},
+		"mod_g36_barrel_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "为远距离交战优化的加长精密枪管。额外的长度提高了弹道性能和精度，但代价是增加了重量和降低了机动性。受到在‘区域’开阔地带行动的精确射手的青睐。",
+				"name" : "H&K G36 long barrel",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_g36_barrel_2_game",
+				"sprite_inv" : "s_mod_g36_barrel_2",
+				"stack_max" : 1,
+				"value" : 9700,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 1,
+				"damage" : 0,
+				"ergo" : -18,
+				"position" : [
+					"barrel"
+				],
+				"recoil" : -11,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "barrel",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"g36"
+				]
+			}
+		},
+		"mod_g36_handguard_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "G36突击步枪的短聚合物护木。其紧凑设计减轻了重量并提高了在狭小空间中的机动性，使其非常适合‘森林’巡逻和‘商场’清理行动，因为在这些地方每一克重量都很重要。",
+				"name" : "G76 short handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_g36_handguard_1_game",
+				"sprite_inv" : "s_mod_g36_handguard_1",
+				"stack_max" : 1,
+				"value" : 2900,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 2,
+				"handguard" : {
+					"att_1" : {
+						"x" : 1,
+						"y" : 4
+					},
+					"att_4" : {
+						"x" : 3,
+						"y" : 0
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"g36"
+				]
+			}
+		},
+		"mod_g36_handguard_1_desert" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "沙漠色涂装的G36突击步枪短聚合物护木。伪装涂层有助于融入扎科夫废弃‘工业区’尘土飞扬、阳光 bleached 的环境。受到猩红集团特工的青睐。",
+				"name" : "G76 short handguard (desert)",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_g36_hand_1_desert_game",
+				"sprite_inv" : "s_mod_g36_hand_1_desert",
+				"stack_max" : 1,
+				"value" : 2900,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 2,
+				"handguard" : {
+					"att_1" : {
+						"x" : 1,
+						"y" : 4
+					},
+					"att_4" : {
+						"x" : 3,
+						"y" : 0
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"g36"
+				]
+			}
+		},
+		"mod_g36_handguard_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "G36突击步枪的加长聚合物护木。更长的长度提供了额外的导轨空间用于安装配件，并有助于平衡武器以提高持续射击时的精度。受到精确射手和指定步枪手的青睐。",
+				"name" : "G76 long handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_g36_handguard_2_game",
+				"sprite_inv" : "s_mod_g36_handguard_2",
+				"stack_max" : 1,
+				"value" : 11000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 3,
+				"handguard" : {
+					"att_1" : {
+						"x" : 2,
+						"y" : 4
+					},
+					"att_2" : {
+						"x" : 12,
+						"y" : 4
+					},
+					"att_3" : {
+						"x" : 12,
+						"y" : 2
+					},
+					"att_4" : {
+						"x" : 12,
+						"y" : 0
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -4,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"g36"
+				]
+			}
+		},
+		"mod_g36_handguard_2_desert" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "沙漠色涂装的G36突击步枪加长聚合物护木。更长的长度和战术涂装使其非常适合在扎科夫阳光灼烧的‘工业’复合体中进行远距离交战。是猩红集团精确射手的标志。",
+				"name" : "G76 long handguard (desert)",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_g36_hand_2_desert_game",
+				"sprite_inv" : "s_mod_g36_hand_2_desert",
+				"stack_max" : 1,
+				"value" : 11000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 3,
+				"handguard" : {
+					"att_1" : {
+						"x" : 2,
+						"y" : 4
+					},
+					"att_2" : {
+						"x" : 12,
+						"y" : 4
+					},
+					"att_3" : {
+						"x" : 12,
+						"y" : 2
+					},
+					"att_4" : {
+						"x" : 12,
+						"y" : 0
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -4,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"g36"
+				]
+			}
+		},
+		"mod_g36_stock_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "G76 的标准枪托",
+				"name" : "G76 standard stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_g36_stock_1_game",
+				"sprite_inv" : "s_mod_g36_stock_1",
+				"stack_max" : 1,
+				"value" : 850,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 4,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -12,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"g36"
+				]
+			}
+		},
+		"mod_g36_stock_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "G76 的高级枪托",
+				"name" : "G76 advanced stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_g36_stock_2_game",
+				"sprite_inv" : "s_mod_g36_stock_2",
+				"stack_max" : 1,
+				"value" : 5600,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 9,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -22,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"g36"
+				]
+			}
+		},
+		"mod_g36_stock_2_desert" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "G76 的高级沙漠色枪托",
+				"name" : "G76 advanced stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_g36_stock_2_desert_game",
+				"sprite_inv" : "s_mod_g36_stock_2_desert",
+				"stack_max" : 1,
+				"value" : 5600,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 9,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -22,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"g36"
+				]
+			}
+		},
+		"mod_groza_barrel_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "Grusa 短枪管",
+				"name" : "Grusa short barrel",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_groza_barrel_1_game",
+				"sprite_inv" : "s_mod_groza_barrel_1",
+				"stack_max" : 1,
+				"value" : 1500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"position" : [
+					"brake"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "brake",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"groza_1",
+					"groza_4"
+				]
+			}
+		},
+		"mod_groza_barrel_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "Grusa 战术枪管",
+				"name" : "Grusa tactical barrel",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_groza_barrel_2_game",
+				"sprite_inv" : "s_mod_groza_barrel_2",
+				"stack_max" : 1,
+				"value" : 6500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -3,
+				"position" : [
+					"brake"
+				],
+				"recoil" : -5,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "brake",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"groza_1",
+					"groza_4"
+				]
+			}
+		},
+		"mod_groza_barrel_3" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "Grusa 战术消音器",
+				"name" : "Grusa tactical suppressor",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_groza_barrel_3_game",
+				"sprite_inv" : "s_mod_groza_barrel_3",
+				"stack_max" : 1,
+				"value" : 15000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -10,
+				"position" : [
+					"brake"
+				],
+				"recoil" : -12,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"silencer_sound" : "snd_sil_762x39_1",
+				"type" : "silencer",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"groza_1",
+					"groza_4"
+				]
+			}
+		},
+		"mod_groza_handguard_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "Grusa 单导轨",
+				"name" : "Grusa single rail",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_groza_handguard_1_game",
+				"sprite_inv" : "s_mod_groza_handguard_1",
+				"stack_max" : 1,
+				"value" : 4500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"handguard" : {
+					"att_2" : {
+						"x" : 5,
+						"y" : 3
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"groza_1",
+					"groza_4"
+				]
+			}
+		},
+		"mod_groza_handguard_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "Grusa 双导轨",
+				"name" : "Grusa double rail",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_groza_handguard_2_game",
+				"sprite_inv" : "s_mod_groza_handguard_2",
+				"stack_max" : 1,
+				"value" : 8500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -2,
+				"handguard" : {
+					"att_2" : {
+						"x" : 5,
+						"y" : 3
+					},
+					"att_3" : {
+						"x" : 5,
+						"y" : 0
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"groza_1",
+					"groza_4"
+				]
+			}
+		},
+		"mod_groza_magazine_20" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "Grusa 20发弹匣",
+				"name" : "Grusa 20 round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_groza_magazine_20_game",
+				"sprite_inv" : "s_mod_groza_magazine_20",
+				"stack_max" : 1,
+				"value" : 500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"magazine_size" : 20,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"groza_1",
+					"groza_4"
+				]
+			}
+		},
+		"mod_groza_magazine_30" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "Grusa 30发弹匣",
+				"name" : "Grusa 30 round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_groza_magazine_30_game",
+				"sprite_inv" : "s_mod_groza_magazine_30",
+				"stack_max" : 1,
+				"value" : 4000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -7,
+				"magazine_size" : 30,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"groza_1",
+					"groza_4"
+				]
+			}
+		},
+		"mod_groza_magazine_50" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "Grusa 50发弹匣",
+				"name" : "Grusa 50 round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_groza_magazine_50_game",
+				"sprite_inv" : "s_mod_groza_magazine_50",
+				"stack_max" : 1,
+				"value" : 15000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -25,
+				"magazine_size" : 50,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 50,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"groza_1",
+					"groza_4"
+				]
+			}
+		},
+		"mod_laser_rosso" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "紧凑型战术红激光瞄准器，提供增强的目标捕获和武器操控。可见的红光束显著提高了近距离精度并缩短了目标捕获时间。是‘区域’黑暗建筑和‘地下’设施中城市作战行动的必备装备。",
+				"name" : "tactical red laser",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_laser_rosso_game",
+				"sprite_inv" : "s_mod_laser_rosso",
+				"stack_max" : 1,
+				"value" : 2500,
+				"weight" : 0.1
+			},
+			"laser" : {
+				"color" : "FF0000"
+			},
+			"weapon_mod" : {
+				"acc" : 1,
+				"damage" : 0,
+				"ergo" : 5,
+				"position" : [
+					"att_1",
+					"att_2",
+					"att_3",
+					"att_4"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "laser",
+				"value" : 2,
+				"weapon_all" : true,
+				"weapon_id" : 0
+			}
+		},
+		"mod_laser_verde" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "高性能绿色战术激光，提供卓越的目标指示和武器控制。绿色激光比红色型号提供更好的可见度和更快的目标捕获，显著提高了精度和人体工程学。是‘区域’专业夜间行动专家的首选。",
+				"name" : "tactical green laser",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_laser_verde_game",
+				"sprite_inv" : "s_mod_laser_verde",
+				"stack_max" : 1,
+				"value" : 2500,
+				"weight" : 0.1
+			},
+			"laser" : {
+				"color" : "00FF00"
+			},
+			"weapon_mod" : {
+				"acc" : 2,
+				"damage" : 0,
+				"ergo" : 7,
+				"position" : [
+					"att_1",
+					"att_2",
+					"att_3",
+					"att_4"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "laser",
+				"value" : 2,
+				"weapon_all" : true,
+				"weapon_id" : 0
+			}
+		},
+		"mod_m1a_handguard_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "春田兵工厂 M1A 步枪的标准配发黑色复合材料枪托。这种坚固、耐候的枪托提供了一个稳固的射击平台，呼应了经典M14步枪的设计。在‘区域’中很常见，因其在恶劣条件下的可靠性和耐用性而受到重视。",
+				"name" : "Springfield Armory M1A standard composite stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_m1a_handguard_1_game",
+				"sprite_inv" : "s_mod_m1a_handguard_1",
+				"stack_max" : 1,
+				"value" : 1500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 2,
+				"handguard" : {
+					"att_1" : {
+						"x" : 13,
+						"y" : 0
+					},
+					"att_2" : {
+						"x" : 20,
+						"y" : 0
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -18,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m1a"
+				]
+			}
+		},
+		"mod_m1a_handguard_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "ProMag Archangel 枪托是 M1A 步枪的一种现代、功能丰富的底盘，具有可调节的腮托和枪托长度。这种聚合物枪托增强了人体工程学，并为精确射击提供了稳定的平台，使其成为希望现代化其经典战斗步枪的潜行者的热门升级。",
+				"name" : "ProMag Archangel M1A Stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_m1a_handguard_2_game",
+				"sprite_inv" : "s_mod_m1a_handguard_2",
+				"stack_max" : 1,
+				"value" : 8500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 10,
+				"handguard" : {
+					"att_1" : {
+						"x" : 15,
+						"y" : 0
+					},
+					"att_3" : {
+						"x" : 18,
+						"y" : -2
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -55,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m1a"
+				]
+			}
+		},
+		"mod_m1a_handguard_3" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "一种现代、轻量化的 M1A 步枪底盘，提供了一个高度模块化的平台，带有多个M-LOK和皮卡汀尼导轨段。该底盘显著改善了人体工程学，并允许安装各种战术配件，将经典的M1A转变为适用于‘区域’中任何战斗场景的多功能现代战斗步枪。",
+				"name" : "M1A modern chassis",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_m1a_handguard_3_game",
+				"sprite_inv" : "s_mod_m1a_handguard_3",
+				"stack_max" : 1,
+				"value" : 13500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 20,
+				"handguard" : {
+					"att_1" : {
+						"x" : 15,
+						"y" : 0
+					},
+					"att_2" : {
+						"x" : 25,
+						"y" : -1
+					},
+					"att_3" : {
+						"x" : 15,
+						"y" : -3
+					},
+					"att_4" : {
+						"x" : 25,
+						"y" : -4
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -85,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 5,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m1a"
+				]
+			}
+		},
+		"mod_m1a_magazine_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于M1A和SCAR-H等7.62x51mm口径步枪的标准容量20发钢制弹匣。这种可靠耐用的弹匣在‘区域’中很常见，提供了火力和重量之间的良好平衡。",
+				"name" : "7.62x51mm 20-round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_m1a_magazine_1_game",
+				"sprite_inv" : "s_mod_m1a_magazine_1",
+				"stack_max" : 1,
+				"value" : 400,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"magazine_size" : 20,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"scar_h_1",
+					"sr_25",
+					"m1a"
+				]
+			}
+		},
+		"mod_m1a_magazine_30" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于7.62x51mm步枪的加长30发弹匣。虽然提供了显著的火力，但其尺寸和重量会使武器变得笨拙并减慢装填速度。一种罕见而珍贵的发现，常被装备精良的潜行者在激烈 firefight 中使用。",
+				"name" : "7.62x51mm 30-round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_m1a_magazine_30_game",
+				"sprite_inv" : "s_mod_m1a_magazine_30",
+				"stack_max" : 1,
+				"value" : 7500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -4,
+				"magazine_size" : 30,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 10,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"scar_h_1",
+					"sr_25",
+					"m1a"
+				]
+			}
+		},
+		"mod_m1a_magazine_50" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于7.62x51mm步枪的高容量50发弹鼓。这种巨大的弹匣提供了巨大的火力，但其极端的重量和体积严重影响武器操控和装填速度。是‘区域’中真正的稀有品，受到那些将压倒性火力置于一切之上的潜行者的追捧。",
+				"name" : "7.62x51mm 50-round drum magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_m1a_magazine_50_game",
+				"sprite_inv" : "s_mod_m1a_magazine_50",
+				"stack_max" : 1,
+				"value" : 7500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -25,
+				"magazine_size" : 50,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 50,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"scar_h_1",
+					"sr_25",
+					"m1a"
+				]
+			}
+		},
+		"mod_m82_magazine_5" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "巴雷特 M82 反器材步枪的5发可拆卸盒式弹匣。虽然容量较低，但它可靠且不如大弹匣笨重，使其成为优先考虑机动性和精度而非火力密度的狙击手的实用选择。",
+				"name" : "Barrett M82 5-round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_m82_magazine_5_game",
+				"sprite_inv" : "s_mod_m82_magazine_5",
+				"stack_max" : 1,
+				"value" : 15000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"magazine_size" : 5,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"barret_m82"
+				]
+			}
+		},
+		"mod_m82_magazine_10" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "巴雷特 M82 的标准10发弹匣。对于这种级别的武器来说，它在火力和重量之间提供了良好平衡。是‘区域’中的珍贵财产，因为面对潜伏其中的恐怖时，每一发.50 BMG子弹都至关重要。",
+				"name" : "Barrett M82 10-round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_m82_magazine_10_game",
+				"sprite_inv" : "s_mod_m82_magazine_10",
+				"stack_max" : 1,
+				"value" : 27000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -10,
+				"magazine_size" : 10,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"barret_m82"
+				]
+			}
+		},
+		"mod_mk47_barrel_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于 CMMG Mk47 的短而灵活的枪管，非常适合近距离战斗。其缩短的长度使武器在‘区域’危险环境常见的狭小空间中更容易操控。代价是枪口初速和有效射程略有降低。",
+				"name" : "CMMG Mk47 short barrel",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_mk47_barrel_1_game",
+				"sprite_inv" : "s_mod_mk47_barrel_1",
+				"stack_max" : 1,
+				"value" : 3800,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -2,
+				"position" : [
+					"barrel"
+				],
+				"recoil" : -3,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "barrel",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"mk47"
+				]
+			}
+		},
+		"mod_mk47_barrel_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于 CMMG Mk47 的长重型枪管。此枪管增加了枪口初速和有效射程，使步枪更适合中远距离交战。增加的重量有助于减轻后坐力，但代价是降低了机动性。",
+				"name" : "CMMG Mk47 long barrel",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_mk47_barrel_2_game",
+				"sprite_inv" : "s_mod_mk47_barrel_2",
+				"stack_max" : 1,
+				"value" : 14500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 1,
+				"damage" : 0,
+				"ergo" : -8,
+				"position" : [
+					"barrel"
+				],
+				"recoil" : -15,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "barrel",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"mk47"
+				]
+			}
+		},
+		"mod_mosin_stock_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "莫辛-纳甘步枪的原版全长木制枪托。这件经典的军事历史遗物在‘区域’中很常见，证明了其坚固和简单。虽然不如现代枪托那样符合人体工程学或模块化，但它可靠且能完成任务。",
+				"name" : "Mosin-Nagant wooden stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_mosin_stock_1_game",
+				"sprite_inv" : "s_mod_mosin_stock_1",
+				"stack_max" : 1,
+				"value" : 400,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 8,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -10,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"mosin"
+				]
+			}
+		},
+		"mod_mosin_stock_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于莫辛-纳甘的现代聚合物枪托，例如Archangel OPFOR。它提供了改进的人体工程学、可调节腮托和手枪式握把，将百年设计转变为现代潜行者更舒适、更可控的步枪。",
+				"name" : "Mosin-Nagant modern stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_mosin_stock_2_game",
+				"sprite_inv" : "s_mod_mosin_stock_2",
+				"stack_max" : 1,
+				"value" : 4500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 25,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -22,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"mosin"
+				]
+			}
+		},
+		"mod_mp153_handguard_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "贝加尔 MP-153 霰弹枪的聚合物护木，带有用于战术配件的安装点。这允许潜行者安装手电筒或其他小型设备，增强霰弹枪在‘区域’黑暗危险角落的多功能性。",
+				"name" : "Baikal MP-153 polymer handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_mp153_handguard_1_game",
+				"sprite_inv" : "s_mod_mp153_handguard_1",
+				"stack_max" : 1,
+				"value" : 3500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 2,
+				"handguard" : {
+					"att_1" : {
+						"x" : 3,
+						"y" : 4
+					},
+					"att_2" : {
+						"x" : 14,
+						"y" : 2
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"mp153"
+				]
+			}
+		},
+		"mod_mp153_stock_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "贝加尔 MP-153 霰弹枪的标准聚合物枪托。它是一个简单、耐用且轻便的枪托，为操作员提供了坚固的抵肩。是潜行者和土匪使用的许多霰弹枪上的常见部件。",
+				"name" : "Baikal MP-153 polymer stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_mp153_stock_1_game",
+				"sprite_inv" : "s_mod_mp153_stock_1",
+				"stack_max" : 1,
+				"value" : 400,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 7,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -15,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"mp153"
+				]
+			}
+		},
+		"mod_mp153_stock_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "贝加尔 MP-153 霰弹枪的战术枪托，通常带有手枪式握把和可调节长度。此升级显著改善了人体工程学和后坐力控制，使霰弹枪在动态战斗情况下更有效。是依赖霰弹枪摆脱困境的经验丰富的潜行者的最爱。",
+				"name" : "Baikal MP-153 tactical stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_mp153_stock_2_game",
+				"sprite_inv" : "s_mod_mp153_stock_2",
+				"stack_max" : 1,
+				"value" : 6500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 27,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -25,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"mp153"
+				]
+			}
+		},
+		"mod_mp5_grip" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "H&K NB5的标准SEF式聚合物握把。这种经典设计功能实用，并为操作员提供了稳固的握持。是‘区域’中发现的NB5上的常见部件，反映了其被警察和军队广泛使用的情况。",
+				"name" : "H&K MP5 SEF pistol grip",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_mp5_grip_game",
+				"sprite_inv" : "s_mod_mp5_grip",
+				"stack_max" : 1,
+				"value" : 400,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 2,
+				"position" : [
+					"grip"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "grip",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"mp5"
+				]
+			}
+		},
+		"mod_mp5_handguard_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "H&K NB5的标准‘热带’宽护木。由耐用聚合物制成，提供良好的隔热保护和舒适的握持。一个非常常见的部件，在‘区域’中的大多数NB5上都能找到。",
+				"name" : "H&K MP5 Tropical handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_mp5_handguard_1_game",
+				"sprite_inv" : "s_mod_mp5_handguard_1",
+				"stack_max" : 1,
+				"value" : 800,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 2,
+				"handguard" : {},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -2,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"mp5"
+				]
+			}
+		},
+		"mod_mp5_handguard_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于H&K NB5的战术导轨护木，允许安装各种配件，如握把、灯具和激光。此升级显著增强了经典冲锋枪的模块化，使其更能适应‘区域’中遇到的各种战斗情况。",
+				"name" : "H&K MP5 tactical handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_mp5_handguard_2_game",
+				"sprite_inv" : "s_mod_mp5_handguard_2",
+				"stack_max" : 1,
+				"value" : 4500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 3,
+				"handguard" : {
+					"att_1" : {
+						"x" : 5,
+						"y" : 4
+					},
+					"att_3" : {
+						"x" : 5,
+						"y" : 1
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -3,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"mp5"
+				]
+			}
+		},
+		"mod_mp5_magazine_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于H&K NB5的20发直弹匣。虽然容量低于标准的30发弯弹匣，但其较小的外形在某些情况下可能是一种优势。这些在‘区域’中不如30发型号常见。",
+				"name" : "H&K MP5 20-round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_mp5_magazine_1_game",
+				"sprite_inv" : "s_mod_mp5_magazine_1",
+				"stack_max" : 1,
+				"value" : 300,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"magazine_size" : 20,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"mp5"
+				]
+			}
+		},
+		"mod_mp5_magazine_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "H&K NB5无处不在的30发弯弹匣。这是该武器的标准弹匣，在容量和可靠性之间提供了良好平衡。在‘区域’中非常常见，被任何有幸使用NB5的人使用。",
+				"name" : "H&K MP5 30-round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_mp5_magazine_2_game",
+				"sprite_inv" : "s_mod_mp5_magazine_2",
+				"stack_max" : 1,
+				"value" : 2500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"magazine_size" : 30,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 1,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"mp5"
+				]
+			}
+		},
+		"mod_mp5_stock_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "H&K NB5的经典伸缩枪托。这种紧凑的枪托可以收缩，使武器变得更短，非常适合运输和近距离战斗。虽然不如固定枪托舒适，但其通用性在‘区域’中备受重视。",
+				"name" : "H&K MP5 retractable stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_mp5_stock_1_game",
+				"sprite_inv" : "s_mod_mp5_stock_1",
+				"stack_max" : 1,
+				"value" : 600,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 3,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -8,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"mp5"
+				]
+			}
+		},
+		"mod_mp5_stock_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于H&K NB5的固定聚合物枪托。这种枪托提供了一个稳定舒适的射击平台，改善了后坐力控制和瞄准稳定性。虽然缺乏伸缩枪托的紧凑性，但因其卓越的人体工程学而受到许多人的青睐。",
+				"name" : "H&K MP5 fixed stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_mp5_stock_2_game",
+				"sprite_inv" : "s_mod_mp5_stock_2",
+				"stack_max" : 1,
+				"value" : 3200,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 8,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -16,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"mp5"
+				]
+			}
+		},
+		"mod_p90_handguard" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于FN P90的战术导轨系统，允许在武器侧面和顶部安装各种配件。这显著增加了P90的模块化，允许操作员根据他们在‘区域’中的具体需求进行调整。",
+				"name" : "FN P90 attachment rail",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_p90_handguard_game",
+				"sprite_inv" : "s_mod_p90_handguard",
+				"stack_max" : 1,
+				"value" : 4500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 2,
+				"handguard" : {
+					"att_2" : {
+						"x" : -1,
+						"y" : 2
+					},
+					"att_3" : {
+						"x" : -1,
+						"y" : -1
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"p90"
+				]
+			}
+		},
+		"mod_pistol_50bmg_handguard" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : ".50 BMG 手枪护木",
+				"name" : "Pistol .50 BMG handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_pistol_50bmg_handguard_game",
+				"sprite_inv" : "s_mod_pistol_50bmg_handguard",
+				"stack_max" : 1,
+				"value" : 25000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"handguard" : {
+					"att_1" : {
+						"x" : 4,
+						"y" : 3
+					},
+					"att_3" : {
+						"x" : 4,
+						"y" : -1
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"pistol_50bmg"
+				]
+			}
+		},
+		"mod_pp91_handguard" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "BB 91 护木",
+				"name" : "BB 91 handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_pp91_handguard_game",
+				"sprite_inv" : "s_mod_pp91_handguard",
+				"stack_max" : 1,
+				"value" : 3200,
+				"weight" : 0.05
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"handguard" : {
+					"att_2" : {
+						"x" : 1,
+						"y" : 0
+					},
+					"att_3" : {
+						"x" : 1,
+						"y" : -2
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"pp91"
+				]
+			}
+		},
+		"mod_pp91_magazine_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "BB 91 20发弹匣",
+				"name" : "BB 91 20 round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_pp91_magazine_1_game",
+				"sprite_inv" : "s_mod_pp91_magazine_1",
+				"stack_max" : 1,
+				"value" : 180,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"magazine_size" : 20,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"pp91"
+				]
+			}
+		},
+		"mod_pp91_magazine_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "BB 91 30发弹匣",
+				"name" : "BB 91 30 round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_pp91_magazine_2_game",
+				"sprite_inv" : "s_mod_pp91_magazine_2",
+				"stack_max" : 1,
+				"value" : 2500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -2,
+				"magazine_size" : 30,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"pp91"
+				]
+			}
+		},
+		"mod_ppsh_magazine_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "BBsH 标准弹匣",
+				"name" : "BBsH standard magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ppsh_magazine_1_game",
+				"sprite_inv" : "s_mod_ppsh_magazine_1",
+				"stack_max" : 1,
+				"value" : 100,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"magazine_size" : 35,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ppsh_41_1"
+				]
+			}
+		},
+		"mod_ppsh_magazine_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "BBsH 弹鼓",
+				"name" : "BBsH drum magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_ppsh_magazine_2_game",
+				"sprite_inv" : "s_mod_ppsh_magazine_2",
+				"stack_max" : 1,
+				"value" : 2800,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -15,
+				"magazine_size" : 71,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 40,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ppsh_41_1"
+				]
+			}
+		},
+		"mod_protecta_grip" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "Boulder 标准握把",
+				"name" : "Boulder standard grip",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_protecta_grip_game",
+				"sprite_inv" : "s_mod_protecta_grip",
+				"stack_max" : 1,
+				"value" : 900,
+				"weight" : 0.25
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 2,
+				"position" : [
+					"grip"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "grip",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"protecta_1"
+				]
+			}
+		},
+		"mod_protecta_handguard" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "Boulder 附件导轨",
+				"name" : "Boulder attachment rail",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_protecta_handguard_game",
+				"sprite_inv" : "s_mod_protecta_handguard",
+				"stack_max" : 1,
+				"value" : 6500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 2,
+				"handguard" : {
+					"att_1" : {
+						"x" : 4,
+						"y" : 1
+					},
+					"att_2" : {
+						"x" : 10,
+						"y" : 0
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"protecta_1"
+				]
+			}
+		},
+		"mod_protecta_magazine12" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "Boulder 12发弹匣",
+				"name" : "Boulder 12 round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_protecta_magazine12_game",
+				"sprite_inv" : "s_mod_protecta_magazine12",
+				"stack_max" : 1,
+				"value" : 11000,
+				"weight" : 0.3
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -10,
+				"magazine_size" : 12,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"protecta_1"
+				]
+			}
+		},
+		"mod_protecta_magazine6" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "Boulder 6发弹匣",
+				"name" : "Boulder 6 round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_protecta_magazine6_game",
+				"sprite_inv" : "s_mod_protecta_magazine6",
+				"stack_max" : 1,
+				"value" : 2000,
+				"weight" : 0.3
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"magazine_size" : 6,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"protecta_1"
+				]
+			}
+		},
+		"mod_r700_magazine_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "Renindon 700 弹夹式弹匣",
+				"name" : "Renindon 700 clip magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_r700_magazine_1_game",
+				"sprite_inv" : "s_mod_r700_magazine_1",
+				"stack_max" : 1,
+				"value" : 650,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"magazine_size" : 5,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"r700_modern"
+				]
+			}
+		},
+		"mod_r700_magazine_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "Renindon 700 加长弹匣",
+				"name" : "Renindon 700 extended magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_r700_magazine_2_game",
+				"sprite_inv" : "s_mod_r700_magazine_2",
+				"stack_max" : 1,
+				"value" : 4800,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -5,
+				"magazine_size" : 12,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"r700_modern"
+				]
+			}
+		},
+		"mod_rpk_grip" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "PRK 标准握把",
+				"name" : "PRK standard grip",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_rpk_grip_game",
+				"sprite_inv" : "s_mod_rpk_grip",
+				"stack_max" : 1,
+				"value" : 3500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 4,
+				"position" : [
+					"grip"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "grip",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"rpk",
+					"ak_74",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"akm",
+					"ak_74u_1"
+				]
+			}
+		},
+		"mod_rpk_handguard_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "PRK 标准护木",
+				"name" : "PRK standard handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_rpk_handguard_1_game",
+				"sprite_inv" : "s_mod_rpk_handguard_1",
+				"stack_max" : 1,
+				"value" : 3500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 7,
+				"handguard" : {
+					"att_1" : {
+						"x" : 4,
+						"y" : 5
+					},
+					"att_2" : {
+						"x" : 10,
+						"y" : 5
+					},
+					"att_4" : {
+						"x" : 10,
+						"y" : 0
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -2,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"rpk"
+				]
+			}
+		},
+		"mod_rpk_magazine" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "PRK 弹鼓",
+				"name" : "PRK Drum magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_rpk_magazine_game",
+				"sprite_inv" : "s_mod_rpk_magazine",
+				"stack_max" : 1,
+				"value" : 25000,
+				"weight" : 0.5
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -25,
+				"magazine_size" : 95,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 60,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"rpk"
+				]
+			}
+		},
+		"mod_rpk_stock" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "PRK 标准枪托",
+				"name" : "PRK Standard stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_rpk_stock_game",
+				"sprite_inv" : "s_mod_rpk_stock",
+				"stack_max" : 1,
+				"value" : 2800,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 10,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -27,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"rpk",
+					"ak_74",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"akm",
+					"ak_74u_1"
+				]
+			}
+		},
+		"mod_scar_barrel_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于FN SCAR平台的短枪管，专为近距离战斗设计。此枪管以降低枪口初速和有效射程为代价，提高了在狭小空间中的机动性。是在城市环境中行动的潜行者的常见改装。",
+				"name" : "FN SCAR CQC barrel",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_scar_barrel_1_game",
+				"sprite_inv" : "s_mod_scar_barrel_1",
+				"stack_max" : 1,
+				"value" : 1300,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -2,
+				"position" : [
+					"barrel"
+				],
+				"recoil" : -3,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "barrel",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"scar_h_1",
+					"sr_25",
+					"scar_l"
+				]
+			}
+		},
+		"mod_scar_barrel_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于FN SCAR平台的长重型枪管，专为远距离精度而设计。此枪管增加了枪口初速和有效射程，使其非常适合‘区域’中的开阔地带交战。增加的重量也有助于控制后坐力。",
+				"name" : "FN SCAR long barrel",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_scar_barrel_2_game",
+				"sprite_inv" : "s_mod_scar_barrel_2",
+				"stack_max" : 1,
+				"value" : 13500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 1,
+				"damage" : 0,
+				"ergo" : -10,
+				"position" : [
+					"barrel"
+				],
+				"recoil" : -15,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "barrel",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"scar_h_1",
+					"sr_25",
+					"scar_l"
+				]
+			}
+		},
+		"mod_scar_grip_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "FN SCAR平台的标准配发A2式握把。它提供了一个功能实用且可靠的握持，尽管许多操作员更喜欢升级到更符合人体工程学的选项，以在‘区域’的持久战中获得更好的舒适度和控制。",
+				"name" : "FN SCAR standard pistol grip",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_scar_grip_1_game",
+				"sprite_inv" : "s_mod_scar_grip_1",
+				"stack_max" : 1,
+				"value" : 700,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 2,
+				"position" : [
+					"grip"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "grip",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"scar_h_1",
+					"sr_25",
+					"scar_l"
+				]
+			}
+		},
+		"mod_scar_handguard_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "FN SCAR的标准护木，带有用于安装配件的短皮卡汀尼导轨段。它是一种轻量化且功能实用的设计，但与售后选项相比，提供的导轨空间有限。是‘区域’中发现的SCAR步枪上的常见部件。",
+				"name" : "FN SCAR standard handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_scar_handguard_1_game",
+				"sprite_inv" : "s_mod_scar_handguard_1",
+				"stack_max" : 1,
+				"value" : 850,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 2,
+				"handguard" : {
+					"att_1" : {
+						"x" : 4,
+						"y" : 4
+					},
+					"att_3" : {
+						"x" : 4,
+						"y" : 1
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -2,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"scar_h_1",
+					"sr_25",
+					"scar_l"
+				]
+			}
+		},
+		"mod_scar_handguard_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于FN SCAR的加长护木，提供了额外的导轨空间用于安装多个配件。此升级受到需要高度定制武器的操作员的青睐，允许同时使用两脚架、握把和其他战术装备。",
+				"name" : "FN SCAR long handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_scar_handguard_2_game",
+				"sprite_inv" : "s_mod_scar_handguard_2",
+				"stack_max" : 1,
+				"value" : 10000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 4,
+				"handguard" : {
+					"att_1" : {
+						"x" : 6,
+						"y" : 4
+					},
+					"att_2" : {
+						"x" : 15,
+						"y" : 4
+					},
+					"att_3" : {
+						"x" : 15,
+						"y" : 1
+					},
+					"att_4" : {
+						"x" : 15,
+						"y" : 0
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -8,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"scar_h_1",
+					"sr_25",
+					"scar_l"
+				]
+			}
+		},
+		"mod_scar_stock_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "FN SCAR的标准折叠伸缩枪托。它具有可调节的腮托和枪托长度，提供了出色的人体工程学和通用性。作为SCAR平台的标志，这款枪托因其舒适性和紧凑性的结合而在‘区域’中备受追捧。",
+				"name" : "FN SCAR standard stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_scar_stock_1_game",
+				"sprite_inv" : "s_mod_scar_stock_1",
+				"stack_max" : 1,
+				"value" : 1200,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 3,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -14,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"scar_h_1",
+					"sr_25",
+					"scar_l"
+				]
+			}
+		},
+		"mod_scar_stock_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于FN SCAR的非标准枪托，可能是售后或临时解决方案。虽然它可能提供不同的人体工程学或重量特性，但与原厂枪托相比，其性能和可靠性可能存在问题。这种改装在‘区域’中很常见，源于必要性或潜行者的个人偏好。",
+				"name" : "FN SCAR aftermarket stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_scar_stock_2_game",
+				"sprite_inv" : "s_mod_scar_stock_2",
+				"stack_max" : 1,
+				"value" : 6500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 8,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -27,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"scar_h_1",
+					"sr_25",
+					"scar_l"
+				]
+			}
+		},
+		"mod_scope_bravo" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "一款坚固的固定倍率战斗瞄准镜，很可能是 Trijicon ACOG 或类似型号。它提供清晰的视野和弹道补偿标线，使其在中距离交战中非常有效。是‘区域’中军队和装备精良的潜行者派系的最爱。",
+				"name" : "ACOG 4x",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_scope_bravo_game",
+				"sprite_inv" : "s_mod_scope_bravo",
+				"stack_max" : 1,
+				"value" : 8600,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 2,
+				"damage" : 0,
+				"ergo" : -8,
+				"position" : [
+					"scope"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_image" : "s_scope_hamr",
+				"scope_extend_view" : 2.6,
+				"scope_glance_mouse_dis_mult" : 1,
+				"scope_optic" : true,
+				"scope_mult_eff_range" : 1.2,
+				"type" : "scope",
+				"value" : 3,
+				"weapon_all" : true,
+				"weapon_id" : 0
+			}
+		},
+		"mod_scope_elcan" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "一款具有可切换1倍和4倍放大倍率的多功能战斗瞄准镜，很可能是 ELCAN SpecterDR。这允许在近距离和中距离交战之间快速切换。是‘区域’中备受珍视的稀有装备，受到精英操作员的青睐。",
+				"name" : "ELCAN SpecterDR 1-4x",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_scope_elcan_game",
+				"sprite_inv" : "s_mod_scope_elcan",
+				"stack_max" : 1,
+				"value" : 7500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 1,
+				"damage" : 0,
+				"ergo" : -6,
+				"position" : [
+					"scope"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_image" : "s_scope_elcan",
+				"scope_extend_view" : 3.2,
+				"scope_glance_mouse_dis_mult" : 1,
+				"scope_optic" : true,
+				"scope_mult_eff_range" : 1.25,
+				"type" : "scope",
+				"value" : 3,
+				"weapon_all" : true,
+				"weapon_id" : [
+					"m4a1"
+				]
+			}
+		},
+		"mod_scope_eotech_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "全息武器瞄准镜，很可能是 EOTech 型号。它提供了宽阔、开放的视野和精确的标线，用于近中距离战斗中的快速目标捕获。因其性能和耐用性而成为潜行者的热门选择。",
+				"name" : "EOTech Holo",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_scope_eotech_1_game",
+				"sprite_inv" : "s_mod_scope_eotech_1",
+				"stack_max" : 1,
+				"value" : 5600,
+				"weight" : 0.1
+			},
+			"weapon_mod": {
+				"acc": 0,
+				"damage": 0,
+				"ergo": 5,
+				"position": [
+					"scope"
+				],
+				"recoil": -7,
+				"reload_speed": 0,
+				"scope_image": "s_vuoto",
+				"scope_extend_view": 1.6,
+				"scope_glance_mouse_dis_mult": 1.3,
+				"scope_optic": false,
+				"scope_mult_eff_range": 1.15,
+				"type": "scope",
+				"value": 3,
+				"weapon_all": true,
+				"weapon_id": [
+					"m4a1"
+				]
+			}
+		},
+		"mod_scope_holosun" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "紧凑型红点瞄准镜，很可能是 Holosun 型号。它为快速目标捕获提供了一个简单、精确的瞄准点。这些瞄准镜以其长电池寿命和耐用性而闻名，使其成为‘区域’中任何潜行者的可靠选择。",
+				"name" : "Holosun RDS",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_scope_holosun_game",
+				"sprite_inv" : "s_mod_scope_holosun",
+				"stack_max" : 1,
+				"value" : 6000,
+				"weight" : 0.1
+			},
+			"weapon_mod": {
+				"acc": 0,
+				"damage": 0,
+				"ergo": 7,
+				"position": [
+					"scope"
+				],
+				"recoil": -6,
+				"reload_speed": 0,
+				"scope_image": "s_vuoto",
+				"scope_extend_view": 1.6,
+				"scope_glance_mouse_dis_mult": 1.3,
+				"scope_optic": false,
+				"scope_mult_eff_range": 1.15,
+				"type": "scope",
+				"value": 2,
+				"weapon_all": true,
+				"weapon_id": 0
+			}
+		},
+		"mod_scope_kobra" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "Kobra EKP-8-02，俄制准直式瞄准镜。以其独特的‘T型’标线和坚固结构而闻名。是‘区域’中发现的华约武器上的常见瞄具，是近中距离战斗中可靠有效的选择。",
+				"name" : "Kobra EKP-8-02",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_scope_kobra_game",
+				"sprite_inv" : "s_mod_scope_kobra",
+				"stack_max" : 1,
+				"value" : 4200,
+				"weight" : 0.1
+			},
+			"weapon_mod": {
+				"acc": 0,
+				"damage": 0,
+				"ergo": 4,
+				"position": [
+					"scope"
+				],
+				"recoil": -4,
+				"reload_speed": 0,
+				"scope_image": "s_vuoto",
+				"scope_extend_view": 1.6,
+				"scope_glance_mouse_dis_mult": 1.3,
+				"scope_optic": false,
+				"scope_mult_eff_range": 1.15,
+				"type": "scope",
+				"value": 1,
+				"weapon_all": true,
+				"weapon_id": [
+					"m4a1"
+				]
+			}
+		},
+		"mod_scope_leupold" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "高倍率可变瞄准镜，很可能是 Leupold Mark 4 或类似型号。它提供出色的清晰度和宽广的放大范围，使其非常适合远距离精确射击。是‘区域’中罕见且昂贵的瞄准镜，通常出现在专业狙击手手中或高端步枪上。",
+				"name" : "Leupold Mark 4",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_scope_leupold_game",
+				"sprite_inv" : "s_mod_scope_leupold",
+				"stack_max" : 1,
+				"value" : 14300,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 7,
+				"damage" : 0,
+				"ergo" : -18,
+				"position" : [
+					"scope"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_image" : "s_scope_cross",
+				"scope_extend_view" : 4.5,
+				"scope_glance_mouse_dis_mult" : 1,
+				"scope_optic" : true,
+				"scope_mult_eff_range" : 1.4,
+				"type" : "scope",
+				"value" : 4,
+				"weapon_all" : true,
+				"weapon_id" : [
+					"m4a1"
+				]
+			}
+		},
+		"mod_scope_mrs" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "微型红点瞄准镜，小巧轻便。它为近距离战斗中的快速目标捕获提供了一个简单的瞄准点。其极小的尺寸使其成为希望保持武器轻便灵活的潜行者的热门选择。",
+				"name" : "Micro red dot sight",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_scope_mrs_game",
+				"sprite_inv" : "s_mod_scope_mrs",
+				"stack_max" : 1,
+				"value" : 6000,
+				"weight" : 0.1
+			},
+			"weapon_mod": {
+				"acc": 0,
+				"damage": 0,
+				"ergo": 10,
+				"position": [
+					"scope"
+				],
+				"recoil": -3,
+				"reload_speed": 0,
+				"scope_image": "s_vuoto",
+				"scope_extend_view": 1.6,
+				"scope_glance_mouse_dis_mult": 1.3,
+				"scope_optic": false,
+				"scope_mult_eff_range": 1.15,
+				"type": "scope",
+				"value": 3,
+				"weapon_all": true,
+				"weapon_id": 0
+			}
+		},
+		"mod_scope_pso" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "PSO-1，经典的苏制时代狙击瞄准镜，专为SVD德拉贡诺夫设计。它是一款简单、坚固且可靠的光学器件，具有独特的测距标线。在‘区域’中非常常见，经常出现在华约狙击步枪上。",
+				"name" : "PSO-1 scope",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_scope_pso_game",
+				"sprite_inv" : "s_mod_scope_pso",
+				"stack_max" : 1,
+				"value" : 3800,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 3,
+				"damage" : 0,
+				"ergo" : -7,
+				"position" : [
+					"scope"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_image" : "s_scope_pso",
+				"scope_extend_view" : 3.5,
+				"scope_glance_mouse_dis_mult" : 1,
+				"scope_optic" : true,
+				"scope_mult_eff_range" : 1.25,
+				"type" : "scope",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ak_74",
+					"ak_12",
+					"ak_15",
+					"ak_308",
+					"akm",
+					"sks",
+					"tapco",
+					"as_val",
+					"svd",
+					"ak_74u_1"
+				]
+			}
+		},
+		"mod_scope_pu" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "PU瞄准镜，一种苏制时代的光学器件，最初为莫辛-纳甘狙击步枪设计。它是一款简单、耐用且可靠的瞄准镜，尽管其3.5倍放大倍率按现代标准来看较为普通。是‘区域’中常见的历史遗物，仍在老旧但可靠的步枪上服役。",
+				"name" : "PU scope",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_scope_pu_game",
+				"sprite_inv" : "s_mod_scope_pu",
+				"stack_max" : 1,
+				"value" : 2800,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 2,
+				"damage" : 0,
+				"ergo" : -4,
+				"position" : [
+					"scope"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_image" : "s_scope_pu_scope",
+				"scope_extend_view" : 3.5,
+				"scope_glance_mouse_dis_mult" : 1,
+				"scope_optic" : true,
+				"scope_mult_eff_range" : 1.25,
+				"type" : "scope",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"mosin",
+					"svt_40",
+					"avt_40"
+				]
+			}
+		},
+		"mod_scope_spec" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "专为精确射手步枪设计的高端可变倍率瞄准镜。它提供了宽广的放大范围和精确的标线，使其适用于各种交战距离。是‘区域’中罕见且珍贵的发现，对任何步枪来说都是显著的升级。",
+				"name" : "DMR scope",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_scope_spec_game",
+				"sprite_inv" : "s_mod_scope_spec",
+				"stack_max" : 1,
+				"value" : 11000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 2,
+				"damage" : 0,
+				"ergo" : -10,
+				"position" : [
+					"scope"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_image" : "s_scope_vuduu",
+				"scope_extend_view" : 3.65,
+				"scope_glance_mouse_dis_mult" : 1,
+				"scope_optic" : true,
+				"scope_mult_eff_range" : 1.3,
+				"type" : "scope",
+				"value" : 3,
+				"weapon_all" : true,
+				"weapon_id" : [
+					"m4a1"
+				]
+			}
+		},
+		"mod_scope_vuduu" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "高品质可变倍率瞄准镜，很可能是 EOTech Vudu。它提供了宽广的视野和清晰的标线，使其在各种距离上都很有效。作为顶级瞄准镜，它是任何严肃潜行者都梦寐以求的罕见且备受追捧的装备。",
+				"name" : "EOTech Vudu scope",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_scope_vuduu_game",
+				"sprite_inv" : "s_mod_scope_vuduu",
+				"stack_max" : 1,
+				"value" : 12000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 3,
+				"damage" : 0,
+				"ergo" : -12,
+				"position" : [
+					"scope"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_image" : "s_scope_vuduu",
+				"scope_extend_view" : 4,
+				"scope_glance_mouse_dis_mult" : 1,
+				"scope_optic" : true,
+				"scope_mult_eff_range" : 1.35,
+				"type" : "scope",
+				"value" : 4,
+				"weapon_all" : true,
+				"weapon_id" : [
+					"m4a1"
+				]
+			}
+		},
+		"mod_silencer_12x70_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "12x70 口径消音器",
+				"name" : "suppressor 12x70",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_silencer_12x70_game",
+				"sprite_inv" : "s_mod_silencer_12x70",
+				"stack_max" : 1,
+				"value" : 12000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -10,
+				"position" : [
+					"brake"
+				],
+				"recoil" : -5,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"silencer_sound" : "snd_sil_12x70_1",
+				"type" : "silencer",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"mp153",
+					"spas_12_1",
+					"protecta_1",
+					"aa12"
+				]
+			}
+		},
+		"mod_silencer_45" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : ".45 口径消音器",
+				"name" : "suppressor 45",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_silencer_45_game",
+				"sprite_inv" : "s_mod_silencer_45",
+				"stack_max" : 1,
+				"value" : 6300,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -5,
+				"position" : [
+					"brake"
+				],
+				"recoil" : -7,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"silencer_sound" : "snd_sil_45_1",
+				"type" : "silencer",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ump_1",
+					"m45a1",
+					"vector"
+				]
+			}
+		},
+		"mod_silencer_545x39" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "为5.45x39弹药设计的高级 Hexaboom 消音器。先进的内部挡板和精密工程不仅消除了枪口焰并降低了声音特征，还通过改进的气体动力学提高了弹道性能。优化的重量分布和人体工程学外形实际上比未抑制配置改善了武器操控。",
+				"name" : "suppressor 5.45x39 Hexaboom",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_silencer_545x39_game",
+				"sprite_inv" : "s_mod_silencer_545x39",
+				"stack_max" : 1,
+				"value" : 8600,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 1,
+				"damage" : 2,
+				"ergo" : -2,
+				"position" : [
+					"brake"
+				],
+				"recoil" : -7,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"silencer_sound" : "snd_sil_545x39_1",
+				"type" : "silencer",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ak_74",
+					"ak_12",
+					"rpk",
+					"ak_74u_1"
+				]
+			}
+		},
+		"mod_silencer_545x39_pbs" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "5.45x39 口径 TBS 消音器",
+				"name" : "suppressor 5.45x39 TBS",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_silencer_545x39_pbs_game",
+				"sprite_inv" : "s_mod_silencer_545x39_pbs",
+				"stack_max" : 1,
+				"value" : 6500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -6,
+				"position" : [
+					"brake"
+				],
+				"recoil" : -3,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"silencer_sound" : "snd_sil_545x39_1",
+				"type" : "silencer",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"ak_74",
+					"ak_12",
+					"rpk",
+					"ak_74u_1"
+				]
+			}
+		},
+		"mod_silencer_57x28" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "5.7x28 口径消音器",
+				"name" : "suppressor 5.7x28",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_silencer_57x28_game",
+				"sprite_inv" : "s_mod_silencer_57x28",
+				"stack_max" : 1,
+				"value" : 5000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -4,
+				"position" : [
+					"brake"
+				],
+				"recoil" : -5,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"silencer_sound" : "snd_sil_57x28_1",
+				"type" : "silencer",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"fn57",
+					"p90"
+				]
+			}
+		},
+		"mod_silencer_762x25" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "7.62x25 口径消音器",
+				"name" : "suppressor 762x25",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_silencer_762x25_game",
+				"sprite_inv" : "s_mod_silencer_762x25",
+				"stack_max" : 1,
+				"value" : 3800,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -6,
+				"position" : [
+					"brake"
+				],
+				"recoil" : -10,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"silencer_sound" : "snd_sil_9x18_1",
+				"type" : "silencer",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"tt_tokarev"
+				]
+			}
+		},
+		"mod_silencer_762x39" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "为7.62x39弹药设计的高性能消音器。先进的腔室设计和精密加工的部件提供了卓越的声音抑制，同时通过改进的气体动力学实际增强了弹道性能。平衡的结构减少了可感后坐力并提高了持续射击时的整体武器控制。",
+				"name" : "suppressor 762x39",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_silencer_762x39_game",
+				"sprite_inv" : "s_mod_silencer_762x39",
+				"stack_max" : 1,
+				"value" : 8600,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 2,
+				"damage" : 3,
+				"ergo" : -1,
+				"position" : [
+					"brake"
+				],
+				"recoil" : -7,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"silencer_sound" : "snd_sil_762x39_1",
+				"type" : "silencer",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"sks",
+					"akm",
+					"ak_15",
+					"mk47",
+					"tapco"
+				]
+			}
+		},
+		"mod_silencer_762x51" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "7.62x51 口径 PTS/UDK 消音器",
+				"name" : "suppressor 7.62x51 PTS/UDK",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_silencer_762x51_game",
+				"sprite_inv" : "s_mod_silencer_762x51",
+				"stack_max" : 1,
+				"value" : 11500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -6,
+				"position" : [
+					"brake"
+				],
+				"recoil" : -9,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"silencer_sound" : "snd_sil_762x51_1",
+				"type" : "silencer",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"m1a",
+					"r700_modern",
+					"r700_1",
+					"ak_308",
+					"sr_25",
+					"scar_h_1"
+				]
+			}
+		},
+		"mod_silencer_762x54" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "7.62x54 口径消音器",
+				"name" : "suppressor 762x54",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_silencer_762x54_game",
+				"sprite_inv" : "s_mod_silencer_762x54",
+				"stack_max" : 1,
+				"value" : 7800,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -6,
+				"position" : [
+					"brake"
+				],
+				"recoil" : -10,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"silencer_sound" : "snd_sil_762x54r",
+				"type" : "silencer",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"mosin",
+					"sv98_1",
+					"svt_40",
+					"avt_40",
+					"svd"
+				]
+			}
+		},
+		"mod_silencer_9x18" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "9x18 口径消音器",
+				"name" : "suppressor 9x18",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_silencer_9x18_game",
+				"sprite_inv" : "s_mod_silencer_9x18",
+				"stack_max" : 1,
+				"value" : 3000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -4,
+				"position" : [
+					"brake"
+				],
+				"recoil" : -5,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"silencer_sound" : "snd_sil_9x18_1",
+				"type" : "silencer",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"makarov",
+					"aps",
+					"pp91",
+					"pp19_bizon",
+					"skorpion"
+				]
+			}
+		},
+		"mod_silencer_9x19" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "9x19 口径消音器",
+				"name" : "suppressor 9x19",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_silencer_9x19_game",
+				"sprite_inv" : "s_mod_silencer_9x19",
+				"stack_max" : 1,
+				"value" : 4200,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -7,
+				"position" : [
+					"brake"
+				],
+				"recoil" : -4,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"silencer_sound" : "snd_sil_9x19_1",
+				"type" : "silencer",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"mp5",
+					"vector_9x19",
+					"glock_17_1",
+					"pp19_bizon_9x19"
+				]
+			}
+		},
+		"mod_sks_handguard_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于SKS步枪的战术护木，带有用于安装配件的皮卡汀尼导轨。这使经典的卡宾枪现代化，允许安装握把、灯具和其他战术装备，增加了其在‘区域’中的通用性。",
+				"name" : "SKS tactical handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_sks_handguard_1_game",
+				"sprite_inv" : "s_mod_sks_handguard_1",
+				"stack_max" : 1,
+				"value" : 4000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 2,
+				"handguard" : {
+					"att_1" : {
+						"x" : 5,
+						"y" : 5
+					},
+					"att_3" : {
+						"x" : 5,
+						"y" : 2
+					},
+					"att_4" : {
+						"x" : 5,
+						"y" : 0
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"sks"
+				]
+			}
+		},
+		"mod_sks_magazine_10" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "SKS卡宾枪的标准10发可拆卸弹匣。虽然容量不大，但它可靠且比使用桥夹装填更快。是‘区域’中SKS操作员常见且实用的选择。",
+				"name" : "SKS 10-round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_sks_magazine_10_game",
+				"sprite_inv" : "s_mod_sks_magazine_10",
+				"stack_max" : 1,
+				"value" : 120,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"magazine_size" : 10,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"sks",
+					"tapco"
+				]
+			}
+		},
+		"mod_sks_magazine_20" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于SKS的加长20发弹匣。与标准的10发弹匣相比，这提供了显著的火力提升，使其成为那些希望在战斗中携带更多弹药的人的热门升级。",
+				"name" : "SKS 20-round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_sks_magazine_20_game",
+				"sprite_inv" : "s_mod_sks_magazine_20",
+				"stack_max" : 1,
+				"value" : 3500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"magazine_size" : 20,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"sks",
+					"tapco"
+				]
+			}
+		},
+		"mod_sks_magazine_35" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于SKS的高容量35发弹匣。虽然提供了大量的待发弹药，但其尺寸和重量会使武器变得笨重并减慢装填速度。一种罕见的发现，通常被那些预计会遇到强大抵抗的人使用。",
+				"name" : "SKS 35-round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_sks_magazine_35_game",
+				"sprite_inv" : "s_mod_sks_magazine_35",
+				"stack_max" : 1,
+				"value" : 11000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -7,
+				"magazine_size" : 35,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : -15,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"sks",
+					"tapco"
+				]
+			}
+		},
+		"mod_spas_handguard" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于弗兰基 SPAS-12 霰弹枪的附件导轨，允许安装光学器件和其他配件。这显著增强了这款标志性霰弹枪的通用性，使其在各种战斗情况下更有效。",
+				"name" : "Franchi SPAS-12 attachment rail",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_spas_handguard_game",
+				"sprite_inv" : "s_mod_spas_handguard",
+				"stack_max" : 1,
+				"value" : 3200,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 3,
+				"handguard" : {
+					"att_1" : {
+						"x" : 4,
+						"y" : 0
+					},
+					"att_2" : {
+						"x" : 15,
+						"y" : -1
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"spas_12_1"
+				]
+			}
+		},
+		"mod_spas_stock" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "弗兰基 SPAS-12 霰弹枪标志性的折叠枪托。它可以折叠到机匣顶部使武器更紧凑，或展开以提供稳定的射击平台。这款经典战斗霰弹枪的一个显著特征。",
+				"name" : "Franchi SPAS-12 folding stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_spas_stock_game",
+				"sprite_inv" : "s_mod_spas_stock",
+				"stack_max" : 1,
+				"value" : 4200,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 15,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -25,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"spas_12_1"
+				]
+			}
+		},
+		"mod_sv98_magazine10" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "SV-98狙击步枪的标准10发可拆卸盒式弹匣。它是一款可靠且制作精良的弹匣，对于任何依赖这款强大的俄罗斯狙击步枪的潜行者来说都是必不可少的。",
+				"name" : "SV-98 10-round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_sv98_magazine10_game",
+				"sprite_inv" : "s_mod_sv98_magazine10",
+				"stack_max" : 1,
+				"value" : 6500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -4,
+				"magazine_size" : 10,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"sv98_1"
+				]
+			}
+		},
+		"mod_sv98_magazine5" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于SV-98的较小的5发弹匣。虽然容量较小，但比10发版本更轻更紧凑，使其成为优先考虑机动性和低调外形的狙击手的不错选择。",
+				"name" : "SV-98 5-round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_sv98_magazine5_game",
+				"sprite_inv" : "s_mod_sv98_magazine5",
+				"stack_max" : 1,
+				"value" : 1200,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"magazine_size" : 5,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"sv98_1"
+				]
+			}
+		},
+		"mod_svd_handguard_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "SVD步枪的标准配发木制护木。它提供了经典的外观和手感，但没有显著的人体工程学优势或附件安装点。",
+				"name" : "SVD wooden handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_svd_handguard_1_game",
+				"sprite_inv" : "s_mod_svd_handguard_1",
+				"stack_max" : 1,
+				"value" : 1200,
+				"weight" : 0.25
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"handguard" : {},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"svd"
+				]
+			}
+		},
+		"mod_svd_handguard_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于SVD的现代聚合物护木。它比标准木材更轻，改善了人体工程学，并带有用于安装战术配件的导轨。",
+				"name" : "SVD polymer handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_svd_handguard_2_game",
+				"sprite_inv" : "s_mod_svd_handguard_2",
+				"stack_max" : 1,
+				"value" : 4200,
+				"weight" : 0.15
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 2,
+				"handguard" : {
+					"att_1" : {
+						"x" : 2,
+						"y" : 4
+					},
+					"att_2" : {
+						"x" : 12,
+						"y" : 3
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -5,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"svd"
+				]
+			}
+		},
+		"mod_svd_handguard_3" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于SVD的先进轻量化护木，提供卓越的后坐力控制和人体工程学。它为全套战术配件提供了多个安装点。",
+				"name" : "SVD advanced handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_svd_handguard_3_game",
+				"sprite_inv" : "s_mod_svd_handguard_3",
+				"stack_max" : 1,
+				"value" : 8900,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 4,
+				"handguard" : {
+					"att_1" : {
+						"x" : 3,
+						"y" : 4
+					},
+					"att_2" : {
+						"x" : 11,
+						"y" : 4
+					},
+					"att_3" : {
+						"x" : 11,
+						"y" : 1
+					},
+					"att_4" : {
+						"x" : 11,
+						"y" : 0
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -9,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"svd"
+				]
+			}
+		},
+		"mod_svd_magazine_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "SVD步枪的标准10发可拆卸盒式弹匣，使用7.62x54mmR弹药。可靠坚固，是德拉贡诺夫半自动火力的基石。",
+				"name" : "SVD 10-round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_svd_magazine_1_game",
+				"sprite_inv" : "s_mod_svd_magazine_1",
+				"stack_max" : 1,
+				"value" : 320,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"magazine_size" : 10,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"svd"
+				]
+			}
+		},
+		"mod_svd_magazine_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于SVD的高容量20发弹匣。虽然显著增加了火力，但其体积和重量略微降低了武器的人体工程学。",
+				"name" : "SVD 20-round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_svd_magazine_2_game",
+				"sprite_inv" : "s_mod_svd_magazine_2",
+				"stack_max" : 1,
+				"value" : 3800,
+				"weight" : 0.2
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -3,
+				"magazine_size" : 20,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"svd"
+				]
+			}
+		},
+		"mod_svd_stock_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "SVD步枪标志性的拇指孔木制枪托。它包括一个集成的腮托，为精确射击提供了稳定舒适的平台。",
+				"name" : "SVD wooden stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_svd_stock_1_game",
+				"sprite_inv" : "s_mod_svd_stock_1",
+				"stack_max" : 1,
+				"value" : 450,
+				"weight" : 0.2
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 7,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -12,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"svd"
+				]
+			}
+		},
+		"mod_svd_stock_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于SVD的现代聚合物枪托，旨在减轻重量并显著改善后坐力控制和人体工程学，优于标准木制版本。",
+				"name" : "SVD polymer stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_svd_stock_2_game",
+				"sprite_inv" : "s_mod_svd_stock_2",
+				"stack_max" : 1,
+				"value" : 1050,
+				"weight" : 0.15
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 9,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -22,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"svd"
+				]
+			}
+		},
+		"mod_svd_stock_3" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "FRD 现代枪托",
+				"name" : "FRD modern stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_svd_stock_3_game",
+				"sprite_inv" : "s_mod_svd_stock_3",
+				"stack_max" : 1,
+				"value" : 6500,
+				"weight" : 0.2
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 11,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -30,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"svd"
+				]
+			}
+		},
+		"mod_svd_stock_4" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "FRD 握把式枪托",
+				"name" : "FRD grip stock",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_svd_stock_4_game",
+				"sprite_inv" : "s_mod_svd_stock_4",
+				"stack_max" : 1,
+				"value" : 8500,
+				"weight" : 0.2
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 13,
+				"position" : [
+					"stock"
+				],
+				"recoil" : -35,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "stock",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"svd"
+				]
+			}
+		},
+		"mod_svt_handguard" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "STV-40 护木",
+				"name" : "STV-40 handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_svt_handguard_game",
+				"sprite_inv" : "s_mod_svt_handguard",
+				"stack_max" : 1,
+				"value" : 6000,
+				"weight" : 0.25
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"handguard" : {
+					"att_1" : {
+						"x" : 4,
+						"y" : 4
+					},
+					"att_3" : {
+						"x" : 4,
+						"y" : 1
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"svt_40",
+					"avt_40"
+				]
+			}
+		},
+		"mod_svt_magazine_10" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "STV-40 10发弹匣",
+				"name" : "STV-40 10 round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_svt_magazine_10_game",
+				"sprite_inv" : "s_mod_svt_magazine_10",
+				"stack_max" : 1,
+				"value" : 320,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"magazine_size" : 10,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"svt_40",
+					"avt_40"
+				]
+			}
+		},
+		"mod_svt_magazine_15" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "STV-40 15发弹匣",
+				"name" : "STV-40 15 round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_svt_magazine_15_game",
+				"sprite_inv" : "s_mod_svt_magazine_15",
+				"stack_max" : 1,
+				"value" : 5000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -4,
+				"magazine_size" : 15,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 2,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"svt_40",
+					"avt_40"
+				]
+			}
+		},
+		"mod_tapco_handguard_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "Batko MKM 护木",
+				"name" : "Batko MKM handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_tapco_handguard_1_game",
+				"sprite_inv" : "s_mod_tapco_handguard_1",
+				"stack_max" : 1,
+				"value" : 1000,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 2,
+				"handguard" : {
+					"att_1" : {
+						"x" : 5,
+						"y" : 3
+					},
+					"att_3" : {
+						"x" : 5,
+						"y" : 1
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -3,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"tapco"
+				]
+			}
+		},
+		"mod_tapco_handguard_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "Batko MKM 护木",
+				"name" : "Batko MKM handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_tapco_handguard_2_game",
+				"sprite_inv" : "s_mod_tapco_handguard_2",
+				"stack_max" : 1,
+				"value" : 6200,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 6,
+				"handguard" : {
+					"att_1" : {
+						"x" : 5,
+						"y" : 4
+					},
+					"att_2" : {
+						"x" : 12,
+						"y" : 4
+					},
+					"att_3" : {
+						"x" : 12,
+						"y" : 1
+					},
+					"att_4" : {
+						"x" : 12,
+						"y" : 0
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : -11,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"tapco"
+				]
+			}
+		},
+		"mod_torch_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "带有增强握持纹理的标准配发战术手电筒。照明能力有助于在低光环境中捕获目标，而符合人体工程学的设计和前置重量分布改善了整体武器操控。是夜间行动和CQB场景的必备装备。",
+				"name" : "standard tactical torch",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_torch_1_game",
+				"sprite_inv" : "s_mod_torch_1",
+				"stack_max" : 1,
+				"value" : 2500,
+				"weight" : 0.1
+			},
+			"torch" : {
+				"alpha_mettere" : 0.7,
+				"alpha_togliere" : 0.1,
+				"color" : "E7B277",
+				"scale" : 0.5,
+				"sprite" : "s_glow_256_torch_2"
+			},
+			"weapon_mod" : {
+				"acc" : 1,
+				"damage" : 0,
+				"ergo" : 2,
+				"position" : [
+					"att_1",
+					"att_2",
+					"att_3",
+					"att_4"
+				],
+				"recoil" : -1,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "torch",
+				"value" : 1,
+				"weapon_all" : true,
+				"weapon_id" : 0
+			}
+		},
+		"mod_torch_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "采用先进LED技术和武器专用安装系统的高级战术手电筒。高强度白光显著改善了目标识别，而精密工程设计的重量分布和人体工程学握把表面增强了武器控制。是要求在低光条件下发挥最大性能的专业操作员的首选。",
+				"name" : "modern tactical torch",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_torch_2_game",
+				"sprite_inv" : "s_mod_torch_2",
+				"stack_max" : 1,
+				"value" : 7200,
+				"weight" : 0.1
+			},
+			"torch" : {
+				"alpha_mettere" : 0.8,
+				"alpha_togliere" : 0.8,
+				"color" : "FFFFFF",
+				"scale" : 1,
+				"sprite" : "s_glow_256_torch_1"
+			},
+			"weapon_mod" : {
+				"acc" : 2,
+				"damage" : 0,
+				"ergo" : 4,
+				"position" : [
+					"att_1",
+					"att_2",
+					"att_3",
+					"att_4"
+				],
+				"recoil" : -2,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "torch",
+				"value" : 3,
+				"weapon_all" : true,
+				"weapon_id" : 0
+			}
+		},
+		"mod_val_grip_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "ZZ Vel 的标准聚合物握把。提供舒适稳固的武器握持。",
+				"name" : "AS VAL pistol grip",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_val_grip_1_game",
+				"sprite_inv" : "s_mod_val_grip_1",
+				"stack_max" : 1,
+				"value" : 350,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 2,
+				"position" : [
+					"grip"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "grip",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"as_val"
+				]
+			}
+		},
+		"mod_val_handguard_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于ZZ Vel的带导轨护木，允许安装各种战术配件以增强其作战能力。",
+				"name" : "AS VAL handguard",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_val_handguard_1_game",
+				"sprite_inv" : "s_mod_val_handguard_1",
+				"stack_max" : 1,
+				"value" : 6500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 2,
+				"handguard" : {
+					"att_1" : {
+						"x" : 4,
+						"y" : 4
+					},
+					"att_3" : {
+						"x" : 4,
+						"y" : 1
+					},
+					"att_4" : {
+						"x" : 4,
+						"y" : 0
+					}
+				},
+				"position" : [
+					"handguard"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "handguard",
+				"value" : 3,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"as_val"
+				]
+			}
+		},
+		"mod_val_magazine_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "ZZ Vel的标准20发弹匣，使用亚音速9x39mm弹药。是武器隐蔽有效运作的必需品。",
+				"name" : "AS VAL 20-round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_val_magazine_1_game",
+				"sprite_inv" : "s_mod_val_magazine_1",
+				"stack_max" : 1,
+				"value" : 400,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"magazine_size" : 20,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"as_val"
+				]
+			}
+		},
+		"mod_val_magazine_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于ZZ Vel的加长30发弹匣。它提供了显著的容量增加，尽管增加的尺寸和重量略微妨碍了武器的人体工程学。",
+				"name" : "AS VAL 30-round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_val_magazine_2_game",
+				"sprite_inv" : "s_mod_val_magazine_2",
+				"stack_max" : 1,
+				"value" : 4700,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -7,
+				"magazine_size" : 30,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"as_val"
+				]
+			}
+		},
+		"mod_val_magazine_3" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "用于ZZ Vel和Wintar BK的紧凑型10发弹匣。其较小的尺寸改善了武器操控和人体工程学，使其非常适合机动性至关重要的情况。",
+				"name" : "AS VAL/VSS 10-round magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_val_magazine_3_game",
+				"sprite_inv" : "s_mod_val_magazine_3",
+				"stack_max" : 1,
+				"value" : 200,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 4,
+				"magazine_size" : 10,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"as_val",
+					"vintar_bc"
+				]
+			}
+		},
+		"mod_vector_magazine_1" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "Sector 21发弹匣",
+				"name" : "Sector 21 rounds magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_vector_magazine_1_game",
+				"sprite_inv" : "s_mod_vector_magazine_1",
+				"stack_max" : 1,
+				"value" : 650,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : 0,
+				"magazine_size" : 21,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 0,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 0,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"vector",
+					"vector_9x19"
+				]
+			}
+		},
+		"mod_vector_magazine_2" : {
+			"basic" : {
+				"category" : "w_mod",
+				"description" : "Sector 50发弹匣",
+				"name" : "Sector 50 rounds magazine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "material",
+				"sprite_ingame" : "s_mod_vector_magazine_2_game",
+				"sprite_inv" : "s_mod_vector_magazine_2",
+				"stack_max" : 1,
+				"value" : 8500,
+				"weight" : 0.1
+			},
+			"weapon_mod" : {
+				"acc" : 0,
+				"damage" : 0,
+				"ergo" : -25,
+				"magazine_size" : 50,
+				"position" : [
+					"magazine"
+				],
+				"recoil" : 0,
+				"reload_speed" : 20,
+				"scope_optic" : false,
+				"type" : "magazine",
+				"value" : 4,
+				"weapon_all" : false,
+				"weapon_id" : [
+					"vector",
+					"vector_9x19"
+				]
+			}
+		}
+	},
+	"metadata" : {
+		"author" : "Luca",
+		"description" : "Base gamedata for ZERO Sievert",
+		"project" : "ZERO Sievert"
+	},
+	"usage" : "item",
+	"version" : 0
+}

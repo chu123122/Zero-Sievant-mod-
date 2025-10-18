@@ -1,0 +1,161 @@
+{
+	"data" : {
+		"book_cardio" : {
+			"basic" : {
+				"category" : "book",
+				"description" : "一本磨损严重的运动生理学教科书。满是人体循环系统的图表和详细的锻炼方案。也许对提高个人耐力有用。",
+				"name" : "Book cardio",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_book_cardio",
+				"sprite_inv" : "s_item_book_cardio",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.5
+			}
+		},
+		"book_charisma" : {
+			"basic" : {
+				"category" : "book",
+				"description" : "一本关于公开演讲和肢体语言的自助书籍。里面充斥着微笑商人的老土素材照片。也许包含一些有用的技巧，以便和‘区域’中那些不太友好的居民打交道。",
+				"name" : "Book charisma",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_book_charisma",
+				"sprite_inv" : "s_item_book_charisma",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.5
+			}
+		},
+		"book_cooking" : {
+			"basic" : {
+				"category" : "book",
+				"description" : "一本满是丰盛家常菜食谱的烹饪书。书页上满是污渍，边角也卷了起来，但食谱看起来很美味。也许有助于学习如何充分利用‘区域’中有限的食材。",
+				"name" : "Book cooking",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_book_cooking",
+				"sprite_inv" : "s_item_book_cooking",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.5
+			}
+		},
+		"book_craftmanship" : {
+			"basic" : {
+				"category" : "book",
+				"description" : "一本关于木工和金工的详细手册。满是技术图表和制作说明，从简单家具到复杂机械无所不包。也许对学习如何制作和修理装备有用。",
+				"name" : "Book craftmanship",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_book_craftmanship",
+				"sprite_inv" : "s_item_book_craftmanship",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.5
+			}
+		},
+		"book_gunsmith" : {
+			"basic" : {
+				"category" : "book",
+				"description" : "一本关于枪械历史和运作原理的厚重书籍。满是各种武器的详细原理图和剖面图。也许对学习如何维护和改装枪械有用。",
+				"name" : "Book gunsmith",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_book_gunsmith",
+				"sprite_inv" : "s_item_book_gunsmith",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.5
+			}
+		},
+		"book_gunsmith1" : {
+			"basic" : {
+				"category" : "book",
+				"description" : "一本关于枪械维护和改装的基础指南。涵盖了清洁、组装和简单升级的基础知识。对任何有抱负的枪械工匠来说都是一个很好的起点。",
+				"name" : "Basic gunsmith book",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_book_gunsmith1",
+				"sprite_inv" : "s_item_book_gunsmith1",
+				"stack_max" : 1,
+				"value" : 20000,
+				"weight" : 0.5
+			}
+		},
+		"book_gunsmith2" : {
+			"basic" : {
+				"category" : "book",
+				"description" : "一篇关于枪械设计和工程的深入专著。涵盖了定制加工、特种材料和高级改装技术等复杂主题。只适合那些最专注、最有经验的枪械工匠。",
+				"name" : "Advanced gunsmith book",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_book_gunsmith2",
+				"sprite_inv" : "s_item_book_gunsmith2",
+				"stack_max" : 1,
+				"value" : 50000,
+				"weight" : 0.5
+			}
+		},
+		"book_medicine" : {
+			"basic" : {
+				"category" : "book",
+				"description" : "一本关于紧急急救和创伤护理的医学教科书。满是生动的插图和治疗各种伤害的详细说明。也许对学习如何给自己和他人包扎伤口有用。",
+				"name" : "Book medicine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_book_medicine",
+				"sprite_inv" : "s_item_book_medicine",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.5
+			}
+		},
+		"book_shooting" : {
+			"basic" : {
+				"category" : "book",
+				"description" : "一本关于射击技巧和战术射击的军事野战手册。满是射击姿势、呼吸技巧和目标捕获策略的图表。也许对提高个人瞄准和作战效能有用。",
+				"name" : "Book shooting",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_book_shooting",
+				"sprite_inv" : "s_item_book_shooting",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.5
+			}
+		},
+		"book_style" : {
+			"basic" : {
+				"category" : "book",
+				"description" : "一本铜版纸印刷的时尚杂志。满是穿着昂贵服装的俊男靓女。一个已不复存在的世界的遗物，但也许能为如何在‘区域’中保持体面提供一些灵感。",
+				"name" : "Book style",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_item_book_style",
+				"sprite_inv" : "s_item_book_style",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0.5
+			}
+		}
+	},
+	"metadata" : {
+		"author" : "Luca",
+		"description" : "Base gamedata for ZERO Sievert",
+		"project" : "ZERO Sievert"
+	},
+	"usage" : "item",
+	"version" : 0
+}

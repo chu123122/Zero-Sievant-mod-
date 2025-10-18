@@ -1,0 +1,4212 @@
+{
+	"data" : {
+		"aa12" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "阿奇森 AA-12 全自动战斗霰弹枪。为破障行动和近距离战斗而开发，这款武器能以12号径弹药提供毁灭性的压制火力。因其可靠性和停止力而受到绿军突击队的青睐。",
+				"name" : "Atchisson AA-12 Assault Shotgun",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_aa12_base_game",
+				"sprite_inv" : "s_mod_aa12_base",
+				"stack_max" : 1,
+				"value" : 55000,
+				"weight" : 4.3
+			},
+			"weapon" : {
+				"ammo" : "ammo_12x70",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a12x70",
+				"damage" : 50,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 28,
+				"fire_mode" : "automatic",
+				"magazine" : 5,
+				"moddable" : true,
+				"mods" : {
+					"att_1" : {
+						"needed" : false,
+						"x" : 31,
+						"y" : 18
+					},
+					"att_3" : {
+						"needed" : false,
+						"x" : 31,
+						"y" : 15
+					},
+					"att_4" : {
+						"needed" : false,
+						"x" : 31,
+						"y" : 13
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 45,
+						"y" : 14
+					},
+					"magazine" : {
+						"default_id" : "mod_aa12_magazine_1",
+						"needed" : true,
+						"x" : 23,
+						"y" : 19
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 19,
+						"y" : 12
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 31,
+				"rate_of_fire" : 12,
+				"recoil" : 142,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 20,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_shotgun",
+				"sound_cocking" : "snd_cocking_shotgun",
+				"sound_mag_in" : "snd_shotgun_fine",
+				"sound_mag_out" : "snd_shotgun_inizio",
+				"sound_reload__UNUSED" : "snd_shotgun_reload_6shell",
+				"type_effective_range" : "shotgun",
+				"type_effective_range_recoil" : "shotgun",
+				"type" : "shotgun"
+			}
+		},
+		"adar" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "ADAR 2-15 半自动步枪。因其模块化设计和在茂密植被中的可靠性能而受到‘森林’猎人的欢迎。",
+				"name" : "ADAR 2-15",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_adar_base_game",
+				"sprite_inv" : "s_mod_adar_base",
+				"stack_max" : 1,
+				"value" : 18000,
+				"weight" : 3.4
+			},
+			"weapon" : {
+				"ammo" : "ammo_556x45",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a556x45",
+				"damage" : 16,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 51,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"barrel" : {
+						"default_id" : "mod_ar15_barrel_1",
+						"needed" : true,
+						"x" : 29,
+						"y" : 15
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 9,
+						"y" : 6
+					},
+					"handguard" : {
+						"default_id" : "mod_adar_handguard_wooden",
+						"needed" : true,
+						"x" : 29,
+						"y" : 14
+					},
+					"magazine" : {
+						"default_id" : "mod_ar15_magazine_30",
+						"needed" : true,
+						"x" : 22,
+						"y" : 19
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 20,
+						"y" : 13
+					},
+					"stock" : {
+						"default_id" : "mod_adar_stock_wooden",
+						"needed" : true,
+						"x" : 16,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 81,
+				"rate_of_fire" : 5,
+				"recoil" : 122,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 70,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_m4",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"ak_101" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "使用5.56x45弹药的 AK-101 突击步枪。在‘工业区’的突袭中是可靠的武器，因为那里的 NATO 弹药更为常见。",
+				"name" : "AK-101",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_ak101_base_game",
+				"sprite_inv" : "s_mod_ak101_base",
+				"stack_max" : 1,
+				"value" : 35000,
+				"weight" : 3.5
+			},
+			"weapon" : {
+				"ammo" : "ammo_556x45",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a556x45",
+				"damage" : 15,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 50,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"barrel" : {
+						"default_id" : "mod_ak74_barrel_1",
+						"needed" : true,
+						"x" : 29,
+						"y" : 13
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 9,
+						"y" : 6
+					},
+					"grip" : {
+						"default_id" : "mod_ak74_grip_s_3",
+						"needed" : true,
+						"x" : 19,
+						"y" : 17
+					},
+					"handguard" : {
+						"default_id" : "mod_ak74_handguard_s_3",
+						"needed" : true,
+						"x" : 28,
+						"y" : 12
+					},
+					"magazine" : {
+						"default_id" : "mod_ak101_magazine_standard",
+						"needed" : true,
+						"x" : 23,
+						"y" : 17
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 22,
+						"y" : 11
+					},
+					"stock" : {
+						"default_id" : "mod_ak74_stock_s_3",
+						"needed" : false,
+						"x" : 15,
+						"y" : 14
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 85,
+				"rate_of_fire" : 6,
+				"recoil" : 119,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 75,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_ak_74",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"ak_12" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "AK-12，绿军采用的现代突击步枪。它是一款多功能且可靠的武器，在各种战斗场景中都很有效。其设计融合了经典的卡拉什尼科夫原理和现代人体工程学改进，使其深受士兵和潜行者的喜爱。",
+				"name" : "AK-12",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_ak12_base_game",
+				"sprite_inv" : "s_mod_ak12_base",
+				"stack_max" : 1,
+				"value" : 42000,
+				"weight" : 2.9
+			},
+			"weapon" : {
+				"ammo" : "ammo_545x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a545x39",
+				"damage" : 16,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 40,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"barrel" : {
+						"default_id" : "mod_ak74_barrel_1",
+						"needed" : true,
+						"x" : 29,
+						"y" : 12
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 9,
+						"y" : 5
+					},
+					"grip" : {
+						"default_id" : "mod_ak74_grip_s_3",
+						"needed" : true,
+						"x" : 19,
+						"y" : 16
+					},
+					"handguard" : {
+						"default_id" : "mod_ak74_handguard_2_b",
+						"needed" : true,
+						"x" : 28,
+						"y" : 11
+					},
+					"magazine" : {
+						"default_id" : "mod_ak74_magazine_s_3",
+						"needed" : true,
+						"x" : 23,
+						"y" : 16
+					},
+					"scope" : {
+						"default_id" : "mod_ak74_sight_1",
+						"needed" : false,
+						"x" : 22,
+						"y" : 10
+					},
+					"stock" : {
+						"default_id" : "mod_ak12_stock_standard",
+						"needed" : false,
+						"x" : 15,
+						"y" : 13
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 84,
+				"rate_of_fire" : 5,
+				"recoil" : 108,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 72,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_ak_74",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"ak_15" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "AK-15，使用强大的7.62x39mm弹药。它是AK-12的重击型号，受到需要击穿重型护甲的绿军突击部队和经验丰富的潜行者的青睐。其后坐力很大，但停止力不容置疑。",
+				"name" : "AK-15",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_ak15_base_game",
+				"sprite_inv" : "s_mod_ak15_base",
+				"stack_max" : 1,
+				"value" : 54000,
+				"weight" : 3.4
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x39",
+				"damage" : 21,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 42,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"barrel" : {
+						"default_id" : "mod_ak74_barrel_1",
+						"needed" : true,
+						"x" : 29,
+						"y" : 12
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 9,
+						"y" : 5
+					},
+					"grip" : {
+						"default_id" : "mod_ak74_grip_s_3",
+						"needed" : true,
+						"x" : 19,
+						"y" : 16
+					},
+					"handguard" : {
+						"default_id" : "mod_ak74_handguard_2_b",
+						"needed" : true,
+						"x" : 28,
+						"y" : 11
+					},
+					"magazine" : {
+						"default_id" : "mod_ak74_magazine_s_3",
+						"needed" : true,
+						"x" : 23,
+						"y" : 16
+					},
+					"scope" : {
+						"default_id" : "mod_ak74_sight_1",
+						"needed" : false,
+						"x" : 22,
+						"y" : 10
+					},
+					"stock" : {
+						"default_id" : "mod_ak12_stock_standard",
+						"needed" : false,
+						"x" : 15,
+						"y" : 13
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 86,
+				"rate_of_fire" : 5,
+				"recoil" : 130,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 80,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_ak_74",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"ak_308" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "一款面向出口的AK平台改型，使用7.62x51mm NATO弹药。这种步枪在‘区域’中很少见，通常出现在猩红集团指挥官或精锐雇佣兵手中。它结合了AK的可靠性和西方战斗步枪弹药的威力。",
+				"name" : "AK-308",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_ak308_base_game",
+				"sprite_inv" : "s_mod_ak308_base",
+				"stack_max" : 1,
+				"value" : 68000,
+				"weight" : 3.4
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x51",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x51",
+				"damage" : 26,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 42,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"barrel" : {
+						"default_id" : "mod_ak74_barrel_1",
+						"needed" : true,
+						"x" : 29,
+						"y" : 12
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 9,
+						"y" : 5
+					},
+					"grip" : {
+						"default_id" : "mod_ak74_grip_s_3",
+						"needed" : true,
+						"x" : 19,
+						"y" : 16
+					},
+					"handguard" : {
+						"default_id" : "mod_ak74_handguard_2_b",
+						"needed" : true,
+						"x" : 28,
+						"y" : 11
+					},
+					"magazine" : {
+						"default_id" : "mod_ak74_magazine_s_3",
+						"needed" : true,
+						"x" : 23,
+						"y" : 16
+					},
+					"scope" : {
+						"default_id" : "mod_ak74_sight_1",
+						"needed" : false,
+						"x" : 22,
+						"y" : 10
+					},
+					"stock" : {
+						"default_id" : "mod_ak12_stock_standard",
+						"needed" : false,
+						"x" : 15,
+						"y" : 13
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 86,
+				"rate_of_fire" : 5,
+				"recoil" : 140,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 85,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_ak_74",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"ak_74" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "卡拉什尼科夫自动步枪1974年型 (EC-74)，定义了现代步兵战斗的传奇苏制突击步枪。使用5.45x39mm弹药，与其7.62x39mm的前辈相比，重量更轻，可控性更好。是绿军部队的标准配发武器，在整个东欧集团随处可见。",
+				"name" : "Kalashnikov AK-74 Assault Rifle",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_ak74_base_game",
+				"sprite_inv" : "s_mod_ak74_base",
+				"stack_max" : 1,
+				"value" : 19000,
+				"weight" : 3.3
+			},
+			"weapon" : {
+				"ammo" : "ammo_545x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a545x39",
+				"damage" : 17,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 35,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"barrel" : {
+						"default_id" : "mod_ak74_barrel_1",
+						"needed" : true,
+						"x" : 29,
+						"y" : 13
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 9,
+						"y" : 6
+					},
+					"grip" : {
+						"default_id" : "mod_ak74_grip_s_3",
+						"needed" : true,
+						"x" : 19,
+						"y" : 17
+					},
+					"handguard" : {
+						"default_id" : "mod_ak74_handguard_s_3",
+						"needed" : true,
+						"x" : 28,
+						"y" : 12
+					},
+					"magazine" : {
+						"default_id" : "mod_ak74_magazine_s_3",
+						"needed" : true,
+						"x" : 23,
+						"y" : 17
+					},
+					"scope" : {
+						"default_id" : "mod_ak74_sight_1",
+						"needed" : false,
+						"x" : 22,
+						"y" : 11
+					},
+					"stock" : {
+						"default_id" : "mod_ak74_stock_s_3",
+						"needed" : false,
+						"x" : 15,
+						"y" : 14
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 82,
+				"rate_of_fire" : 6,
+				"recoil" : 114,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 80,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_ak_74",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"ak_74u_1" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "EC-74 的紧凑卡宾型，潜行者常称其为‘Krinkov’。其短枪管使其非常适合在建筑物和壕沟内进行近距离战斗，但在较远距离上精度会降低。是载具乘员和特种部队单位的最爱。",
+				"name" : "AKS-74U",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_ak74u_base_game",
+				"sprite_inv" : "s_mod_ak74u_base",
+				"stack_max" : 1,
+				"value" : 12500,
+				"weight" : 3.1
+			},
+			"weapon" : {
+				"ammo" : "ammo_545x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a545x39",
+				"damage" : 14,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 31,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 43,
+						"y" : 14
+					},
+					"grip" : {
+						"default_id" : "mod_ak74_grip_s_3",
+						"needed" : true,
+						"x" : 22,
+						"y" : 18
+					},
+					"handguard" : {
+						"default_id" : "mod_ak74_handguard_s_2",
+						"needed" : true,
+						"x" : 30,
+						"y" : 13
+					},
+					"magazine" : {
+						"default_id" : "mod_ak74_magazine_s_2",
+						"needed" : true,
+						"x" : 25,
+						"y" : 18
+					},
+					"scope" : {
+						"default_id" : "mod_ak74_sight_1",
+						"needed" : false,
+						"x" : 25,
+						"y" : 12
+					},
+					"stock" : {
+						"default_id" : "mod_ak74_stock_s_2",
+						"needed" : false,
+						"x" : 19,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 76,
+				"rate_of_fire" : 6,
+				"recoil" : 120,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 70,
+				"reload_type" : "magazine",
+				"sound" : "snd_ak_74",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"akm" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "ECM，原版AK-47的现代化改进型。它是一款坚固而强大的步枪，使用经典的7.62x39mm弹药。虽然在一线绿军部队中大部分已被EC-74取代，但ECM仍被预备役、土匪和那些欣赏其停止力及简单坚固设计的潜行者广泛使用。",
+				"name" : "AKM",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_ak74_base_game",
+				"sprite_inv" : "s_mod_ak74_base",
+				"stack_max" : 1,
+				"value" : 24000,
+				"weight" : 4.2
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x39",
+				"damage" : 19,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 30,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"barrel" : {
+						"default_id" : "mod_ak74_barrel_1",
+						"needed" : true,
+						"x" : 29,
+						"y" : 13
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 9,
+						"y" : 6
+					},
+					"grip" : {
+						"default_id" : "mod_ak74_grip_s_2",
+						"needed" : true,
+						"x" : 19,
+						"y" : 17
+					},
+					"handguard" : {
+						"default_id" : "mod_ak74_handguard_s_2",
+						"needed" : true,
+						"x" : 28,
+						"y" : 12
+					},
+					"magazine" : {
+						"default_id" : "mod_ak74_magazine_s_2",
+						"needed" : true,
+						"x" : 23,
+						"y" : 17
+					},
+					"scope" : {
+						"default_id" : "mod_ak74_sight_1",
+						"needed" : false,
+						"x" : 22,
+						"y" : 11
+					},
+					"stock" : {
+						"default_id" : "mod_ak74_stock_s_2",
+						"needed" : false,
+						"x" : 15,
+						"y" : 14
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 83,
+				"rate_of_fire" : 6,
+				"recoil" : 140,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 90,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_ak_74",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"aps" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "斯捷奇金自动手枪。为绿军载具乘员和炮兵开发的冲锋手枪。它在紧凑的体积内提供了高射速，但其9x18mm弹药威力不足，且在全自动模式下难以控制。",
+				"name" : "APS",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_aps_base_game",
+				"sprite_inv" : "s_mod_aps_base",
+				"stack_max" : 1,
+				"value" : 5000,
+				"weight" : 1
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x18",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x18",
+				"damage" : 15,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 72,
+				"fire_mode" : "automatic",
+				"magazine" : 20,
+				"moddable" : true,
+				"mods" : {
+					"att_2" : {
+						"needed" : false,
+						"x" : 22,
+						"y" : 8
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 24,
+						"y" : 6
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 16,
+						"y" : 5
+					},
+					"stock" : {
+						"needed" : false,
+						"x" : 12,
+						"y" : 12
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 70,
+				"rate_of_fire" : 5,
+				"recoil" : 80,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 20,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_pistol_2",
+				"sound_cocking" : "snd_cocking_pistol",
+				"sound_mag_in" : "snd_pistol_mag_in",
+				"sound_mag_out" : "snd_pistol_mag_out",
+				"sound_reload__UNUSED" : "snd_pistol_reload",
+				"type_effective_range" : "pistol",
+				"type_effective_range_recoil" : "pistol",
+				"type" : "pistol"
+			}
+		},
+		"as_val" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "为绿军特种部队设计的微声突击步枪 ZZ Vel。它使用亚音速9x39mm弹药，使其异常安静。是秘密行动的致命工具，但其特种弹药稀有且昂贵。",
+				"name" : "AS Val",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_val_base_game",
+				"sprite_inv" : "s_mod_val_base",
+				"stack_max" : 1,
+				"value" : 45000,
+				"weight" : 2.5
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x39",
+				"damage" : 17,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 65,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"grip" : {
+						"default_id" : "mod_val_grip_1",
+						"needed" : true,
+						"x" : 24,
+						"y" : 17
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 35,
+						"y" : 13
+					},
+					"magazine" : {
+						"default_id" : "mod_val_magazine_1",
+						"needed" : true,
+						"x" : 28,
+						"y" : 17
+					},
+					"scope" : {
+						"default_id" : "mod_ak74_sight_1",
+						"needed" : false,
+						"x" : 28,
+						"y" : 12
+					},
+					"stock" : {
+						"default_id" : "mod_ak74_stock_2",
+						"needed" : false,
+						"x" : 20,
+						"y" : 14
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 85,
+				"rate_of_fire" : 4,
+				"recoil" : 83,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 75,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_vss",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"ash12" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "为近距离战斗开发的重型突击步枪。ASh-12发射巨大的12.7x55mm弹药，能够阻止即使是装甲最厚重的变异生物和土匪。它是一种罕见而强大的武器，但其弹药稀少且后坐力极大。",
+				"name" : "ASh-12",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_ash12_base_game",
+				"sprite_inv" : "s_mod_ash12_base",
+				"stack_max" : 1,
+				"value" : 95000,
+				"weight" : 6
+			},
+			"weapon" : {
+				"ammo" : "ammo_127x55_ps",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a127x55",
+				"damage" : 30,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 65,
+				"fire_mode" : "automatic",
+				"magazine" : 10,
+				"moddable" : true,
+				"mods" : {
+					"att_1" : {
+						"needed" : false,
+						"x" : 35,
+						"y" : 18
+					},
+					"att_3" : {
+						"needed" : false,
+						"x" : 35,
+						"y" : 15
+					},
+					"att_4" : {
+						"needed" : false,
+						"x" : 37,
+						"y" : 13
+					},
+					"brake" : {
+						"default_id" : "mod_ash12_brake_standard",
+						"needed" : true,
+						"x" : 41,
+						"y" : 14
+					},
+					"magazine" : {
+						"default_id" : "mod_ash12_magazine_10",
+						"needed" : true,
+						"x" : 13,
+						"y" : 18
+					},
+					"scope" : {
+						"default_id" : "mod_ash12_sight",
+						"needed" : false,
+						"x" : 25,
+						"y" : 12
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 80,
+				"rate_of_fire" : 6,
+				"recoil" : 110,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 60,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_ash12",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"avt_40" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "SVT-40战斗步枪的可选射击模式版本。AVT-40是一个逝去时代的遗物，但其强大的7.62x54R弹药仍值得敬畏。在全自动模式下难以控制，但在熟练者手中可能是一个毁灭性的惊喜。",
+				"name" : "AVT-40",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_svt_base_game",
+				"sprite_inv" : "s_mod_svt_base",
+				"stack_max" : 1,
+				"value" : 31500,
+				"weight" : 4.20
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x54R",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x54r",
+				"damage" : 32,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 21,
+				"fire_mode" : "automatic",
+				"magazine" : 10,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 63,
+						"y" : 14
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 38,
+						"y" : 13
+					},
+					"magazine" : {
+						"default_id" : "mod_svt_magazine_10",
+						"needed" : true,
+						"x" : 26,
+						"y" : 18
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 24,
+						"y" : 12
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 95,
+				"rate_of_fire" : 16,
+				"recoil" : 180,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 90,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_mosin",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "dmr",
+				"type_effective_range_recoil" : "dmr",
+				"type" : "dmr"
+			}
+		},
+		"barret_m82" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "巴雷特 M82A1。使用.50 BMG弹药的半自动反器材步枪。这种武器是远程火力的巅峰之作，能够在极远距离上压制目标。它是一种罕见且备受追捧的武器，只有最精锐的猩红集团狙击手和最富有的猎人才会使用。",
+				"name" : "Barrett",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_m82_base_game",
+				"sprite_inv" : "s_mod_m82_base",
+				"stack_max" : 1,
+				"value" : 160000,
+				"weight" : 8.5
+			},
+			"weapon" : {
+				"ammo" : "ammo_50bmg_standard",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a50bmg",
+				"damage" : 85,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 35,
+				"fire_mode" : "bolt_action",
+				"magazine" : 5,
+				"moddable" : true,
+				"mods" : {
+					"magazine" : {
+						"default_id" : "mod_m82_magazine_5",
+						"needed" : true,
+						"x" : 23,
+						"y" : 18
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 25,
+						"y" : 11
+					},
+					"att_1" : {
+						"needed" : false,
+						"x" : 36,
+						"y" : 17
+					},
+					"att_2" : {
+						"needed" : false,
+						"x" : 45,
+						"y" : 17
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 99,
+				"rate_of_fire" : 100,
+				"recoil" : 210,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 100,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_m82",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_m82_mag_in",
+				"sound_mag_out" : "snd_m82_mag_out",
+				"sound_reload__UNUSED" : "snd_sniper_reload_5bullet",
+				"type_effective_range" : "barret_m82",
+				"type_effective_range_recoil" : "barret_m82",
+				"type" : "sniper"
+			}
+		},
+		"dvl" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "DVL-10 破坏者，一种轻量化、一体式消音的狙击步枪。它是重视隐蔽和精度的潜行者的最爱。7.62x51mm弹药提供了出色的停止力，而消音器则能隐藏射手的位置。是伏击和暗杀的致命工具。",
+				"name" : "DVL",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_dvl_base_game",
+				"sprite_inv" : "s_mod_dvl_base",
+				"stack_max" : 1,
+				"value" : 27500,
+				"weight" : 4.2
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x51",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x51",
+				"damage" : 55,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 50,
+				"fire_mode" : "bolt_action",
+				"magazine" : 10,
+				"moddable" : true,
+				"mods" : {
+					"grip" : {
+						"default_id" : "mod_dvl_grip",
+						"needed" : true,
+						"x" : 22,
+						"y" : 19
+					},
+					"magazine" : {
+						"default_id" : "mod_dvl_magazine_1",
+						"needed" : true,
+						"x" : 25,
+						"y" : 20
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 26,
+						"y" : 12
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 98,
+				"rate_of_fire" : 60,
+				"recoil" : 140,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 85,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_dvl",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "sniper",
+				"type_effective_range_recoil" : "sniper",
+				"type" : "sniper"
+			}
+		},
+		"famas" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "FAMAS F1，一种法国无托突击步枪。其高射速和紧凑设计使其成为近距离战斗中的强大武器。在‘区域’中很少见，通常由外国雇佣兵或猩红集团特种部队携带。",
+				"name" : "FAMAS",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_famas_base_game",
+				"sprite_inv" : "s_mod_famas_base",
+				"stack_max" : 1,
+				"value" : 48000,
+				"weight" : 3.6
+			},
+			"weapon" : {
+				"ammo" : "ammo_556x45",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a556x45",
+				"damage" : 18,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 70,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 48,
+						"y" : 15
+					},
+					"grip" : {
+						"default_id" : "mod_famas_grip_1",
+						"needed" : true,
+						"x" : 19,
+						"y" : 19
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 26,
+						"y" : 18
+					},
+					"magazine" : {
+						"default_id" : "mod_famas_mag_20",
+						"needed" : true,
+						"x" : 11,
+						"y" : 20
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 22,
+						"y" : 10
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 84,
+				"rate_of_fire" : 4,
+				"recoil" : 80,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 90,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_m4",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"fn57" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "FN Five-seveN，使用高初速5.7x28mm弹药的半自动手枪。其弹药设计用于击败防弹衣，使其成为猩红集团特工和装备精良的潜行者的热门随身武器。该手枪重量轻，弹匣容量大，但其弹药稀有且昂贵。",
+				"name" : "Five-seveN",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_fn_base_game",
+				"sprite_inv" : "s_mod_fn_base",
+				"stack_max" : 1,
+				"value" : 15000,
+				"weight" : 1.1
+			},
+			"weapon" : {
+				"ammo" : "ammo_57x28",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a57x28",
+				"damage" : 20,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 80,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 17,
+				"moddable" : true,
+				"mods" : {
+					"att_2" : {
+						"needed" : false,
+						"x" : 10,
+						"y" : 9
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 14,
+						"y" : 6
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 5,
+						"y" : 4
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 70,
+				"rate_of_fire" : 8,
+				"recoil" : 75,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 18,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_pistol_3",
+				"sound_cocking" : "snd_cocking_pistol",
+				"sound_mag_in" : "snd_pistol_mag_in",
+				"sound_mag_out" : "snd_pistol_mag_out",
+				"sound_reload__UNUSED" : "snd_pistol_reload",
+				"type_effective_range" : "pistol",
+				"type_effective_range_recoil" : "pistol",
+				"type" : "pistol"
+			}
+		},
+		"g36" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "黑克勒-科赫 G36，一种被世界各地各种军事和警察部队使用的现代突击步枪。它是一款可靠且精确的武器，具有独特的聚合物结构。在‘区域’中，它是资金充足的操作员的标志，很可能与猩红集团有关。",
+				"name" : "G36",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_g36_base_game",
+				"sprite_inv" : "s_mod_g36_base",
+				"stack_max" : 1,
+				"value" : 48000,
+				"weight" : 3.1
+			},
+			"weapon" : {
+				"ammo" : "ammo_556x45",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a556x45",
+				"damage" : 18,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 60,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"barrel" : {
+						"default_id" : "mod_g36_barrel_1",
+						"needed" : true,
+						"x" : 30,
+						"y" : 15
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 0,
+						"y" : 0
+					},
+					"handguard" : {
+						"default_id" : "mod_g36_handguard_1",
+						"needed" : true,
+						"x" : 30,
+						"y" : 14
+					},
+					"magazine" : {
+						"default_id" : "mod_ar15_magazine_30",
+						"needed" : true,
+						"x" : 22,
+						"y" : 19
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 19,
+						"y" : 10
+					},
+					"stock" : {
+						"default_id" : "mod_g36_stock_1",
+						"needed" : true,
+						"x" : 13,
+						"y" : 14
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 80,
+				"rate_of_fire" : 6,
+				"recoil" : 108,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 60,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_m4",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"glock_17_1" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "Vlok 17，一款无处不在且可靠的半自动手枪。使用9x19mm弹药，是潜行者、土匪以及任何需要可靠备用武器的人的常见随身武器。其聚合物框架使其重量轻，简单的设计使其易于在‘区域’的恶劣条件下维护。",
+				"name" : "Glock 17",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_glock_base_game",
+				"sprite_inv" : "s_mod_glock_base",
+				"stack_max" : 1,
+				"value" : 12000,
+				"weight" : 1.5
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x19",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x19",
+				"damage" : 19,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 85,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 17,
+				"moddable" : true,
+				"mods" : {
+					"att_2" : {
+						"needed" : false,
+						"x" : 11,
+						"y" : 9
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 15,
+						"y" : 6
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 6,
+						"y" : 5
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 70,
+				"rate_of_fire" : 7,
+				"recoil" : 65,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 15,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_pistol_3",
+				"sound_cocking" : "snd_cocking_pistol",
+				"sound_mag_in" : "snd_pistol_mag_in",
+				"sound_mag_out" : "snd_pistol_mag_out",
+				"sound_reload__UNUSED" : "snd_pistol_reload",
+				"type_effective_range" : "pistol",
+				"type_effective_range_recoil" : "pistol",
+				"type" : "pistol"
+			}
+		},
+		"groza_1" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "OTs-14 Groza，为绿军特种部队开发的无托突击步枪。此型号使用7.62x39mm弹药，在威力和控制之间提供了良好平衡。其集成的前握把和紧凑设计使其成为在各种情况下稳定有效的武器。",
+				"name" : "Groza",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_groza_base_game",
+				"sprite_inv" : "s_mod_groza_base",
+				"stack_max" : 1,
+				"value" : 56000,
+				"weight" : 3
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x39",
+				"damage" : 21,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 55,
+				"fire_mode" : "automatic",
+				"magazine" : 20,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"default_id" : "mod_groza_barrel_1",
+						"needed" : true,
+						"x" : 31,
+						"y" : 16
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 21,
+						"y" : 14
+					},
+					"magazine" : {
+						"default_id" : "mod_groza_magazine_20",
+						"needed" : true,
+						"x" : 14,
+						"y" : 19
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 22,
+						"y" : 11
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 75,
+				"rate_of_fire" : 5,
+				"recoil" : 90,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 65,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_m4",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"groza_4" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "使用亚音速9x39mm弹药的OTs-14 Groza变种。此版本专为隐秘行动设计，在紧凑的无托结构中提供微声火力。它是一种罕见且特化的武器，深受需要不被察觉地行动的人的珍视。",
+				"name" : "Groza-4",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_groza_base_game",
+				"sprite_inv" : "s_mod_groza_base",
+				"stack_max" : 1,
+				"value" : 63000,
+				"weight" : 3
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x39",
+				"damage" : 23,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 55,
+				"fire_mode" : "automatic",
+				"magazine" : 20,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"default_id" : "mod_groza_barrel_1",
+						"needed" : true,
+						"x" : 31,
+						"y" : 16
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 21,
+						"y" : 14
+					},
+					"magazine" : {
+						"default_id" : "mod_groza_magazine_20",
+						"needed" : true,
+						"x" : 14,
+						"y" : 19
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 22,
+						"y" : 11
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 75,
+				"rate_of_fire" : 5,
+				"recoil" : 85,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 65,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_m4",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"m1a" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "春田兵工厂 M1A，M14战斗步枪的民用版本。它是一款威力强大且精确的半自动步枪，使用7.62x51mm NATO弹药。作为猎人和精确射手的最爱，M1A是在中远距离上接敌的可靠选择。",
+				"name" : "M1A",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_m1a_base_game",
+				"sprite_inv" : "s_mod_m1a_base",
+				"stack_max" : 1,
+				"value" : 34000,
+				"weight" : 4.5
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x51",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x51",
+				"damage" : 29,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 38,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 20,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 57,
+						"y" : 14
+					},
+					"handguard" : {
+						"default_id" : "mod_m1a_handguard_1",
+						"needed" : true,
+						"x" : 23,
+						"y" : 17
+					},
+					"magazine" : {
+						"default_id" : "mod_m1a_magazine_1",
+						"needed" : true,
+						"x" : 27,
+						"y" : 17
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 28,
+						"y" : 12
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 91,
+				"rate_of_fire" : 8,
+				"recoil" : 170,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 110,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_m1a",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "dmr",
+				"type_effective_range_recoil" : "dmr",
+				"type" : "dmr"
+			}
+		},
+		"m45a1" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "柯尔特 M45A1，经典M1911手枪的现代化版本。它是一款威力强大的随身武器，使用.45 ACP弹药。这种武器受到猩红集团特工和那些偏爱大口径手枪停止力的潜行者的青睐。",
+				"name" : "M45A1",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_m45a1_base_game",
+				"sprite_inv" : "s_mod_m45a1_base",
+				"stack_max" : 1,
+				"value" : 8500,
+				"weight" : 1.1
+			},
+			"weapon" : {
+				"ammo" : "ammo_45",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a45",
+				"damage" : 20,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 78,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 11,
+				"moddable" : true,
+				"mods" : {
+					"att_2" : {
+						"needed" : false,
+						"x" : 12,
+						"y" : 8
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 15,
+						"y" : 6
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 7,
+						"y" : 4
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 67,
+				"rate_of_fire" : 8,
+				"recoil" : 65,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 25,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_pistol_3",
+				"sound_cocking" : "snd_cocking_pistol",
+				"sound_mag_in" : "snd_pistol_mag_in",
+				"sound_mag_out" : "snd_pistol_mag_out",
+				"sound_reload__UNUSED" : "snd_pistol_reload",
+				"type_effective_range" : "pistol",
+				"type_effective_range_recoil" : "pistol",
+				"type" : "pistol"
+			}
+		},
+		"m4a1" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "柯尔特 N4o1 卡宾枪，现代军用轻武器的黄金标准。这款可选射击模式武器系统代表了 NATO 5.56x45mm技术的巅峰，采用直接导气式运作和完全模块化设计。是猩红集团精锐战术单位的标准配发武器。",
+				"name" : "Colt M4A1 Carbine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_m4_base_game",
+				"sprite_inv" : "s_mod_m4_base",
+				"stack_max" : 1,
+				"value" : 42000,
+				"weight" : 2.9
+			},
+			"weapon" : {
+				"ammo" : "ammo_556x45",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a556x45",
+				"damage" : 17,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 50,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"barrel" : {
+						"default_id" : "mod_ar15_barrel_1",
+						"needed" : true,
+						"x" : 29,
+						"y" : 15
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 9,
+						"y" : 6
+					},
+					"grip" : {
+						"default_id" : "mod_ar15_grip_1",
+						"needed" : true,
+						"x" : 18,
+						"y" : 19
+					},
+					"handguard" : {
+						"default_id" : "mod_ar15_handguard_1",
+						"needed" : true,
+						"x" : 29,
+						"y" : 14
+					},
+					"magazine" : {
+						"default_id" : "mod_ar15_magazine_30",
+						"needed" : true,
+						"x" : 22,
+						"y" : 19
+					},
+					"scope" : {
+						"default_id" : "mod_ar15_iron_sight",
+						"needed" : false,
+						"x" : 20,
+						"y" : 13
+					},
+					"stock" : {
+						"default_id" : "mod_ar15_stock_1",
+						"needed" : true,
+						"x" : 14,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 85,
+				"rate_of_fire" : 5,
+				"recoil" : 120,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 60,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_m4",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"makarov" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "马卡洛夫手枪，一种在‘区域’中无处不在的简单可靠的随身武器。使用普通的9x18mm弹药，它不是最强大的手枪，但它便宜、容易找到，而且能用。一把真正的潜行者随身武器。",
+				"name" : "Makarov",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_pm_base_game",
+				"sprite_inv" : "s_mod_pm_base",
+				"stack_max" : 1,
+				"value" : 2800,
+				"weight" : 0.7
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x18",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x18",
+				"damage" : 15,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 70,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 10,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 13,
+						"y" : 4
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 62,
+				"rate_of_fire" : 8,
+				"recoil" : 93,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 20,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_pistol_2",
+				"sound_cocking" : "snd_cocking_pistol",
+				"sound_mag_in" : "snd_pistol_mag_in",
+				"sound_mag_out" : "snd_pistol_mag_out",
+				"sound_reload__UNUSED" : "snd_pistol_reload",
+				"type_effective_range" : "pistol",
+				"type_effective_range_recoil" : "pistol",
+				"type" : "pistol"
+			}
+		},
+		"mk47" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "CMMG Mk47 Mutant，一款结合了N4o1平台的人体工程学与AK系列7.62x39mm弹药和弹匣的步枪。它是西方承包商和在‘区域’行动的雇佣兵的热门选择，因为它允许他们使用丰富的AK弹药，而无需牺牲他们熟悉的本土武器系统的操控。",
+				"name" : "Mk47 Mutant",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_mk47_base_game",
+				"sprite_inv" : "s_mod_mk47_base",
+				"stack_max" : 1,
+				"value" : 82000,
+				"weight" : 3.7
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x39",
+				"damage" : 21,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 42,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"barrel" : {
+						"default_id" : "mod_mk47_barrel_1",
+						"needed" : true,
+						"x" : 33,
+						"y" : 13
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 9,
+						"y" : 6
+					},
+					"grip" : {
+						"default_id" : "mod_ar15_grip_1",
+						"needed" : true,
+						"x" : 21,
+						"y" : 17
+					},
+					"handguard" : {
+						"default_id" : "mod_ar15_handguard_black",
+						"needed" : true,
+						"x" : 33,
+						"y" : 12
+					},
+					"magazine" : {
+						"default_id" : "mod_ak74_magazine_s_3",
+						"needed" : true,
+						"x" : 26,
+						"y" : 17
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 22,
+						"y" : 11
+					},
+					"stock" : {
+						"default_id" : "mod_ar15_stock_1",
+						"needed" : false,
+						"x" : 16,
+						"y" : 13
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 86,
+				"rate_of_fire" : 5,
+				"recoil" : 132,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 75,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_ak_74",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"mosin" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "莫辛-纳甘，一把曾在无数战争中服役的栓动步枪。它是一款简单、坚固且强大的武器，使用威力强大的7.62x54R弹药。虽然按现代标准已经过时，但莫辛步枪在‘区域’中仍很常见，因其可靠性和停止力而受到猎人和土匪的珍视。",
+				"name" : "Mosin-Nagant",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_mosin_base_game",
+				"sprite_inv" : "s_mod_mosin_base",
+				"stack_max" : 1,
+				"value" : 16500,
+				"weight" : 5
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x54R",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x54r",
+				"damage" : 52,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 12,
+				"fire_mode" : "bolt_action",
+				"magazine" : 5,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 58,
+						"y" : 7
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 25,
+						"y" : 6
+					},
+					"stock" : {
+						"default_id" : "mod_mosin_stock_1",
+						"needed" : true,
+						"x" : 22,
+						"y" : 10
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 94,
+				"rate_of_fire" : 75,
+				"recoil" : 180,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 20,
+				"reload_type" : "sniper_single",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_mosin",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_sniper_fine",
+				"sound_mag_out" : "snd_sniper_inizio",
+				"sound_reload__UNUSED" : "snd_sniper_reload_5bullet",
+				"type_effective_range" : "sniper",
+				"type_effective_range_recoil" : "sniper",
+				"type" : "sniper"
+			}
+		},
+		"mp153" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "贝加尔 MP-153，一种深受猎人和潜行者欢迎的半自动霰弹枪。它是一款可靠且多功能的武器，能够发射各种12号径霰弹。无论是装填用于近距离遭遇的鹿弹，还是用于中距离目标的独头弹，MP-153都是‘区域’中可靠的生存工具。",
+				"name" : "MP-153",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_mp153_base_game",
+				"sprite_inv" : "s_mod_mp153_base",
+				"stack_max" : 1,
+				"value" : 28500,
+				"weight" : 4
+			},
+			"weapon" : {
+				"ammo" : "ammo_12x70",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a12x70",
+				"damage" : 53,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 18,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 6,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 60,
+						"y" : 14
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 33,
+						"y" : 15
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 30,
+						"y" : 13
+					},
+					"stock" : {
+						"default_id" : "mod_mp153_stock_1",
+						"needed" : true,
+						"x" : 21,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 40,
+				"rate_of_fire" : 25,
+				"recoil" : 185,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 30,
+				"reload_type" : "shotgun_single",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_shotgun",
+				"sound_cocking" : "snd_cocking_shotgun",
+				"sound_mag_in" : "snd_shotgun_fine",
+				"sound_mag_out" : "snd_shotgun_inizio",
+				"sound_reload__UNUSED" : "snd_shotgun_reload_6shell",
+				"type_effective_range" : "shotgun",
+				"type_effective_range_recoil" : "shotgun",
+				"type" : "shotgun"
+			}
+		},
+		"mp5" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "黑克勒-科赫 NB5，一款被世界各地警察和军队使用的传奇冲锋枪。它是一款高度精确且可控的武器，使用9x19mm弹药。在‘区域’中，它是一种身份的象征，通常由资金充足的雇佣兵和猩红集团特工携带。",
+				"name" : "MP5",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_mp5_base_game",
+				"sprite_inv" : "s_mod_mp5_base",
+				"stack_max" : 1,
+				"value" : 23500,
+				"weight" : 2.3
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x19",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x19",
+				"damage" : 13,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 65,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 35,
+						"y" : 14
+					},
+					"grip" : {
+						"default_id" : "mod_mp5_grip",
+						"needed" : true,
+						"x" : 18,
+						"y" : 19
+					},
+					"handguard" : {
+						"default_id" : "mod_mp5_handguard_1",
+						"needed" : true,
+						"x" : 25,
+						"y" : 14
+					},
+					"magazine" : {
+						"default_id" : "mod_mp5_magazine_1",
+						"needed" : true,
+						"x" : 22,
+						"y" : 19
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 18,
+						"y" : 13
+					},
+					"stock" : {
+						"default_id" : "mod_mp5_stock_1",
+						"needed" : true,
+						"x" : 13,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 71,
+				"rate_of_fire" : 4,
+				"recoil" : 85,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 45,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_mp5",
+				"sound_cocking" : "snd_cocking_smg",
+				"sound_mag_in" : "snd_smg_mag_in",
+				"sound_mag_out" : "snd_smg_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "smg",
+				"type_effective_range_recoil" : "smg",
+				"type" : "smg"
+			}
+		},
+		"mp_133" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "贝加尔 MP-133，一种在‘区域’中常见的泵动式霰弹枪。它是一款简单可靠的武器，但其缓慢的射速使其不如半自动型号那样容错。尽管如此，MP-133的精准一击仍能解决很多问题。",
+				"name" : "MP-133",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mp133_game",
+				"sprite_inv" : "s_mp133",
+				"stack_max" : 1,
+				"value" : 22500,
+				"weight" : 4
+			},
+			"weapon" : {
+				"ammo" : "ammo_12x70",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a12x70",
+				"damage" : 51,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 14,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 5,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 48,
+						"y" : 5
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 24,
+						"y" : 4
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 35,
+				"rate_of_fire" : 25,
+				"recoil" : 170,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 20,
+				"reload_type" : "shotgun_single",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_mp153",
+				"sound_cocking" : "snd_cocking_shotgun",
+				"sound_mag_in" : "snd_shotgun_fine",
+				"sound_mag_out" : "snd_shotgun_inizio",
+				"sound_reload__UNUSED" : "snd_shotgun_reload_6shell",
+				"type_effective_range" : "shotgun",
+				"type_effective_range_recoil" : "shotgun",
+				"type" : "shotgun"
+			}
+		},
+		"no_item" : {
+			"basic" : {
+				"category" : "none",
+				"description" : "无物品",
+				"name" : "no item",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_vuoto",
+				"sprite_inv" : "s_vuoto",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0
+			}
+		},
+		"no_weapon" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "这不是武器。",
+				"name" : "item description",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "none",
+				"sprite_ingame" : "s_vuoto",
+				"sprite_inv" : "s_vuoto",
+				"stack_max" : 1,
+				"value" : 0,
+				"weight" : 0
+			}
+		},
+		"pkm" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "PKM，一种为绿军服役数十年的通用机枪。它是一种沉重笨拙的武器，但其7.62x54R弹药和高射速使其成为毁灭性的压制火力工具。在‘区域’中很少见，通常出现在防御工事中或装备最精良的潜行者手中。",
+				"name" : "PKM",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_pkm_base_game",
+				"sprite_inv" : "s_mod_pkm_base",
+				"stack_max" : 1,
+				"value" : 120000,
+				"weight" : 9.5
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x54R",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x54r",
+				"damage" : 29,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 25,
+				"fire_mode" : "automatic",
+				"magazine" : 100,
+				"moddable" : true,
+				"mods" : {
+					"scope" : {
+						"needed" : false,
+						"x" : 29,
+						"y" : 11
+					},
+					"att_1" : {
+						"needed" : false,
+						"x" : 39,
+						"y" : 19
+					},
+					"att_2" : {
+						"needed" : false,
+						"x" : 50,
+						"y" : 18
+					},
+					"att_3" : {
+						"needed" : false,
+						"x" : 43,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 55,
+				"rate_of_fire" : 6,
+				"recoil" : 110,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 180,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_svd",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"p90" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "FN P90，一种独特的个人防卫武器，带有顶部安装弹匣和未来主义外观。它发射与Five-seveN手枪相同的5.7x28mm穿甲弹药。其高射速和大弹匣容量使其成为近距离战斗中的强大武器。在‘区域’中是罕见且奇特的发现。",
+				"name" : "P90",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_p90_base_game",
+				"sprite_inv" : "s_mod_p90_base",
+				"stack_max" : 1,
+				"value" : 28500,
+				"weight" : 2.8
+			},
+			"weapon" : {
+				"ammo" : "ammo_57x28",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a57x28",
+				"damage" : 14,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 57,
+				"fire_mode" : "automatic",
+				"magazine" : 50,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 31,
+						"y" : 17
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 31,
+						"y" : 18
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 24,
+						"y" : 10
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 68,
+				"rate_of_fire" : 4,
+				"recoil" : 81,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 70,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_p90",
+				"sound_cocking" : "snd_cocking_smg",
+				"sound_mag_in" : "snd_smg_mag_in",
+				"sound_mag_out" : "snd_smg_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "smg",
+				"type_effective_range_recoil" : "smg",
+				"type" : "smg"
+			}
+		},
+		"pistol_50bmg" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "一把定制的单发手枪，使用威力大得离谱的.50 BMG弹药。与其说是手枪，不如说是一门手炮，它对射手和目标同样危险。这是一种给那些勇气多于理智的人准备的武器。",
+				"name" : "Pistol .50 BMG",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_pistol_50bmg_base_game",
+				"sprite_inv" : "s_mod_pistol_50bmg_base",
+				"stack_max" : 1,
+				"value" : 85000,
+				"weight" : 3.8
+			},
+			"weapon" : {
+				"ammo" : "ammo_50bmg_standard",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a50bmg",
+				"damage" : 50,
+				"damage_glance_flat" : 1,
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 38,
+				"fire_mode" : "bolt_action",
+				"magazine" : 5,
+				"moddable" : true,
+				"mods" : {
+					"handguard" : {
+						"needed" : false,
+						"x" : 19,
+						"y" : 14
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 75,
+				"rate_of_fire" : 45,
+				"recoil" : 150,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 40,
+				"reload_type" : "sniper_single",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_m82",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_sniper_fine",
+				"sound_mag_out" : "snd_sniper_inizio",
+				"sound_reload__UNUSED" : "snd_pistol_reload",
+				"type_effective_range" : "pistol",
+				"type_effective_range_recoil" : "pistol",
+				"type" : "pistol"
+			}
+		},
+		"pp19_bizon" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "PP-19 Bizon，一种以其大容量螺旋弹匣而闻名的冲锋枪。它使用9x18mm弹药，使其成为对付无护甲或轻甲敌人的好选择。其大弹匣容量在持久战中是一个显著优势。",
+				"name" : "Bizon",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_bizon_base_game",
+				"sprite_inv" : "s_mod_bizon_base",
+				"stack_max" : 1,
+				"value" : 19000,
+				"weight" : 2.5
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x18",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x18",
+				"damage" : 11,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 60,
+				"fire_mode" : "automatic",
+				"magazine" : 64,
+				"moddable" : true,
+				"mods" : {
+					"att_3" : {
+						"needed" : false,
+						"x" : 36,
+						"y" : 14
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 42,
+						"y" : 13
+					},
+					"grip" : {
+						"default_id" : "mod_ak74_grip_2_b",
+						"needed" : true,
+						"x" : 24,
+						"y" : 17
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 26,
+						"y" : 12
+					},
+					"stock" : {
+						"default_id" : "mod_ak74_stock_2",
+						"needed" : false,
+						"x" : 19,
+						"y" : 14
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 67,
+				"rate_of_fire" : 5,
+				"recoil" : 77,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 60,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_skorpion",
+				"sound_cocking" : "snd_cocking_smg",
+				"sound_mag_in" : "snd_smg_mag_in",
+				"sound_mag_out" : "snd_smg_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "smg",
+				"type_effective_range_recoil" : "smg",
+				"type" : "smg"
+			}
+		},
+		"pp19_bizon_9x19" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "使用更常见的9x19mm弹药的PP-19 Bizon变种。此版本牺牲了少量停止力，以换取使用更容易获得的弹药类型的便利性。对于重视后勤的潜行者来说是一个实用的选择。",
+				"name" : "Bizon 9x19",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_bizon_base_game",
+				"sprite_inv" : "s_mod_bizon_base",
+				"stack_max" : 1,
+				"value" : 21000,
+				"weight" : 2.5
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x19",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x19",
+				"damage" : 12,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 60,
+				"fire_mode" : "automatic",
+				"magazine" : 64,
+				"moddable" : true,
+				"mods" : {
+					"att_3" : {
+						"needed" : false,
+						"x" : 36,
+						"y" : 14
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 42,
+						"y" : 13
+					},
+					"grip" : {
+						"default_id" : "mod_ak74_grip_2_b",
+						"needed" : true,
+						"x" : 24,
+						"y" : 17
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 26,
+						"y" : 12
+					},
+					"stock" : {
+						"default_id" : "mod_ak74_stock_2",
+						"needed" : false,
+						"x" : 19,
+						"y" : 14
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 67,
+				"rate_of_fire" : 5,
+				"recoil" : 77,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 60,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_skorpion",
+				"sound_cocking" : "snd_cocking_smg",
+				"sound_mag_in" : "snd_smg_mag_in",
+				"sound_mag_out" : "snd_smg_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "smg",
+				"type_effective_range_recoil" : "smg",
+				"type" : "smg"
+			}
+		},
+		"pp91" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "BB-91 Kerr，一种为近距离战斗设计的紧凑型冲锋枪。它是一款简单可靠的武器，但其小弹匣和9x18mm弹药限制了其在开阔地带的效能。是备用武器或清理狭小空间的好选择。",
+				"name" : "PP-91 Kedr",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_pp91_base_game",
+				"sprite_inv" : "s_mod_pp91_base",
+				"stack_max" : 1,
+				"value" : 12500,
+				"weight" : 2.3
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x18",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x18",
+				"damage" : 11,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 70,
+				"fire_mode" : "automatic",
+				"magazine" : 20,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 33,
+						"y" : 13
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 27,
+						"y" : 15
+					},
+					"magazine" : {
+						"default_id" : "mod_pp91_magazine_1",
+						"needed" : true,
+						"x" : 23,
+						"y" : 18
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 20,
+						"y" : 12
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 68,
+				"rate_of_fire" : 3,
+				"recoil" : 55,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 40,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_skorpion",
+				"sound_cocking" : "snd_cocking_smg",
+				"sound_mag_in" : "snd_smg_mag_in",
+				"sound_mag_out" : "snd_smg_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "smg",
+				"type_effective_range_recoil" : "smg",
+				"type" : "smg"
+			}
+		},
+		"ppsh_41_1" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "PPSh-41，一种逝去时代的冲锋枪遗物。它是一款简单坚固的武器，以其高射速和大容量弹鼓而闻名。虽然已经过时，但在近距离战斗中仍是一种可怕的武器，能够喷射出大量的7.62x25mm托卡列夫弹。",
+				"name" : "PPSh-41",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_ppsh_base_game",
+				"sprite_inv" : "s_mod_ppsh_base",
+				"stack_max" : 1,
+				"value" : 13500,
+				"weight" : 4.1
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x25",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x25",
+				"damage" : 12,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 50,
+				"fire_mode" : "automatic",
+				"magazine" : 33,
+				"moddable" : true,
+				"mods" : {
+					"magazine" : {
+						"default_id" : "mod_ppsh_magazine_1",
+						"needed" : true,
+						"x" : 23,
+						"y" : 16
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 73,
+				"rate_of_fire" : 4,
+				"recoil" : 78,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 70,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_fn57",
+				"sound_cocking" : "snd_cocking_smg",
+				"sound_mag_in" : "snd_smg_mag_in",
+				"sound_mag_out" : "snd_smg_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "smg",
+				"type_effective_range_recoil" : "smg",
+				"type" : "smg"
+			}
+		},
+		"protecta_1" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "Armsel Protecta，一种带有独特弹鼓的南非战斗霰弹枪。它在近距离是一种可怕的武器，能够倾泻大量的12号径霰弹。其缓慢的装填是一个显著缺点，但其火力不容置疑。",
+				"name" : "Protecta",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_protecta_base_game",
+				"sprite_inv" : "s_mod_protecta_base",
+				"stack_max" : 1,
+				"value" : 41000,
+				"weight" : 5.2
+			},
+			"weapon" : {
+				"ammo" : "ammo_12x70",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a12x70",
+				"damage" : 48,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 25,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 18,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 45,
+						"y" : 14
+					},
+					"grip" : {
+						"default_id" : "mod_protecta_grip",
+						"needed" : true,
+						"x" : 22,
+						"y" : 16
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 30,
+						"y" : 16
+					},
+					"magazine" : {
+						"default_id" : "mod_protecta_magazine6",
+						"needed" : true,
+						"x" : 25,
+						"y" : 14
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 24,
+						"y" : 11
+					},
+					"stock" : {
+						"needed" : false,
+						"x" : 17,
+						"y" : 14
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 25,
+				"rate_of_fire" : 15,
+				"recoil" : 175,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 20,
+				"reload_type" : "shotgun_single",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_shotgun",
+				"sound_cocking" : "snd_cocking_shotgun",
+				"sound_mag_in" : "snd_shotgun_fine",
+				"sound_mag_out" : "snd_shotgun_inizio",
+				"sound_reload__UNUSED" : "snd_shotgun_reload_6shell",
+				"type_effective_range" : "shotgun",
+				"type_effective_range_recoil" : "shotgun",
+				"type" : "shotgun"
+			}
+		},
+		"r700_1" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "雷明顿 700，经典的美国栓动猎枪。它是一款简单、精确且可靠的武器，使用强大的7.62x51mm NATO弹药。作为‘区域’中猎人和精确射手的最爱，R700证明了一把制作精良的栓动步枪经久不衰的效能。",
+				"name" : "R700",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_r700_1_base_game",
+				"sprite_inv" : "s_mod_r700_1_base",
+				"stack_max" : 1,
+				"value" : 25000,
+				"weight" : 4.2
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x51",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x51",
+				"damage" : 55,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 15,
+				"fire_mode" : "bolt_action",
+				"magazine" : 5,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 59,
+						"y" : 6
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 24,
+						"y" : 5
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 95,
+				"rate_of_fire" : 75,
+				"recoil" : 150,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 20,
+				"reload_type" : "sniper_single",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_r700",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_sniper_fine",
+				"sound_mag_out" : "snd_sniper_inizio",
+				"sound_reload__UNUSED" : "snd_sniper_reload_5bullet",
+				"type_effective_range" : "sniper",
+				"type_effective_range_recoil" : "sniper",
+				"type" : "sniper"
+			}
+		},
+		"r700_modern" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "雷明顿 700的现代化战术版本。这款步枪采用了底盘系统、可拆卸弹匣以及对经典猎枪的其他人体工程学改进。它是一款高性能狙击步枪，被猩红集团精确射手和最挑剔的潜行者使用。",
+				"name" : "R700 Tactical",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_r700_2_base_game",
+				"sprite_inv" : "s_mod_r700_2_base",
+				"stack_max" : 1,
+				"value" : 42000,
+				"weight" : 3.5
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x51",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x51",
+				"damage" : 65,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 40,
+				"fire_mode" : "bolt_action",
+				"magazine" : 5,
+				"moddable" : true,
+				"mods" : {
+					"att_1" : {
+						"needed" : false,
+						"x" : 35,
+						"y" : 18
+					},
+					"att_2" : {
+						"needed" : false,
+						"x" : 45,
+						"y" : 18
+					},
+					"att_3" : {
+						"needed" : false,
+						"x" : 45,
+						"y" : 15
+					},
+					"att_4" : {
+						"needed" : false,
+						"x" : 45,
+						"y" : 14
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 59,
+						"y" : 15
+					},
+					"grip" : {
+						"default_id" : "mod_ar15_grip_1",
+						"needed" : true,
+						"x" : 22,
+						"y" : 18
+					},
+					"magazine" : {
+						"default_id" : "mod_r700_magazine_1",
+						"needed" : true,
+						"x" : 25,
+						"y" : 19
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 26,
+						"y" : 13
+					},
+					"stock" : {
+						"default_id" : "mod_ar15_stock_ctr_black",
+						"needed" : true,
+						"x" : 18,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 99,
+				"rate_of_fire" : 60,
+				"recoil" : 145,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 100,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_r700",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_sniper_reload_5bullet",
+				"type_effective_range" : "sniper",
+				"type_effective_range_recoil" : "sniper",
+				"type" : "sniper"
+			}
+		},
+		"rpk" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "RPK-16，为绿军开发的现代轻机枪。它是一款多功能武器，既可用作班用自动武器，也可用作标准突击步枪。其5.45x39mm弹药充足，长枪管提供了出色的精度和射程。",
+				"name" : "RPK-16",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_rpk_base_game",
+				"sprite_inv" : "s_mod_rpk_base",
+				"stack_max" : 1,
+				"value" : 45000,
+				"weight" : 4.2
+			},
+			"weapon" : {
+				"ammo" : "ammo_545x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a545x39",
+				"damage" : 21,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 65,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 47,
+						"y" : 15
+					},
+					"grip" : {
+						"default_id" : "mod_rpk_grip",
+						"needed" : true,
+						"x" : 19,
+						"y" : 18
+					},
+					"handguard" : {
+						"default_id" : "mod_rpk_handguard_1",
+						"needed" : true,
+						"x" : 29,
+						"y" : 13
+					},
+					"magazine" : {
+						"default_id" : "mod_ak74_magazine_s_3",
+						"needed" : true,
+						"x" : 24,
+						"y" : 18
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 22,
+						"y" : 12
+					},
+					"stock" : {
+						"default_id" : "mod_rpk_stock",
+						"needed" : false,
+						"x" : 15,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 79,
+				"rate_of_fire" : 6,
+				"recoil" : 87,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 75,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_ak_74",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"santa_ak" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "一把经过大量改装的EC-74，由一位神秘且可能疯狂、只被称为‘圣诞老人’的枪匠制造。它是一把怪异而强大的武器，带有节日涂装和一系列不寻常的改装。它是一件稀有而珍贵的战利品，但其来源完全是个谜。",
+				"name" : "Santa AK-74",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_ak74_santa_base_game",
+				"sprite_inv" : "s_mod_ak74_santa_base",
+				"stack_max" : 1,
+				"value" : 2500,
+				"weight" : 3.3
+			},
+			"weapon" : {
+				"ammo" : "ammo_545x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a545x39",
+				"damage" : 20,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 65,
+				"fire_mode" : "automatic",
+				"magazine" : 60,
+				"moddable" : true,
+				"mods" : {
+					"att_1" : {
+						"needed" : false,
+						"x" : 37,
+						"y" : 17
+					},
+					"att_2" : {
+						"needed" : false,
+						"x" : 43,
+						"y" : 17
+					},
+					"att_3" : {
+						"needed" : false,
+						"x" : 43,
+						"y" : 14
+					},
+					"att_4" : {
+						"needed" : false,
+						"x" : 43,
+						"y" : 12
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 22,
+						"y" : 11
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 91,
+				"rate_of_fire" : 5,
+				"recoil" : 65,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 80,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_sil_545x39_1",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"sawed_off_double_shotgun" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "TOZ-66双管霰弹枪的截短版本。它是一种粗糙但有效的武器，易于隐藏且在近距离具有毁灭性。作为土匪和绝望潜行者的最爱，截短霰弹枪是在情况变得近身肉搏时的最后手段。",
+				"name" : "TOZ Sawed-off",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_sawed_off_double_shotgun_game",
+				"sprite_inv" : "s_sawed_off_double_shotgun_inv",
+				"stack_max" : 1,
+				"value" : 5500,
+				"weight" : 2.7
+			},
+			"weapon" : {
+				"ammo" : "ammo_12x70",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a12x70",
+				"damage" : 48,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 13,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 2,
+				"moddable" : true,
+				"mods" : {},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 20,
+				"rate_of_fire" : 10,
+				"recoil" : 150,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 10,
+				"reload_type" : "shotgun_single",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_shotgun",
+				"sound_cocking" : "snd_cocking_shotgun",
+				"sound_mag_in" : "snd_shotgun_fine",
+				"sound_mag_out" : "snd_shotgun_inizio",
+				"sound_reload__UNUSED" : "snd_shotgun_reload_2shell",
+				"type_effective_range" : "shotgun",
+				"type_effective_range_recoil" : "shotgun",
+				"type" : "shotgun"
+			}
+		},
+		"scar_h_1" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "SCAR-H，使用7.62x51mm NATO弹药的现代战斗步枪。它是一款强大且多功能的武器，被猩红集团特种部队和其他精锐单位使用。其模块化设计使其能够适应各种角色，从近距离战斗步枪到精确射手步枪。",
+				"name" : "SCAR-H",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_scar_base_game",
+				"sprite_inv" : "s_mod_scar_base",
+				"stack_max" : 1,
+				"value" : 63000,
+				"weight" : 4.3
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x51",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x51",
+				"damage" : 25,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 38,
+				"fire_mode" : "automatic",
+				"magazine" : 20,
+				"moddable" : true,
+				"mods" : {
+					"barrel" : {
+						"default_id" : "mod_scar_barrel_1",
+						"needed" : true,
+						"x" : 32,
+						"y" : 15
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 50,
+						"y" : 13
+					},
+					"grip" : {
+						"default_id" : "mod_scar_grip_1",
+						"needed" : true,
+						"x" : 22,
+						"y" : 19
+					},
+					"handguard" : {
+						"default_id" : "mod_scar_handguard_1",
+						"needed" : true,
+						"x" : 32,
+						"y" : 14
+					},
+					"magazine" : {
+						"default_id" : "mod_m1a_magazine_1",
+						"needed" : true,
+						"x" : 26,
+						"y" : 20
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 24,
+						"y" : 13
+					},
+					"stock" : {
+						"default_id" : "mod_scar_stock_1",
+						"needed" : true,
+						"x" : 18,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 87,
+				"rate_of_fire" : 6,
+				"recoil" : 150,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 100,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_fal",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "dmr",
+				"type_effective_range_recoil" : "dmr",
+				"type" : "dmr"
+			}
+		},
+		"scar_l" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "SCAR-L，SCAR平台的5.56x45mm NATO变种。与它的大哥SCAR-H相比，它是一款更轻、更易控制的武器。SCAR-L是那些重视火力、精度和控制平衡的猩红集团特工的热门选择。",
+				"name" : "SCAR-L",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_scar_base_game",
+				"sprite_inv" : "s_mod_scar_base",
+				"stack_max" : 1,
+				"value" : 42000,
+				"weight" : 4.3
+			},
+			"weapon" : {
+				"ammo" : "ammo_556x45",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a556x45",
+				"damage" : 18,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 45,
+				"fire_mode" : "automatic",
+				"magazine" : 20,
+				"moddable" : true,
+				"mods" : {
+					"barrel" : {
+						"default_id" : "mod_scar_barrel_1",
+						"needed" : true,
+						"x" : 32,
+						"y" : 15
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 50,
+						"y" : 13
+					},
+					"grip" : {
+						"default_id" : "mod_scar_grip_1",
+						"needed" : true,
+						"x" : 22,
+						"y" : 19
+					},
+					"handguard" : {
+						"default_id" : "mod_scar_handguard_1",
+						"needed" : true,
+						"x" : 32,
+						"y" : 14
+					},
+					"magazine" : {
+						"default_id" : "mod_ar15_magazine_30",
+						"needed" : true,
+						"x" : 26,
+						"y" : 20
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 24,
+						"y" : 13
+					},
+					"stock" : {
+						"default_id" : "mod_scar_stock_1",
+						"needed" : true,
+						"x" : 18,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 87,
+				"rate_of_fire" : 6,
+				"recoil" : 125,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 75,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_m4",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		},
+		"skorpion" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "蝎式 vz. 61，一种捷克斯洛伐克冲锋手枪。它是一款紧凑且可控的武器，但其9x18mm弹药威力较弱。蝎式冲锋枪常见于土匪和其他低级威胁手中。",
+				"name" : "Skorpion",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_skorpion_base_game",
+				"sprite_inv" : "s_mod_skorpion_base",
+				"stack_max" : 1,
+				"value" : 8500,
+				"weight" : 2
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x18",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x18",
+				"damage" : 11,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 60,
+				"fire_mode" : "automatic",
+				"magazine" : 30,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 28,
+						"y" : 4
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 65,
+				"rate_of_fire" : 5,
+				"recoil" : 58,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 40,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_skorpion",
+				"sound_cocking" : "snd_cocking_smg",
+				"sound_mag_in" : "snd_smg_mag_in",
+				"sound_mag_out" : "snd_smg_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "smg",
+				"type_effective_range_recoil" : "smg",
+				"type" : "smg"
+			}
+		},
+		"sks" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "SKS，ECM的前身半自动卡宾枪。它是一款简单可靠的武器，使用常见的7.62x39mm弹药。虽然基本过时，但SKS仍然是预算有限的猎人和潜行者的热门选择。",
+				"name" : "SKS",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_sks_base_game",
+				"sprite_inv" : "s_mod_sks_base",
+				"stack_max" : 1,
+				"value" : 17500,
+				"weight" : 3.6
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x39",
+				"damage" : 24,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 25,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 10,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 50,
+						"y" : 13
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 31,
+						"y" : 12
+					},
+					"magazine" : {
+						"default_id" : "mod_sks_magazine_10",
+						"needed" : true,
+						"x" : 24,
+						"y" : 17
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 22,
+						"y" : 11
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 86,
+				"rate_of_fire" : 10,
+				"recoil" : 135,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 90,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_sks",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "dmr",
+				"type_effective_range_recoil" : "dmr",
+				"type" : "dmr"
+			}
+		},
+		"spas_12_1" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "弗兰基 SPAS-12，一种双模式战斗霰弹枪。它可以用作半自动或泵动式武器，兼具速度和可靠性。它是一款沉重复杂的武器，但其多功能性和火力使其成为经验丰富的潜行者和雇佣兵的最爱。",
+				"name" : "SPAS-12",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_spas_base_game",
+				"sprite_inv" : "s_mod_spas_base",
+				"stack_max" : 1,
+				"value" : 33000,
+				"weight" : 3.7
+			},
+			"weapon" : {
+				"ammo" : "ammo_12x70",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a12x70",
+				"damage" : 55,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 20,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 7,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 56,
+						"y" : 5
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 34,
+						"y" : 9
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 26,
+						"y" : 4
+					},
+					"stock" : {
+						"needed" : false,
+						"x" : 18,
+						"y" : 6
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 35,
+				"rate_of_fire" : 25,
+				"recoil" : 165,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 20,
+				"reload_type" : "shotgun_single",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_shotgun",
+				"sound_cocking" : "snd_cocking_shotgun",
+				"sound_mag_in" : "snd_shotgun_fine",
+				"sound_mag_out" : "snd_shotgun_inizio",
+				"sound_reload__UNUSED" : "snd_shotgun_reload_6shell",
+				"type_effective_range" : "shotgun",
+				"type_effective_range_recoil" : "shotgun",
+				"type" : "shotgun"
+			}
+		},
+		"sr_25" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "奈特军械 SR-25，基于AR-10平台的半自动狙击步枪。它是一款高度精确且可靠的武器，使用7.62x51mm NATO弹药。SR-25是猩红集团精确射手和其他精锐单位的最爱。",
+				"name" : "SR-25",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_sr25_base_game",
+				"sprite_inv" : "s_mod_sr25_base",
+				"stack_max" : 1,
+				"value" : 67500,
+				"weight" : 5.2
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x51",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x51",
+				"damage" : 29,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 43,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 20,
+				"moddable" : true,
+				"mods" : {
+					"barrel" : {
+						"default_id" : "mod_scar_barrel_1",
+						"needed" : true,
+						"x" : 30,
+						"y" : 14
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 50,
+						"y" : 13
+					},
+					"grip" : {
+						"default_id" : "mod_ar15_grip_1",
+						"needed" : true,
+						"x" : 19,
+						"y" : 17
+					},
+					"handguard" : {
+						"default_id" : "mod_ar15_handguard_black",
+						"needed" : true,
+						"x" : 30,
+						"y" : 13
+					},
+					"magazine" : {
+						"default_id" : "mod_m1a_magazine_1",
+						"needed" : true,
+						"x" : 24,
+						"y" : 18
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 20,
+						"y" : 12
+					},
+					"stock" : {
+						"default_id" : "mod_ar15_stock_ctr_black",
+						"needed" : true,
+						"x" : 14,
+						"y" : 14
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 93,
+				"rate_of_fire" : 8,
+				"recoil" : 140,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 110,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_fal",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "dmr",
+				"type_effective_range_recoil" : "dmr",
+				"type" : "dmr"
+			}
+		},
+		"sv98_1" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "SV-98，俄制栓动狙击步枪。它是一款现代且精确的武器，使用强大的7.62x54R弹药。SV-98是绿军的标准配发狙击步枪，常见于其精确射手手中。",
+				"name" : "SV-98",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_sv98_base_game",
+				"sprite_inv" : "s_mod_sv98_base",
+				"stack_max" : 1,
+				"value" : 27500,
+				"weight" : 4.5
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x54R",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x54r",
+				"damage" : 55,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 33,
+				"fire_mode" : "bolt_action",
+				"magazine" : 5,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 61,
+						"y" : 7
+					},
+					"magazine" : {
+						"default_id" : "mod_sv98_magazine5",
+						"needed" : true,
+						"x" : 24,
+						"y" : 11
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 24,
+						"y" : 6
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 97,
+				"rate_of_fire" : 75,
+				"recoil" : 168,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 100,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_sniper_1",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_sniper_reload_5bullet",
+				"type_effective_range" : "sniper",
+				"type_effective_range_recoil" : "sniper",
+				"type" : "sniper"
+			}
+		},
+		"svd" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "德拉贡诺夫狙击步枪 (SVD)，由叶夫根尼·德拉贡诺夫设计的传奇苏制精确射手步枪。使用7.62x54mmR弹药，采用气动旋转闭锁系统。华沙条约部队的标准精确武器，配合PSO-1瞄准镜可在800米外进行精确射击。",
+				"name" : "Dragunov SVD Sniper Rifle",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_svd_base_game",
+				"sprite_inv" : "s_mod_svd_base",
+				"stack_max" : 1,
+				"value" : 53000,
+				"weight" : 4.7
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x54R",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x54r",
+				"damage" : 33,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 18,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 10,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 62,
+						"y" : 14
+					},
+					"handguard" : {
+						"default_id" : "mod_svd_handguard_1",
+						"needed" : true,
+						"x" : 33,
+						"y" : 13
+					},
+					"magazine" : {
+						"default_id" : "mod_svd_magazine_1",
+						"needed" : true,
+						"x" : 25,
+						"y" : 17
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 22,
+						"y" : 12
+					},
+					"stock" : {
+						"default_id" : "mod_svd_stock_1",
+						"needed" : true,
+						"x" : 16,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 93,
+				"rate_of_fire" : 15,
+				"recoil" : 190,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 110,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_svd",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ar_mag_in",
+				"sound_mag_out" : "snd_ar_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "sniper",
+				"type_effective_range_recoil" : "sniper",
+				"type" : "dmr"
+			}
+		},
+		"svt_40" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "SVT-40，一种在冲突早期为绿军服役的半自动战斗步枪。它是一款强大且精确的武器，但也结构复杂，如果维护不当容易卡壳。作为逝去时代的遗物，SVT-40在合适的人手中仍是一款有能力的武器。",
+				"name" : "SVT-40",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_svt_base_game",
+				"sprite_inv" : "s_mod_svt_base",
+				"stack_max" : 1,
+				"value" : 22000,
+				"weight" : 4.20
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x54R",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x54r",
+				"damage" : 32,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 21,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 10,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 63,
+						"y" : 14
+					},
+					"handguard" : {
+						"needed" : false,
+						"x" : 38,
+						"y" : 13
+					},
+					"magazine" : {
+						"default_id" : "mod_svt_magazine_10",
+						"needed" : true,
+						"x" : 26,
+						"y" : 18
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 24,
+						"y" : 12
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 95,
+				"rate_of_fire" : 15,
+				"recoil" : 180,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 90,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_mosin",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "sniper",
+				"type_effective_range_recoil" : "sniper",
+				"type" : "dmr"
+			}
+		},
+		"tapco" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "一把经过大量改装的SKS步枪，配备了TAPCO战术枪托和其他售后零件。这种‘魔改’的SKS在‘区域’中很常见，因为潜行者试图现代化这个老旧平台。虽然改装可以改善人体工程学并允许使用可拆卸弹匣，但它们对步枪固有的精度几乎没有提升。",
+				"name" : "TAPCO SKS",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_tapco_base_game",
+				"sprite_inv" : "s_mod_tapco_base",
+				"stack_max" : 1,
+				"value" : 32500,
+				"weight" : 3.2
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x39",
+				"damage" : 26,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 33,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 20,
+				"moddable" : true,
+				"mods" : {
+					"brake" : {
+						"needed" : false,
+						"x" : 61,
+						"y" : 15
+					},
+					"grip" : {
+						"default_id" : "mod_ak74_grip_2_b",
+						"needed" : true,
+						"x" : 21,
+						"y" : 18
+					},
+					"handguard" : {
+						"default_id" : "mod_tapco_handguard_1",
+						"needed" : true,
+						"x" : 37,
+						"y" : 14
+					},
+					"magazine" : {
+						"default_id" : "mod_sks_magazine_20",
+						"needed" : true,
+						"x" : 31,
+						"y" : 18
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 25,
+						"y" : 13
+					},
+					"stock" : {
+						"default_id" : "mod_ak74_stock_2",
+						"needed" : true,
+						"x" : 17,
+						"y" : 15
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 88,
+				"rate_of_fire" : 8,
+				"recoil" : 135,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 90,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_sks",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "dmr",
+				"type_effective_range_recoil" : "dmr",
+				"type" : "dmr"
+			}
+		},
+		"toz34" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "TOZ-34，经典的上下排列双管猎枪。它是一款简单可靠的武器，但其两发容量在交火中是一个显著限制。作为猎人和农夫的最爱，TOZ-34在‘区域’的乡村地区很常见。",
+				"name" : "TOZ-34",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_toz34_game",
+				"sprite_inv" : "s_toz34_inv",
+				"stack_max" : 1,
+				"value" : 21500,
+				"weight" : 4.7
+			},
+			"weapon" : {
+				"ammo" : "ammo_12x70",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a12x70",
+				"damage" : 50,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 12,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 2,
+				"moddable" : true,
+				"mods" : {},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 35,
+				"rate_of_fire" : 10,
+				"recoil" : 165,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 10,
+				"reload_type" : "shotgun_single",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_shotgun",
+				"sound_cocking" : "snd_cocking_shotgun",
+				"sound_mag_in" : "snd_shotgun_fine",
+				"sound_mag_out" : "snd_shotgun_inizio",
+				"sound_reload__UNUSED" : "snd_shotgun_reload_2shell",
+				"type_effective_range" : "shotgun",
+				"type_effective_range_recoil" : "shotgun",
+				"type" : "shotgun"
+			}
+		},
+		"tt_tokarev" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "TT-33，多年来绿军的标准随身半自动手枪。它是一款简单可靠的武器，使用高初速7.62x25mm托卡列夫弹药。虽然大部分已被马卡洛夫取代，但TT-33在‘区域’中仍很常见。",
+				"name" : "TT-33",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_tt_base_game",
+				"sprite_inv" : "s_mod_tt_base",
+				"stack_max" : 1,
+				"value" : 3400,
+				"weight" : 0.75
+			},
+			"weapon" : {
+				"ammo" : "ammo_762x25",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a762x25",
+				"damage" : 16,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 70,
+				"fire_mode" : "semi_automatic",
+				"magazine" : 10,
+				"moddable" : true,
+				"mods" : {
+					"att_2" : {
+						"needed" : false,
+						"x" : 11,
+						"y" : 9
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 15,
+						"y" : 7
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 8,
+						"y" : 5
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 65,
+				"rate_of_fire" : 8,
+				"recoil" : 85,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 20,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_pistol_2",
+				"sound_cocking" : "snd_cocking_pistol",
+				"sound_mag_in" : "snd_pistol_mag_in",
+				"sound_mag_out" : "snd_pistol_mag_out",
+				"sound_reload__UNUSED" : "snd_pistol_reload",
+				"type_effective_range" : "pistol",
+				"type_effective_range_recoil" : "pistol",
+				"type" : "pistol"
+			}
+		},
+		"ump_1" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "黑克勒-科赫 UMP，使用.45 ACP弹药的现代冲锋枪。它是一款轻量化且可控的武器，在停止力和精度之间提供了良好平衡。UMP是猩红集团特工和‘区域’中其他装备精良部队的最爱。",
+				"name" : "HK UMP",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_ump_base_game",
+				"sprite_inv" : "s_mod_ump_base",
+				"stack_max" : 1,
+				"value" : 24500,
+				"weight" : 2.8
+			},
+			"weapon" : {
+				"ammo" : "ammo_45",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a45",
+				"damage" : 14,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 59,
+				"fire_mode" : "automatic",
+				"magazine" : 33,
+				"moddable" : true,
+				"mods" : {
+					"att_1" : {
+						"needed" : false,
+						"x" : 29,
+						"y" : 16
+					},
+					"att_3" : {
+						"needed" : false,
+						"x" : 29,
+						"y" : 13
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 34,
+						"y" : 13
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 19,
+						"y" : 11
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 73,
+				"rate_of_fire" : 6,
+				"recoil" : 53,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 60,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_45",
+				"sound_cocking" : "snd_cocking_smg",
+				"sound_mag_in" : "snd_smg_mag_in",
+				"sound_mag_out" : "snd_smg_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "smg",
+				"type_effective_range_recoil" : "smg",
+				"type" : "smg"
+			}
+		},
+		"vector" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "KRISS Vector，一种具有独特后坐力缓冲系统的现代冲锋枪。即使在全自动模式下，它也是一款高度可控的武器，其.45 ACP口径提供了良好的停止力。Vector是一种罕见且先进的武器，是真正专业操作员的标志。",
+				"name" : "Vector",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_vector_base_game",
+				"sprite_inv" : "s_mod_vector_base",
+				"stack_max" : 1,
+				"value" : 24500,
+				"weight" : 1.8
+			},
+			"weapon" : {
+				"ammo" : "ammo_45",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a45",
+				"damage" : 15,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 65,
+				"fire_mode" : "automatic",
+				"magazine" : 20,
+				"moddable" : true,
+				"mods" : {
+					"att_1" : {
+						"needed" : false,
+						"x" : 26,
+						"y" : 16
+					},
+					"att_2" : {
+						"needed" : false,
+						"x" : 26,
+						"y" : 14
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 30,
+						"y" : 13
+					},
+					"magazine" : {
+						"default_id" : "mod_vector_magazine_1",
+						"needed" : true,
+						"x" : 18,
+						"y" : 21
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 19,
+						"y" : 11
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 65,
+				"rate_of_fire" : 3,
+				"recoil" : 45,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 60,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_45",
+				"sound_cocking" : "snd_cocking_smg",
+				"sound_mag_in" : "snd_smg_mag_in",
+				"sound_mag_out" : "snd_smg_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "smg",
+				"type_effective_range_recoil" : "smg",
+				"type" : "smg"
+			}
+		},
+		"vector_9x19" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "使用常见9x19mm弹药的KRISS Vector变种。此版本牺牲了一些停止力，以换取更容易获得的弹药和略低的后坐力。对于那些想要Vector先进特性又不想面对.45 ACP型号后勤挑战的人来说，是一个实用的选择。",
+				"name" : "Vector 9x19",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_vector_base_game",
+				"sprite_inv" : "s_mod_vector_base",
+				"stack_max" : 1,
+				"value" : 24500,
+				"weight" : 1.8
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x19",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x19",
+				"damage" : 13,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 65,
+				"fire_mode" : "automatic",
+				"magazine" : 20,
+				"moddable" : true,
+				"mods" : {
+					"att_1" : {
+						"needed" : false,
+						"x" : 26,
+						"y" : 16
+					},
+					"att_2" : {
+						"needed" : false,
+						"x" : 26,
+						"y" : 14
+					},
+					"brake" : {
+						"needed" : false,
+						"x" : 30,
+						"y" : 13
+					},
+					"magazine" : {
+						"default_id" : "mod_vector_magazine_1",
+						"needed" : true,
+						"x" : 18,
+						"y" : 21
+					},
+					"scope" : {
+						"needed" : false,
+						"x" : 19,
+						"y" : 11
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 65,
+				"rate_of_fire" : 3,
+				"recoil" : 45,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 60,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_45",
+				"sound_cocking" : "snd_cocking_smg",
+				"sound_mag_in" : "snd_smg_mag_in",
+				"sound_mag_out" : "snd_smg_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "smg",
+				"type_effective_range_recoil" : "smg",
+				"type" : "smg"
+			}
+		},
+		"vintar_bc" : {
+			"basic" : {
+				"category" : "weapon",
+				"description" : "Wintar BK，绿军特种部队使用的一体式消音狙击步枪。它使用亚音速9x39mm弹药，使其异常安静。Wintar BK是秘密行动的致命工具，允许操作员在不暴露位置的情况下消灭目标。",
+				"name" : "VSS Vintorez",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "weapon",
+				"sprite_ingame" : "s_mod_vintar_base_game",
+				"sprite_inv" : "s_mod_vintar_base",
+				"stack_max" : 1,
+				"value" : 45000,
+				"weight" : 2.2
+			},
+			"weapon" : {
+				"ammo" : "ammo_9x39",
+				"bullet_speed" : "{standard}",
+				"caliber" : "a9x39",
+				"damage" : 27,
+				"damage_glance_flat" : "{use_weapon_type}",
+				"default_extend_view" : "{use_weapon_type}",
+				"ergo" : 70,
+				"fire_mode" : "automatic",
+				"magazine" : 10,
+				"moddable" : true,
+				"mods" : {
+					"magazine" : {
+						"default_id" : "mod_val_magazine_3",
+						"needed" : true,
+						"x" : 21,
+						"y" : 17
+					},
+					"scope" : {
+						"default_id" : "mod_scope_pso",
+						"needed" : false,
+						"x" : 20,
+						"y" : 12
+					}
+				},
+				"mult_eff_range_aiming" : "{use_weapon_type}",
+				"bullet_obj" : "obj_bullet_regular",
+				"precisione" : 92,
+				"rate_of_fire" : 3,
+				"recoil" : 75,
+				"recover_from_mouse_movement" : "{use_weapon_type}",
+				"reload_time" : 45,
+				"reload_type" : "magazine",
+				"scope_glance_flat_amount" : "{use_weapon_type}",
+				"sound" : "snd_vss",
+				"sound_cocking" : "snd_cocking",
+				"sound_mag_in" : "snd_ak_mag_in",
+				"sound_mag_out" : "snd_ak_mag_out",
+				"sound_reload__UNUSED" : "snd_rifle_reload",
+				"type_effective_range" : "rifle",
+				"type_effective_range_recoil" : "rifle",
+				"type" : "rifle"
+			}
+		}
+	},
+	"metadata" : {
+		"author" : "Luca",
+		"description" : "Base gamedata for ZERO Sievert",
+		"project" : "ZERO Sievert"
+	},
+	"usage" : "item",
+	"version" : 0
+}

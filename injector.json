@@ -1,0 +1,228 @@
+{
+	"data" : {
+		"injector1" : {
+			"basic" : {
+				"category" : "injector",
+				"description" : "从废弃医院物资中盗取的 Epogen 促红细胞生成素。能增强血液携氧能力，允许在‘区域’中执行更长时间的任务，但会导致危险的脱水。黑市科学家警告有严重的副作用。",
+				"name" : "Epogen Erythropoietin",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "med",
+				"sprite_ingame" : "s_item_injector1",
+				"sprite_inv" : "s_item_injector1",
+				"stack_max" : 1,
+				"value" : 5000,
+				"weight" : 0.1
+			},
+			"injector" : {
+				"bleed_immune" : true,
+				"bleed_rec" : 25,
+				"duration" : 7200,
+				"hp_regen" : 0,
+				"hunger" : 0,
+				"hunger_regen" : -1,
+				"max_hp" : 0,
+				"max_weight" : 0,
+				"rad_def" : 0,
+				"rad_regen" : 0,
+				"stamina_max" : 0,
+				"stamina_regen" : 0,
+				"thirst" : 0,
+				"thirst_regen" : -2
+			}
+		},
+		"injector2" : {
+			"basic" : {
+				"category" : "injector",
+				"description" : "来自猩红集团医疗储备的 Modafinil 性能增强剂。为穿越广阔的‘工业区’提供超人般的耐力，但饥饿和口渴会成为严重问题。",
+				"name" : "Modafinil Performance Enhancer",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "med",
+				"sprite_ingame" : "s_item_injector2",
+				"sprite_inv" : "s_item_injector2",
+				"stack_max" : 1,
+				"value" : 8000,
+				"weight" : 0.1
+			},
+			"injector" : {
+				"bleed_immune" : false,
+				"bleed_rec" : 0,
+				"duration" : 14400,
+				"hp_regen" : 0,
+				"hunger" : -2,
+				"hunger_regen" : -2,
+				"max_hp" : 0,
+				"max_weight" : 0,
+				"rad_def" : 0,
+				"rad_regen" : 0,
+				"stamina_max" : 40,
+				"stamina_regen" : 100,
+				"thirst" : -2,
+				"thirst_regen" : -3
+			}
+		},
+		"injector3" : {
+			"basic" : {
+				"category" : "injector",
+				"description" : "来自猩红集团军事增强项目的 Testosterone Cypionate。专为面对‘地下’地堡清理行动恐怖景象的士兵设计。提供显著的体能提升，但会严重脱水。",
+				"name" : "Testosterone Cypionate",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "med",
+				"sprite_ingame" : "s_item_injector3",
+				"sprite_inv" : "s_item_injector3",
+				"stack_max" : 1,
+				"value" : 5000,
+				"weight" : 0.1
+			},
+			"injector" : {
+				"bleed_immune" : false,
+				"bleed_rec" : 0,
+				"duration" : 7200,
+				"hp_regen" : 0,
+				"hunger" : -1,
+				"hunger_regen" : -2,
+				"max_hp" : 30,
+				"max_weight" : 0,
+				"rad_def" : 0,
+				"rad_regen" : 0,
+				"stamina_max" : 0,
+				"stamina_regen" : -10,
+				"thirst" : -2,
+				"thirst_regen" : -3
+			}
+		},
+		"injector4" : {
+			"basic" : {
+				"category" : "injector",
+				"description" : "一种强效合成代谢类固醇，一些猎人用它来显著增强力量和负重能力。副作用严重且持久。",
+				"name" : "Trenbolone Acetate",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "med",
+				"sprite_ingame" : "s_item_injector4",
+				"sprite_inv" : "s_item_injector4",
+				"stack_max" : 1,
+				"value" : 15000,
+				"weight" : 0.1
+			},
+			"injector" : {
+				"bleed_immune" : false,
+				"bleed_rec" : 0,
+				"duration" : 18000,
+				"hp_regen" : 0,
+				"hunger" : -25,
+				"hunger_regen" : -25,
+				"max_hp" : 0,
+				"max_weight" : 20,
+				"rad_def" : 0,
+				"rad_regen" : 0,
+				"stamina_max" : 0,
+				"stamina_regen" : 0,
+				"thirst" : -35,
+				"thirst_regen" : -25
+			}
+		},
+		"injector5" : {
+			"basic" : {
+				"category" : "injector",
+				"description" : "在‘事件’前医疗设施中合成的医药级 Ghrelin。最初为治疗饮食失调而开发，现在被‘区域’猎人用来在长时间任务中快速从饥饿状态恢复。",
+				"name" : "Ghrelin Appetite Stimulator",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "med",
+				"sprite_ingame" : "s_item_injector5",
+				"sprite_inv" : "s_item_injector5",
+				"stack_max" : 1,
+				"value" : 11000,
+				"weight" : 0.1
+			},
+			"injector" : {
+				"bleed_immune" : false,
+				"bleed_rec" : 0,
+				"duration" : 600,
+				"hp_regen" : 0,
+				"hunger" : 0,
+				"hunger_regen" : 75,
+				"max_hp" : 0,
+				"max_weight" : 0,
+				"rad_def" : 0,
+				"rad_regen" : 0,
+				"stamina_max" : 0,
+				"stamina_regen" : 0,
+				"thirst" : 0,
+				"thirst_regen" : 75
+			}
+		},
+		"injector6" : {
+			"basic" : {
+				"category" : "injector",
+				"description" : "为应对核事故而开发的 Prussian Blue 螯合剂。能与放射性铯和铊结合，加速它们从体内排出。会导致严重脱水和代谢压力。",
+				"name" : "Prussian Blue Chelation Agent",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "med",
+				"sprite_ingame" : "s_item_injector6",
+				"sprite_inv" : "s_item_injector6",
+				"stack_max" : 1,
+				"value" : 8000,
+				"weight" : 0.1
+			},
+			"injector" : {
+				"bleed_immune" : false,
+				"bleed_rec" : 25,
+				"duration" : 7200,
+				"hp_regen" : 0,
+				"hunger" : 0,
+				"hunger_regen" : -20,
+				"max_hp" : 0,
+				"max_weight" : 0,
+				"rad_def" : 250,
+				"rad_regen" : 120,
+				"stamina_max" : 0,
+				"stamina_regen" : 0,
+				"thirst" : 0,
+				"thirst_regen" : -20
+			}
+		},
+		"injector7" : {
+			"basic" : {
+				"category" : "injector",
+				"description" : "一种刺激细胞繁殖和再生的合成激素。它被用来加速愈合和恢复，但其长期影响尚不清楚。一些商人私下议论说它是猩红集团超级士兵计划的关键组成部分。",
+				"name" : "Human Growth Hormone",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "med",
+				"sprite_ingame" : "s_item_injector3",
+				"sprite_inv" : "s_item_injector3",
+				"stack_max" : 1,
+				"value" : 8000,
+				"weight" : 0.1
+			},
+			"injector" : {
+				"bleed_immune" : false,
+				"bleed_rec" : 0,
+				"duration" : 1800,
+				"hp_regen" : 90,
+				"hunger" : -5,
+				"hunger_regen" : -10,
+				"max_hp" : 0,
+				"max_weight" : 0,
+				"rad_def" : 0,
+				"rad_regen" : 0,
+				"stamina_max" : 0,
+				"stamina_regen" : 0,
+				"thirst" : -10,
+				"thirst_regen" : -15
+			}
+		}
+	},
+	"metadata" : {
+		"author" : "Luca",
+		"description" : "Base gamedata for ZERO Sievert",
+		"project" : "ZERO Sievert"
+	},
+	"usage" : "item",
+	"version" : 0
+}

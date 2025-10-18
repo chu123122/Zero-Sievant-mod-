@@ -1,0 +1,199 @@
+{
+	"data" : {
+		"grenade_f1" : {
+			"basic" : {
+				"category" : "grenade",
+				"description" : "苏制时代的破片手榴弹，T-1是一种可靠且威力强大的反人员武器。其带锯齿的钢制弹体设计用于在引爆时产生致命的破片云，使其在对抗据守的敌人时非常有效。这是绿军的最爱，这些手榴弹经常在他们的武器储藏点和前哨站中被发现。'T'代表'恐怖' (Terror)，对于那些听到其独特拉环声的人来说，这是一个恰当的名字。",
+				"name" : "T-1 Grenade",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "ammo",
+				"sprite_ingame" : "s_item_grenade_f1_game",
+				"sprite_inv" : "s_item_grenade_f1",
+				"stack_max" : 1,
+				"value" : 8000,
+				"weight" : 0.6
+			},
+			"consumable" : {
+				"sound" : "snd_medikit_1"
+			},
+			"grenade" : {
+				"animation" : "s_arms_grenade_f1",
+				"throw_min" : 48,
+				"throw_max" : 210,
+				"fuse_time" : 210,
+				"throw_type" : "GRENADE_throw_bounce",
+				"damage_max" : 200,
+				"damage_min" : 100,
+				"detonation_type" : "GRENADE_detonation_explosion",
+				"detonation_duration" : 0,
+				"radius_max_damage" : 48,
+				"radius_min_damage" : 80
+			}
+		},
+		"grenade_rgd5" : {
+			"basic" : {
+				"category" : "grenade",
+				"description" : "RDG-5是一款战后苏制手榴弹，设计得比其前辈更轻、更有效。其光滑的蛋形弹体包含较小但更强的炸药装药，使其成为重视速度和效率的猩红集团特工的最爱。虽然其爆炸半径小于T-1，但其冲击波在近距离内仍然具有毁灭性。在冲突双方的武库中都很常见。",
+				"name" : "RDG-5 Grenade",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "ammo",
+				"sprite_ingame" : "s_item_grenade_rgd5_game",
+				"sprite_inv" : "s_item_grenade_rgd5",
+				"stack_max" : 1,
+				"value" : 4000,
+				"weight" : 0.6
+			},
+			"consumable" : {
+				"sound" : "snd_medikit_1"
+			},
+			"grenade" : {
+				"animation" : "s_arms_grenade_rgd",
+				"throw_min" : 48,
+				"throw_max" : 210,
+				"fuse_time" : 210,
+				"throw_type" : "GRENADE_throw_bounce",
+				"damage_max" : 175,
+				"damage_min" : 85,
+				"detonation_type" : "GRENADE_detonation_explosion",
+				"detonation_duration" : 0,
+				"radius_max_damage" : 40,
+				"radius_min_damage" : 70
+			}
+		},
+		"grenade_flash" : {
+			"basic" : {
+				"category" : "grenade",
+				"description" : "一种非致命手榴弹，旨在通过炫目的闪光和震耳欲聋的爆炸声使目标迷失方向并失去行动能力。猩红集团和绿军的特种部队都用它来进行人质营救和房间清理行动。虽然它不会杀死你，但闪光弹会让你容易受到后续攻击。对于任何重视战术灵活性而非蛮力的猎人来说，都是一个宝贵的工具。",
+				"name" : "Flashbang grenade",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "ammo",
+				"sprite_ingame" : "s_item_grenade_flash_game",
+				"sprite_inv" : "s_item_grenade_flash",
+				"stack_max" : 1,
+				"value" : 7000,
+				"weight" : 0.6
+			},
+			"consumable" : {
+				"sound" : "snd_medikit_1"
+			},
+			"grenade" : {
+				"animation" : "s_arms_grenade_flash",
+				"throw_min" : 48,
+				"throw_max" : 210,
+				"fuse_time" : 90,
+				"throw_type" : "GRENADE_throw_bounce",
+				"damage_max" : 0,
+				"damage_min" : 0,
+				"detonation_type" : "GRENADE_detonation_flash",
+				"detonation_duration" : 0,
+				"radius_max_damage" : 50,
+				"radius_min_damage" : 90
+			}
+		},
+		"grenade_mine_pmn" : {
+			"basic" : {
+				"category" : "grenade",
+				"description" : "苏制时代的PMN反人员地雷，一种压发式爆炸装置，旨在致残而非致死。其简单坚固的设计使其在‘区域’中很常见，被用来设置防御周界和诡雷。有时被称为‘黑寡妇’，它是一个沉默、耐心的杀手，可以潜伏多年。小心脚下。",
+				"name" : "PMN land mine",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "ammo",
+				"sprite_ingame" : "s_item_grenade_mine_pmn_game",
+				"sprite_inv" : "s_item_grenade_mine_pmn",
+				"stack_max" : 1,
+				"value" : 4000,
+				"weight" : 1
+			},
+			"consumable" : {
+				"sound" : "snd_medikit_1"
+			},
+			"grenade" : {
+				"animation" : "s_arms_grenade_mine_pmn",
+				"throw_min" : 0,
+				"throw_max" : 0,
+				"fuse_time" : 210,
+				"throw_type" : "GRENADE_throw_no_move",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"damage_max" : 300,
+				"damage_min" : 250,
+				"detonation_type" : "GRENADE_detonation_explosion",
+				"detonation_duration" : 0,
+				"radius_max_damage" : 40,
+				"radius_min_damage" : 70
+			}
+		},
+		"grenade_rgn" : {
+			"basic" : {
+				"category" : "grenade",
+				"description" : "先进的俄制手榴弹，SGN是一种两用武器，可以设置为撞击引爆或定时引爆。其精密的设计和强大的炸药装药使其成为‘区域’中稀有而珍贵的发现。受到猩红集团精锐部队的青睐，SGN是他们技术优势的象征。一股真正不容小觑的力量。",
+				"name" : "SGN Grenade",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "ammo",
+				"sprite_ingame" : "s_item_grenade_rgn_game",
+				"sprite_inv" : "s_item_grenade_rgn",
+				"stack_max" : 1,
+				"value" : 20000,
+				"weight" : 0.6
+			},
+			"consumable" : {
+				"sound" : "snd_medikit_1"
+			},
+			"grenade" : {
+				"animation" : "s_arms_grenade_rgn",
+				"throw_min" : 48,
+				"throw_max" : 210,
+				"fuse_time" : 210,
+				"throw_type" : "GRENADE_throw_no_bounce",
+				"damage_max" : 150,
+				"damage_min" : 80,
+				"detonation_type" : "GRENADE_detonation_explosion",
+				"detonation_duration" : 0,
+				"radius_max_damage" : 35,
+				"radius_min_damage" : 60
+			}
+		},
+		"grenade_christmas" : {
+			"basic" : {
+				"category" : "grenade",
+				"description" : "一枚节日主题的手榴弹，很可能是扎科夫‘事件’前的新奇玩意。尽管外观喜庆，但它的威力却惊人地强大。一种罕见而不寻常的武器，肯定会给任何交火带来一点节日气氛。谁说在‘区域’里就不能庆祝节日呢？",
+				"name" : "Christmas Grenade",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "ammo",
+				"sprite_ingame" : "s_item_grenade_christmas_game",
+				"sprite_inv" : "s_item_grenade_christmas",
+				"stack_max" : 1,
+				"value" : 1000,
+				"weight" : 0.25
+			},
+			"consumable" : {
+				"sound" : "snd_medikit_1"
+			},
+			"grenade" : {
+				"animation" : "s_arms_grenade_christmas",
+				"throw_min" : 48,
+				"throw_max" : 210,
+				"fuse_time" : 210,
+				"throw_type" : "GRENADE_throw_no_bounce",
+				"damage_max" : 400,
+				"damage_min" : 300,
+				"detonation_type" : "GRENADE_detonation_explosion",
+				"detonation_duration" : 0,
+				"radius_max_damage" : 45,
+				"radius_min_damage" : 70
+			}
+		}
+	},
+	"metadata" : {
+		"author" : "Luca",
+		"description" : "Base gamedata for ZERO Sievert",
+		"project" : "ZERO Sievert"
+	},
+	"usage" : "item",
+	"version" : 0
+}

@@ -1,0 +1,243 @@
+{
+	"data" : {
+		"equipment_1" : {
+			"name" : "Scavenger",
+			"description" : "一个设法回收了一些基础装备的幸存者。有限的补给迫使其进行仔细的资源管理和战术思考。",
+			"starting_money" : 2500,
+			"items" : [
+				{
+					"id" : "bandage",
+					"stack" : 2
+				},
+				{
+					"id" : "water_bottle"
+				},
+				{
+					"id" : "bread"
+				},
+				{
+					"id" : "bread"
+				},
+				{
+					"id" : "makarov"
+				},
+				{
+					"id" : "ammo_9x18",
+					"stack" : 50
+				},
+				{
+					"id" : "knife"
+				}
+			]
+		},
+		"equipment_2" : {
+			"name" : "Desperate Fighter",
+			"description" : "装备着临时武器和绝望。近距离战斗专家，必须靠近才能生存。",
+			"starting_money" : 1500,
+			"items" : [
+				{
+					"id" : "bandage",
+					"stack" : 3
+				},
+				{
+					"id" : "vodka"
+				},
+				{
+					"id" : "bread"
+				},
+				{
+					"id" : "sawed_off_double_shotgun"
+				},
+				{
+					"id" : "ammo_12x70",
+					"stack" : 12
+				},
+				{
+					"id" : "knife"
+				}
+			]
+		},
+		"equipment_3" : {
+			"name" : "Ghost Hunter",
+			"description" : "一个装备极简但精度致命的隐秘幸存者。一枪一个——你没有失手的余地。",
+			"starting_money" : 3000,
+			"items" : [
+				{
+					"id" : "bandage",
+					"stack" : 2
+				},
+				{
+					"id" : "water_bottle"
+				},
+				{
+					"id" : "tushonka_meat"
+				},
+				{
+					"id" : "mosin"
+				},
+				{
+					"id" : "mod_scope_pu"
+				},
+				{
+					"id" : "ammo_762x54R",
+					"stack" : 15
+				},
+				{
+					"id" : "knife"
+				}
+			]
+		},
+		"equipment_4" : {
+			"name" : "Wasteland Wanderer",
+			"description" : "一个拥有基础装备和生存本能的游牧幸存者。有限的弹药迫使其进行仔细的射击和战术撤退。",
+			"starting_money" : 2000,
+			"items" : [
+				{
+					"id" : "bandage",
+					"stack" : 2
+				},
+				{
+					"id" : "water_bottle"
+				},
+				{
+					"id" : "bread"
+				},
+				{
+					"id" : "sks"
+				},
+				{
+					"id" : "ammo_762x39",
+					"stack" : 20
+				},
+				{
+					"id" : "knife"
+				}
+			]
+		},
+		"equipment_5" : {
+			"name" : "Zone Refugee",
+			"description" : "一个装备简陋的绝望逃亡者。利用隐蔽、狡猾和改良的闪光弹在压倒性的劣势中生存。",
+			"starting_money" : 1000,
+			"items" : [
+				{
+					"id" : "bandage",
+					"stack" : 1
+				},
+				{
+					"id" : "vodka"
+				},
+				{
+					"id" : "tt_tokarev"
+				},
+				{
+					"id" : "ammo_762x25",
+					"stack" : 30
+				},
+				{
+					"id" : "grenade_flash",
+					"stack" : 2
+				},
+				{
+					"id" : "knife"
+				}
+			]
+		},
+		"equipment_6" : {
+			"name" : "Survivor",
+			"description" : "在‘区域’中生存的最低限度。只有一把手枪，有限的弹药和液体勇气。祝你好运。",
+			"starting_money" : 0,
+			"items" : [
+				{
+					"id" : "vodka"
+				},
+				{
+					"id" : "makarov"
+				},
+				{
+					"id" : "ammo_9x18",
+					"stack" : 20
+				}
+			]
+		},
+		"equipment_7" : {
+			"name" : "The Forsaken",
+			"description" : "HARDCORE：被遗弃在‘区域’中，除了一把刀和身上的衣服外一无所有。真正的生存恐怖从这里开始。",
+			"starting_money" : 0,
+			"items" : [
+				{
+					"id" : "knife"
+				}
+			]
+		},
+		"equipment_8" : {
+			"name" : "Dead Man Walking",
+			"description" : "NIGHTMARE：受伤、中毒、奄奄一息。一个绷带，一支注射器，一次机会。你能将必死之局逆转为生存吗？",
+			"starting_money" : 500,
+			"items" : [
+				{
+					"id" : "bandage",
+					"stack" : 1
+				},
+				{
+					"id" : "injector_morphine"
+				},
+				{
+					"id" : "makarov"
+				},
+				{
+					"id" : "ammo_9x18",
+					"stack" : 8
+				}
+			]
+		},
+		"equipment_9" : {
+			"name" : "Broken Arrow",
+			"description" : "HARDCORE：一把损坏的武器，极少的弹药和基础补给。当你的装备濒临崩溃时，每一发子弹都至关重要。",
+			"starting_money" : 800,
+			"items" : [
+				{
+					"id" : "bandage",
+					"stack" : 1
+				},
+				{
+					"id" : "bread"
+				},
+				{
+					"id" : "sawed_off_double_shotgun"
+				},
+				{
+					"id" : "ammo_12x70",
+					"stack" : 4
+				}
+			]
+		},
+		"equipment_10" : {
+			"name" : "Last Stand",
+			"description" : "EXTREME：使用临时爆炸物进行最后绝望的尝试。让每一颗手榴弹都发挥作用——没有备用计划。",
+			"starting_money" : 1200,
+			"items" : [
+				{
+					"id" : "vodka"
+				},
+				{
+					"id" : "grenade_rgd5",
+					"stack" : 2
+				},
+				{
+					"id" : "makarov"
+				},
+				{
+					"id" : "ammo_9x18",
+					"stack" : 16
+				}
+			]
+		}
+	},
+	"metadata" : {
+		"author" : "Luca",
+		"description" : "Base gamedata for ZERO Sievert",
+		"project" : "ZERO Sievert"
+	},
+	"usage" : "loadouts",
+	"version" : 0
+}

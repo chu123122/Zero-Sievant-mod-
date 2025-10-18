@@ -1,0 +1,319 @@
+{
+	"data" : {
+		"anti_bleed_gel" : {
+			"basic" : {
+				"category" : "medication",
+				"description" : "来自废弃绿军医疗物资的 QuikClot 战斗纱布。最初为战场创伤开发，现在是在‘区域’中遭遇敌对猎人和变异生物后生存下来的必需品。",
+				"name" : "QuikClot Combat Gauze",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "med",
+				"sprite_ingame" : "s_item_anti_bleed_gel",
+				"sprite_inv" : "s_item_anti_bleed_gel",
+				"stack_max" : 3,
+				"value" : 2500,
+				"weight" : 0.1
+			},
+			"consumable" : {
+				"sound" : "snd_medikit_1"
+			},
+			"medicine" : {
+				"animation" : "s_arms_med1",
+				"bleed" : 3,
+				"can_move" : true,
+				"duration" : 15,
+				"hp" : 5,
+				"radiation" : 0,
+				"speed_multiplier" : 1,
+				"wound" : 0
+			}
+		},
+		"bandage" : {
+			"basic" : {
+				"category" : "medication",
+				"description" : "在废弃的民用医疗物资中找到的 3M Nexcare 绷带。是处理异常伤害、辐射烧伤以及遭遇扎科夫‘森林’中危险野生动物后伤口的必需品。",
+				"name" : "3M Nexcare Bandage",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "med",
+				"sprite_ingame" : "s_item_bandage",
+				"sprite_inv" : "s_item_bandage",
+				"stack_max" : 4,
+				"value" : 850,
+				"weight" : 0.05
+			},
+			"consumable" : {
+				"sound" : "snd_medikit_1"
+			},
+			"medicine" : {
+				"animation" : "s_arms_med_bandage",
+				"bleed" : 1,
+				"can_move" : true,
+				"duration" : 120,
+				"hp" : 5,
+				"radiation" : 0,
+				"speed_multiplier" : 1,
+				"wound" : 0
+			}
+		},
+		"bandage_military" : {
+			"basic" : {
+				"category" : "medication",
+				"description" : "来自猩红集团战地医疗包的以色列急救绷带。为战区设计的军用级创伤护理用品，如今对于面对‘工业区’致命危险的猎人来说是无价之宝。",
+				"name" : "Israeli Battle Dressing",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "med",
+				"sprite_ingame" : "s_item_bandage_military",
+				"sprite_inv" : "s_item_bandage_military",
+				"stack_max" : 2,
+				"value" : 3500,
+				"weight" : 0.05
+			},
+			"consumable" : {
+				"sound" : "snd_medikit_1"
+			},
+			"medicine" : {
+				"animation" : "s_arms_med_bandage",
+				"bleed" : 3,
+				"can_move" : true,
+				"duration" : 240,
+				"hp" : 10,
+				"radiation" : 0,
+				"speed_multiplier" : 1,
+				"wound" : 0
+			}
+		},
+		"bandage_sterilizzata" : {
+			"basic" : {
+				"category" : "medication",
+				"description" : "Johnson & Johnson 无菌纱布。一种用于处理轻微伤口和预防感染的基础医疗用品。在整个‘区域’的急救包中很常见。",
+				"name" : "Johnson & Johnson Sterile Gauze",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "med",
+				"sprite_ingame" : "s_item_bandage_2",
+				"sprite_inv" : "s_item_bandage_2",
+				"stack_max" : 4,
+				"value" : 1500,
+				"weight" : 0.05
+			},
+			"consumable" : {
+				"sound" : "snd_medikit_1"
+			},
+			"medicine" : {
+				"animation" : "s_arms_med_bandage_sterilizzata",
+				"bleed" : 1,
+				"can_move" : true,
+				"duration" : 240,
+				"hp" : 15,
+				"radiation" : 0,
+				"speed_multiplier" : 1,
+				"wound" : 0
+			}
+		},
+		"med_wound_1" : {
+			"basic" : {
+				"category" : "medication",
+				"description" : "一个储备充足的急救包，用于处理各种伤害。对于任何计划在‘区域’中生存超过几天的猎人来说都是必备品。",
+				"name" : "Adventure Medical First Aid Kit",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "med",
+				"sprite_ingame" : "s_item_med_wound_1",
+				"sprite_inv" : "s_item_med_wound_1",
+				"stack_max" : 1,
+				"value" : 4000,
+				"weight" : 0.5
+			},
+			"consumable" : {
+				"sound" : "snd_medikit_1"
+			},
+			"medicine" : {
+				"animation" : "s_arms_med_wound_1",
+				"bleed" : 1,
+				"can_move" : false,
+				"duration" : 600,
+				"hp" : 15,
+				"radiation" : 0,
+				"speed_multiplier" : 0,
+				"wound" : 15
+			}
+		},
+		"med_wound_2" : {
+			"basic" : {
+				"category" : "medication",
+				"description" : "来自 North American Rescue 的单兵急救包 (IFAK)。包含在野外处理严重创伤所需的一切。是猩红集团雇佣兵的最爱。",
+				"name" : "North American Rescue IFAK",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "med",
+				"sprite_ingame" : "s_item_med_wound_2",
+				"sprite_inv" : "s_item_med_wound_2",
+				"stack_max" : 1,
+				"value" : 6000,
+				"weight" : 0.5
+			},
+			"consumable" : {
+				"sound" : "snd_medikit_1"
+			},
+			"medicine" : {
+				"animation" : "s_arms_med_wound_1",
+				"bleed" : 2,
+				"can_move" : false,
+				"duration" : 720,
+				"hp" : 25,
+				"radiation" : 0,
+				"speed_multiplier" : 0,
+				"wound" : 40
+			}
+		},
+		"medikit_1" : {
+			"basic" : {
+				"category" : "medication",
+				"description" : "一个小型便携式急救包。包含处理轻微伤势的最基本用品。聊胜于无，但好不了多少。",
+				"name" : "Johnson & Johnson Portable Kit",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "med",
+				"sprite_ingame" : "s_item_medikit_1",
+				"sprite_inv" : "s_item_medikit_1",
+				"stack_max" : 3,
+				"value" : 3500,
+				"weight" : 0.2
+			},
+			"consumable" : {
+				"sound" : "snd_medikit_1"
+			},
+			"medicine" : {
+				"animation" : "s_arms_med1",
+				"bleed" : 1,
+				"can_move" : true,
+				"duration" : 180,
+				"hp" : 40,
+				"radiation" : 0,
+				"speed_multiplier" : 1,
+				"wound" : 0
+			}
+		},
+		"medikit_2" : {
+			"basic" : {
+				"category" : "medication",
+				"description" : "一个用于处理各种伤势的综合医疗包。包含从绷带、消毒剂到止痛药和兴奋剂的所有物品。在‘区域’中是宝贵的发现。",
+				"name" : "Pfizer Emergency Medical Kit",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "med",
+				"sprite_ingame" : "s_item_medikit_2",
+				"sprite_inv" : "s_item_medikit_2",
+				"stack_max" : 2,
+				"value" : 5200,
+				"weight" : 0.2
+			},
+			"consumable" : {
+				"sound" : "snd_medikit_1"
+			},
+			"medicine" : {
+				"animation" : "s_arms_med1",
+				"bleed" : 1,
+				"can_move" : true,
+				"duration" : 120,
+				"hp" : 60,
+				"radiation" : 0,
+				"speed_multiplier" : 1,
+				"wound" : 0
+			}
+		},
+		"medikit_3" : {
+			"basic" : {
+				"category" : "medication",
+				"description" : "一个顶级的医疗包，包含先进的医疗用品和设备。可用于治疗即使是最严重的伤势。一种罕见且极其宝贵的物品。",
+				"name" : "Bayer Advanced Medical Kit",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "med",
+				"sprite_ingame" : "s_item_medikit_3",
+				"sprite_inv" : "s_item_medikit_3",
+				"stack_max" : 2,
+				"value" : 7300,
+				"weight" : 0.3
+			},
+			"consumable" : {
+				"sound" : "snd_medikit_1"
+			},
+			"medicine" : {
+				"animation" : "s_arms_med1",
+				"bleed" : 1,
+				"can_move" : true,
+				"duration" : 60,
+				"hp" : 100,
+				"radiation" : 0,
+				"speed_multiplier" : 1,
+				"wound" : 0
+			}
+		},
+		"medikit_long" : {
+			"basic" : {
+				"category" : "medication",
+				"description" : "一种用于处理大出血和其他危及生命伤势的特种创伤包。使用起来很慢，但在绝境中可以救你一命。",
+				"name" : "Roche Trauma Kit T-000",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "med",
+				"sprite_ingame" : "s_item_medikit_long",
+				"sprite_inv" : "s_item_medikit_long",
+				"stack_max" : 3,
+				"value" : 3000,
+				"weight" : 0.25
+			},
+			"consumable" : {
+				"sound" : "snd_medikit_1"
+			},
+			"medicine" : {
+				"animation" : "s_arms_med_long",
+				"bleed" : 1,
+				"can_move" : false,
+				"duration" : 480,
+				"hp" : 50,
+				"radiation" : 0,
+				"speed_multiplier" : 0,
+				"wound" : 0
+			}
+		},
+		"pills_anti_rad" : {
+			"basic" : {
+				"category" : "medication",
+				"description" : "用于防护辐射的碘化钾药片。对于任何冒险进入‘区域’中辐射最强区域的人来说都是必备品。它们不会让你免疫，但会给你一线生机。",
+				"name" : "Potassium Iodide",
+				"quest_item" : false,
+				"can_be_sold" : true,
+				"scrap" : "med",
+				"sprite_ingame" : "s_item_pills_anti_rad",
+				"sprite_inv" : "s_item_pills_anti_rad",
+				"stack_max" : 4,
+				"value" : 1000,
+				"weight" : 0.05
+			},
+			"consumable" : {
+				"sound" : "snd_medikit_1"
+			},
+			"medicine" : {
+				"animation" : "s_arms_med1",
+				"bleed" : 0,
+				"can_move" : true,
+				"duration" : 120,
+				"hp" : 0,
+				"radiation" : -0.5,
+				"speed_multiplier" : 1,
+				"wound" : 0
+			}
+		}
+	},
+	"metadata" : {
+		"author" : "Luca",
+		"description" : "Base gamedata for ZERO Sievert",
+		"project" : "ZERO Sievert"
+	},
+	"usage" : "item",
+	"version" : 0
+}
